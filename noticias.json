@@ -2,7 +2,7 @@
  "formato": "noticias-mercado/1",
  "generado": "2026-11-05T11:45:00-03:00",
  "titular": {
-  "titulo": "Wall Street festeja el triunfo demócrata y Argentina va a contramano",
+  "titulo": "Wall Street sube tras el resultado electoral en EE.UU. y Argentina va a contramano",
   "bajada": "El Dow sube 3% y el petróleo cae 8% tras las elecciones en EE.UU.; acá el riesgo país toca 852 puntos y el Merval pierde 2,4%."
  },
  "noticias": [
@@ -23,14 +23,14 @@
    "cifras": [
     {
      "nombre": "AMZN",
-     "valor": "cierre 4/11",
+     "valor": "",
      "variacion": "▲ 6,12%",
      "dir": "up",
      "cuando": "cierre 4/11"
     },
     {
      "nombre": "AAPL",
-     "valor": "cierre 4/11",
+     "valor": "",
      "variacion": "▲ 5,31%",
      "dir": "up",
      "cuando": "cierre 4/11"
@@ -145,7 +145,7 @@
    "seccion": "eeuu",
    "tickers": [],
    "titulo": "El Dow tiene su mejor día desde abril de 2025",
-   "resumen": "Con los demócratas al frente del Congreso subieron todos los sectores menos energía y la volatilidad se desplomó.",
+   "resumen": "Tras el resultado electoral subieron todos los sectores menos energía y la volatilidad se desplomó.",
    "fuente": "TheStreet",
    "fecha": "2026-11-04",
    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026",
