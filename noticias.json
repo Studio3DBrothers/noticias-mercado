@@ -1,0 +1,235 @@
+{
+ "formato": "noticias-mercado/1",
+ "generado": "2026-11-05T11:45:00-03:00",
+ "titular": {
+  "titulo": "Wall Street festeja el triunfo demócrata y Argentina va a contramano",
+  "bajada": "El Dow sube 3% y el petróleo cae 8% tras las elecciones en EE.UU.; acá el riesgo país toca 852 puntos y el Merval pierde 2,4%."
+ },
+ "noticias": [
+  {
+   "id": "bigtech",
+   "seccion": "cartera",
+   "tickers": [
+    "AMZN",
+    "AAPL",
+    "MSFT",
+    "GOOGL"
+   ],
+   "titulo": "Las grandes tecnológicas lideran el rebote",
+   "resumen": "El mercado lee un Congreso dividido como menos cambios para el sector y premia a las que ya tienen sus data centers.",
+   "fuente": "24/7 Wall St.",
+   "fecha": "2026-11-04",
+   "url": "https://247wallst.com/investing/2026/11/04/amazon-rallies-7-apple-and-microsoft-climb-5-as-big-tech-leads-post-election-rebound",
+   "cifras": [
+    {
+     "nombre": "AMZN",
+     "valor": "cierre 4/11",
+     "variacion": "▲ 6,12%",
+     "dir": "up",
+     "cuando": "cierre 4/11"
+    },
+    {
+     "nombre": "AAPL",
+     "valor": "cierre 4/11",
+     "variacion": "▲ 5,31%",
+     "dir": "up",
+     "cuando": "cierre 4/11"
+    }
+   ]
+  },
+  {
+   "id": "btc",
+   "seccion": "cartera",
+   "tickers": [
+    "IBIT",
+    "ETHA"
+   ],
+   "titulo": "Bitcoin vuelve a US$ 80.000",
+   "resumen": "Rebotó después del recuento de votos; los ETF de bitcoin cortaron tres días de salidas, aunque IBIT perdió fondos.",
+   "fuente": "crypto.news",
+   "fecha": "2026-11-05",
+   "url": "https://crypto.news/why-is-bitcoin-price-up-today-etf-inflows-btc-80000/",
+   "cifras": [
+    {
+     "nombre": "Bitcoin",
+     "valor": "US$ 80.300",
+     "variacion": "▲ 3,4%",
+     "dir": "up",
+     "cuando": "5/11 7 h"
+    },
+    {
+     "nombre": "Ether",
+     "valor": "US$ 2.425",
+     "variacion": "▲ 6%",
+     "dir": "up",
+     "cuando": "5/11 7 h"
+    }
+   ]
+  },
+  {
+   "id": "crm",
+   "seccion": "cartera",
+   "tickers": [
+    "CRM"
+   ],
+   "titulo": "Salesforce compra Cresta, IA de voz para atención al cliente",
+   "resumen": "Es su tercera compra en pocas semanas para sumar agentes de IA a Service Cloud; no informó el precio.",
+   "fuente": "Salesforce",
+   "fecha": "2026-11-02",
+   "url": "https://www.salesforce.com/news/?p=96206"
+  },
+  {
+   "id": "rp",
+   "seccion": "argentina",
+   "tickers": [],
+   "titulo": "Riesgo país en 852: máximo desde octubre de 2025",
+   "resumen": "Los activos locales no acompañaron el rebote global: pesaron el petróleo sobre las energéticas y los vencimientos de 2027.",
+   "fuente": "Infobae",
+   "fecha": "2026-11-04",
+   "url": "https://www.infobae.com/economia/2026/11/04/el-riesgo-pais-supero-los-850-puntos-el-dolar-cayo-y-las-acciones-argentinas-se-hundieron-hasta-8-en-wall-street/",
+   "cifras": [
+    {
+     "nombre": "Riesgo país",
+     "valor": "852 pb",
+     "variacion": "▲ 24 pb",
+     "dir": "up",
+     "cuando": "cierre 4/11"
+    },
+    {
+     "nombre": "Merval",
+     "valor": "88.238",
+     "variacion": "▼ 2,4%",
+     "dir": "down",
+     "cuando": "cierre 4/11"
+    }
+   ]
+  },
+  {
+   "id": "dolar",
+   "seccion": "argentina",
+   "tickers": [],
+   "titulo": "Sube el MEP y el BCRA vuelve a comprar",
+   "resumen": "El BCRA compró US$ 9 M tras dos ruedas sin intervenir y las reservas subieron por el oro.",
+   "fuente": "Ámbito",
+   "fecha": "2026-11-04",
+   "url": "https://www.ambito.com/finanzas/el-dolar-blue-cerro-debajo-del-tipo-cambio-minorista-segundo-dia-consecutivo-n6341634",
+   "cifras": [
+    {
+     "nombre": "MEP",
+     "valor": "$ 1.584,76",
+     "variacion": "▲ 0,7%",
+     "dir": "up",
+     "cuando": "cierre 4/11"
+    },
+    {
+     "nombre": "Mayorista",
+     "valor": "$ 1.546",
+     "variacion": "▼ 0,3%",
+     "dir": "down",
+     "cuando": "cierre 4/11"
+    }
+   ]
+  },
+  {
+   "id": "cedears",
+   "seccion": "argentina",
+   "tickers": [],
+   "titulo": "Se frena el impuesto del 15% a la venta de CEDEARs",
+   "resumen": "El Gobierno retiró para revisarla la ley que gravaba con Ganancias la venta de CEDEARs.",
+   "fuente": "El Cronista",
+   "fecha": "2026-11-04",
+   "url": "https://www.cronista.com/finanzas-mercados/bonos-argentinos-vuelven-a-caer-pese-al-alivio-global-y-el-riesgo-pais-se-ubica-arriba-de-los-850-puntos/"
+  },
+  {
+   "id": "dow",
+   "seccion": "eeuu",
+   "tickers": [],
+   "titulo": "El Dow tiene su mejor día desde abril de 2025",
+   "resumen": "Con los demócratas al frente del Congreso subieron todos los sectores menos energía y la volatilidad se desplomó.",
+   "fuente": "TheStreet",
+   "fecha": "2026-11-04",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026",
+   "cifras": [
+    {
+     "nombre": "Dow Jones",
+     "valor": "53.356,12",
+     "variacion": "▲ 3,03%",
+     "dir": "up",
+     "cuando": "cierre 4/11"
+    },
+    {
+     "nombre": "S&P 500",
+     "valor": "7.688,62",
+     "variacion": "▲ 1,58%",
+     "dir": "up",
+     "cuando": "cierre 4/11"
+    }
+   ]
+  },
+  {
+   "id": "wti",
+   "seccion": "eeuu",
+   "tickers": [],
+   "titulo": "El petróleo se desploma 8% y bajan las tasas",
+   "resumen": "El mercado apuesta a que el resultado electoral acerque el fin de la guerra con Irán.",
+   "fuente": "StockTitan (CNBC)",
+   "fecha": "2026-11-04",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026",
+   "cifras": [
+    {
+     "nombre": "WTI",
+     "valor": "US$ 88,12",
+     "variacion": "▼ 8,29%",
+     "dir": "down",
+     "cuando": "cierre 4/11"
+    }
+   ]
+  },
+  {
+   "id": "selic",
+   "seccion": "brasil",
+   "tickers": [],
+   "titulo": "El Copom frena los recortes: Selic en 13,75%",
+   "resumen": "El Banco Central de Brasil pausó el ciclo por la inflación; el Ibovespa cortó seis bajas seguidas.",
+   "fuente": "InfoMoney",
+   "fecha": "2026-11-04",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-05112026/",
+   "cifras": [
+    {
+     "nombre": "Ibovespa",
+     "valor": "167.563",
+     "variacion": "▲ 1,23%",
+     "dir": "up",
+     "cuando": "cierre 4/11"
+    }
+   ]
+  }
+ ],
+ "balancesHoy": [
+  {
+   "ticker": "ABNB",
+   "nombre": "Airbnb",
+   "momento": "despues"
+  },
+  {
+   "ticker": "EOG",
+   "nombre": "EOG Resources",
+   "momento": "despues"
+  },
+  {
+   "ticker": "MNST",
+   "nombre": "Monster Beverage",
+   "momento": "despues"
+  }
+ ],
+ "destacados": [
+  {
+   "titulo": "El viernes 6 sale el informe de empleo de EE.UU. de octubre.",
+   "detalle": "Es clave para la reunión de la Fed de diciembre."
+  },
+  {
+   "titulo": "Semana corta en Argentina: el lunes 9 es feriado y el martes 10 no operan los bancos.",
+   "detalle": ""
+  }
+ ]
+}
