@@ -1,0 +1,2 @@
+Logos de marcas en blanco (íconos de Simple Icons, licencia CC0). Las marcas pertenecen a sus dueños; se usan solo para identificar a la empresa de cada noticia.
+El nombre de cada archivo es el ticker (CEDEAR o BYMA). disponibles.json lista los que hay; para el resto la hoja usa un círculo con el ticker.
