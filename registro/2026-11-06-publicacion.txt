@@ -4,3 +4,12 @@
 10:16 verificación: hoja-2026-11-06.png idéntica a opcion-1.png; noticias.json con hoja/hojaFecha correctos
 10:16 ya estaba publicada (commit 1516dcc, 10:41Z); no hay cambios en la hoja, se sube solo este registro
 10:16 push OK c2620c7
+--- corrida de prueba (disparo manual) ---
+10:17 add_repo: ERROR "No matching deferred tools found" (la herramienta add_repo no está disponible en esta sesión); se usa el clon existente con acceso push
+10:17 git fetch origin main OK (origin/main = e0554d1)
+10:17 propuestas/2026-11-06/ presente: opcion-1.png, opcion-2.png, opcion-3.png, noticias.json
+10:17 elección leída: opción 1, 2026-11-06T03:42:30Z (<= 05:00Z, elegida por Adrián); no se escribe elección automática
+10:17 imagen: hoja-2026-11-06.png == opcion-1.png; lleva fecha y "datos al cierre del jueves 5/11" (sin hora exacta), leyenda completa y línea "Fuentes:" OK; no se modifica
+10:17 limpieza: no hay hoja-AAAA-MM-DD.png de más de 7 días en la raíz
+10:17 JSON: carga OK, todas las url https://, ningún "valor" con fecha; hoja/hojaFecha correctos
+10:17 ya estaba publicada (commit 1516dcc); sin cambios en hoja/noticias, se sube solo el registro
