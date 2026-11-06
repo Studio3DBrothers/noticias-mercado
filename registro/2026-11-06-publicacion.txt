@@ -13,3 +13,4 @@
 10:17 limpieza: no hay hoja-AAAA-MM-DD.png de más de 7 días en la raíz
 10:17 JSON: carga OK, todas las url https://, ningún "valor" con fecha; hoja/hojaFecha correctos
 10:17 ya estaba publicada (commit 1516dcc); sin cambios en hoja/noticias, se sube solo el registro
+10:17 push OK 9815851
