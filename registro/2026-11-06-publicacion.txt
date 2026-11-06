@@ -1,0 +1,5 @@
+10:16 repo ya clonado en el entorno; git fetch origin main OK (origin/main = 1516dcc)
+10:16 propuestas/2026-11-06/ presente: opcion-1.png, opcion-2.png, opcion-3.png, noticias.json
+10:16 elección leída: opción 1, 2026-11-06T03:42:30Z (antes de 05:00Z, elegida por Adrián)
+10:16 verificación: hoja-2026-11-06.png idéntica a opcion-1.png; noticias.json con hoja/hojaFecha correctos
+10:16 ya estaba publicada (commit 1516dcc, 10:41Z); no hay cambios en la hoja, se sube solo este registro
