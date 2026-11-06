@@ -3,3 +3,4 @@
 10:16 elección leída: opción 1, 2026-11-06T03:42:30Z (antes de 05:00Z, elegida por Adrián)
 10:16 verificación: hoja-2026-11-06.png idéntica a opcion-1.png; noticias.json con hoja/hojaFecha correctos
 10:16 ya estaba publicada (commit 1516dcc, 10:41Z); no hay cambios en la hoja, se sube solo este registro
+10:16 push OK c2620c7
