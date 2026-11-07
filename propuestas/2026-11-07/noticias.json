@@ -1,15 +1,332 @@
-{"formato":"noticias-mercado/1","generado":"2026-11-07T00:40:00-03:00",
-"titular":{"titulo":"El empleo de EE.UU. sorprende con 165.000 puestos y el riesgo país vuelve debajo de 900","bajada":"Wall Street cerró dividido: el Nasdaq rebotó 1,1% con los chips tras el jueves negro, pero la semana fue negativa. El dato de empleo subió las chances de una suba de tasas de la Fed en diciembre."},
-"noticias":[
-{"id":"empleo","seccion":"eeuu","tickers":[],"balance":false,"titulo":"EE.UU. creó 165.000 empleos en octubre, casi el triple de lo esperado","resumen":"El desempleo bajó a 4,1%. El dato empujó al alza la tasa del bono a 10 años y el mercado ya ve más de 65% de chances de que la Fed suba la tasa en diciembre.","fuente":"StockTitan","fecha":"2026-11-06","url":"https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026","cifras":[{"nombre":"Nóminas no agrícolas","valor":"165.000","variacion":"","dir":"up","cuando":"octubre, dato del 6/11"},{"nombre":"Desempleo","valor":"4,1%","variacion":"▼ 0,1 pp","dir":"down","cuando":"octubre"},{"nombre":"Bono 10 años","valor":"4,86%","variacion":"▲ 2 pb","dir":"up","cuando":"cierre 6/11"}]},
-{"id":"wallst","seccion":"eeuu","tickers":[],"balance":false,"titulo":"Wall Street cierra dividido y con una semana en rojo","resumen":"El Nasdaq y el S&P 500 recuperaron parte de la caída del jueves, mientras el Dow siguió bajando. En la semana el Nasdaq perdió 3,4% y el S&P 500 2,7%.","fuente":"Yahoo Finance","fecha":"2026-11-06","url":"https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html","cifras":[{"nombre":"Nasdaq","valor":"24.579,42","variacion":"▲ 1,09%","dir":"up","cuando":"cierre 6/11"},{"nombre":"S&P 500","valor":"7.376,86","variacion":"▲ 0,31%","dir":"up","cuando":"cierre 6/11"},{"nombre":"Dow Jones","valor":"51.285,73","variacion":"▼ 0,46%","dir":"down","cuando":"cierre 6/11"},{"nombre":"VIX","valor":"25,64","variacion":"▼ 9,0%","dir":"down","cuando":"cierre 6/11"}]},
-{"id":"chips","seccion":"cartera","tickers":["AMD","INTC","NVDA","AVGO"],"balance":false,"titulo":"Rebotan los chips: AMD sube 11% tras su peor día","resumen":"Las acciones de semiconductores recuperaron en promedio cerca de un tercio de lo perdido el jueves, cuando pesó el temor a reglas más duras para los data centers de IA.","fuente":"StockTitan","fecha":"2026-11-06","url":"https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026","cifras":[{"nombre":"AMD","valor":"","variacion":"▲ 11,04%","dir":"up","cuando":"cierre 6/11"},{"nombre":"INTC","valor":"","variacion":"▲ 7,71%","dir":"up","cuando":"cierre 6/11"},{"nombre":"NVDA","valor":"","variacion":"▲ 2,78%","dir":"up","cuando":"cierre 6/11"},{"nombre":"AVGO","valor":"","variacion":"▲ 0,74%","dir":"up","cuando":"cierre 6/11"}]},
-{"id":"rp","seccion":"argentina","tickers":[],"balance":false,"titulo":"El riesgo país baja 30 puntos y vuelve debajo de 900","resumen":"Los bonos en dólares rebotaron con Wall Street en una rueda sin liquidación por el feriado bancario, pero no alcanzó para revertir las pérdidas de la semana.","fuente":"BAE Negocios","fecha":"2026-11-06","url":"https://www.baenegocios.com/finanzas/el-riesgo-pais-bajo-de-los-900-puntos-pero-los-bonos-cerraron-una-semana-de-perdidas/","cifras":[{"nombre":"Riesgo país","valor":"895 pb","variacion":"▼ 30 pb","dir":"down","cuando":"6/11"}]},
-{"id":"dolar","seccion":"argentina","tickers":[],"balance":false,"titulo":"Sin mercado de cambios: el dólar mayorista queda en $ 1.545,50","resumen":"Por el Día del Bancario no operó el mercado de cambios; el mayorista repite el cierre del jueves y el blue se mantuvo en $ 1.555.","fuente":"La Nación","fecha":"2026-11-06","url":"https://www.lanacion.com.ar/economia/el-riesgo-pais-cae-por-debajo-de-los-900-puntos-a-partir-del-rebote-de-los-bonos-nid06112026/","cifras":[{"nombre":"Dólar mayorista","valor":"$ 1.545,50","variacion":"=","dir":"flat","cuando":"cierre 5/11"},{"nombre":"Dólar blue","valor":"$ 1.555","variacion":"=","dir":"flat","cuando":"6/11"},{"nombre":"Oficial BNA","valor":"$ 1.570","variacion":"=","dir":"flat","cuando":"6/11"}]},
-{"id":"rem","seccion":"argentina","tickers":[],"balance":false,"titulo":"Los analistas del REM suben la inflación esperada de octubre a 1,8%","resumen":"En el relevamiento del BCRA también recortaron de 1,5% a 0,7% el crecimiento previsto para 2026.","fuente":"Ámbito","fecha":"2026-11-06","url":"https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-6-noviembre-n6342270","cifras":[]},
-{"id":"brasil","seccion":"brasil","tickers":[],"balance":false,"titulo":"El Ibovespa sube 1,4% y vuelve arriba de 168.000 puntos","resumen":"La bolsa brasileña acompañó el tono positivo de Wall Street y una tanda de balances; el dólar subió frente al real.","fuente":"CNN Brasil","fecha":"2026-11-06","url":"https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-novembro-2026/","cifras":[{"nombre":"Ibovespa","valor":"168.498","variacion":"▲ 1,39%","dir":"up","cuando":"cierre 6/11"},{"nombre":"Dólar / real","valor":"R$ 5,51","variacion":"▲ 0,44%","dir":"up","cuando":"cierre 6/11"}]}
-],
-"balancesHoy":[{"ticker":"BRKB","nombre":"Berkshire Hathaway","momento":"despues"}],
-"proximosBalances":[{"ticker":"CRWV","nombre":"CoreWeave","fecha":"2026-11-10","momento":"despues"},{"ticker":"NU","nombre":"Nu Holdings","fecha":"2026-11-12","momento":"despues"}],
-"movimientos":[{"ticker":"AMD","variacion":"▲ 11,04%","dir":"up","cuando":"cierre 6/11"},{"ticker":"INTC","variacion":"▲ 7,71%","dir":"up","cuando":"cierre 6/11"},{"ticker":"NVDA","variacion":"▲ 2,78%","dir":"up","cuando":"cierre 6/11"},{"ticker":"QQQ","variacion":"▲ 1,40%","dir":"up","cuando":"cierre 6/11"},{"ticker":"AVGO","variacion":"▲ 0,74%","dir":"up","cuando":"cierre 6/11"}],
-"destacados":[{"titulo":"Fed: crecen las chances de suba","detalle":"Tras el dato de empleo, el mercado ve más de 65% de probabilidad de una suba de tasas en la reunión de diciembre."},{"titulo":"Balances de la semana","detalle":"CoreWeave presenta el martes 10/11 y Nu Holdings el jueves 12/11, ambos después del cierre."},{"titulo":"Semana negativa en Wall Street","detalle":"El Nasdaq perdió 3,4%, el S&P 500 2,7% y el Dow 0,9% en la semana."}]}
+{
+ "formato": "noticias-mercado/1",
+ "generado": "2026-11-07T00:40:00-03:00",
+ "titular": {
+  "titulo": "El empleo de EE.UU. sorprende y el S&P 500 cierra su peor semana desde junio",
+  "bajada": "Octubre sumó 165.000 puestos, casi el triple de lo esperado, y crecen las chances de una suba de tasas de la Fed en diciembre. En la semana, el Nasdaq perdió 3,4% pese al rebote del viernes."
+ },
+ "noticias": [
+  {
+   "id": "empleo",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "EE.UU. creó 165.000 empleos en octubre, casi el triple de lo esperado",
+   "resumen": "El desempleo bajó a 4,1%. El dato empujó al alza la tasa del bono a 10 años y el mercado ya ve más de 65% de chances de que la Fed suba la tasa en diciembre.",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-06",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026",
+   "cifras": [
+    {
+     "nombre": "Nóminas no agrícolas",
+     "valor": "165.000",
+     "variacion": "",
+     "dir": "up",
+     "cuando": "octubre, dato del 6/11"
+    },
+    {
+     "nombre": "Desempleo",
+     "valor": "4,1%",
+     "variacion": "▼ 0,1 pp",
+     "dir": "down",
+     "cuando": "octubre"
+    },
+    {
+     "nombre": "Bono 10 años",
+     "valor": "4,86%",
+     "variacion": "▲ 2 pb",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    }
+   ]
+  },
+  {
+   "id": "semana",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El S&P 500 cierra su peor semana desde junio",
+   "resumen": "El derrumbe de los chips del jueves pesó más que el rebote del viernes: los cuatro índices cerraron la semana en baja, aunque siguen en alza en el año.",
+   "fuente": "AP (Yahoo Finance)",
+   "fecha": "2026-11-06",
+   "url": "https://au.finance.yahoo.com/news/major-us-stock-indexes-fared-212037857.html",
+   "cifras": [
+    {
+     "nombre": "S&P 500 (semana)",
+     "valor": "",
+     "variacion": "▼ 2,7%",
+     "dir": "down",
+     "cuando": "semana al 6/11"
+    },
+    {
+     "nombre": "Nasdaq (semana)",
+     "valor": "",
+     "variacion": "▼ 3,4%",
+     "dir": "down",
+     "cuando": "semana al 6/11"
+    },
+    {
+     "nombre": "Dow Jones (semana)",
+     "valor": "",
+     "variacion": "▼ 0,9%",
+     "dir": "down",
+     "cuando": "semana al 6/11"
+    },
+    {
+     "nombre": "Russell 2000 (semana)",
+     "valor": "",
+     "variacion": "▼ 2,1%",
+     "dir": "down",
+     "cuando": "semana al 6/11"
+    }
+   ]
+  },
+  {
+   "id": "wallst",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Wall Street cierra dividido y con una semana en rojo",
+   "resumen": "El Nasdaq y el S&P 500 recuperaron parte de la caída del jueves, mientras el Dow siguió bajando. En la semana el Nasdaq perdió 3,4% y el S&P 500 2,7%.",
+   "fuente": "Yahoo Finance",
+   "fecha": "2026-11-06",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+   "cifras": [
+    {
+     "nombre": "Nasdaq",
+     "valor": "24.579,42",
+     "variacion": "▲ 1,09%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    },
+    {
+     "nombre": "S&P 500",
+     "valor": "7.376,86",
+     "variacion": "▲ 0,31%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    },
+    {
+     "nombre": "Dow Jones",
+     "valor": "51.285,73",
+     "variacion": "▼ 0,46%",
+     "dir": "down",
+     "cuando": "cierre 6/11"
+    },
+    {
+     "nombre": "VIX",
+     "valor": "25,64",
+     "variacion": "▼ 9,0%",
+     "dir": "down",
+     "cuando": "cierre 6/11"
+    }
+   ]
+  },
+  {
+   "id": "chips",
+   "seccion": "cartera",
+   "tickers": [
+    "AMD",
+    "INTC",
+    "NVDA",
+    "AVGO"
+   ],
+   "balance": false,
+   "titulo": "Rebotan los chips: AMD sube 11% tras su peor día",
+   "resumen": "Las acciones de semiconductores recuperaron en promedio cerca de un tercio de lo perdido el jueves, cuando pesó el temor a reglas más duras para los data centers de IA.",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-06",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026",
+   "cifras": [
+    {
+     "nombre": "AMD",
+     "valor": "",
+     "variacion": "▲ 11,04%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    },
+    {
+     "nombre": "INTC",
+     "valor": "",
+     "variacion": "▲ 7,71%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    },
+    {
+     "nombre": "NVDA",
+     "valor": "",
+     "variacion": "▲ 2,78%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    },
+    {
+     "nombre": "AVGO",
+     "valor": "",
+     "variacion": "▲ 0,74%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    }
+   ]
+  },
+  {
+   "id": "rp",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El riesgo país baja 30 puntos y vuelve debajo de 900",
+   "resumen": "Los bonos en dólares rebotaron con Wall Street en una rueda sin liquidación por el feriado bancario, pero no alcanzó para revertir las pérdidas de la semana.",
+   "fuente": "BAE Negocios",
+   "fecha": "2026-11-06",
+   "url": "https://www.baenegocios.com/finanzas/el-riesgo-pais-bajo-de-los-900-puntos-pero-los-bonos-cerraron-una-semana-de-perdidas/",
+   "cifras": [
+    {
+     "nombre": "Riesgo país",
+     "valor": "895 pb",
+     "variacion": "▼ 30 pb",
+     "dir": "down",
+     "cuando": "6/11"
+    }
+   ]
+  },
+  {
+   "id": "dolar",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Sin mercado de cambios: el dólar mayorista queda en $ 1.545,50",
+   "resumen": "Por el Día del Bancario no operó el mercado de cambios; el mayorista repite el cierre del jueves y el blue se mantuvo en $ 1.555.",
+   "fuente": "La Nación",
+   "fecha": "2026-11-06",
+   "url": "https://www.lanacion.com.ar/economia/el-riesgo-pais-cae-por-debajo-de-los-900-puntos-a-partir-del-rebote-de-los-bonos-nid06112026/",
+   "cifras": [
+    {
+     "nombre": "Dólar mayorista",
+     "valor": "$ 1.545,50",
+     "variacion": "=",
+     "dir": "flat",
+     "cuando": "cierre 5/11"
+    },
+    {
+     "nombre": "Dólar blue",
+     "valor": "$ 1.555",
+     "variacion": "=",
+     "dir": "flat",
+     "cuando": "6/11"
+    },
+    {
+     "nombre": "Oficial BNA",
+     "valor": "$ 1.570",
+     "variacion": "=",
+     "dir": "flat",
+     "cuando": "6/11"
+    }
+   ]
+  },
+  {
+   "id": "rem",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Los analistas del REM suben la inflación esperada de octubre a 1,8%",
+   "resumen": "En el relevamiento del BCRA también recortaron de 1,5% a 0,7% el crecimiento previsto para 2026.",
+   "fuente": "Ámbito",
+   "fecha": "2026-11-06",
+   "url": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-6-noviembre-n6342270",
+   "cifras": []
+  },
+  {
+   "id": "brasil",
+   "seccion": "brasil",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El Ibovespa sube 1,4% y vuelve arriba de 168.000 puntos",
+   "resumen": "La bolsa brasileña acompañó el tono positivo de Wall Street y una tanda de balances; el dólar subió frente al real.",
+   "fuente": "CNN Brasil",
+   "fecha": "2026-11-06",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-novembro-2026/",
+   "cifras": [
+    {
+     "nombre": "Ibovespa",
+     "valor": "168.498",
+     "variacion": "▲ 1,39%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    },
+    {
+     "nombre": "Dólar / real",
+     "valor": "R$ 5,51",
+     "variacion": "▲ 0,44%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    }
+   ]
+  }
+ ],
+ "balancesHoy": [
+  {
+   "ticker": "BRKB",
+   "nombre": "Berkshire Hathaway",
+   "momento": "despues"
+  }
+ ],
+ "proximosBalances": [
+  {
+   "ticker": "CRWV",
+   "nombre": "CoreWeave",
+   "fecha": "2026-11-10",
+   "momento": "despues"
+  },
+  {
+   "ticker": "NU",
+   "nombre": "Nu Holdings",
+   "fecha": "2026-11-12",
+   "momento": "despues"
+  }
+ ],
+ "movimientos": [
+  {
+   "ticker": "AMD",
+   "variacion": "▲ 11,04%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
+  },
+  {
+   "ticker": "INTC",
+   "variacion": "▲ 7,71%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
+  },
+  {
+   "ticker": "NVDA",
+   "variacion": "▲ 2,78%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
+  },
+  {
+   "ticker": "QQQ",
+   "variacion": "▲ 1,40%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
+  },
+  {
+   "ticker": "AVGO",
+   "variacion": "▲ 0,74%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
+  }
+ ],
+ "destacados": [
+  {
+   "titulo": "Fed: crecen las chances de suba",
+   "detalle": "Tras el dato de empleo, el mercado ve más de 65% de probabilidad de una suba de tasas en la reunión de diciembre."
+  },
+  {
+   "titulo": "Balances de la semana",
+   "detalle": "CoreWeave presenta el martes 10/11 y Nu Holdings el jueves 12/11, ambos después del cierre."
+  },
+  {
+   "titulo": "En lo que va de 2026",
+   "detalle": "Pese a la semana, el S&P 500 sube 7,8%, el Dow 6,7%, el Nasdaq 5,8% y el Russell 2000 11%."
+  }
+ ]
+}
