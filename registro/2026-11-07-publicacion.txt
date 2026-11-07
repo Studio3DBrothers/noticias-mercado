@@ -4,3 +4,4 @@
 07:07 imagen opcion-2.png: fecha y 'datos al cierre del viernes 6/11' (sin hora exacta, igual que días anteriores), leyenda completa y línea 'Fuentes:' OK
 07:07 JSON: carga OK, hoja/hojaFecha agregados; problemas: ninguno
 07:07 limpieza: no hay hojas de más de 7 días
+07:07 push OK 41a4224 (commit 'Hoja del 07/11 (opción 2)')
