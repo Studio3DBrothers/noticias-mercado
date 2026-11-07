@@ -1,49 +1,83 @@
 {
  "formato": "noticias-mercado/1",
- "generado": "2026-11-06T00:40:00-03:00",
+ "generado": "2026-11-07T00:40:00-03:00",
  "titular": {
-  "titulo": "Jueves negro: el Nasdaq cae 5,5%, peor día en 18 meses, y el riesgo país salta a 925 puntos",
-  "bajada": "La venta de acciones de chips e IA tras las elecciones de medio término en EE.UU. arrastró a todos los mercados. En Argentina el Merval perdió 4% y los bonos hasta 3%; el mercado local no opera hasta el miércoles 11."
+  "titulo": "El empleo de EE.UU. sorprende con 165.000 puestos y el riesgo país vuelve debajo de 900",
+  "bajada": "Wall Street cerró dividido: el Nasdaq rebotó 1,1% con los chips tras el jueves negro, pero la semana fue negativa. El dato de empleo subió las chances de una suba de tasas de la Fed en diciembre."
  },
  "noticias": [
+  {
+   "id": "empleo",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "EE.UU. creó 165.000 empleos en octubre, casi el triple de lo esperado",
+   "resumen": "El desempleo bajó a 4,1%. El dato empujó al alza la tasa del bono a 10 años y el mercado ya ve más de 65% de chances de que la Fed suba la tasa en diciembre.",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-06",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026",
+   "cifras": [
+    {
+     "nombre": "Nóminas no agrícolas",
+     "valor": "165.000",
+     "variacion": "",
+     "dir": "up",
+     "cuando": "octubre, dato del 6/11"
+    },
+    {
+     "nombre": "Desempleo",
+     "valor": "4,1%",
+     "variacion": "▼ 0,1 pp",
+     "dir": "down",
+     "cuando": "octubre"
+    },
+    {
+     "nombre": "Bono 10 años",
+     "valor": "4,86%",
+     "variacion": "▲ 2 pb",
+     "dir": "up",
+     "cuando": "cierre 6/11"
+    }
+   ]
+  },
   {
    "id": "wallst",
    "seccion": "eeuu",
    "tickers": [],
    "balance": false,
-   "titulo": "El Nasdaq tiene su peor día en 18 meses y borra la suba poselectoral",
-   "resumen": "Wall Street se dio vuelta: temor a que el nuevo Congreso demócrata frene la construcción de data centers de IA. La volatilidad casi se duplicó.",
-   "fuente": "Motley Fool",
-   "fecha": "2026-11-05",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/05/stock-market-today-nov-5-nasdaq-suffers-worst-day-in-18-months-as-ai-trade-comes-under-fire/",
+   "titulo": "Wall Street cierra dividido y con una semana en rojo",
+   "resumen": "El Nasdaq y el S&P 500 recuperaron parte de la caída del jueves, mientras el Dow siguió bajando. En la semana el Nasdaq perdió 3,4% y el S&P 500 2,7%.",
+   "fuente": "Yahoo Finance",
+   "fecha": "2026-11-06",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
    "cifras": [
     {
      "nombre": "Nasdaq",
-     "valor": "24.315",
-     "variacion": "▼ 5,52%",
-     "dir": "down",
-     "cuando": "cierre 5/11"
+     "valor": "24.579,42",
+     "variacion": "▲ 1,09%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
     },
     {
      "nombre": "S&P 500",
-     "valor": "7.353,73",
-     "variacion": "▼ 4,36%",
-     "dir": "down",
-     "cuando": "cierre 5/11"
+     "valor": "7.376,86",
+     "variacion": "▲ 0,31%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
     },
     {
      "nombre": "Dow Jones",
-     "valor": "51.523,06",
-     "variacion": "▼ 3,44%",
+     "valor": "51.285,73",
+     "variacion": "▼ 0,46%",
      "dir": "down",
-     "cuando": "cierre 5/11"
+     "cuando": "cierre 6/11"
     },
     {
      "nombre": "VIX",
-     "valor": "28,18",
-     "variacion": "▲ 69,7%",
-     "dir": "up",
-     "cuando": "cierre 5/11"
+     "valor": "25,64",
+     "variacion": "▼ 9,0%",
+     "dir": "down",
+     "cuando": "cierre 6/11"
     }
    ]
   },
@@ -51,160 +85,65 @@
    "id": "chips",
    "seccion": "cartera",
    "tickers": [
-    "NVDA",
     "AMD",
-    "AVGO",
     "INTC",
-    "TSM"
+    "NVDA",
+    "AVGO"
    ],
    "balance": false,
-   "titulo": "Se desploman las acciones de chips: el índice del sector pierde 12%",
-   "resumen": "Fue la peor rueda del índice de semiconductores desde marzo de 2020; a la duda sobre los data centers se sumó la débil previsión de Qualcomm.",
+   "titulo": "Rebotan los chips: AMD sube 11% tras su peor día",
+   "resumen": "Las acciones de semiconductores recuperaron en promedio cerca de un tercio de lo perdido el jueves, cuando pesó el temor a reglas más duras para los data centers de IA.",
    "fuente": "StockTitan",
-   "fecha": "2026-11-05",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+   "fecha": "2026-11-06",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026",
    "cifras": [
     {
      "nombre": "AMD",
-     "valor": "US$ 404,40",
-     "variacion": "▼ 17,26%",
-     "dir": "down",
-     "cuando": "cierre 5/11"
-    },
-    {
-     "nombre": "AVGO",
-     "valor": "US$ 291,53",
-     "variacion": "▼ 10,43%",
-     "dir": "down",
-     "cuando": "cierre 5/11"
+     "valor": "",
+     "variacion": "▲ 11,04%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
     },
     {
      "nombre": "INTC",
-     "valor": "US$ 52,25",
-     "variacion": "▼ 10,33%",
-     "dir": "down",
-     "cuando": "cierre 5/11"
+     "valor": "",
+     "variacion": "▲ 7,71%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
     },
     {
      "nombre": "NVDA",
-     "valor": "US$ 181,60",
-     "variacion": "▼ 9,26%",
-     "dir": "down",
-     "cuando": "cierre 5/11"
-    }
-   ],
-   "motivo": "Temor a que el nuevo Congreso y gobiernos locales frenen data centers de IA (UBS: ~30% de la capacidad de 2028 en riesgo) y débil previsión de Qualcomm"
-  },
-  {
-   "id": "fed",
-   "seccion": "eeuu",
-   "tickers": [],
-   "balance": false,
-   "titulo": "Bajan las tasas largas y hoy sale el informe de empleo",
-   "resumen": "El bono a 10 años cayó por la búsqueda de refugio; los pedidos de subsidio por desempleo marcaron el nivel más bajo desde julio. Baja la probabilidad de suba de tasas de la Fed en diciembre.",
-   "fuente": "Yahoo Finance",
-   "fecha": "2026-11-05",
-   "url": "https://finance.yahoo.com/markets/article/chip-stocks-slaughtered-as-wall-street-suffers-worst-post-midterm-day-since-1896-213204256.html",
-   "cifras": [
-    {
-     "nombre": "Bono 10 años",
-     "valor": "4,84%",
-     "variacion": "▼ 6 pb",
-     "dir": "down",
-     "cuando": "cierre 5/11"
+     "valor": "",
+     "variacion": "▲ 2,78%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
     },
     {
-     "nombre": "Pedidos de subsidio",
-     "valor": "189.000",
-     "variacion": "▼ 6.000",
-     "dir": "down",
-     "cuando": "semana al 31/10"
+     "nombre": "AVGO",
+     "valor": "",
+     "variacion": "▲ 0,74%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
     }
    ]
-  },
-  {
-   "id": "meli",
-   "seccion": "cartera",
-   "tickers": [
-    "MELI"
-   ],
-   "balance": true,
-   "titulo": "MercadoLibre vende 45% más pero gana menos de lo esperado",
-   "resumen": "Los ingresos del tercer trimestre superaron lo previsto, pero la ganancia por acción quedó abajo por los mayores costos de envíos y logística.",
-   "fuente": "Yahoo Finance",
-   "fecha": "2026-11-05",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/mercadolibre-earnings-analysis-questions-answered-184621083.html",
-   "cifras": [
-    {
-     "nombre": "MELI",
-     "valor": "",
-     "variacion": "▼ 12,4%",
-     "dir": "down",
-     "cuando": "cierre 5/11"
-    },
-    {
-     "nombre": "Ingresos 3T",
-     "valor": "US$ 10.750 M",
-     "variacion": "▲ 45%",
-     "dir": "up",
-     "cuando": "interanual"
-    },
-    {
-     "nombre": "Ganancia por acción",
-     "valor": "US$ 8,83",
-     "variacion": "",
-     "dir": "flat",
-     "cuando": "esperado ~US$ 9,30"
-    },
-    {
-     "nombre": "Margen operativo",
-     "valor": "6,3%",
-     "variacion": "▼ 5,9 pp",
-     "dir": "down",
-     "cuando": "vs. 3T 2025"
-    }
-   ],
-   "fuertes": [
-    "Ingresos US$ 10.750 M, +45% interanual",
-    "Ingresos por encima de lo esperado (US$ 10.690 M)"
-   ],
-   "debiles": [
-    "Ganancia por acción US$ 8,83 contra ~US$ 9,30 esperado",
-    "Margen operativo 6,3%, contra 12,2% un año antes"
-   ],
-   "motivo": "Ganancia por acción por debajo de lo esperado y margen operativo de 6,3% (12,2% un año antes) por mayores costos de envío y logística"
   },
   {
    "id": "rp",
    "seccion": "argentina",
    "tickers": [],
    "balance": false,
-   "titulo": "El riesgo país salta a 925 puntos, el mayor alza diaria en un año",
-   "resumen": "Pesaron la caída global, la duda sobre cómo se pagarán los vencimientos en dólares y la discusión en EE.UU. sobre la ayuda financiera a la Argentina.",
-   "fuente": "Infobae",
-   "fecha": "2026-11-05",
-   "url": "https://www.infobae.com/economia/2026/11/05/el-riesgo-pais-trepo-por-encima-de-los-900-puntos-y-las-acciones-argentinas-sufrieron-fuertes-caidas-en-wall-street/",
+   "titulo": "El riesgo país baja 30 puntos y vuelve debajo de 900",
+   "resumen": "Los bonos en dólares rebotaron con Wall Street en una rueda sin liquidación por el feriado bancario, pero no alcanzó para revertir las pérdidas de la semana.",
+   "fuente": "BAE Negocios",
+   "fecha": "2026-11-06",
+   "url": "https://www.baenegocios.com/finanzas/el-riesgo-pais-bajo-de-los-900-puntos-pero-los-bonos-cerraron-una-semana-de-perdidas/",
    "cifras": [
     {
      "nombre": "Riesgo país",
-     "valor": "925 pb",
-     "variacion": "▲ 73 pb",
-     "dir": "up",
-     "cuando": "cierre 5/11"
-    },
-    {
-     "nombre": "Merval",
-     "valor": "84.594",
-     "variacion": "▼ 4,1%",
+     "valor": "895 pb",
+     "variacion": "▼ 30 pb",
      "dir": "down",
-     "cuando": "cierre 5/11"
-    },
-    {
-     "nombre": "Bonos en dólares",
-     "valor": "",
-     "variacion": "▼ 2,5% prom.",
-     "dir": "down",
-     "cuando": "cierre 5/11"
+     "cuando": "6/11"
     }
    ]
   },
@@ -213,52 +152,45 @@
    "seccion": "argentina",
    "tickers": [],
    "balance": false,
-   "titulo": "Dólar quieto; el BCRA compra US$ 42 M y las reservas bajan por el pago al FMI",
-   "resumen": "El mayorista casi no se movió y el oficial siguió en $ 1.570. Las reservas cayeron unos US$ 800 M por un pago al Fondo.",
-   "fuente": "Infobae",
-   "fecha": "2026-11-05",
-   "url": "https://www.infobae.com/economia/2026/11/05/el-riesgo-pais-trepo-por-encima-de-los-900-puntos-y-las-acciones-argentinas-sufrieron-fuertes-caidas-en-wall-street/",
+   "titulo": "Sin mercado de cambios: el dólar mayorista queda en $ 1.545,50",
+   "resumen": "Por el Día del Bancario no operó el mercado de cambios; el mayorista repite el cierre del jueves y el blue se mantuvo en $ 1.555.",
+   "fuente": "La Nación",
+   "fecha": "2026-11-06",
+   "url": "https://www.lanacion.com.ar/economia/el-riesgo-pais-cae-por-debajo-de-los-900-puntos-a-partir-del-rebote-de-los-bonos-nid06112026/",
    "cifras": [
     {
-     "nombre": "Mayorista",
+     "nombre": "Dólar mayorista",
      "valor": "$ 1.545,50",
-     "variacion": "▼ 0,03%",
+     "variacion": "=",
      "dir": "flat",
      "cuando": "cierre 5/11"
+    },
+    {
+     "nombre": "Dólar blue",
+     "valor": "$ 1.555",
+     "variacion": "=",
+     "dir": "flat",
+     "cuando": "6/11"
     },
     {
      "nombre": "Oficial BNA",
      "valor": "$ 1.570",
      "variacion": "=",
      "dir": "flat",
-     "cuando": "cierre 5/11"
-    },
-    {
-     "nombre": "Blue",
-     "valor": "$ 1.555",
-     "variacion": "▼ 0,3%",
-     "dir": "down",
-     "cuando": "cierre 5/11"
-    },
-    {
-     "nombre": "Reservas",
-     "valor": "US$ 49.642 M",
-     "variacion": "▼ 793 M",
-     "dir": "down",
-     "cuando": "cierre 5/11"
+     "cuando": "6/11"
     }
    ]
   },
   {
-   "id": "feriado",
+   "id": "rem",
    "seccion": "argentina",
    "tickers": [],
    "balance": false,
-   "titulo": "El mercado argentino no opera hasta el miércoles 11",
-   "resumen": "Hoy es el Día del Bancario y el lunes 9 es feriado nacional por la visita del papa; la próxima rueda local sería el miércoles.",
-   "fuente": "Infobae",
-   "fecha": "2026-11-05",
-   "url": "https://www.infobae.com/economia/2026/11/05/el-riesgo-pais-de-la-argentina-sigue-subiendo-y-rompe-la-barrera-de-los-900-puntos-basicos/",
+   "titulo": "Los analistas del REM suben la inflación esperada de octubre a 1,8%",
+   "resumen": "En el relevamiento del BCRA también recortaron de 1,5% a 0,7% el crecimiento previsto para 2026.",
+   "fuente": "Ámbito",
+   "fecha": "2026-11-06",
+   "url": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-6-noviembre-n6342270",
    "cifras": []
   },
   {
@@ -266,37 +198,36 @@
    "seccion": "brasil",
    "tickers": [],
    "balance": false,
-   "titulo": "El Ibovespa cae con Wall Street tras la pausa del Copom",
-   "resumen": "El Banco Central de Brasil dejó la Selic en 13,75% por unanimidad y cortó cinco recortes seguidos; el real se debilitó.",
-   "fuente": "B3 (Bora Investir)",
-   "fecha": "2026-11-05",
-   "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cede-082-com-pressao-de-queda-em-wall-street-dolar-vai-a-r-548/",
+   "titulo": "El Ibovespa sube 1,4% y vuelve arriba de 168.000 puntos",
+   "resumen": "La bolsa brasileña acompañó el tono positivo de Wall Street y una tanda de balances; el dólar subió frente al real.",
+   "fuente": "CNN Brasil",
+   "fecha": "2026-11-06",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-novembro-2026/",
    "cifras": [
     {
      "nombre": "Ibovespa",
-     "valor": "166.191",
-     "variacion": "▼ 0,82%",
-     "dir": "down",
-     "cuando": "cierre 5/11"
+     "valor": "168.498",
+     "variacion": "▲ 1,39%",
+     "dir": "up",
+     "cuando": "cierre 6/11"
     },
     {
      "nombre": "Dólar / real",
-     "valor": "R$ 5,48",
-     "variacion": "▲ 0,67%",
+     "valor": "R$ 5,51",
+     "variacion": "▲ 0,44%",
      "dir": "up",
-     "cuando": "cierre 5/11"
-    },
-    {
-     "nombre": "Selic",
-     "valor": "13,75%",
-     "variacion": "=",
-     "dir": "flat",
-     "cuando": "Copom 4/11"
+     "cuando": "cierre 6/11"
     }
    ]
   }
  ],
- "balancesHoy": [],
+ "balancesHoy": [
+  {
+   "ticker": "BRKB",
+   "nombre": "Berkshire Hathaway",
+   "momento": "despues"
+  }
+ ],
  "proximosBalances": [
   {
    "ticker": "CRWV",
@@ -314,115 +245,49 @@
  "movimientos": [
   {
    "ticker": "AMD",
-   "variacion": "▼ 17,26%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "MELI",
-   "variacion": "▼ 12,4%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "TSLA",
-   "variacion": "▼ 10,77%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "AVGO",
-   "variacion": "▼ 10,43%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
+   "variacion": "▲ 11,04%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
   },
   {
    "ticker": "INTC",
-   "variacion": "▼ 10,33%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "CRWV",
-   "variacion": "▼ 9,83%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "COIN",
-   "variacion": "▼ 9,69%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
+   "variacion": "▲ 7,71%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
   },
   {
    "ticker": "NVDA",
-   "variacion": "▼ 9,26%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
+   "variacion": "▲ 2,78%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
   },
   {
    "ticker": "QQQ",
-   "variacion": "▼ 6,49%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
+   "variacion": "▲ 1,40%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
   },
   {
-   "ticker": "IBIT",
-   "variacion": "▼ 5,07%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "SPY",
-   "variacion": "▼ 4,41%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "META",
-   "variacion": "▼ 4,0%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "MSFT",
-   "variacion": "▼ 3,6%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "AMZN",
-   "variacion": "▼ 2,19%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "AAPL",
-   "variacion": "▼ 1,5%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
-  },
-  {
-   "ticker": "WMT",
-   "variacion": "▼ 1,12%",
-   "dir": "down",
-   "cuando": "cierre 5/11"
+   "ticker": "AVGO",
+   "variacion": "▲ 0,74%",
+   "dir": "up",
+   "cuando": "cierre 6/11"
   }
  ],
  "destacados": [
   {
-   "titulo": "Hoy: empleo de EE.UU.",
-   "detalle": "El informe de octubre sale a las 10:30 de Buenos Aires; se esperan unos 65.000 puestos y desempleo de 4,2%."
+   "titulo": "Fed: crecen las chances de suba",
+   "detalle": "Tras el dato de empleo, el mercado ve más de 65% de probabilidad de una suba de tasas en la reunión de diciembre."
   },
   {
-   "titulo": "Mercado local cerrado",
-   "detalle": "Sin operaciones el viernes 6 (Día del Bancario) ni el lunes 9 (feriado); vuelve el miércoles 11."
+   "titulo": "Balances de la semana",
+   "detalle": "CoreWeave presenta el martes 10/11 y Nu Holdings el jueves 12/11, ambos después del cierre."
   },
   {
-   "titulo": "Inflación de octubre",
-   "detalle": "El INDEC publica el IPC el jueves 12/11."
+   "titulo": "Semana negativa en Wall Street",
+   "detalle": "El Nasdaq perdió 3,4%, el S&P 500 2,7% y el Dow 0,9% en la semana."
   }
  ],
- "hoja": "hoja-2026-11-06.png",
- "hojaFecha": "2026-11-06"
+ "hoja": "hoja-2026-11-07.png",
+ "hojaFecha": "2026-11-07"
 }

@@ -1,0 +1,6 @@
+07:06 add_repo: herramienta no disponible en esta sesión; repo ya clonado en el entorno (origin Studio3DBrothers/noticias-mercado), fetch OK be99005
+07:06 propuestas/2026-11-07/ OK: opcion-1/2/3.png y noticias.json
+07:06 elección leída: opción 2, 2026-11-07T03:29:45Z (<= 05:00Z, elegida por Adrián)
+07:07 imagen opcion-2.png: fecha y 'datos al cierre del viernes 6/11' (sin hora exacta, igual que días anteriores), leyenda completa y línea 'Fuentes:' OK
+07:07 JSON: carga OK, hoja/hojaFecha agregados; problemas: ninguno
+07:07 limpieza: no hay hojas de más de 7 días
