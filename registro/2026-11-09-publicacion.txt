@@ -3,3 +3,4 @@
 07:04 imagen opción 1 verificada: fecha, datos al cierre 6/11, leyenda y Fuentes OK
 07:04 JSON validado: OK
 07:04 commit y push a origin/main
+07:05 push OK f8dbefe; verificado en origin/main (hoja-2026-11-09.png y noticias.json presentes)
