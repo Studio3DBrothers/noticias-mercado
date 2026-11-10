@@ -1,0 +1,195 @@
+{
+ "formato": "noticias-mercado/1",
+ "generado": "2026-11-10T00:45:00-03:00",
+ "titular": {
+  "titulo": "Wall Street rebota fuerte con el petróleo en baja y el riesgo país vuelve a 880 en pleno feriado",
+  "bajada": "El S&P 500 subió 2,35% y el Nasdaq 2,74% con el regreso de los chips; Nvidia cayó 4,3% por una revisión interna sobre su CEO. Bolsa argentina cerrada hasta mañana y hoy sale el CPI de octubre."
+ },
+ "noticias": [
+  {
+   "id": "wall-street-rebote",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Wall Street recupera terreno: subieron todos los sectores tras la semana de caídas",
+   "resumen": "El abaratamiento del petróleo y la vuelta de compras en semiconductores impulsaron a los tres índices; las industriales lideraron con más de 4%.",
+   "fuente": "Motley Fool (vía Yahoo Finance)",
+   "fecha": "2026-11-09",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-9-222339218.html",
+   "cifras": [
+    {"nombre": "Dow Jones", "valor": "52.390", "variacion": "▲ 2,15%", "dir": "up", "cuando": "cierre 9/11"},
+    {"nombre": "S&P 500", "valor": "7.550", "variacion": "▲ 2,35%", "dir": "up", "cuando": "cierre 9/11"},
+    {"nombre": "Nasdaq", "valor": "25.253", "variacion": "▲ 2,74%", "dir": "up", "cuando": "cierre 9/11"},
+    {"nombre": "Russell 2000", "valor": "", "variacion": "▲ 3,19%", "dir": "up", "cuando": "cierre 9/11"}
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "nvidia-revision",
+   "seccion": "cartera",
+   "tickers": ["NVDA"],
+   "balance": false,
+   "titulo": "Nvidia cae 4,3% mientras el directorio revisa informes sobre su CEO",
+   "resumen": "Un comité de directores independientes con abogados externos analizará si Jensen Huang fue blanco de un intento de inteligencia extranjera. La empresa dice que no hubo daño a sus secretos.",
+   "fuente": "StockTitan · Yahoo Finance",
+   "fecha": "2026-11-09",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026",
+   "cifras": [
+    {"nombre": "NVDA", "valor": "US$ 178,67", "variacion": "▼ 4,27%", "dir": "down", "cuando": "cierre 9/11"}
+   ],
+   "fuertes": [],
+   "debiles": [],
+   "motivo": "El directorio abrió una revisión independiente sobre informes de que Huang fue objetivo de una operación de inteligencia extranjera."
+  },
+  {
+   "id": "chips-amd",
+   "seccion": "cartera",
+   "tickers": ["AMD", "AVGO", "TSLA"],
+   "balance": false,
+   "titulo": "Vuelven los chips: AMD rebota 12% tras una mejora de recomendación de Oppenheimer",
+   "resumen": "Los semiconductores lideraron la recuperación después de la venta masiva de la semana pasada. Broadcom también subió fuerte y Tesla ganó más de 5% por la expansión de su servicio de robotaxis.",
+   "fuente": "Yahoo Finance · StockTitan",
+   "fecha": "2026-11-09",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+   "cifras": [
+    {"nombre": "AMD", "valor": "", "variacion": "▲ 12%", "dir": "up", "cuando": "9/11"},
+    {"nombre": "AVGO", "valor": "", "variacion": "▲ 8%", "dir": "up", "cuando": "9/11, 13 h de Nueva York"},
+    {"nombre": "TSLA", "valor": "", "variacion": "▲ 5%", "dir": "up", "cuando": "9/11"}
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "petroleo-baja",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El petróleo se hunde cerca de 6% por menor tensión con Irán",
+   "resumen": "El crudo cayó después de que Trump bajara el tono sobre nuevos ataques a Irán. El Brent y el WTI terminaron con fuertes bajas y arrastraron a las petroleras.",
+   "fuente": "InfoMoney",
+   "fecha": "2026-11-09",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09112026/",
+   "cifras": [
+    {"nombre": "Brent (enero)", "valor": "US$ 92,57", "variacion": "▼ 5,85%", "dir": "down", "cuando": "cierre 9/11"},
+    {"nombre": "WTI (diciembre)", "valor": "US$ 86,85", "variacion": "▼ 4,38%", "dir": "down", "cuando": "cierre 9/11"}
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "cpi-hoy",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Hoy sale la inflación de octubre en EE.UU.",
+   "resumen": "El BLS publica el CPI de octubre a las 10:30 de Argentina, primer dato fuerte de la semana después de las elecciones legislativas.",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-09",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026",
+   "cifras": [],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "riesgo-pais-880",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Con la bolsa cerrada, el riesgo país baja a 880 y los ADRs suben hasta 3%",
+   "resumen": "En el feriado por la visita del Papa, los activos argentinos en Nueva York acompañaron el rebote global. El riesgo país había subido 152 puntos la semana anterior.",
+   "fuente": "La Nación · Perfil",
+   "fecha": "2026-11-09",
+   "url": "https://www.lanacion.com.ar/economia/alivio-en-el-exterior-el-riesgo-pais-perfora-los-900-puntos-y-las-acciones-argentinas-rebotan-3-en-nid09112026/",
+   "cifras": [
+    {"nombre": "Riesgo país", "valor": "880 pb", "variacion": "▼ 59 pb", "dir": "down", "cuando": "cierre 9/11"},
+    {"nombre": "IRSA (ADR)", "valor": "", "variacion": "▲ 3,4%", "dir": "up", "cuando": "cierre 9/11"},
+    {"nombre": "Loma Negra (ADR)", "valor": "", "variacion": "▲ 2,6%", "dir": "up", "cuando": "cierre 9/11"},
+    {"nombre": "Supervielle (ADR)", "valor": "", "variacion": "▲ 2,3%", "dir": "up", "cuando": "cierre 9/11"}
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "dolar-feriado",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Dólar sin operaciones hasta el miércoles: así quedaron las cotizaciones",
+   "resumen": "Por los feriados del lunes y el martes no hubo mercado de cambios. Los últimos valores son del viernes, con una brecha de 7% entre el CCL y el oficial.",
+   "fuente": "Perfil",
+   "fecha": "2026-11-09",
+   "url": "https://www.perfil.com/economia/el-riesgo-pais-retrocedio-y-cerro-por-debajo-de-los-890-puntos-a1jUN1R7Eu71",
+   "cifras": [
+    {"nombre": "MEP", "valor": "$ 1.583,82", "variacion": "", "dir": "flat", "cuando": "cierre 6/11"},
+    {"nombre": "CCL", "valor": "$ 1.653,57", "variacion": "", "dir": "flat", "cuando": "cierre 6/11"},
+    {"nombre": "Mayorista", "valor": "$ 1.545,50", "variacion": "", "dir": "flat", "cuando": "cierre 6/11"},
+    {"nombre": "Blue (venta)", "valor": "$ 1.555", "variacion": "", "dir": "flat", "cuando": "cierre 6/11"}
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "ibovespa-172",
+   "seccion": "brasil",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El Ibovespa sube más de 2% y vuelve a los 172.000 puntos",
+   "resumen": "Vale y los bancos empujaron la suba con el viento a favor de Nueva York; Petrobras quedó en baja por el petróleo. El real casi no se movió.",
+   "fuente": "InfoMoney",
+   "fecha": "2026-11-09",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09112026/",
+   "cifras": [
+    {"nombre": "Ibovespa", "valor": "172.236", "variacion": "▲ 2,22%", "dir": "up", "cuando": "cierre 9/11"},
+    {"nombre": "Dólar / real", "valor": "R$ 5,506", "variacion": "▼ 0,06%", "dir": "down", "cuando": "cierre 9/11"},
+    {"nombre": "Vale", "valor": "R$ 65,92", "variacion": "▲ 2,94%", "dir": "up", "cuando": "9/11"}
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "barrick-3t",
+   "seccion": "cartera",
+   "tickers": ["GOLD"],
+   "balance": true,
+   "titulo": "Barrick: la ganancia ajustada sube 37% por el oro caro, pero los costos crecen 24%",
+   "resumen": "Con el oro a US$ 4.243 la onza, los ingresos subieron 22%. La producción de oro y cobre bajó contra un año atrás y el flujo de caja libre cayó por más inversión. Mantuvo su guía anual.",
+   "fuente": "Barrick (GlobeNewswire)",
+   "fecha": "2026-11-09",
+   "url": "https://www.globenewswire.com/news-release/2026/11/09/3398168/0/en/barrick-reports-third-quarter-2026-results.html",
+   "cifras": [
+    {"nombre": "Ingresos 3T", "valor": "US$ 5.073 M", "variacion": "▲ 22%", "dir": "up", "cuando": "3T 2026 vs 3T 2025"},
+    {"nombre": "Ganancia ajustada por acción", "valor": "US$ 0,82", "variacion": "▲ 41%", "dir": "up", "cuando": "3T 2026 vs 3T 2025"},
+    {"nombre": "Costo total oro (AISC)", "valor": "US$ 1.911/oz", "variacion": "▲ 24%", "dir": "up", "cuando": "3T 2026 vs 3T 2025"},
+    {"nombre": "GOLD (Barrick, NYSE: B)", "valor": "", "variacion": "▲ 3,6%", "dir": "up", "cuando": "cierre 9/11"}
+   ],
+   "fuertes": ["Ganancia neta ajustada US$ 1.347 M (+37% interanual)", "Caja neta US$ 909 M (contra US$ 323 M un año antes)"],
+   "debiles": ["Flujo de caja libre atribuible US$ 642 M (−44% interanual)", "Producción de cobre 50.000 t (−9% interanual)"]
+  }
+ ],
+ "balancesHoy": [
+  {"ticker": "CRWV", "nombre": "CoreWeave", "momento": "despues"}
+ ],
+ "proximosBalances": [
+  {"ticker": "NU", "nombre": "Nu Holdings", "fecha": "2026-11-12", "momento": "despues"},
+  {"ticker": "DIS", "nombre": "Disney", "fecha": "2026-11-17", "momento": "antes"},
+  {"ticker": "JD", "nombre": "JD.com", "fecha": "2026-11-17", "momento": "antes"},
+  {"ticker": "NVDA", "nombre": "Nvidia", "fecha": "2026-11-17", "momento": "despues"}
+ ],
+ "movimientos": [
+  {"ticker": "AMD", "variacion": "▲ 12%", "dir": "up", "cuando": "9/11"},
+  {"ticker": "TSLA", "variacion": "▲ 5%", "dir": "up", "cuando": "9/11"},
+  {"ticker": "NVDA", "variacion": "▼ 4,27%", "dir": "down", "cuando": "cierre 9/11"},
+  {"ticker": "GOLD", "variacion": "▲ 3,6%", "dir": "up", "cuando": "cierre 9/11"},
+  {"ticker": "IRSA", "variacion": "▲ 3,4%", "dir": "up", "cuando": "cierre 9/11 (ADR)"},
+  {"ticker": "LOMA", "variacion": "▲ 2,6%", "dir": "up", "cuando": "cierre 9/11 (ADR)"},
+  {"ticker": "SUPV", "variacion": "▲ 2,3%", "dir": "up", "cuando": "cierre 9/11 (ADR)"},
+  {"ticker": "CEPU", "variacion": "▲ 2,3%", "dir": "up", "cuando": "cierre 9/11 (ADR)"}
+ ],
+ "destacados": [
+  {"titulo": "CPI de octubre hoy", "detalle": "El BLS publica la inflación de EE.UU. a las 10:30 de Argentina."},
+  {"titulo": "Mercado local cerrado", "detalle": "BYMA no opera hoy por el feriado; los bancos reabren el miércoles 11."},
+  {"titulo": "CoreWeave presenta hoy", "detalle": "Balance del tercer trimestre después del cierre de Wall Street."},
+  {"titulo": "Nvidia, el 17/11", "detalle": "Presenta resultados después del cierre, con la revisión interna en curso."}
+ ]
+}
