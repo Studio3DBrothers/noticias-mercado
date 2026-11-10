@@ -1,0 +1,6 @@
+07:04 repo ya clonado y en alcance (add_repo no necesario)
+07:04 fetch/checkout origin/main OK 631b4a0; propuestas/2026-11-10 completas (3 png + noticias.json)
+07:04 elección leída: opción 2, 2026-11-10T03:54:03.172Z (antes de 05:00Z, elegida por Adrián)
+07:04 opción 2 verificada: fecha, datos al cierre 9/11, leyenda y Fuentes OK
+07:04 JSON validado: OK | borradas: ninguna
+07:04 copiados hoja-2026-11-10.png, hoja.png y noticias.json; commit y push

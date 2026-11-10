@@ -1,304 +1,437 @@
 {
- "formato": "noticias-mercado/1",
- "generado": "2026-11-09T00:40:00-03:00",
- "titular": {
-  "titulo": "Semana corta en Argentina por la visita del Papa y la inflación de EE.UU. en el centro de la escena",
-  "bajada": "Bolsa y bancos cerrados lunes y martes; afuera, el CPI de octubre sale el martes con el mercado atento a una suba de tasas de la Fed en diciembre. Berkshire ganó 5,8% menos en el tercer trimestre y duplicó las recompras."
- },
- "noticias": [
-  {
-   "id": "cpi-octubre",
-   "seccion": "eeuu",
-   "tickers": [],
-   "balance": false,
-   "titulo": "El dato de inflación de octubre, el martes, es la gran prueba de la semana",
-   "resumen": "El BLS publica el CPI el martes 10 a las 10:30 (hora argentina). Se espera una suba mensual de 0,3% tras 0,6% en septiembre, y 0,2% en la medida núcleo. El PPI sale el viernes 13.",
-   "fuente": "TradingKey · FXEmpire",
-   "fecha": "2026-11-08",
-   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262294759-week-ahead-october-cpi-ppi-coreweave-cisco-applied-materials-tradingkey",
-   "cifras": [
+  "formato": "noticias-mercado/1",
+  "generado": "2026-11-10T00:45:00-03:00",
+  "titular": {
+    "titulo": "Wall Street rebota fuerte con el petróleo en baja y el riesgo país vuelve a 880 en pleno feriado",
+    "bajada": "El S&P 500 subió 2,35% y el Nasdaq 2,74% con el regreso de los chips; Nvidia cayó 4,3% por una revisión interna sobre su CEO. Bolsa argentina cerrada hasta mañana y hoy sale el CPI de octubre."
+  },
+  "noticias": [
     {
-     "nombre": "CPI oct. esperado (mensual)",
-     "valor": "0,3%",
-     "variacion": "",
-     "dir": "flat",
-     "cuando": "sale mar 10/11 10:30"
+      "id": "wall-street-rebote",
+      "seccion": "eeuu",
+      "tickers": [],
+      "balance": false,
+      "titulo": "Wall Street recupera terreno: subieron todos los sectores tras la semana de caídas",
+      "resumen": "El abaratamiento del petróleo y la vuelta de compras en semiconductores impulsaron a los tres índices; las industriales lideraron con más de 4%.",
+      "fuente": "Motley Fool (vía Yahoo Finance)",
+      "fecha": "2026-11-09",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-9-222339218.html",
+      "cifras": [
+        {
+          "nombre": "Dow Jones",
+          "valor": "52.390",
+          "variacion": "▲ 2,15%",
+          "dir": "up",
+          "cuando": "cierre 9/11"
+        },
+        {
+          "nombre": "S&P 500",
+          "valor": "7.550",
+          "variacion": "▲ 2,35%",
+          "dir": "up",
+          "cuando": "cierre 9/11"
+        },
+        {
+          "nombre": "Nasdaq",
+          "valor": "25.253",
+          "variacion": "▲ 2,74%",
+          "dir": "up",
+          "cuando": "cierre 9/11"
+        },
+        {
+          "nombre": "Russell 2000",
+          "valor": "",
+          "variacion": "▲ 3,19%",
+          "dir": "up",
+          "cuando": "cierre 9/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
     },
     {
-     "nombre": "CPI sept. (mensual)",
-     "valor": "0,6%",
-     "variacion": "",
-     "dir": "flat",
-     "cuando": "dato previo"
+      "id": "nvidia-revision",
+      "seccion": "cartera",
+      "tickers": [
+        "NVDA"
+      ],
+      "balance": false,
+      "titulo": "Nvidia cae 4,3% mientras el directorio revisa informes sobre su CEO",
+      "resumen": "Un comité de directores independientes con abogados externos analizará si Jensen Huang fue blanco de un intento de inteligencia extranjera. La empresa dice que no hubo daño a sus secretos.",
+      "fuente": "StockTitan · Yahoo Finance",
+      "fecha": "2026-11-09",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026",
+      "cifras": [
+        {
+          "nombre": "NVDA",
+          "valor": "US$ 178,67",
+          "variacion": "▼ 4,27%",
+          "dir": "down",
+          "cuando": "cierre 9/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": [],
+      "motivo": "El directorio abrió una revisión independiente sobre informes de que Huang fue objetivo de una operación de inteligencia extranjera."
     },
     {
-     "nombre": "CPI núcleo esperado",
-     "valor": "0,2%",
-     "variacion": "",
-     "dir": "flat",
-     "cuando": "sale mar 10/11 10:30"
+      "id": "chips-amd",
+      "seccion": "cartera",
+      "tickers": [
+        "AMD",
+        "AVGO",
+        "TSLA"
+      ],
+      "balance": false,
+      "titulo": "Vuelven los chips: AMD rebota 12% tras una mejora de recomendación de Oppenheimer",
+      "resumen": "Los semiconductores lideraron la recuperación después de la venta masiva de la semana pasada. Broadcom también subió fuerte y Tesla ganó más de 5% por la expansión de su servicio de robotaxis.",
+      "fuente": "Yahoo Finance · StockTitan",
+      "fecha": "2026-11-09",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+      "cifras": [
+        {
+          "nombre": "AMD",
+          "valor": "",
+          "variacion": "▲ 12%",
+          "dir": "up",
+          "cuando": "9/11"
+        },
+        {
+          "nombre": "AVGO",
+          "valor": "",
+          "variacion": "▲ 8%",
+          "dir": "up",
+          "cuando": "9/11, 13 h de Nueva York"
+        },
+        {
+          "nombre": "TSLA",
+          "valor": "",
+          "variacion": "▲ 5%",
+          "dir": "up",
+          "cuando": "9/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "petroleo-baja",
+      "seccion": "eeuu",
+      "tickers": [],
+      "balance": false,
+      "titulo": "El petróleo se hunde cerca de 6% por menor tensión con Irán",
+      "resumen": "El crudo cayó después de que Trump bajara el tono sobre nuevos ataques a Irán. El Brent y el WTI terminaron con fuertes bajas y arrastraron a las petroleras.",
+      "fuente": "InfoMoney",
+      "fecha": "2026-11-09",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09112026/",
+      "cifras": [
+        {
+          "nombre": "Brent (enero)",
+          "valor": "US$ 92,57",
+          "variacion": "▼ 5,85%",
+          "dir": "down",
+          "cuando": "cierre 9/11"
+        },
+        {
+          "nombre": "WTI (diciembre)",
+          "valor": "US$ 86,85",
+          "variacion": "▼ 4,38%",
+          "dir": "down",
+          "cuando": "cierre 9/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "cpi-hoy",
+      "seccion": "eeuu",
+      "tickers": [],
+      "balance": false,
+      "titulo": "Hoy sale la inflación de octubre en EE.UU.",
+      "resumen": "El BLS publica el CPI de octubre a las 10:30 de Argentina, primer dato fuerte de la semana después de las elecciones legislativas.",
+      "fuente": "StockTitan",
+      "fecha": "2026-11-09",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-9-2026",
+      "cifras": [],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "riesgo-pais-880",
+      "seccion": "argentina",
+      "tickers": [],
+      "balance": false,
+      "titulo": "Con la bolsa cerrada, el riesgo país baja a 880 y los ADRs suben hasta 3%",
+      "resumen": "En el feriado por la visita del Papa, los activos argentinos en Nueva York acompañaron el rebote global. El riesgo país había subido 152 puntos la semana anterior.",
+      "fuente": "La Nación · Perfil",
+      "fecha": "2026-11-09",
+      "url": "https://www.lanacion.com.ar/economia/alivio-en-el-exterior-el-riesgo-pais-perfora-los-900-puntos-y-las-acciones-argentinas-rebotan-3-en-nid09112026/",
+      "cifras": [
+        {
+          "nombre": "Riesgo país",
+          "valor": "880 pb",
+          "variacion": "▼ 59 pb",
+          "dir": "down",
+          "cuando": "cierre 9/11"
+        },
+        {
+          "nombre": "IRSA (ADR)",
+          "valor": "",
+          "variacion": "▲ 3,4%",
+          "dir": "up",
+          "cuando": "cierre 9/11"
+        },
+        {
+          "nombre": "Loma Negra (ADR)",
+          "valor": "",
+          "variacion": "▲ 2,6%",
+          "dir": "up",
+          "cuando": "cierre 9/11"
+        },
+        {
+          "nombre": "Supervielle (ADR)",
+          "valor": "",
+          "variacion": "▲ 2,3%",
+          "dir": "up",
+          "cuando": "cierre 9/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "dolar-feriado",
+      "seccion": "argentina",
+      "tickers": [],
+      "balance": false,
+      "titulo": "Dólar sin operaciones hasta el miércoles: así quedaron las cotizaciones",
+      "resumen": "Por los feriados del lunes y el martes no hubo mercado de cambios. Los últimos valores son del viernes, con una brecha de 7% entre el CCL y el oficial.",
+      "fuente": "Perfil",
+      "fecha": "2026-11-09",
+      "url": "https://www.perfil.com/economia/el-riesgo-pais-retrocedio-y-cerro-por-debajo-de-los-890-puntos-a1jUN1R7Eu71",
+      "cifras": [
+        {
+          "nombre": "MEP",
+          "valor": "$ 1.583,82",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "cierre 6/11"
+        },
+        {
+          "nombre": "CCL",
+          "valor": "$ 1.653,57",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "cierre 6/11"
+        },
+        {
+          "nombre": "Mayorista",
+          "valor": "$ 1.545,50",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "cierre 6/11"
+        },
+        {
+          "nombre": "Blue (venta)",
+          "valor": "$ 1.555",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "cierre 6/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "ibovespa-172",
+      "seccion": "brasil",
+      "tickers": [],
+      "balance": false,
+      "titulo": "El Ibovespa sube más de 2% y vuelve a los 172.000 puntos",
+      "resumen": "Vale y los bancos empujaron la suba con el viento a favor de Nueva York; Petrobras quedó en baja por el petróleo. El real casi no se movió.",
+      "fuente": "InfoMoney",
+      "fecha": "2026-11-09",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09112026/",
+      "cifras": [
+        {
+          "nombre": "Ibovespa",
+          "valor": "172.236",
+          "variacion": "▲ 2,22%",
+          "dir": "up",
+          "cuando": "cierre 9/11"
+        },
+        {
+          "nombre": "Dólar / real",
+          "valor": "R$ 5,506",
+          "variacion": "▼ 0,06%",
+          "dir": "down",
+          "cuando": "cierre 9/11"
+        },
+        {
+          "nombre": "Vale",
+          "valor": "R$ 65,92",
+          "variacion": "▲ 2,94%",
+          "dir": "up",
+          "cuando": "9/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "barrick-3t",
+      "seccion": "cartera",
+      "tickers": [
+        "GOLD"
+      ],
+      "balance": true,
+      "titulo": "Barrick: la ganancia ajustada sube 37% por el oro caro, pero los costos crecen 24%",
+      "resumen": "Con el oro a US$ 4.243 la onza, los ingresos subieron 22%. La producción de oro y cobre bajó contra un año atrás y el flujo de caja libre cayó por más inversión. Mantuvo su guía anual.",
+      "fuente": "Barrick (GlobeNewswire)",
+      "fecha": "2026-11-09",
+      "url": "https://www.globenewswire.com/news-release/2026/11/09/3398168/0/en/barrick-reports-third-quarter-2026-results.html",
+      "cifras": [
+        {
+          "nombre": "Ingresos 3T",
+          "valor": "US$ 5.073 M",
+          "variacion": "▲ 22%",
+          "dir": "up",
+          "cuando": "3T 2026 vs 3T 2025"
+        },
+        {
+          "nombre": "Ganancia ajustada por acción",
+          "valor": "US$ 0,82",
+          "variacion": "▲ 41%",
+          "dir": "up",
+          "cuando": "3T 2026 vs 3T 2025"
+        },
+        {
+          "nombre": "Costo total oro (AISC)",
+          "valor": "US$ 1.911/oz",
+          "variacion": "▲ 24%",
+          "dir": "up",
+          "cuando": "3T 2026 vs 3T 2025"
+        },
+        {
+          "nombre": "GOLD (Barrick, NYSE: B)",
+          "valor": "",
+          "variacion": "▲ 3,6%",
+          "dir": "up",
+          "cuando": "cierre 9/11"
+        }
+      ],
+      "fuertes": [
+        "Ganancia neta ajustada US$ 1.347 M (+37% interanual)",
+        "Caja neta US$ 909 M (contra US$ 323 M un año antes)"
+      ],
+      "debiles": [
+        "Flujo de caja libre atribuible US$ 642 M (−44% interanual)",
+        "Producción de cobre 50.000 t (−9% interanual)"
+      ]
     }
-   ],
-   "fuertes": [],
-   "debiles": []
-  },
-  {
-   "id": "wall-street-semana",
-   "seccion": "eeuu",
-   "tickers": [],
-   "balance": false,
-   "titulo": "Wall Street cerró una semana en rojo arrastrada por la tecnología",
-   "resumen": "Las dudas sobre el financiamiento de los centros de datos de IA golpearon al Nasdaq, que perdió más de 3% en la semana. El S&P 500 cedió cerca de 2,7% y el Dow menos de 1%.",
-   "fuente": "FXEmpire",
-   "fecha": "2026-11-08",
-   "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-cpi-and-tech-earnings-test-a-fragile-stock-market-1643118",
-   "cifras": [
+  ],
+  "balancesHoy": [
     {
-     "nombre": "Nasdaq (semana)",
-     "valor": "24.579,42",
-     "variacion": "▼ 3,37%",
-     "dir": "down",
-     "cuando": "cierre 6/11"
-    },
-    {
-     "nombre": "S&P 500 (semana)",
-     "valor": "7.376,86",
-     "variacion": "▼ 2,68%",
-     "dir": "down",
-     "cuando": "cierre 6/11"
-    },
-    {
-     "nombre": "Dow Jones (semana)",
-     "valor": "51.285,73",
-     "variacion": "▼ 0,94%",
-     "dir": "down",
-     "cuando": "cierre 6/11"
+      "ticker": "CRWV",
+      "nombre": "CoreWeave",
+      "momento": "despues"
     }
-   ],
-   "fuertes": [],
-   "debiles": []
-  },
-  {
-   "id": "veterans-day",
-   "seccion": "eeuu",
-   "tickers": [],
-   "balance": false,
-   "titulo": "Miércoles 11: la bolsa de EE.UU. abre, pero el mercado de bonos cierra",
-   "resumen": "Por el Día de los Veteranos, las acciones operan con normalidad mientras el mercado de bonos del Tesoro no funciona y bancos y oficinas federales suelen cerrar.",
-   "fuente": "TradingKey",
-   "fecha": "2026-11-08",
-   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262294759-week-ahead-october-cpi-ppi-coreweave-cisco-applied-materials-tradingkey",
-   "cifras": [],
-   "fuertes": [],
-   "debiles": []
-  },
-  {
-   "id": "feriado-papa",
-   "seccion": "argentina",
-   "tickers": [],
-   "balance": false,
-   "titulo": "Sin bolsa ni bancos lunes y martes por la visita del papa León XIV",
-   "resumen": "El lunes 9 es feriado nacional y el martes 10 feriado bancario; BYMA marca ambos días en su calendario. Los canales electrónicos siguen funcionando y la actividad vuelve el miércoles.",
-   "fuente": "BYMA · Rankia",
-   "fecha": "2026-11-09",
-   "url": "https://www.byma.com.ar/mercado/calendario-bursatil",
-   "cifras": [],
-   "fuertes": [],
-   "debiles": []
-  },
-  {
-   "id": "licitacion-tesoro",
-   "seccion": "argentina",
-   "tickers": [],
-   "balance": false,
-   "titulo": "El Tesoro licita el miércoles frente a vencimientos por $10,6 billones",
-   "resumen": "Con el regreso de la actividad, Economía sale a renovar deuda en pesos en una licitación con vencimientos por unos $10,6 billones, según Reuters.",
-   "fuente": "Reuters (vía GBM)",
-   "fecha": "2026-11-06",
-   "url": "https://gbm.com/media/noticia/ronda-accionaria-de-argentina-sin-tendencia-firme-bancos-cerrados-por-feriado-2/",
-   "cifras": [
+  ],
+  "proximosBalances": [
     {
-     "nombre": "Vencimientos a cubrir",
-     "valor": "$ 10,6 billones",
-     "variacion": "",
-     "dir": "flat",
-     "cuando": "licitación mié 11/11"
+      "ticker": "NU",
+      "nombre": "Nu Holdings",
+      "fecha": "2026-11-12",
+      "momento": "despues"
+    },
+    {
+      "ticker": "DIS",
+      "nombre": "Disney",
+      "fecha": "2026-11-17",
+      "momento": "antes"
+    },
+    {
+      "ticker": "JD",
+      "nombre": "JD.com",
+      "fecha": "2026-11-17",
+      "momento": "antes"
+    },
+    {
+      "ticker": "NVDA",
+      "nombre": "Nvidia",
+      "fecha": "2026-11-17",
+      "momento": "despues"
     }
-   ],
-   "fuertes": [],
-   "debiles": []
-  },
-  {
-   "id": "dolar-bonos-semana",
-   "seccion": "argentina",
-   "tickers": [
-    "YPFD"
-   ],
-   "balance": false,
-   "titulo": "Dólar quieto y semana de pérdidas para bonos y ADRs",
-   "resumen": "El blue y el oficial cerraron el viernes sin cambios. En la semana el AL30 perdió cerca de 3,7% y el ADR de YPF alrededor de 18%.",
-   "fuente": "Perfil",
-   "fecha": "2026-11-06",
-   "url": "https://www.perfil.com/economia/el-riesgo-pais-reboto-y-registro-un-nuevo-record-anual-al-cierre-de-la-semana-por-encima-de-los-930-puntos-aMOeX1B2R5EI",
-   "cifras": [
+  ],
+  "movimientos": [
     {
-     "nombre": "Dólar blue",
-     "valor": "$ 1.555",
-     "variacion": "=",
-     "dir": "flat",
-     "cuando": "cierre 6/11"
+      "ticker": "AMD",
+      "variacion": "▲ 12%",
+      "dir": "up",
+      "cuando": "9/11"
     },
     {
-     "nombre": "Oficial BNA",
-     "valor": "$ 1.570",
-     "variacion": "=",
-     "dir": "flat",
-     "cuando": "cierre 6/11"
+      "ticker": "TSLA",
+      "variacion": "▲ 5%",
+      "dir": "up",
+      "cuando": "9/11"
     },
     {
-     "nombre": "AL30 (semana)",
-     "valor": "US$ 51,50",
-     "variacion": "▼ 3,7%",
-     "dir": "down",
-     "cuando": "cierre 6/11"
+      "ticker": "NVDA",
+      "variacion": "▼ 4,27%",
+      "dir": "down",
+      "cuando": "cierre 9/11"
     },
     {
-     "nombre": "YPF ADR (semana)",
-     "valor": "",
-     "variacion": "▼ 18%",
-     "dir": "down",
-     "cuando": "cierre 6/11"
+      "ticker": "GOLD",
+      "variacion": "▲ 3,6%",
+      "dir": "up",
+      "cuando": "cierre 9/11"
+    },
+    {
+      "ticker": "IRSA",
+      "variacion": "▲ 3,4%",
+      "dir": "up",
+      "cuando": "cierre 9/11 (ADR)"
+    },
+    {
+      "ticker": "LOMA",
+      "variacion": "▲ 2,6%",
+      "dir": "up",
+      "cuando": "cierre 9/11 (ADR)"
+    },
+    {
+      "ticker": "SUPV",
+      "variacion": "▲ 2,3%",
+      "dir": "up",
+      "cuando": "cierre 9/11 (ADR)"
+    },
+    {
+      "ticker": "CEPU",
+      "variacion": "▲ 2,3%",
+      "dir": "up",
+      "cuando": "cierre 9/11 (ADR)"
     }
-   ],
-   "fuertes": [],
-   "debiles": [],
-   "motivo": "La nota lo vincula con la suba del riesgo país a su máximo del año durante la semana."
-  },
-  {
-   "id": "berkshire-3t",
-   "seccion": "cartera",
-   "tickers": [
-    "BRKB"
-   ],
-   "balance": true,
-   "titulo": "Berkshire gana 5,8% menos en el trimestre pero duplica las recompras",
-   "resumen": "El primer balance completo con Greg Abel como CEO mostró menor ganancia operativa por GEICO y por tasas más bajas, compensado en parte por el ferrocarril. Recompró US$ 9.600 M en acciones.",
-   "fuente": "Stock Titan · StockAnalysis",
-   "fecha": "2026-11-07",
-   "url": "https://www.stocktitan.net/articles/berkshire-hathaway-q3-2026-earnings-abel-cash-pile",
-   "cifras": [
+  ],
+  "destacados": [
     {
-     "nombre": "Ganancia operativa 3T",
-     "valor": "US$ 12.705 M",
-     "variacion": "▼ 5,8%",
-     "dir": "down",
-     "cuando": "3T 2026, informe 7/11"
+      "titulo": "CPI de octubre hoy",
+      "detalle": "El BLS publica la inflación de EE.UU. a las 10:30 de Argentina."
     },
     {
-     "nombre": "Recompras 3T",
-     "valor": "US$ 9.600 M",
-     "variacion": "",
-     "dir": "flat",
-     "cuando": "3T 2026"
+      "titulo": "Mercado local cerrado",
+      "detalle": "BYMA no opera hoy por el feriado; los bancos reabren el miércoles 11."
     },
     {
-     "nombre": "Caja y letras",
-     "valor": "US$ 352.300 M",
-     "variacion": "",
-     "dir": "flat",
-     "cuando": "al 30/9"
+      "titulo": "CoreWeave presenta hoy",
+      "detalle": "Balance del tercer trimestre después del cierre de Wall Street."
     },
     {
-     "nombre": "BRKB",
-     "valor": "",
-     "variacion": "",
-     "dir": "flat",
-     "cuando": "opera el lunes 9/11 tras el balance"
+      "titulo": "Nvidia, el 17/11",
+      "detalle": "Presenta resultados después del cierre, con la revisión interna en curso."
     }
-   ],
-   "fuertes": [
-    "Ferrocarril BNSF: US$ 1.729 M, +19% anual",
-    "Manufactura, servicios y comercio: US$ 4.042 M, +12%"
-   ],
-   "debiles": [
-    "Suscripción de seguros: US$ 1.352 M, −43% (GEICO, de US$ 1.773 M a 982 M)",
-    "Ingresos por inversiones de seguros: US$ 2.734 M, −14%"
-   ]
-  }
- ],
- "balancesHoy": [
-  {
-   "ticker": "GOLD",
-   "nombre": "Barrick",
-   "momento": "antes"
-  }
- ],
- "proximosBalances": [
-  {
-   "ticker": "GOLD",
-   "nombre": "Barrick",
-   "fecha": "2026-11-09",
-   "momento": "antes"
-  },
-  {
-   "ticker": "CRWV",
-   "nombre": "CoreWeave",
-   "fecha": "2026-11-10",
-   "momento": "despues"
-  },
-  {
-   "ticker": "NU",
-   "nombre": "Nu Holdings",
-   "fecha": "2026-11-12",
-   "momento": "despues"
-  }
- ],
- "movimientos": [
-  {
-   "ticker": "AMD",
-   "variacion": "▲ 11,04%",
-   "dir": "up",
-   "cuando": "cierre 6/11"
-  },
-  {
-   "ticker": "INTC",
-   "variacion": "▲ 7,71%",
-   "dir": "up",
-   "cuando": "cierre 6/11"
-  },
-  {
-   "ticker": "NVDA",
-   "variacion": "▲ 2,78%",
-   "dir": "up",
-   "cuando": "cierre 6/11"
-  },
-  {
-   "ticker": "QQQ",
-   "variacion": "▲ 1,40%",
-   "dir": "up",
-   "cuando": "cierre 6/11"
-  },
-  {
-   "ticker": "AVGO",
-   "variacion": "▲ 0,74%",
-   "dir": "up",
-   "cuando": "cierre 6/11"
-  }
- ],
- "destacados": [
-  {
-   "titulo": "Agenda de EE.UU.",
-   "detalle": "Mar 10: CPI de octubre (10:30). Jue 12: pedidos de subsidio por desempleo (10:30). Vie 13: PPI de octubre (10:30). Horario de Buenos Aires."
-  },
-  {
-   "titulo": "Balances de la semana",
-   "detalle": "Barrick hoy antes de la apertura; CoreWeave el martes 10 y Cisco, Applied Materials y Nu Holdings el jueves 12, después del cierre."
-  },
-  {
-   "titulo": "Fed",
-   "detalle": "Tras el dato de empleo, el mercado le asigna mayoría de chances a una suba de tasas en la reunión del 8 y 9 de diciembre. Hablan varios miembros de la Fed durante la semana."
-  }
- ],
- "hoja": "hoja-2026-11-09.png",
- "hojaFecha": "2026-11-09"
+  ],
+  "hoja": "hoja-2026-11-10.png",
+  "hojaFecha": "2026-11-10"
 }
