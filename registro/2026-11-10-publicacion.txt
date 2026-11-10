@@ -4,3 +4,4 @@
 07:04 opción 2 verificada: fecha, datos al cierre 9/11, leyenda y Fuentes OK
 07:04 JSON validado: OK | borradas: ninguna
 07:04 copiados hoja-2026-11-10.png, hoja.png y noticias.json; commit y push
+07:04 push OK 4d67860; verificado en origin/main: hoja-2026-11-10.png presente
