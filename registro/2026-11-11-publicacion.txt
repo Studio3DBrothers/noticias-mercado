@@ -1,0 +1,6 @@
+07:04 repo ya clonado en la sesión (add_repo no disponible como herramienta; repo en scope)
+07:04 fetch OK, origin/main 528793c
+07:05 elección leída: opción 2, 2026-11-11T03:35:58Z (antes de 05:00Z, elegida por Adrián)
+07:05 imagen opción 2 verificada: fecha y cierre de datos, leyenda y Fuentes OK
+07:05 copiadas hoja-2026-11-11.png y hoja.png; noticias.json validado (sin problemas) con hoja/hojaFecha; sin hojas >7 días para borrar
+07:05 commit y push a origin/main
