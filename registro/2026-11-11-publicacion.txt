@@ -4,3 +4,4 @@
 07:05 imagen opción 2 verificada: fecha y cierre de datos, leyenda y Fuentes OK
 07:05 copiadas hoja-2026-11-11.png y hoja.png; noticias.json validado (sin problemas) con hoja/hojaFecha; sin hojas >7 días para borrar
 07:05 commit y push a origin/main
+07:05 push OK 3d8cf9f; verificado en origin/main (hoja-2026-11-11.png y noticias.json presentes)
