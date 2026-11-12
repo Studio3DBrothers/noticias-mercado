@@ -3,3 +3,5 @@
 07:04 elección leída: opción 3, 2026-11-12T03:22:58.911Z (antes de 05:00Z) -> elegida por Adrián
 07:04 verificación opción 3 OK: fecha y 'Datos al cierre del miércoles 11/11', leyenda y 'Fuentes:' presentes
 07:04 copia OK: hoja-2026-11-12.png, hoja.png, noticias.json (+hoja, hojaFecha); JSON validado sin problemas; ninguna hoja de más de 7 días para borrar
+07:04 push OK efed457
+07:04 verificación: origin/main efed457 Hoja del 12/11 (opción 3); 1 hoja-2026-11-12.png en origin/main
