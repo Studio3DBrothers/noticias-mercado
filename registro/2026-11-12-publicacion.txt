@@ -1,0 +1,5 @@
+07:04 add_repo: herramienta no disponible; repo ya clonado en el entorno (HEAD 2f8c6d8)
+07:04 propuestas/2026-11-12 OK: opcion-1/2/3.png y noticias.json presentes
+07:04 elección leída: opción 3, 2026-11-12T03:22:58.911Z (antes de 05:00Z) -> elegida por Adrián
+07:04 verificación opción 3 OK: fecha y 'Datos al cierre del miércoles 11/11', leyenda y 'Fuentes:' presentes
+07:04 copia OK: hoja-2026-11-12.png, hoja.png, noticias.json (+hoja, hojaFecha); JSON validado sin problemas; ninguna hoja de más de 7 días para borrar
