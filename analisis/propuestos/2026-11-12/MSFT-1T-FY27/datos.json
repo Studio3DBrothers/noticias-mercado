@@ -102,7 +102,8 @@
    "margenOp": 30.1,
    "margenNeto": 26.4,
    "formulario": "10-K",
-   "ultimaPresentacion": "2019-08-01"
+   "ultimaPresentacion": "2019-08-01",
+   "precioCierre": 62.35
   },
   {
    "fin": "2018-06-30",
@@ -110,7 +111,8 @@
    "margenOp": 31.8,
    "margenNeto": 15.0,
    "formulario": "10-K",
-   "ultimaPresentacion": "2020-07-30"
+   "ultimaPresentacion": "2020-07-30",
+   "precioCierre": 90.94
   },
   {
    "fin": "2019-06-30",
@@ -118,7 +120,8 @@
    "margenOp": 34.1,
    "margenNeto": 31.2,
    "formulario": "10-K",
-   "ultimaPresentacion": "2021-07-29"
+   "ultimaPresentacion": "2021-07-29",
+   "precioCierre": 125.54
   },
   {
    "fin": "2020-06-30",
@@ -126,7 +129,8 @@
    "margenOp": 37.0,
    "margenNeto": 31.0,
    "formulario": "10-K",
-   "ultimaPresentacion": "2022-07-28"
+   "ultimaPresentacion": "2022-07-28",
+   "precioCierre": 193.07
   },
   {
    "fin": "2021-06-30",
@@ -134,7 +138,8 @@
    "margenOp": 41.6,
    "margenNeto": 36.5,
    "formulario": "10-K",
-   "ultimaPresentacion": "2023-07-27"
+   "ultimaPresentacion": "2023-07-27",
+   "precioCierre": 259.49
   },
   {
    "fin": "2022-06-30",
@@ -142,7 +147,8 @@
    "margenOp": 42.1,
    "margenNeto": 36.7,
    "formulario": "10-K",
-   "ultimaPresentacion": "2024-07-30"
+   "ultimaPresentacion": "2024-07-30",
+   "precioCierre": 248.02
   },
   {
    "fin": "2023-06-30",
@@ -150,7 +156,8 @@
    "margenOp": 41.8,
    "margenNeto": 34.1,
    "formulario": "10-K",
-   "ultimaPresentacion": "2025-07-30"
+   "ultimaPresentacion": "2025-07-30",
+   "precioCierre": 332.04
   },
   {
    "fin": "2024-06-30",
@@ -158,7 +165,8 @@
    "margenOp": 44.6,
    "margenNeto": 36.0,
    "formulario": "10-K",
-   "ultimaPresentacion": "2026-07-29"
+   "ultimaPresentacion": "2026-07-29",
+   "precioCierre": 439.21
   },
   {
    "fin": "2025-06-30",
@@ -166,7 +174,8 @@
    "margenOp": 45.6,
    "margenNeto": 36.1,
    "formulario": "10-K",
-   "ultimaPresentacion": "2026-07-29"
+   "ultimaPresentacion": "2026-07-29",
+   "precioCierre": 492.54
   },
   {
    "fin": "2026-06-30",
@@ -174,7 +183,8 @@
    "margenOp": 46.8,
    "margenNeto": 40.3,
    "formulario": "10-K",
-   "ultimaPresentacion": "2026-07-29"
+   "ultimaPresentacion": "2026-07-29",
+   "precioCierre": 372.32
   }
  ],
  "ultimoBalance": "Ingresos de US$ 92,3 mil M (+18,8%) en el primer trimestre de su año fiscal 2027. Agentes e infraestructura (Agents and Infra) creció 25% y Microsoft Cloud llegó a US$ 63,9 mil M (+30%), con Azure +48%. La ganancia neta subió 32%; un año antes, la inversión en OpenAI había restado US$ 3,1 mil M.",

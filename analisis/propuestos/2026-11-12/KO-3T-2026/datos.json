@@ -122,7 +122,8 @@
    "margenOp": 20.7,
    "margenNeto": 15.6,
    "formulario": "10-K",
-   "ultimaPresentacion": "2019-02-21"
+   "ultimaPresentacion": "2019-02-21",
+   "precioCierre": 30.67
   },
   {
    "fin": "2017-12-31",
@@ -130,7 +131,8 @@
    "margenOp": 21.4,
    "margenNeto": 3.4,
    "formulario": "10-K",
-   "ultimaPresentacion": "2020-02-24"
+   "ultimaPresentacion": "2020-02-24",
+   "precioCierre": 35.08
   },
   {
    "fin": "2018-12-31",
@@ -138,7 +140,8 @@
    "margenOp": 26.7,
    "margenNeto": 18.8,
    "formulario": "10-K",
-   "ultimaPresentacion": "2021-02-25"
+   "ultimaPresentacion": "2021-02-25",
+   "precioCierre": 37.45
   },
   {
    "fin": "2019-12-31",
@@ -146,7 +149,8 @@
    "margenOp": 27.1,
    "margenNeto": 23.9,
    "formulario": "10-K",
-   "ultimaPresentacion": "2022-02-22"
+   "ultimaPresentacion": "2022-02-22",
+   "precioCierre": 45.17
   },
   {
    "fin": "2020-12-31",
@@ -154,7 +158,8 @@
    "margenOp": 27.3,
    "margenNeto": 23.5,
    "formulario": "10-K",
-   "ultimaPresentacion": "2023-02-21"
+   "ultimaPresentacion": "2023-02-21",
+   "precioCierre": 46.28
   },
   {
    "fin": "2021-12-31",
@@ -162,7 +167,8 @@
    "margenOp": 26.7,
    "margenNeto": 25.3,
    "formulario": "10-K",
-   "ultimaPresentacion": "2024-02-20"
+   "ultimaPresentacion": "2024-02-20",
+   "precioCierre": 51.55
   },
   {
    "fin": "2022-12-31",
@@ -170,7 +176,8 @@
    "margenOp": 25.4,
    "margenNeto": 22.2,
    "formulario": "10-K",
-   "ultimaPresentacion": "2025-02-20"
+   "ultimaPresentacion": "2025-02-20",
+   "precioCierre": 57.01
   },
   {
    "fin": "2023-12-31",
@@ -178,7 +185,8 @@
    "margenOp": 24.7,
    "margenNeto": 23.4,
    "formulario": "10-K",
-   "ultimaPresentacion": "2026-02-20"
+   "ultimaPresentacion": "2026-02-20",
+   "precioCierre": 54.49
   },
   {
    "fin": "2024-12-31",
@@ -186,7 +194,8 @@
    "margenOp": 21.2,
    "margenNeto": 22.6,
    "formulario": "10-K",
-   "ultimaPresentacion": "2026-02-20"
+   "ultimaPresentacion": "2026-02-20",
+   "precioCierre": 59.32
   },
   {
    "fin": "2025-12-31",
@@ -194,7 +203,8 @@
    "margenOp": 28.7,
    "margenNeto": 27.3,
    "formulario": "10-K",
-   "ultimaPresentacion": "2026-02-20"
+   "ultimaPresentacion": "2026-02-20",
+   "precioCierre": 68.58
   }
  ],
  "ultimoBalance": "Ingresos de US$ 13,4 mil M (+7,4%), con el volumen de cajas unitarias +5%. El margen operativo fue 33,4% (32,0% un año antes) y la ganancia por acción subió 8%, a US$ 0,93. La empresa elevó su previsión para el año.",
