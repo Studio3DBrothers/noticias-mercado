@@ -1,4 +1,4 @@
-# Genera 6 muestras de diseño de la hoja oscura para compartir (HTML -> PNG con Playwright).
+# Genera 6 muestras de diseño de la hoja (fondo claro) para compartir (HTML -> PNG con Playwright).
 import os
 from playwright.sync_api import sync_playwright
 
@@ -6,34 +6,34 @@ D = os.path.dirname(os.path.abspath(__file__))
 
 CSS = """
 *{box-sizing:border-box}
-:root{--bg:#070D19;--card:#0F1A2D;--card2:#13213A;--line:#1F2F4D;--ink:#EAF0FA;--muted:#8C9BB5;
---acc:#4C8DFF;--cel:#7CC4FF;--up:#35D49A;--down:#FF5C6E;--gold:#E9B949}
+:root{--bg:#F3F6FB;--card:#FFFFFF;--card2:#FFFFFF;--line:#DCE4F0;--ink:#14213D;--muted:#5E6B85;
+--acc:#2A5BD7;--cel:#2F80C8;--up:#2F7A3E;--down:#B03A2E;--gold:#B7791F}
 body{margin:0;background:var(--bg);font-family:'Inter','Inter Display',sans-serif;color:var(--ink)}
 .page{width:1080px;padding:34px 34px 26px;position:relative;overflow:hidden;
- background:radial-gradient(900px 500px at 85% -5%,rgba(76,141,255,.22),transparent 60%),radial-gradient(700px 500px at -10% 105%,rgba(124,196,255,.10),transparent 60%),var(--bg)}
+ background:radial-gradient(900px 500px at 85% -5%,rgba(42,91,215,.10),transparent 60%),radial-gradient(700px 500px at -10% 105%,rgba(91,176,232,.10),transparent 60%),var(--bg)}
 .velas{position:absolute;right:20px;top:150px;width:460px;height:220px;opacity:.13;pointer-events:none}
 .head{display:flex;align-items:center;gap:18px;position:relative;z-index:1}
-.head img{width:78px;height:78px;border-radius:18px;box-shadow:0 0 0 1px rgba(255,255,255,.08)}
+.head img{width:78px;height:78px;border-radius:18px;box-shadow:0 0 0 1px rgba(20,33,61,.08)}
 .head h1{margin:0;font:900 46px/1 'Inter Display','Inter';letter-spacing:.5px}
 .head .sub{color:var(--muted);font-size:15px;letter-spacing:3px;margin-top:8px;text-transform:uppercase}
 .fecha{margin-left:auto;text-align:right}
-.fecha .pill{display:inline-block;border:1px solid rgba(124,196,255,.45);background:rgba(76,141,255,.12);color:var(--cel);font-weight:800;font-size:17px;padding:10px 16px;border-radius:12px}
+.fecha .pill{display:inline-block;border:1px solid rgba(42,91,215,.35);background:rgba(42,91,215,.08);color:var(--acc);font-weight:800;font-size:17px;padding:10px 16px;border-radius:12px}
 .fecha small{display:block;color:var(--muted);font-size:13px;margin-top:6px}
-.lead{z-index:1;margin:22px 0 18px;padding:20px 24px;border-radius:20px;background:linear-gradient(135deg,rgba(76,141,255,.18),rgba(76,141,255,.04));border:1px solid rgba(124,196,255,.25);position:relative}
+.lead{z-index:1;margin:22px 0 18px;padding:20px 24px;border-radius:20px;background:linear-gradient(135deg,rgba(42,91,215,.10),rgba(42,91,215,.02));border:1px solid rgba(42,91,215,.22);position:relative}
 .eyebrow{font-size:13px;font-weight:800;letter-spacing:2.5px;color:var(--cel);text-transform:uppercase}
 .lead h2{margin:8px 0 6px;font:800 33px/1.15 'Inter Display','Inter'}
-.lead p{margin:0;color:#C9D4E8;font-size:17px;line-height:1.45}
+.lead p{margin:0;color:#33435E;font-size:17px;line-height:1.45}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:20px;padding:18px;position:relative;overflow:hidden;display:flex;flex-direction:column;gap:10px;min-height:330px}
+.card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);box-shadow:0 1px 2px rgba(20,33,61,.05);border-radius:20px;padding:18px;position:relative;overflow:hidden;display:flex;flex-direction:column;gap:10px;min-height:330px}
 .card.ch{min-height:170px;gap:6px}
 .tag{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase;color:var(--cel)}
 .tag i{width:8px;height:8px;border-radius:50%;background:var(--cel);display:inline-block}
 .tag.ar i{background:linear-gradient(90deg,#74ACDF 33%,#fff 33% 66%,#74ACDF 66%)}
 .tag.br i{background:#2BB673} .tag.us i{background:#E25563}
 .card h3{margin:0;font:800 22px/1.2 'Inter Display','Inter'}
-.card p{margin:0;color:#B9C5DA;font-size:15.5px;line-height:1.45}
+.card p{margin:0;color:#33435E;font-size:15.5px;line-height:1.45}
 .row{display:flex;align-items:center;gap:12px}
-.logo{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:14px;color:#fff;flex:none;box-shadow:0 0 0 2px rgba(255,255,255,.06)}
+.logo{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:14px;color:#fff;flex:none;box-shadow:0 1px 3px rgba(20,33,61,.18)}
 .big{font:800 34px/1 'Inter Display','Inter';font-variant-numeric:tabular-nums}
 .var{font-weight:800;font-size:19px;font-variant-numeric:tabular-nums}
 .up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--muted)}
@@ -41,7 +41,7 @@ body{margin:0;background:var(--bg);font-family:'Inter','Inter Display',sans-seri
 .cif div{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);padding-top:6px;font-size:15px;font-variant-numeric:tabular-nums}
 .cif b{font-weight:800;white-space:nowrap}
 .cif span:first-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-right:10px}
-.cif span:first-child{color:#C9D4E8}
+.cif span:first-child{color:#33435E}
 .src{font-size:12px;color:var(--muted)}
 .ilus{position:absolute;right:14px;top:12px;opacity:.10}.ilus svg{width:70px;height:70px}
 .sect{display:flex;align-items:center;gap:12px;margin:20px 0 12px;font-size:14px;font-weight:800;letter-spacing:2.5px;color:var(--muted);text-transform:uppercase}
@@ -54,14 +54,14 @@ body{margin:0;background:var(--bg);font-family:'Inter','Inter Display',sans-seri
 .cuenta{font:900 92px/0.9 'Inter Display','Inter';color:var(--cel);letter-spacing:-2px}
 """
 
-def velas(color='#4C8DFF'):
+def velas(color='#2A5BD7'):
     import random
     random.seed(7)
     x, y, out = 10, 150, []
     for i in range(26):
         o = y; y = max(40, min(220, y + random.randint(-28, 22)))
         c = y; hi = min(o, c) - random.randint(6, 20); lo = max(o, c) + random.randint(6, 20)
-        col = '#35D49A' if c < o else '#FF5C6E'
+        col = '#2F7A3E' if c < o else '#B03A2E'
         out.append(f'<line x1="{x+6}" y1="{hi}" x2="{x+6}" y2="{lo}" stroke="{col}" stroke-width="2"/><rect x="{x}" y="{min(o,c)}" width="12" height="{max(3,abs(c-o))}" fill="{col}" rx="2"/>')
         x += 20
     return f'<svg class="velas" viewBox="0 0 520 250">{"".join(out)}</svg>'
@@ -74,7 +74,7 @@ def linea(up=True, w=260, h=90, col=None):
         y += random.uniform(-6, 4) if up else random.uniform(-4, 6)
         y = max(8, min(h - 8, y))
         pts.append(f"{i*w/29:.1f},{y:.1f}")
-    col = col or ('#35D49A' if up else '#FF5C6E')
+    col = col or ('#2F7A3E' if up else '#B03A2E')
     poly = ' '.join(pts)
     return f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}"><defs><linearGradient id="g{int(up)}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{col}" stop-opacity=".35"/><stop offset="1" stop-color="{col}" stop-opacity="0"/></linearGradient></defs><polygon points="0,{h} {poly} {w},{h}" fill="url(#g{int(up)})"/><polyline points="{poly}" fill="none" stroke="{col}" stroke-width="3" stroke-linejoin="round"/></svg>'
 
@@ -156,7 +156,7 @@ def page(body, extra_css=''):
 
 def cartera(con_balances=True):
     if con_balances:
-        v1 = '''<div class="card" style="background:linear-gradient(160deg,rgba(76,141,255,.28),var(--card));border-color:rgba(124,196,255,.4)"><span class="tag"><i style="background:var(--gold)"></i>Próximo balance</span>
+        v1 = '''<div class="card" style="background:linear-gradient(160deg,rgba(42,91,215,.12),var(--card));border-color:rgba(42,91,215,.35)"><span class="tag"><i style="background:var(--gold)"></i>Próximo balance</span>
 <div class="row"><div class="logo" style="background:#0B3D2E">CRWV</div><div><h3>CoreWeave</h3><div class="src" style="font-size:14px">Martes 10/11 · después del cierre</div></div></div>
 <div style="margin-top:8px"><span class="cuenta">5</span> <span style="font-size:26px;font-weight:800;color:var(--cel)">DÍAS</span></div>
 <p>Aparece 7 días antes y baja día a día hasta "HOY". Si presentan varios activos en la semana, se muestran en orden.</p></div>'''
