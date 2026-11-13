@@ -198,6 +198,31 @@
   }
  ],
  "ultimoBalance": "Ingresos de US$ 13,4 mil M (+7,4%), con el volumen de cajas unitarias +5%. El margen operativo fue 33,4% (32,0% un año antes) y la ganancia por acción subió 8%, a US$ 0,93. La empresa elevó su previsión para el año.",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 13,4 mil M",
+    "+7,4%"
+   ],
+   [
+    "Volumen de cajas unitarias",
+    "",
+    "+5%"
+   ],
+   [
+    "Margen operativo",
+    "33,4%",
+    "+1,4 pts"
+   ],
+   [
+    "Ganancia por acción",
+    "US$ 0,93",
+    "+8%"
+   ]
+  ],
+  "nota": "El margen operativo era 32,0% un año antes. La empresa elevó su previsión para el año."
+ },
  "fortalezas": [
   "Margen bruto de 63% en el trimestre y operativo de 30% en 12 meses.",
   "Flujo de caja libre de US$ 14,3 mil M en 12 meses, el 28% de los ingresos.",

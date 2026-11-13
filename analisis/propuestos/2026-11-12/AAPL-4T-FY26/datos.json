@@ -199,6 +199,36 @@
   }
  ],
  "ultimoBalance": "Ingresos de US$ 114,5 mil M (+11,7%), con iPhone +17,5% y Mac +23,7%. Servicios llegó a US$ 31,6 mil M, su máximo histórico. El margen bruto fue 47,9%, con cerca de 1 punto por reintegros de aranceles.",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 114,5 mil M",
+    "+11,7%"
+   ],
+   [
+    "iPhone",
+    "US$ 57,6 mil M",
+    "+17,5%"
+   ],
+   [
+    "Mac",
+    "US$ 10,8 mil M",
+    "+23,7%"
+   ],
+   [
+    "Servicios (récord)",
+    "US$ 31,6 mil M",
+    "+9,8%"
+   ],
+   [
+    "Margen bruto",
+    "47,9%",
+    ""
+   ]
+  ],
+  "nota": "Cerca de 1 punto del margen bruto vino de reintegros de aranceles."
+ },
  "fortalezas": [
   "Servicios: US$ 31,6 mil M (+9,8%) con margen bruto de 76%; es el 28% de los ingresos.",
   "Flujo de caja libre de US$ 136,1 mil M en 12 meses, el 28% de los ingresos.",
