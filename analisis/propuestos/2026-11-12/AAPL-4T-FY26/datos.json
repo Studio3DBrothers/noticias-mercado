@@ -15,36 +15,42 @@
    "id": "valuacion",
    "nombre": "Valuación",
    "estado": "rojo",
+   "calificacion": "Exigente",
    "dato": "P/E 12 meses 39,5 (precio US$ 354,84 ÷ ganancia por acción US$ 8,98)"
   },
   {
    "id": "rentabilidad",
    "nombre": "Rentabilidad",
    "estado": "verde",
+   "calificacion": "Alta",
    "dato": "Margen operativo 33% · ROE 118%"
   },
   {
    "id": "balance",
    "nombre": "Balance",
    "estado": "verde",
+   "calificacion": "Sólido",
    "dato": "Deuda neta US$ 23,4 mil M · 0,1 veces la ganancia operativa antes de amortizaciones"
   },
   {
    "id": "flujo",
    "nombre": "Flujo de caja",
    "estado": "verde",
+   "calificacion": "Alto",
    "dato": "Flujo libre 12 meses US$ 136,1 mil M (28% de los ingresos)"
   },
   {
    "id": "crecimiento",
    "nombre": "Crecimiento",
    "estado": "verde",
+   "calificacion": "Alto",
    "dato": "Ingresos 12 meses US$ 478,8 mil M (+15,1%)"
   },
   {
    "id": "dividendos",
    "nombre": "Dividendos y recompras",
    "estado": "amarillo",
+   "calificacion": "Medio",
    "dato": "Dividendos 0,3% + recompras 1,7% = 2,0% de la capitalización"
   }
  ],
