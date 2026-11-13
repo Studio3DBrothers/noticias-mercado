@@ -1,0 +1,616 @@
+{
+ "formato": "noticias-mercado/1",
+ "generado": "2026-11-13T00:40:00-03:00",
+ "titular": {
+  "titulo": "Jensen Huang deja Nvidia y Wall Street cede; en Argentina la inflación de octubre fue 2,2% y el riesgo país baja a 829",
+  "bajada": "La acción de Nvidia cerró −4,3% tras tocar −14%, mientras AMD y Broadcom subieron más de 5%. El bono a 10 años volvió arriba de 5%. Acá rebotaron los bonos y el BCRA compró US$ 103 M; en Brasil el dólar tocó R$ 5,65."
+ },
+ "noticias": [
+  {
+   "id": "nvda-huang",
+   "seccion": "cartera",
+   "tickers": [
+    "NVDA"
+   ],
+   "balance": false,
+   "titulo": "Jensen Huang renuncia a Nvidia y la acción cierra en baja de 4,3%",
+   "resumen": "El directorio anunció la salida inmediata de Huang como CEO y presidente, sin informar el motivo. Colette Kress queda como CEO interina. La acción llegó a caer 14% en la rueda.",
+   "fuente": "The Motley Fool",
+   "fecha": "2026-11-12",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-today-nov-12-nvidia-ceo-s-stunning-exit-sends-wall-street-lower-as-rivals-surge/",
+   "cifras": [
+    {
+     "nombre": "NVDA",
+     "valor": "US$ 166,19",
+     "variacion": "▼ 4,34%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "NVDA mínimo del día",
+     "valor": "US$ 148,80",
+     "variacion": "",
+     "dir": "down",
+     "cuando": "12/11 intradía"
+    },
+    {
+     "nombre": "AMD",
+     "valor": "US$ 585,30",
+     "variacion": "▲ 5,86%",
+     "dir": "up",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "AVGO",
+     "valor": "US$ 364,36",
+     "variacion": "▲ 5,54%",
+     "dir": "up",
+     "cuando": "cierre 12/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": [],
+   "motivo": "El directorio anunció la renuncia inmediata del CEO Jensen Huang tras una investigación interna, sin dar el motivo."
+  },
+  {
+   "id": "wall-street",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Wall Street cierra en baja por Nvidia y la suba de las tasas largas",
+   "resumen": "Los tres índices bajaron menos de medio punto y el Russell 2000 perdió 1,7%. El bono a 10 años volvió a superar 5% y el VIX subió 7%.",
+   "fuente": "Yahoo Finance (AP)",
+   "fecha": "2026-11-12",
+   "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211731317.html",
+   "cifras": [
+    {
+     "nombre": "S&P 500",
+     "valor": "7.592,40",
+     "variacion": "▼ 0,35%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "Nasdaq",
+     "valor": "25.366,09",
+     "variacion": "▼ 0,39%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "Dow Jones",
+     "valor": "52.297,09",
+     "variacion": "▼ 0,36%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "Russell 2000",
+     "valor": "2.799,06",
+     "variacion": "▼ 1,66%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "fed-tasas",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Funcionarios de la Fed insisten con más subas y los pedidos de desempleo suben a 200.000",
+   "resumen": "Goolsbee, Daly y Hammack hablaron de la necesidad de seguir endureciendo. Los pedidos iniciales subieron 9.000 en la semana. Hoy sale el índice de precios mayoristas (PPI).",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-12",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026",
+   "cifras": [
+    {
+     "nombre": "Pedidos de desempleo",
+     "valor": "200.000",
+     "variacion": "▲ 9.000",
+     "dir": "up",
+     "cuando": "semana al 7/11"
+    },
+    {
+     "nombre": "Bono 10 años",
+     "valor": "5,10%",
+     "variacion": "▲ 10 pb",
+     "dir": "up",
+     "cuando": "cierre 12/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "oro-bitcoin",
+   "seccion": "eeuu",
+   "tickers": [
+    "MSTR"
+   ],
+   "balance": false,
+   "titulo": "El oro cae 3% a mínimo de un año y bitcoin toca su piso en 12 semanas",
+   "resumen": "El dólar se fortaleció con la suba de tasas. Bitcoin rondó US$ 71.600 con más de US$ 750 M en liquidaciones; Strategy (MSTR) cayó por su salida de los índices MSCI.",
+   "fuente": "The Block",
+   "fecha": "2026-11-12",
+   "url": "https://www.theblock.co/news/markets/2026-11-12-bitcoin-12-week-low-jensen-huang-exit-nvidia-438992",
+   "cifras": [
+    {
+     "nombre": "Bitcoin",
+     "valor": "US$ 71.600",
+     "variacion": "▼ 3,4%",
+     "dir": "down",
+     "cuando": "12/11 12:40 ET"
+    },
+    {
+     "nombre": "Oro",
+     "valor": "US$ 3.853",
+     "variacion": "▼ 3%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "MSTR",
+     "valor": "",
+     "variacion": "▼ 6,49%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": [],
+   "motivo": "MSCI anunció que excluirá a Strategy de sus índices tras el cierre del 30/11."
+  },
+  {
+   "id": "ipc-octubre",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "La inflación de octubre fue 2,2% y la interanual bajó a 33,1%",
+   "resumen": "El dato superó el 1,8% que esperaba el REM. Empujaron vivienda y servicios (4,2%) por los cambios en Zona Fría; la núcleo fue 1,5%, la más baja desde julio de 2025.",
+   "fuente": "Infobae",
+   "fecha": "2026-11-12",
+   "url": "https://www.infobae.com/economia/2026/11/12/la-inflacion-en-octubre-fue-de-22-y-acumulo-331-en-los-ultimos-doce-meses/",
+   "cifras": [
+    {
+     "nombre": "IPC octubre",
+     "valor": "2,2%",
+     "variacion": "▲ 0,3 pp vs. sep.",
+     "dir": "up",
+     "cuando": "INDEC 12/11"
+    },
+    {
+     "nombre": "Interanual",
+     "valor": "33,1%",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "INDEC 12/11"
+    },
+    {
+     "nombre": "Núcleo",
+     "valor": "1,5%",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "INDEC 12/11"
+    },
+    {
+     "nombre": "Acumulada 2026",
+     "valor": "26,3%",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "INDEC 12/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "merval-riesgo",
+   "seccion": "argentina",
+   "tickers": [
+    "IRSA",
+    "EDN",
+    "BMA",
+    "GGAL"
+   ],
+   "balance": false,
+   "titulo": "Rebotan los bonos y el riesgo país baja a 829, pero el Merval cae por quinta rueda",
+   "resumen": "Bonares y Globales subieron 1,3% en promedio. En acciones bajaron IRSA, Banco Macro y Edenor en Nueva York; el Merval tocó su quinta caída seguida.",
+   "fuente": "Infobae",
+   "fecha": "2026-11-12",
+   "url": "https://www.infobae.com/economia/2026/11/12/rebotaron-los-bonos-y-cedio-el-riesgo-pais-pero-las-acciones-argentinas-encadenaron-la-quinta-caida-seguida/",
+   "cifras": [
+    {
+     "nombre": "Merval",
+     "valor": "82.526",
+     "variacion": "▼ 1,1%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "Riesgo país",
+     "valor": "829 pb",
+     "variacion": "▼ 27 pb",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "IRSA (ADR)",
+     "valor": "",
+     "variacion": "▼ 4,3%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "BMA (ADR)",
+     "valor": "",
+     "variacion": "▼ 3,5%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "dolar-bcra",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El BCRA hace su mayor compra en casi un mes, pero las reservas bajan por el oro",
+   "resumen": "Compró US$ 103 M y suma US$ 183 M en noviembre. Las reservas brutas retrocedieron por la caída del oro. El mayorista subió $ 1,50.",
+   "fuente": "Ámbito",
+   "fecha": "2026-11-12",
+   "url": "https://www.ambito.com/finanzas/el-bcra-realizo-la-mayor-compra-casi-un-mes-aunque-las-reservas-cayeron-arrastradas-el-oro-n6344627",
+   "cifras": [
+    {
+     "nombre": "Compras BCRA",
+     "valor": "US$ 103 M",
+     "variacion": "",
+     "dir": "up",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "Reservas",
+     "valor": "US$ 49.078 M",
+     "variacion": "▼ US$ 252 M",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "Mayorista",
+     "valor": "$ 1.545,50",
+     "variacion": "▲ 0,1%",
+     "dir": "up",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "MEP",
+     "valor": "$ 1.581,31",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "CCL",
+     "valor": "$ 1.669,70",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "Blue",
+     "valor": "$ 1.565",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "cierre 12/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "ibovespa",
+   "seccion": "brasil",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El Ibovespa baja 0,43% y el dólar sube a R$ 5,65, máximo en 17 meses",
+   "resumen": "El paquete fiscal del gobierno generó dudas sobre la deuda. A la noche el Senado aprobó el texto base por 45 a 31; el IPCA de octubre fue 0,14%.",
+   "fuente": "B3 (Bora Investir)",
+   "fecha": "2026-11-12",
+   "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-cai-043-pressionado-por-incerteza-fiscal-dolar-sobe-a-r-565/",
+   "cifras": [
+    {
+     "nombre": "Ibovespa",
+     "valor": "171.324",
+     "variacion": "▼ 0,43%",
+     "dir": "down",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "Dólar / real",
+     "valor": "R$ 5,65",
+     "variacion": "▲ 1,6%",
+     "dir": "up",
+     "cuando": "cierre 12/11"
+    },
+    {
+     "nombre": "IPCA octubre",
+     "valor": "0,14%",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "IBGE"
+    },
+    {
+     "nombre": "Selic",
+     "valor": "13,75%",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "desde 4/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "nu-3t26",
+   "seccion": "cartera",
+   "tickers": [
+    "NU"
+   ],
+   "balance": true,
+   "titulo": "Nubank gana US$ 1.092 M en el tercer trimestre, récord, y sube fuera de hora",
+   "resumen": "Ganancia +31% anual con 142,6 M de clientes. La ganancia por acción quedó apenas debajo de lo esperado y subió la morosidad; mejoró la guía de eficiencia 2026.",
+   "fuente": "Investing.com",
+   "fecha": "2026-11-13",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-nu-holdings-misses-q3-2026-estimates-stock-rises-93CH-5701370",
+   "cifras": [
+    {
+     "nombre": "NU fuera de hora",
+     "valor": "US$ 12,35",
+     "variacion": "▲ 4,4%",
+     "dir": "up",
+     "cuando": "12/11 después del cierre"
+    },
+    {
+     "nombre": "Ganancia neta",
+     "valor": "US$ 1.091,6 M",
+     "variacion": "▲ 31% anual",
+     "dir": "up",
+     "cuando": "3T26"
+    },
+    {
+     "nombre": "Ingresos",
+     "valor": "US$ 6.258 M",
+     "variacion": "▲ 37% anual",
+     "dir": "up",
+     "cuando": "3T26"
+    },
+    {
+     "nombre": "ROE",
+     "valor": "32%",
+     "variacion": "▼ 1 pp vs. 2T",
+     "dir": "down",
+     "cuando": "3T26"
+    }
+   ],
+   "fuertes": [
+    "Ganancia neta récord de US$ 1.091,6 M (+31% anual)",
+    "Clientes: 142,6 M, con 3,7 M nuevos en el trimestre"
+   ],
+   "debiles": [
+    "Morosidad de más de 90 días en 7,3% (6,9% en el 2T)",
+    "Ganancia por acción US$ 0,22 vs. 0,23 esperado"
+   ]
+  },
+  {
+   "id": "teco2-3t26",
+   "seccion": "cartera",
+   "tickers": [
+    "TECO2"
+   ],
+   "balance": true,
+   "titulo": "Telecom eleva 37% su EBITDA pero pierde $ 66.216 M en el trimestre por deterioros",
+   "resumen": "Los ingresos del 3T crecieron 18% en dólares. El resultado fue negativo por deterioros ligados a la venta de TMA; en nueve meses sigue con ganancia.",
+   "fuente": "SEC (6-K)",
+   "fecha": "2026-11-12",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000932470/000110465926126259/tm2629648d1_6k.htm",
+   "cifras": [
+    {
+     "nombre": "Ingresos 3T",
+     "valor": "US$ 1.778 M",
+     "variacion": "▲ 18%",
+     "dir": "up",
+     "cuando": "3T26"
+    },
+    {
+     "nombre": "EBITDA 3T",
+     "valor": "US$ 642 M",
+     "variacion": "▲ 37%",
+     "dir": "up",
+     "cuando": "3T26"
+    },
+    {
+     "nombre": "Margen EBITDA",
+     "valor": "36,1%",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "3T26"
+    },
+    {
+     "nombre": "Deuda neta",
+     "valor": "US$ 2.927 M",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "3T26"
+    }
+   ],
+   "fuertes": [
+    "EBITDA US$ 642 M, +37%, con margen de 36,1%",
+    "Apalancamiento de 1,2 veces el EBITDA"
+   ],
+   "debiles": [
+    "Pérdida del trimestre de $ 66.216 M por deterioros de unos $ 383.870 M",
+    "Líneas móviles en Argentina −11,8%, a 17,9 M"
+   ]
+  }
+ ],
+ "balancesHoy": [
+  {
+   "ticker": "NU",
+   "nombre": "Nu Holdings",
+   "momento": "despues"
+  },
+  {
+   "ticker": "TECO2",
+   "nombre": "Telecom Argentina",
+   "momento": "despues"
+  }
+ ],
+ "proximosBalances": [
+  {
+   "ticker": "DIS",
+   "nombre": "Disney",
+   "fecha": "2026-11-17",
+   "momento": "antes"
+  },
+  {
+   "ticker": "JD",
+   "nombre": "JD.com",
+   "fecha": "2026-11-17",
+   "momento": "antes"
+  },
+  {
+   "ticker": "NVDA",
+   "nombre": "Nvidia",
+   "fecha": "2026-11-17",
+   "momento": "despues"
+  },
+  {
+   "ticker": "WMT",
+   "nombre": "Walmart",
+   "fecha": "2026-11-19",
+   "momento": "antes"
+  },
+  {
+   "ticker": "BABA",
+   "nombre": "Alibaba",
+   "fecha": "2026-11-19",
+   "momento": "antes"
+  },
+  {
+   "ticker": "GLOB",
+   "nombre": "Globant",
+   "fecha": "2026-11-19",
+   "momento": "despues"
+  }
+ ],
+ "movimientos": [
+  {
+   "ticker": "MSTR",
+   "variacion": "▼ 6,49%",
+   "dir": "down",
+   "cuando": "cierre 12/11"
+  },
+  {
+   "ticker": "AMD",
+   "variacion": "▲ 5,86%",
+   "dir": "up",
+   "cuando": "cierre 12/11"
+  },
+  {
+   "ticker": "AVGO",
+   "variacion": "▲ 5,54%",
+   "dir": "up",
+   "cuando": "cierre 12/11"
+  },
+  {
+   "ticker": "NVDA",
+   "variacion": "▼ 4,34%",
+   "dir": "down",
+   "cuando": "cierre 12/11"
+  },
+  {
+   "ticker": "IRSA",
+   "variacion": "▼ 4,29%",
+   "dir": "down",
+   "cuando": "cierre 12/11 (ADR)"
+  },
+  {
+   "ticker": "EDN",
+   "variacion": "▼ 4,12%",
+   "dir": "down",
+   "cuando": "cierre 12/11 (ADR)"
+  },
+  {
+   "ticker": "NU",
+   "variacion": "▼ 3,98%",
+   "dir": "down",
+   "cuando": "cierre 12/11"
+  },
+  {
+   "ticker": "BMA",
+   "variacion": "▼ 3,35%",
+   "dir": "down",
+   "cuando": "cierre 12/11 (ADR)"
+  },
+  {
+   "ticker": "BBAR",
+   "variacion": "▼ 2,86%",
+   "dir": "down",
+   "cuando": "cierre 12/11 (ADR)"
+  },
+  {
+   "ticker": "GGAL",
+   "variacion": "▼ 2,68%",
+   "dir": "down",
+   "cuando": "cierre 12/11 (ADR)"
+  },
+  {
+   "ticker": "SUPV",
+   "variacion": "▼ 2,49%",
+   "dir": "down",
+   "cuando": "cierre 12/11 (ADR)"
+  },
+  {
+   "ticker": "PAMP",
+   "variacion": "▼ 1,16%",
+   "dir": "down",
+   "cuando": "cierre 12/11 (ADR)"
+  },
+  {
+   "ticker": "TGSU2",
+   "variacion": "▼ 1,13%",
+   "dir": "down",
+   "cuando": "cierre 12/11 (ADR)"
+  },
+  {
+   "ticker": "CEPU",
+   "variacion": "▲ 0,79%",
+   "dir": "up",
+   "cuando": "cierre 12/11 (ADR)"
+  },
+  {
+   "ticker": "YPFD",
+   "variacion": "▼ 0,54%",
+   "dir": "down",
+   "cuando": "cierre 12/11 (ADR)"
+  }
+ ],
+ "destacados": [
+  {
+   "titulo": "Hoy sale el PPI de EE.UU.",
+   "detalle": "Índice de precios mayoristas de octubre, viernes 13/11 a las 8:30 de Nueva York (10:30 en Buenos Aires)."
+  },
+  {
+   "titulo": "Semana de balances",
+   "detalle": "Disney y JD.com el martes 17 antes de la apertura; Nvidia ese día después del cierre; Walmart y Alibaba el jueves 19."
+  },
+  {
+   "titulo": "Brasil: ajuste fiscal",
+   "detalle": "El Senado aprobó el texto base; los cambios se votan el martes 17/11 y después pasa a Diputados."
+  }
+ ]
+}
