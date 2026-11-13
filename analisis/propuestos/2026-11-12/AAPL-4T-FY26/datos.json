@@ -54,6 +54,9 @@
    "dato": "Dividendos 0,3% + recompras 1,7% = 2,0% de la capitalización"
   }
  ],
+ "notaSalud": null,
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 10-K ante la SEC",
  "sankey": {
   "segmentos": [
    {
