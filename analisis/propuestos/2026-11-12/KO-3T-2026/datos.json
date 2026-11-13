@@ -1,0 +1,255 @@
+{
+ "formato": "analisis/1",
+ "ticker": "KO",
+ "nombre": "The Coca-Cola Company",
+ "trimestre": "3.er trim. 2026",
+ "periodo": "julio–septiembre 2026",
+ "fechaBalance": "2026-10-27",
+ "fechaDatos": "2026-11-12",
+ "datosAl": "cierre del 12/11/26",
+ "ultimos12MesesHasta": "2026-10-02",
+ "puntaje": 7.0,
+ "tituloPuntaje": "Puntaje según 6 criterios fijos",
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "amarillo",
+   "dato": "P/E 12 meses 28,7 (precio US$ 97,45 ÷ ganancia por acción US$ 3,39)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "verde",
+   "dato": "Margen operativo 30% · ROE 39%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "amarillo",
+   "dato": "Deuda neta US$ 25.024 M · 1,5 veces la ganancia operativa antes de amortizaciones"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "verde",
+   "dato": "Flujo libre 12 meses US$ 14.282 M (28% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "amarillo",
+   "dato": "Ingresos 12 meses US$ 51.054 M (+7,1%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "amarillo",
+   "dato": "Dividendos 2,7% + recompras 0,2% = 2,9% del valor de la empresa"
+  }
+ ],
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Norteamérica",
+    "valor": 5384000000.0,
+    "var": 2.6
+   },
+   {
+    "nombre": "EMEA",
+    "valor": 2982000000.0,
+    "var": 5.8
+   },
+   {
+    "nombre": "Latinoamérica",
+    "valor": 1958000000.0,
+    "var": 24.6
+   },
+   {
+    "nombre": "Embotelladoras",
+    "valor": 1520000000.0,
+    "var": 13.1
+   },
+   {
+    "nombre": "Asia Pacífico",
+    "valor": 1498000000.0,
+    "var": 4.2
+   },
+   {
+    "nombre": "Corporativo",
+    "valor": 38000000.0,
+    "var": null
+   }
+  ],
+  "grupo": null,
+  "ingresos": 13380000000.0,
+  "varIngresos": 7.4,
+  "costo": 4930000000.0,
+  "bruta": 8450000000.0,
+  "gastos": [
+   {
+    "nombre": "Comerc. y admin.",
+    "valor": 3975000000.0
+   },
+   {
+    "nombre": "Otros cargos",
+    "valor": 10000000.0
+   }
+  ],
+  "operativa": 4465000000.0,
+  "otros": 368000000.0,
+  "impuestos": 777000000.0,
+  "neta": 4009000000.0,
+  "netaConsolidada": 4056000000.0
+ },
+ "nota": "Segmentos sin ventas entre ellos. Ganancia neta para los accionistas de Coca-Cola: US$ 4.009 M (el resto corresponde a socios minoritarios). Otros ingresos netos (intereses, participaciones y otros): +0,37 B.",
+ "diezAnios": [
+  {
+   "fin": "2016-12-31",
+   "ingresos": 41863000000,
+   "margenOp": 20.7,
+   "margenNeto": 15.6,
+   "presentado": "2019-02-21",
+   "formulario": "10-K"
+  },
+  {
+   "fin": "2017-12-31",
+   "ingresos": 36212000000,
+   "margenOp": 21.4,
+   "margenNeto": 3.4,
+   "presentado": "2020-02-24",
+   "formulario": "10-K"
+  },
+  {
+   "fin": "2018-12-31",
+   "ingresos": 34300000000,
+   "margenOp": 26.7,
+   "margenNeto": 18.8,
+   "presentado": "2021-02-25",
+   "formulario": "10-K"
+  },
+  {
+   "fin": "2019-12-31",
+   "ingresos": 37266000000,
+   "margenOp": 27.1,
+   "margenNeto": 23.9,
+   "presentado": "2022-02-22",
+   "formulario": "10-K"
+  },
+  {
+   "fin": "2020-12-31",
+   "ingresos": 33014000000,
+   "margenOp": 27.3,
+   "margenNeto": 23.5,
+   "presentado": "2023-02-21",
+   "formulario": "10-K"
+  },
+  {
+   "fin": "2021-12-31",
+   "ingresos": 38655000000,
+   "margenOp": 26.7,
+   "margenNeto": 25.3,
+   "presentado": "2024-02-20",
+   "formulario": "10-K"
+  },
+  {
+   "fin": "2022-12-31",
+   "ingresos": 43004000000,
+   "margenOp": 25.4,
+   "margenNeto": 22.2,
+   "presentado": "2025-02-20",
+   "formulario": "10-K"
+  },
+  {
+   "fin": "2023-12-31",
+   "ingresos": 45754000000,
+   "margenOp": 24.7,
+   "margenNeto": 23.4,
+   "presentado": "2026-02-20",
+   "formulario": "10-K"
+  },
+  {
+   "fin": "2024-12-31",
+   "ingresos": 47061000000,
+   "margenOp": 21.2,
+   "margenNeto": 22.6,
+   "presentado": "2026-02-20",
+   "formulario": "10-K"
+  },
+  {
+   "fin": "2025-12-31",
+   "ingresos": 47941000000,
+   "margenOp": 28.7,
+   "margenNeto": 27.3,
+   "presentado": "2026-02-20",
+   "formulario": "10-K"
+  }
+ ],
+ "ultimoBalance": "Ingresos de US$ 13.380 M (+7,4%), con el volumen de cajas unitarias +5%. El margen operativo fue 33,4% (32,0% un año antes) y la ganancia por acción subió 8%, a US$ 0,93. La empresa elevó su previsión para el año.",
+ "fortalezas": [
+  "Margen bruto de 63% en el trimestre y operativo de 30% en 12 meses.",
+  "Flujo de caja libre de US$ 14.282 M en 12 meses, el 28% de los ingresos.",
+  "Latinoamérica creció 25% y las embotelladoras propias 13% en el trimestre."
+ ],
+ "debilidades": [
+  "Deuda neta de US$ 25.024 M, 1,5 veces la ganancia operativa antes de amortizaciones.",
+  "Ingresos +7% en 12 meses; Norteamérica, su mayor región, +3% en el trimestre.",
+  "Los gastos de comercialización y administración subieron 10% en el trimestre, más que los ingresos."
+ ],
+ "cotizacion": {
+  "precio": 97.45,
+  "variacionDia": -0.12,
+  "rango52": [
+   66.25,
+   97.57
+  ],
+  "capitalizacion": 419220382545.75,
+  "proximoBalance": null
+ },
+ "conclusion": "Coca-Cola crece a un ritmo moderado, 7% en ingresos de los últimos 12 meses, con márgenes altos: 63% bruto en el trimestre y 30% operativo en 12 meses. Convierte buena parte de su ganancia en caja (flujo libre de US$ 14.282 M) y destina la mayor parte a dividendos, que equivalen al 77% de su ganancia neta. Su deuda neta de US$ 25.024 M representa 1,5 veces su ganancia operativa antes de amortizaciones. En el último trimestre el margen operativo subió a 33,4%, impulsado por Latinoamérica y por su negocio de embotellado, mientras Norteamérica, su mayor región, creció 3%.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 51054000000,
+  "ingresosAnt": 47663000000,
+  "operativa": 15337000000,
+  "neta": 14629000000,
+  "eps": 3.3900000000000006,
+  "flujoOperativo": 16227000000,
+  "inversiones": 1945000000,
+  "dividendos": 11230000000,
+  "recompras": 1002000000,
+  "amortizaciones": 1019000000,
+  "patrimonio": 37372000000,
+  "deuda": 41619000000,
+  "deudaDetalle": {
+   "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities": 41546000000,
+   "NotesAndLoansPayable": 73000000
+  },
+  "caja": 16595000000,
+  "cajaDetalle": {
+   "CashCashEquivalentsAndShortTermInvestments": 13685000000,
+   "MarketableSecurities": 2910000000
+  },
+  "acciones": 4301902335,
+  "fechaAcciones": "2026-10-26",
+  "fechaBalance": "2026-10-02",
+  "como": "FY 2025-12-31 + acumulado 2026-01-01→2026-10-02 − 2025-01-01→2025-09-26"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, formulario 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067403/a2026q3earningsreleaseex-9.htm",
+   "fecha": "2026-10-27"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000021344.json",
+   "fecha": "2026-10-02"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-12"
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+21:05 corrida manual de prueba (MODO PRUEBA: AAPL, MSFT, KO), pedida por el maestro
+21:06 SEC companyfacts AAPL/MSFT/KO: 200 OK (3,9 / 4,9 / 5,2 MB)
+21:07 Data912 usa_stocks (vivo y histórico): 200 OK; precio = cierre del 12/11/26
+21:08 comunicados 8-K (EX-99.1): AAPL 2/11/26, MSFT 28/10/26, KO 27/10/26: OK
+21:20 controles AAPL: OK · MSFT: OK (falso positivo "contracara" corregido en el control) · KO: OK
+21:25 render hoja-1, hoja-2, juntas: OK (1080 px, x2)
