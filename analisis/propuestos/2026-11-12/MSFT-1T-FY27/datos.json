@@ -218,7 +218,16 @@
   "Dispositivos y consumo (Devices and Consumer) bajó 3%; Windows OEM y dispositivos, −22%.",
   "La ganancia neta incluye resultados de la inversión en OpenAI que varían mucho entre trimestres."
  ],
+ "cedear": {
+  "ticker": "MSFT",
+  "ratio": "30:1",
+  "precioArs": 28900.0,
+  "dolarImplicito": 1657.81,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
  "cotizacion": {
+  "var12m": 3.16,
+  "distMax": -5.91,
   "precio": 522.98,
   "variacionDia": 0.36,
   "rango52": [
@@ -297,6 +306,11 @@
   {
    "nombre": "Data912 (precios)",
    "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
    "fecha": "2026-11-12"
   },
   {
