@@ -1,0 +1,355 @@
+{
+ "formato": "analisis/1",
+ "ticker": "AAPL",
+ "nombre": "Apple Inc.",
+ "trimestre": "4to Trimestre FY26",
+ "periodo": "Julio-Septiembre 2026",
+ "fechaBalance": "2026-11-02",
+ "fechaDatos": "2026-11-12",
+ "datosAl": "cierre del 12/11/26",
+ "ultimos12MesesHasta": "2026-09-26",
+ "puntaje": 7.8,
+ "tituloPuntaje": "Puntaje según 6 criterios fijos",
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "rojo",
+   "calificacion": "Exigente",
+   "dato": "P/E 12 meses 39,5 (precio US$ 354,84 ÷ ganancia por acción US$ 8,98)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "verde",
+   "calificacion": "Alta",
+   "dato": "Margen operativo 33% · ROE 118%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "verde",
+   "calificacion": "Sólido",
+   "dato": "Deuda neta US$ 23,4 mil M · 0,1 veces la ganancia operativa antes de amortizaciones"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Flujo libre 12 meses US$ 136,1 mil M (28% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Ingresos 12 meses US$ 478,8 mil M (+15,1%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "amarillo",
+   "calificacion": "Medio",
+   "dato": "Dividendos 0,3% + recompras 1,7% = 2,0% de la capitalización"
+  }
+ ],
+ "notaSalud": null,
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 10-K ante la SEC",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "iPhone",
+    "valor": 57583000000.0,
+    "var": 17.5
+   },
+   {
+    "nombre": "Mac",
+    "valor": 10792000000.0,
+    "var": 23.7
+   },
+   {
+    "nombre": "iPad",
+    "valor": 6229000000.0,
+    "var": -10.4
+   },
+   {
+    "nombre": "Accesorios",
+    "oficial": "Wearables, Home and Acc.",
+    "valor": 8300000000.0,
+    "var": -7.9
+   },
+   {
+    "nombre": "Servicios",
+    "oficial": "Services",
+    "valor": 31573000000.0,
+    "var": 9.8,
+    "servicio": true
+   }
+  ],
+  "grupo": {
+   "nombre": "Productos",
+   "miembros": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "var": 12.5
+  },
+  "ingresos": 114477000000.0,
+  "varIngresos": 11.7,
+  "costo": 59657000000.0,
+  "bruta": 54820000000.0,
+  "gastos": [
+   {
+    "nombre": "I+D",
+    "valor": 11730000000.0
+   },
+   {
+    "nombre": "Comerc. y admin.",
+    "valor": 7459000000.0
+   }
+  ],
+  "operativa": 35631000000.0,
+  "otros": 504000000.0,
+  "impuestos": 5424000000.0,
+  "neta": 30711000000.0,
+  "netaConsolidada": 30711000000.0
+ },
+ "nota": "Margen bruto: productos 37% y servicios 76%. Cerca de 1 punto del margen bruto vino de reintegros de aranceles.",
+ "diezAnios": [
+  {
+   "fin": "2017-09-30",
+   "ingresos": 229234000000,
+   "margenOp": 26.8,
+   "margenNeto": 21.1,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2019-10-31",
+   "precioCierre": 35.87
+  },
+  {
+   "fin": "2018-09-29",
+   "ingresos": 265595000000,
+   "margenOp": 26.7,
+   "margenNeto": 22.4,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2020-10-30",
+   "precioCierre": 53.33
+  },
+  {
+   "fin": "2019-09-28",
+   "ingresos": 260174000000,
+   "margenOp": 24.6,
+   "margenNeto": 21.2,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2021-10-29",
+   "precioCierre": 52.5
+  },
+  {
+   "fin": "2020-09-26",
+   "ingresos": 274515000000,
+   "margenOp": 24.1,
+   "margenNeto": 20.9,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2022-10-28",
+   "precioCierre": 108.81
+  },
+  {
+   "fin": "2021-09-25",
+   "ingresos": 365817000000,
+   "margenOp": 29.8,
+   "margenNeto": 25.9,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2023-11-03",
+   "precioCierre": 143.3
+  },
+  {
+   "fin": "2022-09-24",
+   "ingresos": 394328000000,
+   "margenOp": 30.3,
+   "margenNeto": 25.3,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2024-11-01",
+   "precioCierre": 147.55
+  },
+  {
+   "fin": "2023-09-30",
+   "ingresos": 383285000000,
+   "margenOp": 29.8,
+   "margenNeto": 25.3,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2025-10-31",
+   "precioCierre": 168.93
+  },
+  {
+   "fin": "2024-09-28",
+   "ingresos": 391035000000,
+   "margenOp": 31.5,
+   "margenNeto": 24.0,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-11-03",
+   "precioCierre": 225.9
+  },
+  {
+   "fin": "2025-09-27",
+   "ingresos": 416161000000,
+   "margenOp": 32.0,
+   "margenNeto": 26.9,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-11-03",
+   "precioCierre": 254.52
+  },
+  {
+   "fin": "2026-09-26",
+   "ingresos": 478834000000,
+   "margenOp": 33.0,
+   "margenNeto": 27.6,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-11-03",
+   "precioCierre": 341.07
+  }
+ ],
+ "ultimoBalance": "Ingresos de US$ 114,5 mil M (+11,7%), con iPhone +17,5% y Mac +23,7%. Servicios llegó a US$ 31,6 mil M, su máximo histórico. El margen bruto fue 47,9%, con cerca de 1 punto por reintegros de aranceles.",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 114,5 mil M",
+    "+11,7%"
+   ],
+   [
+    "iPhone",
+    "US$ 57,6 mil M",
+    "+17,5%"
+   ],
+   [
+    "Mac",
+    "US$ 10,8 mil M",
+    "+23,7%"
+   ],
+   [
+    "Servicios (récord)",
+    "US$ 31,6 mil M",
+    "+9,8%"
+   ],
+   [
+    "Margen bruto",
+    "47,9%",
+    ""
+   ]
+  ]
+ },
+ "fortalezas": [
+  "Servicios: US$ 31,6 mil M (+9,8%) con margen bruto de 76%; es el 28% de los ingresos.",
+  "Flujo de caja libre de US$ 136,1 mil M en 12 meses, el 28% de los ingresos.",
+  "Deuda neta baja: 0,1 veces la ganancia operativa antes de amortizaciones."
+ ],
+ "debilidades": [
+  "iPad (−10,4%) y Wearables (−7,9%) bajaron en el trimestre.",
+  "El gasto en I+D subió 32% y el margen operativo del trimestre pasó de 31,6% a 31,1%.",
+  "Cerca de 1 punto del margen bruto del trimestre vino de reintegros de aranceles."
+ ],
+ "cedear": {
+  "ticker": "AAPL",
+  "ratio": "20:1",
+  "precioArs": 29620.0,
+  "dolarImplicito": 1669.48,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
+ "cotizacion": {
+  "var12m": 30.11,
+  "distMax": -0.22,
+  "precio": 354.84,
+  "variacionDia": -0.15,
+  "rango52": [
+   246.03,
+   355.63
+  ],
+  "capitalizacion": 5156599460880.0,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "1er Trimestre FY27 (Octubre-Diciembre 2026)",
+  "items": [
+   {
+    "nombre": "Ingresos",
+    "actual": "+7% a +10%",
+    "ref": "\"el mejor trimestre de su historia\", con oferta limitada"
+   },
+   {
+    "nombre": "Margen bruto",
+    "actual": "45% a 46%",
+    "ref": "venía de 47,9% (46,9% sin reintegros de aranceles)"
+   },
+   {
+    "nombre": "Servicios",
+    "actual": "+8% a +9%",
+    "ref": "venía de +9,8%"
+   }
+  ],
+  "resumen": "Apple espera un récord de ingresos, pero con un margen bruto más bajo, sobre todo por la suba del costo de la memoria. La acción bajó 1,9% el día siguiente al balance (3/11); según The Motley Fool, por esa previsión de margen.",
+  "fuente": {
+   "nombre": "Conferencia con analistas del 2/11/26 (transcripción, The Motley Fool)",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/02/apple-aapl-q4-2026-earnings-call-transcript/",
+   "fecha": "2026-11-02"
+  }
+ },
+ "conclusion": "Apple cerró su año fiscal con ingresos récord de US$ 478,8 mil M (+15%) y una ganancia neta de US$ 132,2 mil M. El margen operativo subió de forma sostenida en la última década, de 27% a 33%, con Servicios como motor: crece cerca de 10% y tiene un margen bruto de 76%. Genera más caja de la que necesita para operar (flujo libre de US$ 136,1 mil M en 12 meses) y destinó US$ 102,1 mil M a dividendos y recompras, con una deuda neta baja. Los puntos débiles del trimestre fueron iPad y Wearables, y la suba del gasto en investigación y desarrollo, que presionó levemente el margen operativo.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 478834000000,
+  "ingresosAnt": 416161000000,
+  "operativa": 158063000000,
+  "neta": 132175000000,
+  "eps": 8.98,
+  "flujoOperativo": 145097000000,
+  "inversiones": 9041000000,
+  "dividendos": 15721000000,
+  "recompras": 86390000000,
+  "amortizaciones": 13423000000,
+  "patrimonio": 112093000000,
+  "deuda": 80111000000,
+  "deudaDetalle": {
+   "LongTermDebt": 78114000000,
+   "CommercialPaper": 1997000000
+  },
+  "caja": 56722000000,
+  "cajaDetalle": {
+   "CashAndCashEquivalentsAtCarryingValue": 36305000000,
+   "MarketableSecuritiesCurrent": 20417000000
+  },
+  "acciones": 14532182000,
+  "fechaAcciones": "2026-10-23",
+  "fechaBalance": "2026-09-26",
+  "como": "año fiscal"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm",
+   "fecha": "2026-11-02"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+   "fecha": "2026-09-26"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
+   "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "Conferencia con analistas del 2/11/26 (transcripción, The Motley Fool)",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/02/apple-aapl-q4-2026-earnings-call-transcript/",
+   "fecha": "2026-11-02"
+  }
+ ]
+}

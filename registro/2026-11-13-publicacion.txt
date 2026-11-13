@@ -4,3 +4,7 @@
 07:06 verificación opción 2: fecha/hora de datos (cierre jueves 12/11), leyenda y 'Fuentes:' presentes OK
 07:05 copias hoja-2026-11-13.png, hoja.png y noticias.json (hoja/hojaFecha agregados) OK; JSON validado sin problemas; ninguna hoja de más de 7 días para borrar
 07:05 commit y push en curso
+07:05 push OK 85a9027; verificado en origin/main (hoja-2026-11-13.png y noticias.json presentes)
+07:06 análisis: aprobaciones leídas (ArtifactData OK): aprobados 2026-11-13 = AAPL-4T-FY26, KO-3T-2026, MSFT-1T-FY27, NU-3T-2026; TEO-3T-2026 sin aprobación, no se publica
+07:06 análisis: copiados y validados AAPL, KO, MSFT, NU; indice.json creado/actualizado OK
+07:06 análisis: commit y push en curso

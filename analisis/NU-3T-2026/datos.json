@@ -1,0 +1,285 @@
+{
+ "formato": "analisis/1",
+ "ticker": "NU",
+ "nombre": "Nu Holdings Ltd.",
+ "trimestre": "3er Trimestre 2026",
+ "periodo": "Julio-Septiembre 2026",
+ "fechaBalance": "2026-11-12",
+ "fechaDatos": "2026-11-12",
+ "datosAl": "cierre del 12/11/26",
+ "ultimos12MesesHasta": "2026-09-30",
+ "puntaje": 9.2,
+ "tituloPuntaje": "Puntaje según 6 criterios fijos",
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "verde",
+   "calificacion": "Moderada",
+   "dato": "P/E 12 meses 14,8 (precio US$ 11,84 ÷ ganancia por acción US$ 0,80)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "verde",
+   "calificacion": "Alta",
+   "dato": "Margen antes de impuestos 22% · ROE 27%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "na",
+   "calificacion": "No aplica",
+   "dato": "La deuda de un banco incluye los depósitos de sus clientes: no se aplica"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "na",
+   "calificacion": "No aplica",
+   "dato": "El flujo de caja de un banco mezcla depósitos y créditos: no se aplica"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Ingresos 12 meses US$ 21,0 mil M (+49,1%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "rojo",
+   "calificacion": "Bajo",
+   "dato": "No paga dividendos · recompras 0,9% de la capitalización"
+  }
+ ],
+ "notaSalud": "En un banco, la deuda y el flujo de caja incluyen los depósitos de clientes y la cartera de créditos: Balance y Flujo de caja no se aplican y el puntaje se calcula con los otros 4 criterios.",
+ "margenNombre": "Margen antes de impuestos",
+ "fuenteAnual": "informes anuales 20-F y estados contables ante la SEC",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Intereses y resultados financieros",
+    "oficial": "Interest income",
+    "valor": 5003316000.0,
+    "var": 39.9
+   },
+   {
+    "nombre": "Comisiones",
+    "oficial": "Fee and commission income",
+    "valor": 817048000.0,
+    "var": 37.3
+   }
+  ],
+  "grupo": null,
+  "ingresos": 5820364000.0,
+  "varIngresos": 39.5,
+  "costo": 3383466000.0,
+  "bruta": 2436898000.0,
+  "gastos": [
+   {
+    "nombre": "Administración",
+    "valor": 590713000.0
+   },
+   {
+    "nombre": "Atención al cliente",
+    "valor": 223252000.0
+   },
+   {
+    "nombre": "Otros gastos netos",
+    "valor": 138217000.0
+   },
+   {
+    "nombre": "Marketing",
+    "valor": 126082000.0
+   }
+  ],
+  "operativa": 1358634000.0,
+  "otros": -8341000.0,
+  "otrosNombre": "Asociadas",
+  "impuestos": 258735000.0,
+  "neta": 1091558000.0,
+  "netaConsolidada": 1091558000.0
+ },
+ "nota": "Costo: intereses pagados US$ 1,57 mil M, pérdidas esperadas por créditos US$ 1,67 mil M y costos transaccionales US$ 0,14 mil M. Cifras contables (IFRS).",
+ "diezAnios": [
+  {
+   "fin": "2021-12-31",
+   "ingresos": 1698023000.0,
+   "margenOp": -10.0,
+   "margenNeto": -9.7,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2024-04-19",
+   "precioCierre": 9.38
+  },
+  {
+   "fin": "2022-12-31",
+   "ingresos": 4792231000.0,
+   "margenOp": -6.4,
+   "margenNeto": -7.6,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2025-04-16",
+   "precioCierre": 4.07
+  },
+  {
+   "fin": "2023-12-31",
+   "ingresos": 8028976000.0,
+   "margenOp": 19.2,
+   "margenNeto": 12.8,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2025-04-16",
+   "precioCierre": 8.33
+  },
+  {
+   "fin": "2024-12-31",
+   "ingresos": 11517075000.0,
+   "margenOp": 24.3,
+   "margenNeto": 17.1,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-04-08",
+   "precioCierre": 10.36
+  },
+  {
+   "fin": "2025-12-31",
+   "ingresos": 15774741000.0,
+   "margenOp": 24.5,
+   "margenNeto": 18.2,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-04-08",
+   "precioCierre": 16.74
+  }
+ ],
+ "ultimoBalance": "Ingresos de US$ 5,82 mil M (+39,5%) y ganancia neta récord de US$ 1,09 mil M (+39,5%), con un ROE de 32%. La cartera de crédito llegó a US$ 41,6 mil M (+33% sin efecto cambiario) y los clientes a 142,6 millones (+12%).",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 5,82 mil M",
+    "+39,5%"
+   ],
+   [
+    "Ganancia neta (récord)",
+    "US$ 1,09 mil M",
+    "+39,5%"
+   ],
+   [
+    "Ganancia por acción",
+    "US$ 0,22",
+    "+40%"
+   ],
+   [
+    "Cartera de crédito",
+    "US$ 41,6 mil M",
+    "+33%"
+   ],
+   [
+    "Clientes",
+    "142,6 M",
+    "+12%"
+   ]
+  ],
+  "nota": "ROE del trimestre: 32%. Cartera y clientes, variación sin efecto cambiario según la empresa."
+ },
+ "fortalezas": [
+  "ROE de 32% en el trimestre y ganancia neta récord de US$ 1,09 mil M.",
+  "Ingresos +39,5% en dólares (+37% sin efecto cambiario), con 142,6 millones de clientes (+12%).",
+  "Índice de eficiencia de 19,3%: los gastos operativos son menos de un quinto de los ingresos."
+ ],
+ "debilidades": [
+  "La mora de más de 90 días subió a 7,3%, desde 6,9% en el trimestre anterior.",
+  "Las pérdidas esperadas por créditos subieron 71%, a US$ 1,67 mil M, más rápido que los ingresos.",
+  "La ganancia neta se apoyó en impuestos más bajos (tasa de 19% contra 30%): antes de impuestos subió 21%."
+ ],
+ "cedear": {
+  "ticker": "NU",
+  "ratio": "2:1",
+  "precioArs": 9920.0,
+  "dolarImplicito": 1675.68,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
+ "cotizacion": {
+  "var12m": -26.82,
+  "distMax": -36.89,
+  "precio": 11.84,
+  "variacionDia": -3.9,
+  "rango52": [
+   11.6,
+   18.76
+  ],
+  "capitalizacion": 57242871680.0,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "Año 2026 (Enero-Diciembre 2026)",
+  "items": [
+   {
+    "nombre": "Índice de eficiencia",
+    "actual": "19% a 19,5%",
+    "ref": "antes: cerca de 20%"
+   },
+   {
+    "nombre": "Nu US y Nu Global",
+    "actual": "hasta 1 punto",
+    "ref": "de impacto en la eficiencia en 2026 y en 2027"
+   }
+  ],
+  "resumen": "Nu bajó su previsión de gastos sobre ingresos para 2026 (menor es mejor) y mantuvo el límite de impacto de sus nuevos negocios fuera de Latinoamérica. El balance salió después del cierre: la acción había cerrado el 12/11 en US$ 11,84 (−3,9%); la reacción se verá en la rueda del 13/11.",
+  "fuente": null
+ },
+ "conclusion": "Nu crece rápido: 49% en ingresos de los últimos 12 meses, hasta US$ 21,0 mil M, con una ganancia neta de US$ 3,9 mil M y un ROE de 27%. Pasó de pérdidas en 2021 y 2022 a un margen antes de impuestos de 22% en 12 meses. La contracara está en el crédito: la mora de más de 90 días subió a 7,3% y las pérdidas esperadas crecen más rápido que los ingresos. En el trimestre, la ganancia también se apoyó en una tasa de impuestos menor que hace un año. No paga dividendos y recompró acciones por US$ 0,50 mil M en 2026.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 20987405000.0,
+  "ingresosAnt": 14078170000.0,
+  "operativa": 4618607000.0,
+  "neta": 3918877000.0,
+  "eps": 0.7981,
+  "flujoOperativo": null,
+  "inversiones": null,
+  "dividendos": 0,
+  "recompras": 500393000.0,
+  "amortizaciones": null,
+  "patrimonio": 14344937000.0,
+  "deuda": null,
+  "deudaDetalle": {},
+  "caja": null,
+  "cajaDetalle": {},
+  "acciones": 4834702000.0,
+  "fechaAcciones": "2026-09-30",
+  "fechaBalance": "2026-09-30",
+  "como": "FY 2025 + 9 meses 2026 − 9 meses 2025 (estados contables IFRS, 6-K)"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426005273/nupr3q26_6k.htm",
+   "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001691493.json",
+   "fecha": "2026-09-30"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "Estados contables del trimestre (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426005272/nufs3q26_6k.htm",
+   "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "Estados contables anuales 2025 (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426000499/nufs4q25_6k.htm",
+   "fecha": "2026-02-25"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
+   "fecha": "2026-11-12"
+  }
+ ]
+}

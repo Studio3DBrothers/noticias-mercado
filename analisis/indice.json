@@ -1,0 +1,66 @@
+{
+  "formato": "analisis-mercado/1",
+  "actualizado": "2026-11-13T07:06:09-03:00",
+  "informes": [
+    {
+      "id": "NU-3T-2026",
+      "ticker": "NU",
+      "nombre": "Nu Holdings Ltd.",
+      "trimestre": "3er Trimestre 2026",
+      "fechaBalance": "2026-11-12",
+      "publicado": "2026-11-13",
+      "puntaje": 9.2,
+      "carpeta": "analisis/NU-3T-2026/",
+      "pdf": "informe.pdf",
+      "hojas": [
+        "hoja-1.jpg",
+        "hoja-2.jpg"
+      ]
+    },
+    {
+      "id": "AAPL-4T-FY26",
+      "ticker": "AAPL",
+      "nombre": "Apple Inc.",
+      "trimestre": "4to Trimestre FY26",
+      "fechaBalance": "2026-11-02",
+      "publicado": "2026-11-13",
+      "puntaje": 7.8,
+      "carpeta": "analisis/AAPL-4T-FY26/",
+      "pdf": "informe.pdf",
+      "hojas": [
+        "hoja-1.jpg",
+        "hoja-2.jpg"
+      ]
+    },
+    {
+      "id": "MSFT-1T-FY27",
+      "ticker": "MSFT",
+      "nombre": "Microsoft Corporation",
+      "trimestre": "1er Trimestre FY27",
+      "fechaBalance": "2026-10-28",
+      "publicado": "2026-11-13",
+      "puntaje": 8.8,
+      "carpeta": "analisis/MSFT-1T-FY27/",
+      "pdf": "informe.pdf",
+      "hojas": [
+        "hoja-1.jpg",
+        "hoja-2.jpg"
+      ]
+    },
+    {
+      "id": "KO-3T-2026",
+      "ticker": "KO",
+      "nombre": "The Coca-Cola Company",
+      "trimestre": "3er Trimestre 2026",
+      "fechaBalance": "2026-10-27",
+      "publicado": "2026-11-13",
+      "puntaje": 7.0,
+      "carpeta": "analisis/KO-3T-2026/",
+      "pdf": "informe.pdf",
+      "hojas": [
+        "hoja-1.jpg",
+        "hoja-2.jpg"
+      ]
+    }
+  ]
+}
