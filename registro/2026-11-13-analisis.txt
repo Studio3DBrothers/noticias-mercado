@@ -13,3 +13,5 @@
 03:15 TEO: render informe.pdf (A4, 2 páginas), hoja-1.jpg y hoja-2.jpg (794×1123, x1,5, JPEG 85): revisados, sin textos cortados ni superpuestos. Previsión: la empresa no publicó una; la reacción del ADR se verá el 13/11.
 03:15 guardado en analisis/propuestos/2026-11-13/TEO-3T-2026/ (datos.json, informe.pdf, hoja-1.jpg, hoja-2.jpg)
 03:15 commit "Análisis propuestos del 13/11" y push a main
+03:16 página "Aprobar análisis" publicada (versión 11): se agregó TEO-3T-2026 (hojas y PDF) y se conservaron NU, AAPL, MSFT y KO, que ya estaban propuestos para hoy; título "Informes propuestos del viernes 13/11": OK
+03:16 aviso a Adrián: TEO 7,0 (más NU 9,2, AAPL 7,8, MSFT 8,8 y KO 7,0 ya propuestos)
