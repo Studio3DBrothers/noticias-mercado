@@ -1,0 +1,6 @@
+07:04 add_repo: herramienta no disponible; repo ya clonado en el entorno (origin Studio3DBrothers/noticias-mercado), actualizado a origin/main 9d11d13 OK
+07:05 propuestas/2026-11-13: opcion-1/2/3.png y noticias.json presentes
+07:05 elección leída: opción 2, 2026-11-13T03:20:46Z (elegida por Adrián, antes de 05:00Z)
+07:06 verificación opción 2: fecha/hora de datos (cierre jueves 12/11), leyenda y 'Fuentes:' presentes OK
+07:05 copias hoja-2026-11-13.png, hoja.png y noticias.json (hoja/hojaFecha agregados) OK; JSON validado sin problemas; ninguna hoja de más de 7 días para borrar
+07:05 commit y push en curso
