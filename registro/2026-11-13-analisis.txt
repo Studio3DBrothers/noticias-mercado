@@ -1,2 +1,15 @@
 23:14 NU-3T-2026 armado a mano (balance 3T26 presentado el 12/11 después del cierre; 6-K nupr3q26 y nufs3q26). Controles OK. Puntaje 9,2 (Balance y Flujo no se aplican a bancos).
 00:21 AAPL, MSFT y KO (aprobados por Adrián el 12/11 como prueba) se suman a los propuestos del 13/11 para que los publique la tarea de las 7:00 junto con NU.
+03:02 corrida programada "Análisis 3:00" (FECHA 2026-11-13; día hábil anterior: jueves 12/11/26)
+03:03 repo: add_repo no está disponible en esta sesión; el repo ya estaba clonado en el espacio de trabajo: git fetch + checkout de origin/main (8bd93b7): OK
+03:04 lista de Noticias (propuestas/2026-11-13/noticias.json, balancesHoy del 12/11: NU y TECO2) + 46 tickers de la app: SEC submissions de cada uno: 200 OK
+03:05 balances del 12/11 en la SEC: NU (6-K nupr3q26/nufs3q26, después del cierre) ya tiene carpeta en analisis/propuestos/2026-11-13/NU-3T-2026: no se repite. TEO (Telecom Argentina, ADR en NYSE de TECO2; 6-K 0001104659-26-126259, 21:17 UTC = después del cierre): resultados 3T26: ENTRA. JD 6-K (compra de CECONOMY) y TSM 6-K (comunicado): no son balances. META y NVDA 8-K (Items 8.01 y 5.02): no son balances.
+03:06 TEO: comunicado 6-K (tablas en imagen: estado de resultados, segmentos, ingresos por servicio, flujo y balance, en millones de $ de sep-26, IAS 29): leído OK
+03:06 TEO: SEC companyfacts (ifrs-full, ARS): 200 OK (0,7 MB); 20-F 2025 y 6-K/A 10/2/26
+03:07 Data912: /live/usa_stocks no trae TEO; se usó /live/usa_adrs (campo c = US$ 10,51, cierre 12/11) y /historical/usa_stocks/TEO (hasta 11/11); TECO2 en /live/arg_stocks ($ 3.515) para el P/E en pesos: OK
+03:08 TEO: dividendos 12 meses = distribución del 10/11/25 (bonos Global 2030 $ 189.790 M + efectivo $ 20.286 M + crédito de Bienes Personales $ 16.680 M; 6-K del 10/3/26); sin dividendos ni recompras en 9M26 (6-K del 10/8/26): OK
+03:09 TEO: métricas 12 meses (FY25 del 20-F reexpresado a sep-26 ×1,2364 + 9M26 − 9M25) y semáforo: puntaje 7,0
+03:15 TEO: armado con una copia de analisis/codigo (build3.py y datos_in.py con la entrada TEO; gráfico de flujo adaptado a un trimestre con pérdida; cifras en pesos ajustados por inflación). Controles: OK (ingresos − costo = EBITDA; segmentos por servicio suman los ingresos; EBITDA − amortizaciones y deterioros = operativa; operativa + otros − impuestos = neta consolidada; márgenes en rango; sin palabras prohibidas; links https; sin fechas en el semáforo). Puntaje 7,0.
+03:15 TEO: render informe.pdf (A4, 2 páginas), hoja-1.jpg y hoja-2.jpg (794×1123, x1,5, JPEG 85): revisados, sin textos cortados ni superpuestos. Previsión: la empresa no publicó una; la reacción del ADR se verá el 13/11.
+03:15 guardado en analisis/propuestos/2026-11-13/TEO-3T-2026/ (datos.json, informe.pdf, hoja-1.jpg, hoja-2.jpg)
+03:15 commit "Análisis propuestos del 13/11" y push a main

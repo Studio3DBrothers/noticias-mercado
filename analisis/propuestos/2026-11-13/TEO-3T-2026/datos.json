@@ -1,0 +1,371 @@
+{
+ "formato": "analisis/1",
+ "ticker": "TEO",
+ "nombre": "Telecom Argentina S.A.",
+ "trimestre": "3er Trimestre 2026",
+ "periodo": "Julio-Septiembre 2026",
+ "fechaBalance": "2026-11-12",
+ "fechaDatos": "2026-11-12",
+ "datosAl": "cierre del 12/11/26",
+ "ultimos12MesesHasta": "2026-09-30",
+ "puntaje": 7.0,
+ "tituloPuntaje": "Puntaje según 6 criterios fijos",
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "verde",
+   "calificacion": "Moderada",
+   "dato": "P/E 12 meses 7,5 (capitalización $ 7.570,2 mil M ÷ ganancia neta $ 1.012,8 mil M)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "rojo",
+   "calificacion": "Baja",
+   "dato": "Margen operativo 7% · ROE 11%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "verde",
+   "calificacion": "Sólido",
+   "dato": "Deuda neta $ 4.440,3 mil M · 1,2 veces la ganancia operativa antes de amortizaciones"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "amarillo",
+   "calificacion": "Medio",
+   "dato": "Flujo libre 12 meses $ 1.515,1 mil M (14% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Ingresos 12 meses $ 10.866,2 mil M (+17,9% real)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Dividendos 3,7% (en bonos, efectivo y crédito fiscal) + recompras 0% = 3,7% de la capitalización"
+  }
+ ],
+ "notaSalud": "Montos en pesos ajustados por inflación (IAS 29); el P/E y los dividendos se calculan con el precio de TECO2 en BYMA.",
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 20-F ante la SEC (ifrs-full)",
+ "sankey": {
+  "perdida": true,
+  "segmentos": [
+   {
+    "nombre": "Telefonía móvil",
+    "oficial": "Mobile Services",
+    "valor": 1450985000000.0,
+    "var": 5.1
+   },
+   {
+    "nombre": "Internet",
+    "oficial": "Internet Services",
+    "valor": 567955000000.0,
+    "var": -4.6
+   },
+   {
+    "nombre": "TV por cable",
+    "oficial": "Cable TV Services",
+    "valor": 297262000000.0,
+    "var": 0.6
+   },
+   {
+    "nombre": "Fija y datos",
+    "oficial": "Fixed Telephony and Data",
+    "valor": 269188000000.0,
+    "var": -22.2
+   },
+   {
+    "nombre": "Venta de equipos",
+    "oficial": "Equipment Sales",
+    "valor": 97373000000.0,
+    "var": -16.8
+   },
+   {
+    "nombre": "Otros servicios",
+    "oficial": "Other Services",
+    "valor": 14580000000.0,
+    "var": -47.3
+   }
+  ],
+  "grupo": null,
+  "ingresos": 2697343000000.0,
+  "varIngresos": -2.3,
+  "costo": 1723085000000.0,
+  "bruta": 974258000000.0,
+  "brutaNombre": "EBITDA",
+  "costoNombre": "Costos operativos",
+  "costoDetalle": [
+   {
+    "nombre": "Personal",
+    "valor": 590130000000.0
+   },
+   {
+    "nombre": "Mantenimiento",
+    "valor": 369486000000.0
+   },
+   {
+    "nombre": "Impuestos y tasas",
+    "valor": 238212000000.0
+   },
+   {
+    "nombre": "Otros costos",
+    "valor": 525257000000.0
+   }
+  ],
+  "gastos": [
+   {
+    "nombre": "Amortizaciones",
+    "valor": 618607000000.0
+   },
+   {
+    "nombre": "Deterioro de activos",
+    "valor": 394655000000.0
+   }
+  ],
+  "operativa": -39004000000.0,
+  "otros": 71911000000.0,
+  "otrosNombre": "Resultados financieros",
+  "impuestos": 89522000000.0,
+  "neta": -66216000000.0,
+  "netaConsolidada": -56615000000.0
+ },
+ "nota": "Pérdida operativa: $ 39,0 mil M. Deterioro: $ 383,9 mil M por los activos a ceder a Metrotel (compra de TMA) y $ 10,8 mil M de inmuebles; no afecta la caja. Resultado de los accionistas de Telecom: −$ 66,2 mil M (minoritarios: +$ 9,6 mil M).",
+ "diezAnios": [
+  {
+   "fin": "2016-12-31",
+   "ingresos": 3318226258790.7695,
+   "margenOp": 20.4,
+   "margenNeto": 17.5,
+   "formulario": "20-F",
+   "unidad": 2018,
+   "ultimaPresentacion": "2019-03-27",
+   "precioCierre": 11.1
+  },
+  {
+   "fin": "2017-12-31",
+   "ingresos": 3661227744758.646,
+   "margenOp": 21.5,
+   "margenNeto": 14.8,
+   "formulario": "20-F",
+   "unidad": 2019,
+   "ultimaPresentacion": "2020-03-18",
+   "precioCierre": 23.11
+  },
+  {
+   "fin": "2018-12-31",
+   "ingresos": 9231288821132.297,
+   "margenOp": 12.6,
+   "margenNeto": 3.3,
+   "formulario": "20-F",
+   "unidad": 2020,
+   "ultimaPresentacion": "2021-03-25",
+   "precioCierre": 10.53
+  },
+  {
+   "fin": "2019-12-31",
+   "ingresos": 8463772104219.647,
+   "margenOp": 6.7,
+   "margenNeto": -1.6,
+   "formulario": "20-F",
+   "unidad": 2021,
+   "ultimaPresentacion": "2022-03-22",
+   "precioCierre": 8.65
+  },
+  {
+   "fin": "2020-12-31",
+   "ingresos": 7910609485126.948,
+   "margenOp": 6.7,
+   "margenNeto": -1.7,
+   "formulario": "20-F",
+   "unidad": 2022,
+   "ultimaPresentacion": "2023-03-20",
+   "precioCierre": 5.26
+  },
+  {
+   "fin": "2021-12-31",
+   "ingresos": 7393794714684.56,
+   "margenOp": -0.7,
+   "margenNeto": 2.3,
+   "formulario": "20-F",
+   "unidad": 2023,
+   "ultimaPresentacion": "2024-03-21",
+   "precioCierre": 4.46
+  },
+  {
+   "fin": "2022-12-31",
+   "ingresos": 6504849661507.476,
+   "margenOp": -40.4,
+   "margenNeto": -28.2,
+   "formulario": "20-F",
+   "unidad": 2024,
+   "ultimaPresentacion": "2025-02-28",
+   "precioCierre": 5.09
+  },
+  {
+   "fin": "2023-12-31",
+   "ingresos": 5898611000000,
+   "margenOp": -6.1,
+   "margenNeto": -12.1,
+   "formulario": "20-F",
+   "unidad": 2025,
+   "ultimaPresentacion": "2026-03-11",
+   "precioCierre": 7.02
+  },
+  {
+   "fin": "2024-12-31",
+   "ingresos": 5442958000000,
+   "margenOp": -3.5,
+   "margenNeto": 25.0,
+   "formulario": "20-F",
+   "unidad": 2025,
+   "ultimaPresentacion": "2026-03-11",
+   "precioCierre": 12.59
+  },
+  {
+   "fin": "2025-12-31",
+   "ingresos": 8328814000000,
+   "margenOp": 5.4,
+   "margenNeto": -1.7,
+   "formulario": "20-F",
+   "unidad": 2025,
+   "ultimaPresentacion": "2026-03-11",
+   "precioCierre": 11.61
+  }
+ ],
+ "ultimoBalance": "Ingresos de $ 2.697,3 mil M (−2,3% real) en el tercer trimestre de 2026, con telefonía móvil +5,1%. La ganancia operativa antes de amortizaciones subió 12,5%, a $ 974,3 mil M (margen de 36,1%). Un deterioro de $ 394,7 mil M, sobre todo por los activos que cederá por la compra de TMA, dejó una pérdida neta de $ 66,2 mil M para los accionistas (−$ 267,2 mil M un año antes).",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "$ 2.697,3 mil M",
+    "−2,3%"
+   ],
+   [
+    "Telefonía móvil",
+    "$ 1.451,0 mil M",
+    "+5,1%"
+   ],
+   [
+    "EBITDA",
+    "$ 974,3 mil M",
+    "+12,5%"
+   ],
+   [
+    "Deterioro de activos",
+    "$ 394,7 mil M",
+    ""
+   ],
+   [
+    "Resultado neto",
+    "−$ 66,2 mil M",
+    ""
+   ]
+  ],
+  "nota": "Variaciones reales contra el 3T25. Un año antes, el resultado neto había sido −$ 267,2 mil M."
+ },
+ "fortalezas": [
+  "Ganancia operativa antes de amortizaciones de $ 974,3 mil M en el trimestre (+12,5% real): margen de 36,1%, contra 31,3% un año antes.",
+  "Deuda neta de $ 4.440,3 mil M, 1,2 veces la ganancia operativa antes de amortizaciones de 12 meses; bajó 23% real desde diciembre.",
+  "Telefonía móvil, el 54% de los ingresos, creció 5,1% real y los costos operativos sin amortizaciones bajaron 9,1%."
+ ],
+ "debilidades": [
+  "Pérdida operativa de $ 39,0 mil M en el trimestre por deterioros de $ 394,7 mil M, sobre todo de los activos que debe ceder por la compra de TMA.",
+  "Ingresos −2,3% real: Internet −4,6% y telefonía fija y datos −22,2%; los descuentos extraordinarios de TMA restaron cerca de $ 39,9 mil M.",
+  "Margen operativo de 7% en 12 meses; la ganancia neta de 12 meses se apoya en diferencias de cambio sobre la deuda ($ 936,9 mil M en 9 meses)."
+ ],
+ "cedear": null,
+ "cotizacion": {
+  "var12m": -20.98,
+  "distMax": -34.23,
+  "precio": 10.51,
+  "variacionDia": -0.66,
+  "rango52": [
+   9.97,
+   15.98
+  ],
+  "capitalizacion": 4527052199.122,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "Año 2026 (Enero-Diciembre 2026)",
+  "items": [],
+  "nota": "La empresa no publicó una previsión. El balance salió después del cierre: el ADR había cerrado el 12/11 en US$ 10,51 (−0,7%); la reacción se verá en la rueda del 13/11.",
+  "resumen": "La empresa no publicó una previsión. El balance salió después del cierre: el ADR había cerrado el 12/11 en US$ 10,51 (−0,7%); la reacción se verá en la rueda del 13/11.",
+  "fuente": null
+ },
+ "conclusion": "Telecom Argentina facturó $ 10.866,2 mil M en los últimos 12 meses (en pesos de septiembre de 2026), 17,9% más en términos reales que un año antes, en buena parte por sumar a Telefónica Móviles Argentina (TMA) desde febrero de 2025. Su ganancia operativa antes de amortizaciones es alta, 36% de los ingresos en el trimestre, pero las amortizaciones y los deterioros se llevan casi todo: el margen operativo de 12 meses es 7% y fue negativo entre 2021 y 2024. La ganancia neta de 12 meses, $ 1.012,8 mil M, depende de diferencias de cambio sobre su deuda en dólares. La deuda neta bajó a 1,2 veces la ganancia operativa antes de amortizaciones y el flujo libre fue 14% de los ingresos. En el trimestre perdió $ 66,2 mil M por el deterioro de los activos que cederá a Metrotel para completar la aprobación de la compra de TMA.",
+ "enMoneda": "en $ de septiembre de 2026 (ajustados por inflación, IAS 29)",
+ "leyendaIngresos": "Ingresos (mil M de $ de diciembre de 2025)",
+ "nota10": "Ingresos reexpresados a pesos de diciembre de 2025 con los coeficientes de los propios 20-F; desde 2018 incluye a Cablevisión y desde 2025 a TMA.",
+ "local": {
+  "texto": "Acción local TECO2 en BYMA: $ 3.515 · 1 ADR = 5 acciones"
+ },
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 10866235683249.559,
+  "ingresosAnt": 9217964165523.86,
+  "operativa": 761006734040.2145,
+  "neta": 1012753212915.0051,
+  "eps": 470.2413756042426,
+  "flujoOperativo": 3794641039275.271,
+  "inversiones": 2279494114810.3086,
+  "dividendos": 280362943968.1252,
+  "recompras": 0,
+  "amortizaciones": 2969422072547.215,
+  "patrimonio": 9273678000000.0,
+  "deuda": 5651407000000.0,
+  "deudaDetalle": {
+   "Préstamos (corrientes y no corrientes)": 5651407000000.0
+  },
+  "caja": 1211109000000.0,
+  "cajaDetalle": {
+   "Caja, equivalentes e inversiones financieras": 1211109000000.0
+  },
+  "acciones": 2153688011,
+  "fechaAcciones": "2026-09-30",
+  "fechaBalance": "2026-09-30",
+  "como": "FY 2025 (20-F, reexpresado a sep-26 ×1.2364) + 9M26 − 9M25 (6-K 12/11/26)"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/932470/000110465926126259/tm2629648d1_6k.htm",
+   "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000932470.json",
+   "fecha": "2026-09-30"
+  },
+  {
+   "nombre": "Data912 (ADR en EE.UU. y TECO2 en BYMA)",
+   "url": "https://data912.com/live/usa_adrs",
+   "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "Informe anual 2025 (SEC, 20-F)",
+   "url": "https://www.sec.gov/Archives/edgar/data/932470/000110465926026480/teo-20251231x20f.htm",
+   "fecha": "2026-03-11"
+  },
+  {
+   "nombre": "Resultados 2025 y dividendo del 10/11/25 (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/932470/000110465926025781/tm268414d1_6k.htm",
+   "fecha": "2026-03-10"
+  },
+  {
+   "nombre": "Estados contables al 30/6/26 (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/932470/000110465926093384/tm2622474d2_6k.htm",
+   "fecha": "2026-08-10"
+  }
+ ]
+}
