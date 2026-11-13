@@ -1,9 +1,9 @@
 {
  "formato": "analisis/1",
  "ticker": "MSFT",
- "nombre": "Microsoft Corp.",
- "trimestre": "1.er trim. FY27",
- "periodo": "julio–septiembre 2026",
+ "nombre": "Microsoft Corporation",
+ "trimestre": "1er Trimestre FY27",
+ "periodo": "Julio-Septiembre 2026",
  "fechaBalance": "2026-10-28",
  "fechaDatos": "2026-11-12",
  "datosAl": "cierre del 12/11/26",
@@ -198,6 +198,32 @@
   "capitalizacion": 3883751226804.96,
   "proximoBalance": null
  },
+ "prevision": {
+  "periodo": "2do Trimestre FY27 (octubre-diciembre 2026)",
+  "items": [
+   {
+    "nombre": "Ingresos",
+    "actual": "US$ 96,0 a 97,1 mil M",
+    "ref": "+18% a +19%, el mismo ritmo que este trimestre"
+   },
+   {
+    "nombre": "Azure",
+    "actual": "+49% a +50%",
+    "ref": "en moneda constante; venía de +48%"
+   },
+   {
+    "nombre": "Inversión en bienes de uso",
+    "actual": "más de US$ 50 mil M",
+    "ref": "cerca de US$ 170 mil M en el año calendario 2026"
+   }
+  ],
+  "resumen": "Microsoft espera que los ingresos sigan creciendo al mismo ritmo, con Azure algo más rápido, y un margen operativo levemente menor que hace un año. La acción varió −0,2% el día siguiente al balance (29/10).",
+  "fuente": {
+   "nombre": "Conferencia con analistas del 28/10/26 (transcripción, The Motley Fool)",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/microsoft-msft-q1-2027-earnings-call-transcript/",
+   "fecha": "2026-10-28"
+  }
+ },
  "conclusion": "Microsoft creció 18% en los últimos 12 meses, hasta US$ 346,4 mil M, con la nube como motor: Azure se aceleró a 48% y los contratos comerciales comprometidos a futuro llegaron a US$ 677 mil M. El margen operativo pasó en la década de 30% a 47%, y la empresa tiene más caja que deuda. La contracara es el nivel de inversión en centros de datos: US$ 135,9 mil M en 12 meses, que reduce el flujo de caja libre a 17% de los ingresos, por debajo del 25% del año fiscal 2025. El segmento de dispositivos y consumo sigue en baja, y la ganancia neta incluye efectos variables de la inversión en OpenAI.",
  "noticiaClave": null,
  "calculos": {
@@ -242,6 +268,11 @@
    "nombre": "Data912 (precios)",
    "url": "https://data912.com/live/usa_stocks",
    "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "Conferencia con analistas del 28/10/26 (transcripción, The Motley Fool)",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/microsoft-msft-q1-2027-earnings-call-transcript/",
+   "fecha": "2026-10-28"
   }
  ]
 }

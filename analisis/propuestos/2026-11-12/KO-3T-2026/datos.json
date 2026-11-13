@@ -2,8 +2,8 @@
  "formato": "analisis/1",
  "ticker": "KO",
  "nombre": "The Coca-Cola Company",
- "trimestre": "3.er trim. 2026",
- "periodo": "julio–septiembre 2026",
+ "trimestre": "3er Trimestre 2026",
+ "periodo": "Julio-Septiembre 2026",
  "fechaBalance": "2026-10-27",
  "fechaDatos": "2026-11-12",
  "datosAl": "cierre del 12/11/26",
@@ -217,6 +217,28 @@
   ],
   "capitalizacion": 419220382545.75,
   "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "año 2026",
+  "items": [
+   {
+    "nombre": "Ingresos orgánicos",
+    "actual": "al menos +5%",
+    "ref": "antes: cerca de +5%"
+   },
+   {
+    "nombre": "Ganancia por acción comparable",
+    "actual": "al menos +11%",
+    "ref": "antes: +9% a +10%"
+   },
+   {
+    "nombre": "Flujo de caja libre",
+    "actual": "al menos US$ 13,0 mil M",
+    "ref": "antes: cerca de US$ 12,4 mil M"
+   }
+  ],
+  "resumen": "Coca-Cola subió su previsión de ganancia por acción y de flujo libre para 2026, y la de ingresos pasó a \"al menos\" +5%. Son medidas ajustadas propias (no contables); la de 2027 la dará con el balance del cuarto trimestre. La acción bajó 1,6% el día del balance (27/10).",
+  "fuente": null
  },
  "conclusion": "Coca-Cola crece a un ritmo moderado, 7% en ingresos de los últimos 12 meses, con márgenes altos: 63% bruto en el trimestre y 30% operativo en 12 meses. Convierte buena parte de su ganancia en caja (flujo libre de US$ 14,3 mil M) y destina la mayor parte a dividendos, que equivalen al 77% de su ganancia neta. Su deuda neta de US$ 25,0 mil M representa 1,5 veces su ganancia operativa antes de amortizaciones. En el último trimestre el margen operativo subió a 33,4%, impulsado por Latinoamérica y por su negocio de embotellado, mientras Norteamérica, su mayor región, creció 3%.",
  "noticiaClave": null,

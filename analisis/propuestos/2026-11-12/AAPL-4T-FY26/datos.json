@@ -2,8 +2,8 @@
  "formato": "analisis/1",
  "ticker": "AAPL",
  "nombre": "Apple Inc.",
- "trimestre": "4.º trim. FY26",
- "periodo": "julio–septiembre 2026",
+ "trimestre": "4to Trimestre FY26",
+ "periodo": "Julio-Septiembre 2026",
  "fechaBalance": "2026-11-02",
  "fechaDatos": "2026-11-12",
  "datosAl": "cierre del 12/11/26",
@@ -219,6 +219,32 @@
   "capitalizacion": 5156599460880.0,
   "proximoBalance": null
  },
+ "prevision": {
+  "periodo": "trimestre octubre-diciembre 2026",
+  "items": [
+   {
+    "nombre": "Ingresos",
+    "actual": "+7% a +10%",
+    "ref": "\"el mejor trimestre de su historia\", con oferta limitada"
+   },
+   {
+    "nombre": "Margen bruto",
+    "actual": "45% a 46%",
+    "ref": "venía de 47,9% (46,9% sin reintegros de aranceles)"
+   },
+   {
+    "nombre": "Servicios",
+    "actual": "+8% a +9%",
+    "ref": "venía de +9,8%"
+   }
+  ],
+  "resumen": "Apple espera un récord de ingresos, pero con un margen bruto más bajo, sobre todo por la suba del costo de la memoria. La acción bajó 1,9% el día siguiente al balance (3/11); según The Motley Fool, por esa previsión de margen.",
+  "fuente": {
+   "nombre": "Conferencia con analistas del 2/11/26 (transcripción, The Motley Fool)",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/02/apple-aapl-q4-2026-earnings-call-transcript/",
+   "fecha": "2026-11-02"
+  }
+ },
  "conclusion": "Apple cerró su año fiscal con ingresos récord de US$ 478,8 mil M (+15%) y una ganancia neta de US$ 132,2 mil M. El margen operativo subió de forma sostenida en la última década, de 27% a 33%, con Servicios como motor: crece cerca de 10% y tiene un margen bruto de 76%. Genera más caja de la que necesita para operar (flujo libre de US$ 136,1 mil M en 12 meses) y destinó US$ 102,1 mil M a dividendos y recompras, con una deuda neta baja. Los puntos débiles del trimestre fueron iPad y Wearables, y la suba del gasto en investigación y desarrollo, que presionó levemente el margen operativo.",
  "noticiaClave": null,
  "calculos": {
@@ -263,6 +289,11 @@
    "nombre": "Data912 (precios)",
    "url": "https://data912.com/live/usa_stocks",
    "fecha": "2026-11-12"
+  },
+  {
+   "nombre": "Conferencia con analistas del 2/11/26 (transcripción, The Motley Fool)",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/02/apple-aapl-q4-2026-earnings-call-transcript/",
+   "fecha": "2026-11-02"
   }
  ]
 }
