@@ -8,3 +8,4 @@
 07:06 análisis: aprobaciones leídas (ArtifactData OK): aprobados 2026-11-13 = AAPL-4T-FY26, KO-3T-2026, MSFT-1T-FY27, NU-3T-2026; TEO-3T-2026 sin aprobación, no se publica
 07:06 análisis: copiados y validados AAPL, KO, MSFT, NU; indice.json creado/actualizado OK
 07:06 análisis: commit y push en curso
+07:06 análisis: push OK 78ba822
