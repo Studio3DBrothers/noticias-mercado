@@ -27,25 +27,25 @@
    "id": "balance",
    "nombre": "Balance",
    "estado": "verde",
-   "dato": "Deuda neta US$ 23.389 M · 0,1 veces la ganancia operativa antes de amortizaciones"
+   "dato": "Deuda neta US$ 23,4 mil M · 0,1 veces la ganancia operativa antes de amortizaciones"
   },
   {
    "id": "flujo",
    "nombre": "Flujo de caja",
    "estado": "verde",
-   "dato": "Flujo libre 12 meses US$ 136.056 M (28% de los ingresos)"
+   "dato": "Flujo libre 12 meses US$ 136,1 mil M (28% de los ingresos)"
   },
   {
    "id": "crecimiento",
    "nombre": "Crecimiento",
    "estado": "verde",
-   "dato": "Ingresos 12 meses US$ 478.834 M (+15,1%)"
+   "dato": "Ingresos 12 meses US$ 478,8 mil M (+15,1%)"
   },
   {
    "id": "dividendos",
    "nombre": "Dividendos y recompras",
    "estado": "amarillo",
-   "dato": "Dividendos 0,3% + recompras 1,7% = 2,0% del valor de la empresa"
+   "dato": "Dividendos 0,3% + recompras 1,7% = 2,0% de la capitalización"
   }
  ],
  "sankey": {
@@ -66,12 +66,14 @@
     "var": -10.4
    },
    {
-    "nombre": "Wearables",
+    "nombre": "Accesorios",
+    "oficial": "Wearables, Home and Acc.",
     "valor": 8300000000.0,
     "var": -7.9
    },
    {
     "nombre": "Servicios",
+    "oficial": "Services",
     "valor": 31573000000.0,
     "var": 9.8,
     "servicio": true
@@ -114,86 +116,86 @@
    "ingresos": 229234000000,
    "margenOp": 26.8,
    "margenNeto": 21.1,
-   "presentado": "2019-10-31",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2019-10-31"
   },
   {
    "fin": "2018-09-29",
    "ingresos": 265595000000,
    "margenOp": 26.7,
    "margenNeto": 22.4,
-   "presentado": "2020-10-30",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2020-10-30"
   },
   {
    "fin": "2019-09-28",
    "ingresos": 260174000000,
    "margenOp": 24.6,
    "margenNeto": 21.2,
-   "presentado": "2021-10-29",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2021-10-29"
   },
   {
    "fin": "2020-09-26",
    "ingresos": 274515000000,
    "margenOp": 24.1,
    "margenNeto": 20.9,
-   "presentado": "2022-10-28",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2022-10-28"
   },
   {
    "fin": "2021-09-25",
    "ingresos": 365817000000,
    "margenOp": 29.8,
    "margenNeto": 25.9,
-   "presentado": "2023-11-03",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2023-11-03"
   },
   {
    "fin": "2022-09-24",
    "ingresos": 394328000000,
    "margenOp": 30.3,
    "margenNeto": 25.3,
-   "presentado": "2024-11-01",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2024-11-01"
   },
   {
    "fin": "2023-09-30",
    "ingresos": 383285000000,
    "margenOp": 29.8,
    "margenNeto": 25.3,
-   "presentado": "2025-10-31",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2025-10-31"
   },
   {
    "fin": "2024-09-28",
    "ingresos": 391035000000,
    "margenOp": 31.5,
    "margenNeto": 24.0,
-   "presentado": "2026-11-03",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-11-03"
   },
   {
    "fin": "2025-09-27",
    "ingresos": 416161000000,
    "margenOp": 32.0,
    "margenNeto": 26.9,
-   "presentado": "2026-11-03",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-11-03"
   },
   {
    "fin": "2026-09-26",
    "ingresos": 478834000000,
    "margenOp": 33.0,
    "margenNeto": 27.6,
-   "presentado": "2026-11-03",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-11-03"
   }
  ],
- "ultimoBalance": "Ingresos de US$ 114.477 M (+11,7%), con iPhone +17,5% y Mac +23,7%. Servicios llegó a US$ 31.573 M, su máximo histórico. El margen bruto fue 47,9%, con cerca de 1 punto por reintegros de aranceles.",
+ "ultimoBalance": "Ingresos de US$ 114,5 mil M (+11,7%), con iPhone +17,5% y Mac +23,7%. Servicios llegó a US$ 31,6 mil M, su máximo histórico. El margen bruto fue 47,9%, con cerca de 1 punto por reintegros de aranceles.",
  "fortalezas": [
-  "Servicios: US$ 31.573 M (+9,8%) con margen bruto de 76%; es el 28% de los ingresos.",
-  "Flujo de caja libre de US$ 136.056 M en 12 meses, el 28% de los ingresos.",
+  "Servicios: US$ 31,6 mil M (+9,8%) con margen bruto de 76%; es el 28% de los ingresos.",
+  "Flujo de caja libre de US$ 136,1 mil M en 12 meses, el 28% de los ingresos.",
   "Deuda neta baja: 0,1 veces la ganancia operativa antes de amortizaciones."
  ],
  "debilidades": [
@@ -211,7 +213,7 @@
   "capitalizacion": 5156599460880.0,
   "proximoBalance": null
  },
- "conclusion": "Apple cerró su año fiscal con ingresos récord de US$ 478.834 M (+15%) y una ganancia neta de US$ 132.175 M. El margen operativo subió de forma sostenida en la última década, de 27% a 33%, con Servicios como motor: crece cerca de 10% y tiene un margen bruto de 76%. Genera más caja de la que necesita para operar (flujo libre de US$ 136.056 M en 12 meses) y destinó US$ 102.111 M a dividendos y recompras, con una deuda neta baja. Los puntos débiles del trimestre fueron iPad y Wearables, y la suba del gasto en investigación y desarrollo, que presionó levemente el margen operativo.",
+ "conclusion": "Apple cerró su año fiscal con ingresos récord de US$ 478,8 mil M (+15%) y una ganancia neta de US$ 132,2 mil M. El margen operativo subió de forma sostenida en la última década, de 27% a 33%, con Servicios como motor: crece cerca de 10% y tiene un margen bruto de 76%. Genera más caja de la que necesita para operar (flujo libre de US$ 136,1 mil M en 12 meses) y destinó US$ 102,1 mil M a dividendos y recompras, con una deuda neta baja. Los puntos débiles del trimestre fueron iPad y Wearables, y la suba del gasto en investigación y desarrollo, que presionó levemente el margen operativo.",
  "noticiaClave": null,
  "calculos": {
   "ingresos": 478834000000,
@@ -242,7 +244,7 @@
  },
  "fuentes": [
   {
-   "nombre": "Comunicado del balance (SEC, formulario 8-K)",
+   "nombre": "Comunicado del balance (SEC, 8-K)",
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm",
    "fecha": "2026-11-02"
   },

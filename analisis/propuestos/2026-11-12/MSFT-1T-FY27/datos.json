@@ -27,36 +27,38 @@
    "id": "balance",
    "nombre": "Balance",
    "estado": "verde",
-   "dato": "Más caja que deuda: caja neta de US$ 29.028 M"
+   "dato": "Más caja que deuda: caja neta de US$ 29,0 mil M"
   },
   {
    "id": "flujo",
    "nombre": "Flujo de caja",
    "estado": "verde",
-   "dato": "Flujo libre 12 meses US$ 59.957 M (17% de los ingresos)"
+   "dato": "Flujo libre 12 meses US$ 60,0 mil M (17% de los ingresos)"
   },
   {
    "id": "crecimiento",
    "nombre": "Crecimiento",
    "estado": "verde",
-   "dato": "Ingresos 12 meses US$ 346.445 M (+17,9%)"
+   "dato": "Ingresos 12 meses US$ 346,4 mil M (+17,9%)"
   },
   {
    "id": "dividendos",
    "nombre": "Dividendos y recompras",
    "estado": "amarillo",
-   "dato": "Dividendos 0,7% + recompras 0,5% = 1,2% del valor de la empresa"
+   "dato": "Dividendos 0,7% + recompras 0,5% = 1,2% de la capitalización"
   }
  ],
  "sankey": {
   "segmentos": [
    {
-    "nombre": "Agents and Infra",
+    "nombre": "Agentes e infraestructura",
+    "oficial": "Agents and Infra",
     "valor": 76795000000.0,
     "var": 24.5
    },
    {
-    "nombre": "Devices and Consumer",
+    "nombre": "Dispositivos y consumo",
+    "oficial": "Devices and Consumer",
     "valor": 15484000000.0,
     "var": -3.2
    }
@@ -86,98 +88,98 @@
   "neta": 36629000000.0,
   "netaConsolidada": 36629000000.0
  },
- "nota": "La ganancia neta incluye US$ 207 M de resultado positivo por la inversión en OpenAI.",
+ "nota": "La ganancia neta incluye US$ 0,21 mil M de resultado positivo por la inversión en OpenAI.",
  "diezAnios": [
   {
    "fin": "2017-06-30",
    "ingresos": 96571000000,
    "margenOp": 30.1,
    "margenNeto": 26.4,
-   "presentado": "2019-08-01",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2019-08-01"
   },
   {
    "fin": "2018-06-30",
    "ingresos": 110360000000,
    "margenOp": 31.8,
    "margenNeto": 15.0,
-   "presentado": "2020-07-30",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2020-07-30"
   },
   {
    "fin": "2019-06-30",
    "ingresos": 125843000000,
    "margenOp": 34.1,
    "margenNeto": 31.2,
-   "presentado": "2021-07-29",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2021-07-29"
   },
   {
    "fin": "2020-06-30",
    "ingresos": 143015000000,
    "margenOp": 37.0,
    "margenNeto": 31.0,
-   "presentado": "2022-07-28",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2022-07-28"
   },
   {
    "fin": "2021-06-30",
    "ingresos": 168088000000,
    "margenOp": 41.6,
    "margenNeto": 36.5,
-   "presentado": "2023-07-27",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2023-07-27"
   },
   {
    "fin": "2022-06-30",
    "ingresos": 198270000000,
    "margenOp": 42.1,
    "margenNeto": 36.7,
-   "presentado": "2024-07-30",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2024-07-30"
   },
   {
    "fin": "2023-06-30",
    "ingresos": 211915000000,
    "margenOp": 41.8,
    "margenNeto": 34.1,
-   "presentado": "2025-07-30",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2025-07-30"
   },
   {
    "fin": "2024-06-30",
    "ingresos": 245122000000,
    "margenOp": 44.6,
    "margenNeto": 36.0,
-   "presentado": "2026-07-29",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-07-29"
   },
   {
    "fin": "2025-06-30",
    "ingresos": 281724000000,
    "margenOp": 45.6,
    "margenNeto": 36.1,
-   "presentado": "2026-07-29",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-07-29"
   },
   {
    "fin": "2026-06-30",
    "ingresos": 331839000000,
    "margenOp": 46.8,
    "margenNeto": 40.3,
-   "presentado": "2026-07-29",
-   "formulario": "10-K"
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-07-29"
   }
  ],
- "ultimoBalance": "Ingresos de US$ 92.279 M (+18,8%) en el primer trimestre de su año fiscal 2027. Agents and Infra creció 25% y Microsoft Cloud llegó a US$ 63.900 M (+30%), con Azure +48%. La ganancia neta subió 32%; un año antes, la inversión en OpenAI había restado US$ 3.100 M.",
+ "ultimoBalance": "Ingresos de US$ 92,3 mil M (+18,8%) en el primer trimestre de su año fiscal 2027. Agentes e infraestructura (Agents and Infra) creció 25% y Microsoft Cloud llegó a US$ 63,9 mil M (+30%), con Azure +48%. La ganancia neta subió 32%; un año antes, la inversión en OpenAI había restado US$ 3,1 mil M.",
  "fortalezas": [
   "Azure creció 48% y Microsoft Cloud 30% en el trimestre.",
-  "Contratos comerciales comprometidos a futuro por US$ 677.000 M, +73%.",
+  "Contratos comerciales comprometidos a futuro por US$ 677 mil M, +73%.",
   "Margen operativo de 47% en 12 meses y más caja que deuda."
  ],
  "debilidades": [
-  "Inversión en bienes de uso de US$ 135.921 M en 12 meses: el flujo libre quedó en 17% de los ingresos.",
-  "Devices and Consumer bajó 3%; Windows OEM y dispositivos, −22%.",
+  "Inversión en bienes de uso de US$ 135,9 mil M en 12 meses: el flujo libre quedó en 17% de los ingresos.",
+  "Dispositivos y consumo (Devices and Consumer) bajó 3%; Windows OEM y dispositivos, −22%.",
   "La ganancia neta incluye resultados de la inversión en OpenAI que varían mucho entre trimestres."
  ],
  "cotizacion": {
@@ -190,7 +192,7 @@
   "capitalizacion": 3883751226804.96,
   "proximoBalance": null
  },
- "conclusion": "Microsoft creció 18% en los últimos 12 meses, hasta US$ 346.445 M, con la nube como motor: Azure se aceleró a 48% y los contratos comerciales comprometidos a futuro llegaron a US$ 677.000 M. El margen operativo pasó en la década de 30% a 47%, y la empresa tiene más caja que deuda. La contracara es el nivel de inversión en centros de datos: US$ 135.921 M en 12 meses, que reduce el flujo de caja libre a 17% de los ingresos, por debajo del 25% del año fiscal 2025. El segmento de dispositivos y consumo sigue en baja, y la ganancia neta incluye efectos variables de la inversión en OpenAI.",
+ "conclusion": "Microsoft creció 18% en los últimos 12 meses, hasta US$ 346,4 mil M, con la nube como motor: Azure se aceleró a 48% y los contratos comerciales comprometidos a futuro llegaron a US$ 677 mil M. El margen operativo pasó en la década de 30% a 47%, y la empresa tiene más caja que deuda. La contracara es el nivel de inversión en centros de datos: US$ 135,9 mil M en 12 meses, que reduce el flujo de caja libre a 17% de los ingresos, por debajo del 25% del año fiscal 2025. El segmento de dispositivos y consumo sigue en baja, y la ganancia neta incluye efectos variables de la inversión en OpenAI.",
  "noticiaClave": null,
  "calculos": {
   "ingresos": 346445000000,
@@ -221,7 +223,7 @@
  },
  "fuentes": [
   {
-   "nombre": "Comunicado del balance (SEC, formulario 8-K)",
+   "nombre": "Comunicado del balance (SEC, 8-K)",
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm",
    "fecha": "2026-10-28"
   },

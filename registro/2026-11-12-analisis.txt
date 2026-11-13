@@ -4,3 +4,4 @@
 21:08 comunicados 8-K (EX-99.1): AAPL 2/11/26, MSFT 28/10/26, KO 27/10/26: OK
 21:20 controles AAPL: OK · MSFT: OK (falso positivo "contracara" corregido en el control) · KO: OK
 21:25 render hoja-1, hoja-2, juntas: OK (1080 px, x2)
+21:55 rehecho en A4 (PDF de 2 páginas + hoja-1.jpg y hoja-2.jpg), montos en mil M, segmentos traducidos; sin juntas.png: OK
