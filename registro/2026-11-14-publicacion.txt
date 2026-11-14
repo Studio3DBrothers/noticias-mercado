@@ -1,0 +1,6 @@
+07:04 add_repo no está disponible en esta sesión; repo ya clonado en el espacio de trabajo: git fetch + checkout origin/main (db696be) OK
+07:04 propuestas/2026-11-14/: opcion-1/2/3.png y noticias.json presentes
+07:05 elección leída: opción 2, 2026-11-14T07:34:05Z (posterior a las 05:00Z) -> elijo yo
+07:06 elección propia: opción 2 (completa, se lee bien en celular, sin textos cortados; coincide con la marcada tarde por Adrián y su formato más elegido). Guardada en ArtifactData (update v2) OK
+07:06 verificación opción 2: fecha y hora de datos, leyenda y 'Fuentes:' presentes (revisión visual) OK
+07:07 copiadas hoja-2026-11-14.png y hoja.png; noticias.json con hoja/hojaFecha; borrada hoja-2026-11-06.png (>7 días); validación JSON OK (carga, urls https, sin fechas en valores)
