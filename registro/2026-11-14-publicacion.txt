@@ -4,3 +4,5 @@
 07:06 elección propia: opción 2 (completa, se lee bien en celular, sin textos cortados; coincide con la marcada tarde por Adrián y su formato más elegido). Guardada en ArtifactData (update v2) OK
 07:06 verificación opción 2: fecha y hora de datos, leyenda y 'Fuentes:' presentes (revisión visual) OK
 07:07 copiadas hoja-2026-11-14.png y hoja.png; noticias.json con hoja/hojaFecha; borrada hoja-2026-11-06.png (>7 días); validación JSON OK (carga, urls https, sin fechas en valores)
+07:05 commit 'Hoja del 14/11 (opción 2)' y push OK 6bee7bb; verificado: origin/main = 6bee7bb y ls-tree muestra hoja-2026-11-14.png
+07:05 aviso de Noticias enviado; Análisis: no existe analisis/propuestos/2026-11-14/ -> sin análisis propuestos
