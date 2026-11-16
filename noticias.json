@@ -1,171 +1,23 @@
 {
   "formato": "noticias-mercado/1",
-  "generado": "2026-11-14T00:40:00-03:00",
+  "generado": "2026-11-16T00:40:00-03:00",
   "titular": {
-    "titulo": "Los chips arrastran al Nasdaq y la tasa a 10 años sigue en 5,15%; en Buenos Aires las acciones rebotan 3,1% desde mínimos del año",
-    "bajada": "AMD cayó 8,75% y Nvidia 2% más, mientras el Dow cerró apenas arriba. Los precios mayoristas de EE.UU. subieron 0,3% en octubre. Acá el Merval cortó cinco bajas, el riesgo país quedó en 830 y el BCRA compró US$ 40 M."
+    "titulo": "Arranca una semana de prueba para la IA: Nvidia presenta el martes sin Jensen Huang y Anthropic debuta en el Nasdaq el jueves",
+    "bajada": "El bitcoin tocó cerca de US$ 62.000 el domingo y perdió 12,4% en la semana. Acá el Merval cerró el viernes con suba de 3,2%, el riesgo país en 830 y la inflación de octubre de 2,2% todavía en el radar."
   },
   "noticias": [
     {
-      "id": "2026-11-14-wall-street",
-      "seccion": "eeuu",
-      "tickers": [],
-      "balance": false,
-      "titulo": "Wall Street cierra mixto: los chips tiran abajo al Nasdaq y el Dow apenas sube",
-      "resumen": "La rueda abrió en alza pero se dio vuelta por la venta en semiconductores tras la salida del CEO de Nvidia. Aun así, los tres índices cerraron la semana con ganancias.",
-      "fuente": "Yahoo Finance",
-      "fecha": "2026-11-13",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
-      "cifras": [
-        {
-          "nombre": "S&P 500",
-          "valor": "7.561,67",
-          "variacion": "▼ 0,40%",
-          "dir": "down",
-          "cuando": "cierre 13/11"
-        },
-        {
-          "nombre": "Nasdaq",
-          "valor": "25.136,27",
-          "variacion": "▼ 0,91%",
-          "dir": "down",
-          "cuando": "cierre 13/11"
-        },
-        {
-          "nombre": "Dow Jones",
-          "valor": "52.347,55",
-          "variacion": "▲ 0,10%",
-          "dir": "up",
-          "cuando": "cierre 13/11"
-        },
-        {
-          "nombre": "VIX",
-          "valor": "19,30",
-          "variacion": "▲ 3,2%",
-          "dir": "up",
-          "cuando": "cierre 13/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-14-ppi",
-      "seccion": "eeuu",
-      "tickers": [],
-      "balance": false,
-      "titulo": "Los precios mayoristas suben 0,3% en octubre, algo menos de lo esperado; la tasa a 10 años sigue en 5,15%",
-      "resumen": "El índice de precios al productor subió 0,3% en el mes y 6,5% en doce meses, apenas debajo de lo previsto. El mercado sigue esperando una suba de tasas de la Fed el 9/12.",
-      "fuente": "StockTitan (BLS)",
-      "fecha": "2026-11-13",
-      "url": "https://www.stocktitan.net/articles/october-2026-ppi-report",
-      "cifras": [
-        {
-          "nombre": "PPI mensual",
-          "valor": "0,3%",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "octubre"
-        },
-        {
-          "nombre": "PPI interanual",
-          "valor": "6,5%",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "octubre"
-        },
-        {
-          "nombre": "Bono 10 años",
-          "valor": "5,15%",
-          "variacion": "▲ 5 pb",
-          "dir": "up",
-          "cuando": "cierre 13/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-14-bitcoin",
-      "seccion": "eeuu",
-      "tickers": [],
-      "balance": false,
-      "titulo": "Bitcoin pierde los US$ 70.000 por primera vez en casi tres meses",
-      "resumen": "La cripto cayó cerca de 4% en el día y unos 7% en cinco ruedas; en el año acumula una baja de más de 20%. El oro y el petróleo cerraron casi sin cambios.",
-      "fuente": "Yahoo Finance",
-      "fecha": "2026-11-13",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
-      "cifras": [
-        {
-          "nombre": "Bitcoin",
-          "valor": "US$ 68.346",
-          "variacion": "▼ 3,8%",
-          "dir": "down",
-          "cuando": "cierre 13/11"
-        },
-        {
-          "nombre": "Oro",
-          "valor": "US$ 3.887,60",
-          "variacion": "▲ 0,06%",
-          "dir": "flat",
-          "cuando": "cierre 13/11"
-        },
-        {
-          "nombre": "Petróleo WTI",
-          "valor": "US$ 88,92",
-          "variacion": "▲ 0,20%",
-          "dir": "flat",
-          "cuando": "cierre 13/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-14-amd",
-      "seccion": "cartera",
-      "tickers": [
-        "AMD",
-        "AVGO"
-      ],
-      "balance": false,
-      "titulo": "AMD cae 8,75% y Broadcom 4,8% en una venta de chips",
-      "resumen": "Tras subir casi 50% en la semana por la salida de Huang en Nvidia, AMD tuvo toma de ganancias y el temor pasó a ser un riesgo para todo el sector.",
-      "fuente": "The Motley Fool",
-      "fecha": "2026-11-13",
-      "url": "https://www.fool.com/investing/2026/11/13/why-advanced-micro-devices-is-down-today/",
-      "cifras": [
-        {
-          "nombre": "AMD",
-          "valor": "",
-          "variacion": "▼ 8,75%",
-          "dir": "down",
-          "cuando": "cierre 13/11"
-        },
-        {
-          "nombre": "AVGO",
-          "valor": "",
-          "variacion": "▼ 4,76%",
-          "dir": "down",
-          "cuando": "cierre 13/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": [],
-      "motivo": "Toma de ganancias tras una suba de casi 50% en la semana y temor a que el caso Nvidia golpee a todo el sector de chips."
-    },
-    {
-      "id": "2026-11-14-nvidia",
+      "id": "2026-11-16-nvda-balance-martes",
       "seccion": "cartera",
       "tickers": [
         "NVDA"
       ],
       "balance": false,
-      "titulo": "Nvidia baja otro 2% y pierde cerca de 12% en la semana; presenta su balance el martes",
-      "resumen": "La acción siguió en baja tras la renuncia de Jensen Huang; Colette Kress sigue como CEO interina y su valor de mercado quedó debajo de US$ 4 billones.",
+      "titulo": "Nvidia presenta el martes su primer balance tras la salida de Jensen Huang",
+      "resumen": "El informe sale el martes después del cierre y la llamada la encabeza la CFO y CEO interina Colette Kress. Varios analistas recortaron precios objetivo tras la renuncia.",
       "fuente": "Yahoo Finance",
-      "fecha": "2026-11-13",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+      "fecha": "2026-11-15",
+      "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
       "cifras": [
         {
           "nombre": "NVDA",
@@ -177,75 +29,145 @@
       ],
       "fuertes": [],
       "debiles": [],
-      "motivo": "Sigue la incertidumbre por la salida de Jensen Huang como CEO, sin reemplazo definitivo nombrado."
+      "motivo": "La acción sigue presionada por la renuncia de Huang y las audiencias previstas en el Congreso, según la nota."
     },
     {
-      "id": "2026-11-14-nu",
-      "seccion": "cartera",
-      "tickers": [
-        "NU"
-      ],
+      "id": "2026-11-16-anthropic-ipo",
+      "seccion": "eeuu",
+      "tickers": [],
       "balance": false,
-      "titulo": "Nu Holdings sube 11,7% en la primera rueda tras su balance",
-      "resumen": "La acción de Nubank tuvo la mayor suba de la lista con un volumen muy superior al promedio de los últimos tres meses.",
-      "fuente": "Yahoo Finance (The Motley Fool)",
-      "fecha": "2026-11-13",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-13-221302620.html",
+      "titulo": "Anthropic fija precio el miércoles y empieza a cotizar el jueves en el Nasdaq",
+      "resumen": "La salida a bolsa ofrece 825 millones de acciones a entre US$ 70 y US$ 78, con una valuación de US$ 1,3 a 1,45 billones; Nvidia y Alphabet suman colocaciones privadas previas.",
+      "fuente": "Yahoo Finance",
+      "fecha": "2026-11-15",
+      "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
       "cifras": [
         {
-          "nombre": "NU",
-          "valor": "US$ 13,21",
-          "variacion": "▲ 11,71%",
-          "dir": "up",
-          "cuando": "cierre 13/11"
+          "nombre": "Rango de precio",
+          "valor": "US$ 70 a 78",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "precio el 18/11"
+        },
+        {
+          "nombre": "Acciones ofrecidas",
+          "valor": "825 M",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "debut el 19/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-14-merval",
+      "id": "2026-11-16-agenda-eeuu",
+      "seccion": "eeuu",
+      "tickers": [],
+      "balance": false,
+      "titulo": "Ventas minoristas, minutas de la Fed y una tasa a 10 años en 5,15%",
+      "resumen": "El martes salen las ventas minoristas de octubre y el miércoles las minutas de la Fed; tras el PPI de la semana pasada, el mercado ve más probable una suba de tasas en diciembre.",
+      "fuente": "Yahoo Finance",
+      "fecha": "2026-11-15",
+      "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
+      "cifras": [
+        {
+          "nombre": "Bono 10 años",
+          "valor": "5,15%",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "cierre 13/11"
+        },
+        {
+          "nombre": "S&P 500",
+          "valor": "7.561,67",
+          "variacion": "▼ 0,40%",
+          "dir": "down",
+          "cuando": "cierre 13/11"
+        },
+        {
+          "nombre": "Ventas minoristas esperadas",
+          "valor": "0,2%",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "octubre, sale el 17/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-16-bitcoin-finde",
+      "seccion": "eeuu",
+      "tickers": [],
+      "balance": false,
+      "titulo": "El bitcoin toca cerca de US$ 62.000 y cierra la semana con caída de 12,4%",
+      "resumen": "La venta se aceleró tras el cierre del viernes; el domingo rebotó arriba de US$ 65.000. Los ETF de bitcoin en EE.UU. sumaron salidas por US$ 1.070 M en la semana.",
+      "fuente": "Cointelegraph",
+      "fecha": "2026-11-15",
+      "url": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+      "cifras": [
+        {
+          "nombre": "Bitcoin",
+          "valor": "US$ 65.116",
+          "variacion": "▼ 12,4%",
+          "dir": "down",
+          "cuando": "cierre semanal 15/11"
+        },
+        {
+          "nombre": "Ether",
+          "valor": "US$ 1.822",
+          "variacion": "▼ 14,4%",
+          "dir": "down",
+          "cuando": "cierre semanal 15/11"
+        },
+        {
+          "nombre": "Salidas de ETF de bitcoin",
+          "valor": "US$ 1.070 M",
+          "variacion": "",
+          "dir": "down",
+          "cuando": "semana 9 al 13/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-16-merval-semana",
       "seccion": "argentina",
       "tickers": [],
       "balance": false,
-      "titulo": "Las acciones argentinas rebotan 3,1% desde mínimos del año y el riesgo país queda en 830",
-      "resumen": "El Merval cortó cinco bajas seguidas, con Cresud a la cabeza de los ADR. El BCRA compró US$ 40 M y las reservas subieron a US$ 49.594 M.",
-      "fuente": "Infobae",
+      "titulo": "El Merval corta cinco bajas y los ADR suben hasta casi 9%; el riesgo país cierra en 830",
+      "resumen": "Lideraron Cresud, Central Puerto y Supervielle en Wall Street. La tasa a 10 años de EE.UU. en 5,15% sigue pesando sobre los bonos en dólares.",
+      "fuente": "La Nación",
       "fecha": "2026-11-13",
-      "url": "https://www.infobae.com/economia/2026/11/13/jornada-financiera-las-acciones-argentinas-rebotaron-desde-sus-precios-minimos-del-ano-y-el-riesgo-pais-tuvo-una-leve-caida/",
+      "url": "https://www.lanacion.com.ar/economia/las-acciones-argentinas-rebotan-hasta-9-en-wall-street-mientras-que-el-riesgo-pais-cierra-la-semana-nid13112026/",
       "cifras": [
         {
           "nombre": "Merval",
-          "valor": "85.053",
-          "variacion": "▲ 3,1%",
+          "valor": "85.111",
+          "variacion": "▲ 3,2%",
           "dir": "up",
           "cuando": "cierre 13/11"
         },
         {
           "nombre": "Riesgo país",
           "valor": "830 pb",
-          "variacion": "",
+          "variacion": "▲ 1 pb",
           "dir": "flat",
           "cuando": "cierre 13/11"
         },
         {
-          "nombre": "Compras BCRA",
-          "valor": "US$ 40 M",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "13/11"
-        },
-        {
-          "nombre": "Reservas",
-          "valor": "US$ 49.594 M",
-          "variacion": "▲ US$ 516 M",
-          "dir": "up",
-          "cuando": "13/11"
-        },
-        {
           "nombre": "CRES (ADR)",
           "valor": "",
-          "variacion": "▲ 9,3%",
+          "variacion": "▲ 8,7%",
+          "dir": "up",
+          "cuando": "cierre 13/11"
+        },
+        {
+          "nombre": "CEPU (ADR)",
+          "valor": "",
+          "variacion": "▲ 5,1%",
           "dir": "up",
           "cuando": "cierre 13/11"
         }
@@ -254,58 +176,80 @@
       "debiles": []
     },
     {
-      "id": "2026-11-14-dolar",
+      "id": "2026-11-16-dolar-domingo",
       "seccion": "argentina",
       "tickers": [],
       "balance": false,
-      "titulo": "El blue cierra en máximo nominal con su mayor suba semanal en cuatro meses",
-      "resumen": "El paralelo subió $10 en el día y $20 en la semana. El mayorista terminó en $1.543,50, con una baja leve, y el MEP quedó cerca de $1.577.",
+      "titulo": "Dólar: el mayorista arranca la semana en $ 1.543,50 y el MEP en $ 1.576,92",
+      "resumen": "Son las referencias del cierre del viernes. El blue terminó la semana con su mayor suba en cuatro meses, en máximo nominal.",
       "fuente": "Ámbito",
-      "fecha": "2026-11-13",
-      "url": "https://www.ambito.com/finanzas/el-dolar-blue-anoto-su-mayor-suba-semanal-cuatro-meses-y-cerro-maximos-nominales-n6345069",
+      "fecha": "2026-11-15",
+      "url": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-domingo-15-noviembre-n6345364",
       "cifras": [
-        {
-          "nombre": "Blue",
-          "valor": "$ 1.575",
-          "variacion": "▲ 0,6%",
-          "dir": "up",
-          "cuando": "cierre 13/11"
-        },
         {
           "nombre": "Mayorista",
           "valor": "$ 1.543,50",
-          "variacion": "▼ 0,1%",
-          "dir": "down",
+          "variacion": "",
+          "dir": "flat",
           "cuando": "cierre 13/11"
         },
         {
           "nombre": "MEP",
-          "valor": "$ 1.577,22",
+          "valor": "$ 1.576,92",
           "variacion": "▲ 0,2%",
           "dir": "up",
           "cuando": "cierre 13/11"
         },
         {
-          "nombre": "Oficial BNA",
+          "nombre": "Blue",
           "valor": "$ 1.570",
           "variacion": "",
           "dir": "flat",
-          "cuando": "cierre 13/11"
+          "cuando": "referencia 15/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-14-brasil",
+      "id": "2026-11-16-inflacion-octubre",
+      "seccion": "argentina",
+      "tickers": [],
+      "balance": false,
+      "titulo": "La inflación de octubre fue 2,2%, la más alta desde abril",
+      "resumen": "El dato del INDEC superó el 1,9% de septiembre y lo que esperaba el REM. En el año acumula 26,3% y en doce meses 33,1%.",
+      "fuente": "Perfil",
+      "fecha": "2026-11-13",
+      "url": "https://www.perfil.com/economia/el-riesgo-pais-mantiene-su-tendencia-bajista-al-cierre-de-la-semana-a8ViV4Q7dJlH",
+      "cifras": [
+        {
+          "nombre": "IPC mensual",
+          "valor": "2,2%",
+          "variacion": "",
+          "dir": "up",
+          "cuando": "octubre"
+        },
+        {
+          "nombre": "IPC interanual",
+          "valor": "33,1%",
+          "variacion": "",
+          "dir": "up",
+          "cuando": "octubre"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-16-brasil-semana",
       "seccion": "brasil",
       "tickers": [],
       "balance": false,
-      "titulo": "El Ibovespa sube 0,66% y suma su segunda semana positiva; el dólar sigue en R$ 5,65",
-      "resumen": "Bancos y empresas locales empujaron a la bolsa con el paquete fiscal en foco; el Senado analiza las enmiendas el martes 17. En la semana el dólar subió 2,66%.",
-      "fuente": "Exame",
-      "fecha": "2026-11-13",
-      "url": "https://exame.com/invest/mercados/ibovespa-sobe-com-fiscal-no-radar-e-avanca-235-na-semana-dolar-supera-ganho-com-266/",
+      "titulo": "Brasil: semana corta con el IBC-Br del lunes y feriado el viernes 20",
+      "resumen": "El Ibovespa viene de subir 2,35% en la semana, con el Senado aprobando la base del paquete fiscal. El lunes sale el IBC-Br de septiembre y el viernes es feriado nacional.",
+      "fuente": "InfoMoney",
+      "fecha": "2026-11-15",
+      "url": "https://www.infomoney.com.br/mercados/calendario-economico-da-semana-ata-do-fomc-e-dados-das-atividades-sao-destaque/",
       "cifras": [
         {
           "nombre": "Ibovespa",
@@ -315,18 +259,18 @@
           "cuando": "cierre 13/11"
         },
         {
-          "nombre": "Dólar / real",
-          "valor": "R$ 5,655",
-          "variacion": "▲ 0,05%",
-          "dir": "flat",
-          "cuando": "cierre 13/11"
-        },
-        {
           "nombre": "Ibovespa semana",
           "valor": "",
           "variacion": "▲ 2,35%",
           "dir": "up",
           "cuando": "semana al 13/11"
+        },
+        {
+          "nombre": "Dólar / real",
+          "valor": "R$ 5,655",
+          "variacion": "▲ 0,05%",
+          "dir": "up",
+          "cuando": "cierre 13/11"
         }
       ],
       "fuertes": [],
@@ -364,42 +308,30 @@
       "nombre": "Alibaba",
       "fecha": "2026-11-19",
       "momento": "antes"
-    },
-    {
-      "ticker": "GLOB",
-      "nombre": "Globant",
-      "fecha": "2026-11-19",
-      "momento": "despues"
     }
   ],
   "movimientos": [
     {
-      "ticker": "NU",
-      "variacion": "▲ 11,71%",
-      "dir": "up",
-      "cuando": "cierre 13/11"
-    },
-    {
       "ticker": "CRES",
-      "variacion": "▲ 9,3%",
+      "variacion": "▲ 8,7%",
       "dir": "up",
       "cuando": "cierre 13/11 (ADR)"
     },
     {
-      "ticker": "AMD",
-      "variacion": "▼ 8,75%",
-      "dir": "down",
-      "cuando": "cierre 13/11"
+      "ticker": "CEPU",
+      "variacion": "▲ 5,1%",
+      "dir": "up",
+      "cuando": "cierre 13/11 (ADR)"
     },
     {
-      "ticker": "AVGO",
-      "variacion": "▼ 4,76%",
-      "dir": "down",
-      "cuando": "cierre 13/11"
+      "ticker": "SUPV",
+      "variacion": "▲ 4,4%",
+      "dir": "up",
+      "cuando": "cierre 13/11 (ADR)"
     },
     {
-      "ticker": "GGAL",
-      "variacion": "▲ 2,4%",
+      "ticker": "IRSA",
+      "variacion": "▲ 3,1%",
       "dir": "up",
       "cuando": "cierre 13/11 (ADR)"
     },
@@ -410,44 +342,26 @@
       "cuando": "cierre 13/11"
     },
     {
-      "ticker": "PYPL",
-      "variacion": "▲ 1,65%",
-      "dir": "up",
-      "cuando": "cierre 13/11"
-    },
-    {
-      "ticker": "QQQ",
-      "variacion": "▼ 1,20%",
+      "ticker": "BYMA",
+      "variacion": "▼ 1,5%",
       "dir": "down",
-      "cuando": "cierre 13/11"
-    },
-    {
-      "ticker": "SPY",
-      "variacion": "▼ 0,38%",
-      "dir": "down",
-      "cuando": "cierre 13/11"
-    },
-    {
-      "ticker": "MSFT",
-      "variacion": "▲ 0,17%",
-      "dir": "up",
       "cuando": "cierre 13/11"
     }
   ],
   "destacados": [
     {
-      "titulo": "Nvidia presenta el martes 17",
-      "detalle": "Primer balance tras la salida de Jensen Huang; después del cierre."
+      "titulo": "Martes 17: Nvidia",
+      "detalle": "Primer balance sin Jensen Huang, después del cierre."
     },
     {
-      "titulo": "Fed: próxima reunión el 9/12",
-      "detalle": "El mercado descuenta una suba de tasas tras la inflación de octubre."
+      "titulo": "Jueves 19: Anthropic en el Nasdaq",
+      "detalle": "Precio el miércoles, rango US$ 70 a 78."
     },
     {
-      "titulo": "Brasil: enmiendas del paquete fiscal",
-      "detalle": "El Senado las analiza el martes 17."
+      "titulo": "Miércoles 18: minutas de la Fed",
+      "detalle": "El mercado ve más probable una suba en diciembre."
     }
   ],
-  "hoja": "hoja-2026-11-14.png",
-  "hojaFecha": "2026-11-14"
+  "hoja": "hoja-2026-11-16.png",
+  "hojaFecha": "2026-11-16"
 }

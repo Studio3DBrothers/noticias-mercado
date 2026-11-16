@@ -1,0 +1,6 @@
+07:04 repo ya clonado en el entorno (add_repo no disponible como herramienta; acceso al repo vigente), fetch origin/main OK 6790d18
+07:04 propuestas/2026-11-16 completas: opcion-1/2/3.png + noticias.json
+07:04 elección leída: opción 2, 2026-11-16T04:07:19Z (antes de 05:00Z, elegida por Adrián)
+07:04 verificación opcion-2.png OK: fecha/datos al cierre 13/11, leyenda completa y línea 'Fuentes:' presentes
+07:04 copiadas hoja-2026-11-16.png y hoja.png (opción 2); noticias.json con hoja/hojaFecha; JSON validado OK (8 urls https, sin fechas en valores); borrada hoja-2026-11-07.png (>7 días)
+07:04 commit y push a main
