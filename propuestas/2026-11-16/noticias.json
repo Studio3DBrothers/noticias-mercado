@@ -1,0 +1,365 @@
+{
+ "formato": "noticias-mercado/1",
+ "generado": "2026-11-16T00:40:00-03:00",
+ "titular": {
+  "titulo": "Arranca una semana de prueba para la IA: Nvidia presenta el martes sin Jensen Huang y Anthropic debuta en el Nasdaq el jueves",
+  "bajada": "El bitcoin tocó cerca de US$ 62.000 el domingo y perdió 12,4% en la semana. Acá el Merval cerró el viernes con suba de 3,2%, el riesgo país en 830 y la inflación de octubre de 2,2% todavía en el radar."
+ },
+ "noticias": [
+  {
+   "id": "2026-11-16-nvda-balance-martes",
+   "seccion": "cartera",
+   "tickers": [
+    "NVDA"
+   ],
+   "balance": false,
+   "titulo": "Nvidia presenta el martes su primer balance tras la salida de Jensen Huang",
+   "resumen": "El informe sale el martes después del cierre y la llamada la encabeza la CFO y CEO interina Colette Kress. Varios analistas recortaron precios objetivo tras la renuncia.",
+   "fuente": "Yahoo Finance",
+   "fecha": "2026-11-15",
+   "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
+   "cifras": [
+    {
+     "nombre": "NVDA",
+     "valor": "US$ 162,85",
+     "variacion": "▼ 2,01%",
+     "dir": "down",
+     "cuando": "cierre 13/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": [],
+   "motivo": "La acción sigue presionada por la renuncia de Huang y las audiencias previstas en el Congreso, según la nota."
+  },
+  {
+   "id": "2026-11-16-anthropic-ipo",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Anthropic fija precio el miércoles y empieza a cotizar el jueves en el Nasdaq",
+   "resumen": "La salida a bolsa ofrece 825 millones de acciones a entre US$ 70 y US$ 78, con una valuación de US$ 1,3 a 1,45 billones; Nvidia y Alphabet suman colocaciones privadas previas.",
+   "fuente": "Yahoo Finance",
+   "fecha": "2026-11-15",
+   "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
+   "cifras": [
+    {
+     "nombre": "Rango de precio",
+     "valor": "US$ 70 a 78",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "precio el 18/11"
+    },
+    {
+     "nombre": "Acciones ofrecidas",
+     "valor": "825 M",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "debut el 19/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-16-agenda-eeuu",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Ventas minoristas, minutas de la Fed y una tasa a 10 años en 5,15%",
+   "resumen": "El martes salen las ventas minoristas de octubre y el miércoles las minutas de la Fed; tras el PPI de la semana pasada, el mercado ve más probable una suba de tasas en diciembre.",
+   "fuente": "Yahoo Finance",
+   "fecha": "2026-11-15",
+   "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
+   "cifras": [
+    {
+     "nombre": "Bono 10 años",
+     "valor": "5,15%",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "cierre 13/11"
+    },
+    {
+     "nombre": "S&P 500",
+     "valor": "7.561,67",
+     "variacion": "▼ 0,40%",
+     "dir": "down",
+     "cuando": "cierre 13/11"
+    },
+    {
+     "nombre": "Ventas minoristas esperadas",
+     "valor": "0,2%",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "octubre, sale el 17/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-16-bitcoin-finde",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El bitcoin toca cerca de US$ 62.000 y cierra la semana con caída de 12,4%",
+   "resumen": "La venta se aceleró tras el cierre del viernes; el domingo rebotó arriba de US$ 65.000. Los ETF de bitcoin en EE.UU. sumaron salidas por US$ 1.070 M en la semana.",
+   "fuente": "Cointelegraph",
+   "fecha": "2026-11-15",
+   "url": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+   "cifras": [
+    {
+     "nombre": "Bitcoin",
+     "valor": "US$ 65.116",
+     "variacion": "▼ 12,4%",
+     "dir": "down",
+     "cuando": "cierre semanal 15/11"
+    },
+    {
+     "nombre": "Ether",
+     "valor": "US$ 1.822",
+     "variacion": "▼ 14,4%",
+     "dir": "down",
+     "cuando": "cierre semanal 15/11"
+    },
+    {
+     "nombre": "Salidas de ETF de bitcoin",
+     "valor": "US$ 1.070 M",
+     "variacion": "",
+     "dir": "down",
+     "cuando": "semana 9 al 13/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-16-merval-semana",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El Merval corta cinco bajas y los ADR suben hasta casi 9%; el riesgo país cierra en 830",
+   "resumen": "Lideraron Cresud, Central Puerto y Supervielle en Wall Street. La tasa a 10 años de EE.UU. en 5,15% sigue pesando sobre los bonos en dólares.",
+   "fuente": "La Nación",
+   "fecha": "2026-11-13",
+   "url": "https://www.lanacion.com.ar/economia/las-acciones-argentinas-rebotan-hasta-9-en-wall-street-mientras-que-el-riesgo-pais-cierra-la-semana-nid13112026/",
+   "cifras": [
+    {
+     "nombre": "Merval",
+     "valor": "85.111",
+     "variacion": "▲ 3,2%",
+     "dir": "up",
+     "cuando": "cierre 13/11"
+    },
+    {
+     "nombre": "Riesgo país",
+     "valor": "830 pb",
+     "variacion": "▲ 1 pb",
+     "dir": "flat",
+     "cuando": "cierre 13/11"
+    },
+    {
+     "nombre": "CRES (ADR)",
+     "valor": "",
+     "variacion": "▲ 8,7%",
+     "dir": "up",
+     "cuando": "cierre 13/11"
+    },
+    {
+     "nombre": "CEPU (ADR)",
+     "valor": "",
+     "variacion": "▲ 5,1%",
+     "dir": "up",
+     "cuando": "cierre 13/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-16-dolar-domingo",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Dólar: el mayorista arranca la semana en $ 1.543,50 y el MEP en $ 1.576,92",
+   "resumen": "Son las referencias del cierre del viernes. El blue terminó la semana con su mayor suba en cuatro meses, en máximo nominal.",
+   "fuente": "Ámbito",
+   "fecha": "2026-11-15",
+   "url": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-opera-este-domingo-15-noviembre-n6345364",
+   "cifras": [
+    {
+     "nombre": "Mayorista",
+     "valor": "$ 1.543,50",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "cierre 13/11"
+    },
+    {
+     "nombre": "MEP",
+     "valor": "$ 1.576,92",
+     "variacion": "▲ 0,2%",
+     "dir": "up",
+     "cuando": "cierre 13/11"
+    },
+    {
+     "nombre": "Blue",
+     "valor": "$ 1.570",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "referencia 15/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-16-inflacion-octubre",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "La inflación de octubre fue 2,2%, la más alta desde abril",
+   "resumen": "El dato del INDEC superó el 1,9% de septiembre y lo que esperaba el REM. En el año acumula 26,3% y en doce meses 33,1%.",
+   "fuente": "Perfil",
+   "fecha": "2026-11-13",
+   "url": "https://www.perfil.com/economia/el-riesgo-pais-mantiene-su-tendencia-bajista-al-cierre-de-la-semana-a8ViV4Q7dJlH",
+   "cifras": [
+    {
+     "nombre": "IPC mensual",
+     "valor": "2,2%",
+     "variacion": "",
+     "dir": "up",
+     "cuando": "octubre"
+    },
+    {
+     "nombre": "IPC interanual",
+     "valor": "33,1%",
+     "variacion": "",
+     "dir": "up",
+     "cuando": "octubre"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-16-brasil-semana",
+   "seccion": "brasil",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Brasil: semana corta con el IBC-Br del lunes y feriado el viernes 20",
+   "resumen": "El Ibovespa viene de subir 2,35% en la semana, con el Senado aprobando la base del paquete fiscal. El lunes sale el IBC-Br de septiembre y el viernes es feriado nacional.",
+   "fuente": "InfoMoney",
+   "fecha": "2026-11-15",
+   "url": "https://www.infomoney.com.br/mercados/calendario-economico-da-semana-ata-do-fomc-e-dados-das-atividades-sao-destaque/",
+   "cifras": [
+    {
+     "nombre": "Ibovespa",
+     "valor": "172.457",
+     "variacion": "▲ 0,66%",
+     "dir": "up",
+     "cuando": "cierre 13/11"
+    },
+    {
+     "nombre": "Ibovespa semana",
+     "valor": "",
+     "variacion": "▲ 2,35%",
+     "dir": "up",
+     "cuando": "semana al 13/11"
+    },
+    {
+     "nombre": "Dólar / real",
+     "valor": "R$ 5,655",
+     "variacion": "▲ 0,05%",
+     "dir": "up",
+     "cuando": "cierre 13/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  }
+ ],
+ "balancesHoy": [],
+ "proximosBalances": [
+  {
+   "ticker": "DIS",
+   "nombre": "Disney",
+   "fecha": "2026-11-17",
+   "momento": "antes"
+  },
+  {
+   "ticker": "JD",
+   "nombre": "JD.com",
+   "fecha": "2026-11-17",
+   "momento": "antes"
+  },
+  {
+   "ticker": "NVDA",
+   "nombre": "Nvidia",
+   "fecha": "2026-11-17",
+   "momento": "despues"
+  },
+  {
+   "ticker": "WMT",
+   "nombre": "Walmart",
+   "fecha": "2026-11-19",
+   "momento": "antes"
+  },
+  {
+   "ticker": "BABA",
+   "nombre": "Alibaba",
+   "fecha": "2026-11-19",
+   "momento": "antes"
+  }
+ ],
+ "movimientos": [
+  {
+   "ticker": "CRES",
+   "variacion": "▲ 8,7%",
+   "dir": "up",
+   "cuando": "cierre 13/11 (ADR)"
+  },
+  {
+   "ticker": "CEPU",
+   "variacion": "▲ 5,1%",
+   "dir": "up",
+   "cuando": "cierre 13/11 (ADR)"
+  },
+  {
+   "ticker": "SUPV",
+   "variacion": "▲ 4,4%",
+   "dir": "up",
+   "cuando": "cierre 13/11 (ADR)"
+  },
+  {
+   "ticker": "IRSA",
+   "variacion": "▲ 3,1%",
+   "dir": "up",
+   "cuando": "cierre 13/11 (ADR)"
+  },
+  {
+   "ticker": "NVDA",
+   "variacion": "▼ 2,01%",
+   "dir": "down",
+   "cuando": "cierre 13/11"
+  },
+  {
+   "ticker": "BYMA",
+   "variacion": "▼ 1,5%",
+   "dir": "down",
+   "cuando": "cierre 13/11"
+  }
+ ],
+ "destacados": [
+  {
+   "titulo": "Martes 17: Nvidia",
+   "detalle": "Primer balance sin Jensen Huang, después del cierre."
+  },
+  {
+   "titulo": "Jueves 19: Anthropic en el Nasdaq",
+   "detalle": "Precio el miércoles, rango US$ 70 a 78."
+  },
+  {
+   "titulo": "Miércoles 18: minutas de la Fed",
+   "detalle": "El mercado ve más probable una suba en diciembre."
+  }
+ ]
+}
