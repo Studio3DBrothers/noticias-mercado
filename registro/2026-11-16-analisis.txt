@@ -1,0 +1,5 @@
+03:07 corrida programada "Análisis 3:00" (FECHA 2026-11-16, lunes; día hábil anterior: viernes 13/11/26)
+03:07 repo: ya estaba clonado en el espacio de trabajo; git fetch + checkout de origin/main (0b158ed): OK (add_repo no está disponible en esta sesión)
+03:08 SEC company_tickers.json y submissions (data.sec.gov) de las 47 empresas de analisis/lista.json (BRK.B como BRK-B): 200 OK
+03:08 presentaciones del viernes 13/11 (y hasta la madrugada del 14/11 UTC): QCOM 8-K (Items 1.01/8.01/9.01) y BKNG 8-K (Items 1.01/2.03/8.01/9.01): no son balances (sin Item 2.02). BBD 6-K bbdcvm358oct26 (informe de operaciones CVM 358 de octubre): no es balance. BRK.B, BAC e IBM: FWP/424B2; PBR: 13G/A; resto: formularios 4. Ninguna presentó resultados trimestrales.
+03:08 ninguna empresa de la lista presentó su balance trimestral el viernes 13/11: no se arman informes ni se modifica la página "Aprobar análisis"; sin aviso.
