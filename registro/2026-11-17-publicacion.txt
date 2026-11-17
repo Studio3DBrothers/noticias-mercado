@@ -1,0 +1,6 @@
+07:04 add_repo: herramienta no disponible en esta sesión; el repo ya estaba clonado en el workspace, sincronizado con origin/main (018e199) OK
+07:04 propuestas/2026-11-17/ existe: opcion-1/2/3.png y noticias.json OK
+07:04 elección leída: opción 1, 2026-11-17T03:33:15Z (antes de 05:00Z, elegida por Adrián)
+07:04 verificación opcion-1.png OK: fecha y datos al cierre 16/11, leyenda completa y línea 'Fuentes:' presentes
+07:05 copiadas hoja-2026-11-17.png y hoja.png (opción 1); noticias.json con hoja/hojaFecha; JSON validado OK (8 urls https, sin fechas en valores); borrada hoja-2026-11-09.png (>7 días)
+07:05 commit y push a main
