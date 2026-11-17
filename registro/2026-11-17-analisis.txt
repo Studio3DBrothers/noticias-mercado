@@ -1,0 +1,6 @@
+03:07 corrida programada "Análisis 3:00" (FECHA 2026-11-17, martes; día hábil anterior: lunes 16/11/26)
+03:07 repo: ya estaba clonado en el espacio de trabajo; git fetch + checkout de origin/main (a6f0081): OK (add_repo no está disponible en esta sesión)
+03:08 SEC company_tickers.json y submissions (data.sec.gov) de las 47 empresas de analisis/lista.json (BRK.B como BRK-B): 200 OK (NU: un 429, reintento OK)
+03:09 presentaciones del lunes 16/11 (y hasta la madrugada del 17/11 UTC): WMT 8-K (Items 5.02/9.01), AMD 8-K/A (Item 3.02) y AXP 8-K (Item 7.01): no son balances (sin Item 2.02). GGAL 6-K a11162026-cover6kclassacti (Banco Galicia informa una demanda colectiva): no es balance. TSLA DEFA14A; IBM 424B5; BAC 424B2; NVDA, BRK.B, AMD, BAC, INTC y UBER 13F-HR; varios 13G/13G/A; resto: formularios 3/4. Ninguna presentó resultados trimestrales.
+03:09 ninguna empresa de la lista presentó su balance trimestral el lunes 16/11: no se arman informes ni se modifica la página "Aprobar análisis"; sin aviso.
+03:08 commit "Registro del análisis del 17/11" y push a main: OK
