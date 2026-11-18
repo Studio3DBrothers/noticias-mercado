@@ -1,0 +1,322 @@
+{
+ "formato": "analisis/1",
+ "ticker": "HD",
+ "nombre": "The Home Depot, Inc.",
+ "trimestre": "3er Trimestre FY26",
+ "periodo": "Agosto-Octubre 2026",
+ "fechaBalance": "2026-11-17",
+ "fechaDatos": "2026-11-18",
+ "datosAl": "18/11/26, 10:32 (preapertura)",
+ "ultimos12MesesHasta": "2026-11-01",
+ "puntaje": 5.0,
+ "tituloPuntaje": "Puntaje según 6 criterios fijos",
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "amarillo",
+   "calificacion": "Media",
+   "dato": "P/E 12 meses 23,1 (precio US$ 333,35 ÷ ganancia por acción US$ 14,40)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "amarillo",
+   "calificacion": "Media",
+   "dato": "Margen operativo 12% · ROE 79%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "amarillo",
+   "calificacion": "Moderado",
+   "dato": "Deuda neta US$ 50,5 mil M · 2,0 veces la ganancia operativa antes de amortizaciones"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "amarillo",
+   "calificacion": "Medio",
+   "dato": "Flujo libre 12 meses US$ 15,1 mil M (9% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "amarillo",
+   "calificacion": "Moderado",
+   "dato": "Ingresos 12 meses US$ 171,2 mil M (+3,0%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "amarillo",
+   "calificacion": "Medio",
+   "dato": "Dividendos 2,8% de la capitalización · sin recompras en 12 meses"
+  }
+ ],
+ "notaSalud": null,
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 10-K ante la SEC",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Ventas netas",
+    "oficial": "Net sales",
+    "valor": 43398000000.0,
+    "var": 4.9
+   }
+  ],
+  "grupo": null,
+  "ingresos": 43398000000.0,
+  "varIngresos": 4.9,
+  "costo": 29178000000.0,
+  "bruta": 14220000000.0,
+  "gastos": [
+   {
+    "nombre": "Comerc. y admin.",
+    "valor": 7892000000.0
+   },
+   {
+    "nombre": "Amortizaciones",
+    "valor": 849000000.0
+   }
+  ],
+  "operativa": 5479000000.0,
+  "otros": -528000000.0,
+  "otrosNombre": "Intereses netos",
+  "impuestos": 1238000000.0,
+  "neta": 3713000000.0,
+  "netaConsolidada": 3713000000.0
+ },
+ "nota": "El comunicado no divide las ventas por segmento. Otros ingresos netos (intereses, participaciones y otros): −0,53 mil M.",
+ "diezAnios": [
+  {
+   "fin": "2017-01-29",
+   "ingresos": 94595000000,
+   "margenOp": 14.2,
+   "margenNeto": 8.4,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2019-03-28",
+   "precioCierre": 108.97
+  },
+  {
+   "fin": "2018-01-28",
+   "ingresos": 100904000000,
+   "margenOp": 14.5,
+   "margenNeto": 8.6,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2020-03-25",
+   "precioCierre": 167.0
+  },
+  {
+   "fin": "2019-02-03",
+   "ingresos": 108203000000,
+   "margenOp": 14.4,
+   "margenNeto": 10.3,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2021-03-24",
+   "precioCierre": 151.94
+  },
+  {
+   "fin": "2020-02-02",
+   "ingresos": 110225000000,
+   "margenOp": 14.4,
+   "margenNeto": 10.2,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2022-03-23",
+   "precioCierre": 193.1
+  },
+  {
+   "fin": "2021-01-31",
+   "ingresos": 132110000000,
+   "margenOp": 13.8,
+   "margenNeto": 9.7,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2023-03-15",
+   "precioCierre": 234.67
+  },
+  {
+   "fin": "2022-01-30",
+   "ingresos": 151157000000,
+   "margenOp": 15.2,
+   "margenNeto": 10.9,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2024-03-13",
+   "precioCierre": 324.25
+  },
+  {
+   "fin": "2023-01-29",
+   "ingresos": 157403000000,
+   "margenOp": 15.3,
+   "margenNeto": 10.9,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2025-03-21",
+   "precioCierre": 287.2
+  },
+  {
+   "fin": "2024-01-28",
+   "ingresos": 152669000000,
+   "margenOp": 14.2,
+   "margenNeto": 9.9,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-03-18",
+   "precioCierre": 331.18
+  },
+  {
+   "fin": "2025-02-02",
+   "ingresos": 159514000000,
+   "margenOp": 13.5,
+   "margenNeto": 9.3,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-03-18",
+   "precioCierre": 393.42
+  },
+  {
+   "fin": "2026-02-01",
+   "ingresos": 164683000000,
+   "margenOp": 12.7,
+   "margenNeto": 8.6,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-03-18",
+   "precioCierre": 366.63
+  }
+ ],
+ "ultimoBalance": "Ventas de US$ 43,4 mil M (+4,9%), con ventas comparables +2,2% y ticket promedio +3,0%. El margen operativo fue 12,6% (12,9% un año antes) y la ganancia por acción subió 2,8%, a US$ 3,72. La empresa actualizó su previsión para el año.",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ventas",
+    "US$ 43,4 mil M",
+    "+4,9%"
+   ],
+   [
+    "Ventas comparables",
+    "",
+    "+2,2%"
+   ],
+   [
+    "Ticket promedio",
+    "US$ 93,09",
+    "+3,0%"
+   ],
+   [
+    "Margen operativo",
+    "12,6%",
+    "−0,3 pts"
+   ],
+   [
+    "Ganancia por acción",
+    "US$ 3,72",
+    "+2,8%"
+   ]
+  ],
+  "nota": "Margen operativo un año antes: 12,9%. Transacciones de clientes: −0,2%."
+ },
+ "fortalezas": [
+  "Ventas +4,9% en el trimestre, con ventas comparables +2,2% y ticket promedio +3,0%.",
+  "Flujo operativo de 9 meses de US$ 15,5 mil M, 19% más que un año antes.",
+  "Dividendos por US$ 9,3 mil M en 12 meses, el 2,8% de su capitalización."
+ ],
+ "debilidades": [
+  "Margen bruto del trimestre de 32,8% (33,4% un año antes) y margen operativo de 12,6% (12,9%).",
+  "Deuda neta de US$ 50,5 mil M, 2,0 veces la ganancia operativa antes de amortizaciones.",
+  "Ingresos +3,0% en 12 meses; las transacciones comparables de clientes bajaron 0,5% en el trimestre."
+ ],
+ "cedear": {
+  "ticker": "HD",
+  "ratio": "32:1",
+  "precioArs": 17900.0,
+  "dolarImplicito": 1718.31,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
+ "cotizacion": {
+  "var12m": 1.88,
+  "distMax": -12.9,
+  "precio": 333.35,
+  "variacionDia": -1.67,
+  "rango52": [
+   281.15,
+   382.74
+  ],
+  "capitalizacion": 332579836827.10004,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "Año FY26 (Febrero 2026-Enero 2027)",
+  "items": [
+   {
+    "nombre": "Ventas totales",
+    "actual": "cerca de +4,5%",
+    "ref": "antes: +2,5% a +4,5%"
+   },
+   {
+    "nombre": "Margen operativo",
+    "actual": "cerca de 12,4%",
+    "ref": "antes: 12,4% a 12,6%"
+   },
+   {
+    "nombre": "Ganancia por acción",
+    "actual": "cerca de +1,5%",
+    "ref": "antes: 0% a +4%, desde US$ 14,23"
+   }
+  ],
+  "resumen": "Home Depot llevó su previsión de ventas al extremo alto del rango anterior y la de margen operativo y ganancia por acción a la parte baja. La acción bajó 2,4% el día del balance (17/11), según Data912.",
+  "fuente": null
+ },
+ "conclusion": "Home Depot vendió US$ 171,2 mil M en los últimos 12 meses (+3,0%), con un margen operativo de 12,4%, por debajo del 14% a 15% que tuvo durante la mayor parte de la década. En el trimestre las ventas crecieron 4,9%, apoyadas en un ticket promedio más alto, mientras la cantidad de transacciones bajó. Genera un flujo libre de US$ 15,1 mil M (9% de los ingresos) y lo destina sobre todo a dividendos, sin recompras de acciones en el último año. Su deuda neta, de US$ 50,5 mil M, equivale a 2,0 veces su ganancia operativa antes de amortizaciones. Para el año, la empresa ubicó las ventas en el extremo alto de su rango anterior y la ganancia por acción en la parte baja.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 171222000000.0,
+  "ingresosAnt": 166189000000,
+  "operativa": 21148000000.0,
+  "neta": 14339000000.0,
+  "eps": 14.4,
+  "flujoOperativo": 18843000000.0,
+  "inversiones": 3737000000.0,
+  "dividendos": 9257000000.0,
+  "recompras": 0.0,
+  "amortizaciones": 4361000000.0,
+  "patrimonio": 18134000000.0,
+  "deuda": 52483000000.0,
+  "deudaDetalle": {
+   "Deuda de corto plazo": 5609000000.0,
+   "Cuotas corrientes de deuda de largo plazo": 3945000000.0,
+   "Deuda de largo plazo": 42929000000.0
+  },
+  "caja": 1968000000.0,
+  "cajaDetalle": {
+   "Caja y equivalentes": 1968000000.0
+  },
+  "acciones": 997689626,
+  "fechaAcciones": "2026-08-18",
+  "fechaBalance": "2026-11-01",
+  "como": "FY 2026-02-01 (10-K) + 9 meses 2026 − 9 meses 2025 (EX-99.1)"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000184/hd_exhibit991x11012026.htm",
+   "fecha": "2026-11-17"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000354950.json",
+   "fecha": "2026-11-01"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-18"
+  },
+  {
+   "nombre": "Previsión anterior: comunicado del 2do trimestre (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000145/hd_exhibit991x08022026.htm",
+   "fecha": "2026-08-18"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
+   "fecha": "2026-11-18"
+  }
+ ]
+}

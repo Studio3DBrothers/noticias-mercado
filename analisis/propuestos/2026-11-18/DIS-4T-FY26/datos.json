@@ -1,0 +1,350 @@
+{
+ "formato": "analisis/1",
+ "ticker": "DIS",
+ "nombre": "The Walt Disney Company",
+ "trimestre": "4to Trimestre FY26",
+ "periodo": "Julio-Septiembre 2026",
+ "fechaBalance": "2026-11-17",
+ "fechaDatos": "2026-11-18",
+ "datosAl": "18/11/26, 10:32 (preapertura)",
+ "ultimos12MesesHasta": "2026-10-03",
+ "puntaje": 5.3,
+ "tituloPuntaje": "Puntaje según 6 criterios fijos",
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "amarillo",
+   "calificacion": "Media",
+   "dato": "P/E 12 meses 20,9 (precio US$ 117,58 ÷ ganancia por acción US$ 5,63)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "amarillo",
+   "calificacion": "Media",
+   "dato": "Margen operativo 15% · ROE 9%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "amarillo",
+   "calificacion": "Moderado",
+   "dato": "Deuda neta US$ 37,8 mil M · 1,8 veces la ganancia operativa antes de amortizaciones"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "amarillo",
+   "calificacion": "Medio",
+   "dato": "Flujo libre 12 meses US$ 10,6 mil M (10% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "amarillo",
+   "calificacion": "Moderado",
+   "dato": "Ingresos 12 meses US$ 102,3 mil M (+8,4%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Dividendos 1,3% + recompras 4,5% = 5,8% de la capitalización"
+  }
+ ],
+ "notaSalud": null,
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 10-K ante la SEC",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Experiencias",
+    "oficial": "Experiences",
+    "valor": 10105000000.0,
+    "var": 15.3
+   },
+   {
+    "nombre": "Entretenimiento, neto",
+    "oficial": "Entertainment",
+    "valor": 11228000000.0,
+    "var": 15.5
+   },
+   {
+    "nombre": "Deportes",
+    "oficial": "Sports",
+    "valor": 4614000000.0,
+    "var": 15.9
+   }
+  ],
+  "grupo": null,
+  "ingresos": 25947000000.0,
+  "varIngresos": 15.5,
+  "costo": 15688000000.0,
+  "bruta": 10259000000.0,
+  "gastos": [
+   {
+    "nombre": "Comerc. y admin.",
+    "valor": 4290000000.0
+   },
+   {
+    "nombre": "Amortizaciones",
+    "valor": 1116000000.0
+   },
+   {
+    "nombre": "Corporativo",
+    "valor": 443000000.0
+   },
+   {
+    "nombre": "Intangibles",
+    "valor": 337000000.0
+   },
+   {
+    "nombre": "Reestructuración",
+    "valor": 317000000.0
+   }
+  ],
+  "operativa": 3756000000.0,
+  "otros": -249000000.0,
+  "otrosNombre": "Otros netos",
+  "impuestos": 652000000.0,
+  "neta": 2612000000.0,
+  "netaConsolidada": 2855000000.0
+ },
+ "nota": "Disney no informa ganancia bruta: el costo son los gastos operativos de los segmentos, netos de US$ 0,67 mil M de ventas entre segmentos (Eliminations), que también se restan de Entretenimiento. Ganancia neta para los accionistas de Disney: US$ 2,6 mil M (el resto es de socios minoritarios). Intangibles: amortización de activos de empresas compradas; reestructuración incluye deterioros. Otros ingresos netos (intereses, participaciones y otros): −0,25 mil M.",
+ "diezAnios": [
+  {
+   "fin": "2017-09-30",
+   "ingresos": 55137000000,
+   "margenOp": 25.0,
+   "margenNeto": 16.3,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2019-11-20",
+   "precioCierre": 92.2
+  },
+  {
+   "fin": "2018-09-29",
+   "ingresos": 59434000000,
+   "margenOp": 24.9,
+   "margenNeto": 21.2,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2020-11-25",
+   "precioCierre": 111.15
+  },
+  {
+   "fin": "2019-09-28",
+   "ingresos": 69607000000,
+   "margenOp": 15.3,
+   "margenNeto": 15.9,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2021-11-24",
+   "precioCierre": 125.25
+  },
+  {
+   "fin": "2020-10-03",
+   "ingresos": 65388000000,
+   "margenOp": -3.0,
+   "margenNeto": -4.4,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2022-11-29",
+   "precioCierre": 118.82
+  },
+  {
+   "fin": "2021-10-02",
+   "ingresos": 67418000000,
+   "margenOp": 4.5,
+   "margenNeto": 3.0,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2023-11-21",
+   "precioCierre": 170.65
+  },
+  {
+   "fin": "2022-10-01",
+   "ingresos": 82722000000,
+   "margenOp": 7.9,
+   "margenNeto": 3.8,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2024-11-14",
+   "precioCierre": 91.46
+  },
+  {
+   "fin": "2023-09-30",
+   "ingresos": 88898000000,
+   "margenOp": 5.7,
+   "margenNeto": 2.6,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2025-11-13",
+   "precioCierre": 78.58
+  },
+  {
+   "fin": "2024-09-28",
+   "ingresos": 91361000000,
+   "margenOp": 9.1,
+   "margenNeto": 5.4,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2026-11-17",
+   "precioCierre": 93.82
+  },
+  {
+   "fin": "2025-09-27",
+   "ingresos": 94425000000,
+   "margenOp": 13.8,
+   "margenNeto": 13.1,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2026-11-17",
+   "precioCierre": 111.85
+  },
+  {
+   "fin": "2026-10-03",
+   "ingresos": 102344000000,
+   "margenOp": 14.7,
+   "margenNeto": 9.7,
+   "formulario": "10-K",
+   "reestructuracion": true,
+   "ultimaPresentacion": "2026-11-17",
+   "precioCierre": 102.19
+  }
+ ],
+ "ultimoBalance": "Ingresos de US$ 25,9 mil M (+15,5%) en un trimestre de 14 semanas, con Experiencias (Experiences) +15% y Entretenimiento (Entertainment) +17%. La ganancia operativa de los segmentos subió 43% y la ganancia por acción pasó de US$ 0,73 a US$ 1,51. La empresa subió el dividendo 33%.",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 25,9 mil M",
+    "+15,5%"
+   ],
+   [
+    "Experiencias",
+    "US$ 10,1 mil M",
+    "+15%"
+   ],
+   [
+    "Entretenimiento",
+    "US$ 11,9 mil M",
+    "+17%"
+   ],
+   [
+    "Ganancia op. segmentos",
+    "US$ 4,97 mil M",
+    "+43%"
+   ],
+   [
+    "Ganancia por acción",
+    "US$ 1,51",
+    "+107%"
+   ]
+  ],
+  "nota": "El trimestre tuvo 14 semanas, una más que un año antes."
+ },
+ "fortalezas": [
+  "Experiencias tuvo ingresos y ganancia récord en el año: US$ 39,6 mil M (+9%) y US$ 11,2 mil M (+12%).",
+  "Destinó US$ 11,6 mil M a dividendos y recompras en el año, el 5,8% de su capitalización.",
+  "Ingresos del streaming (SVOD) +19% en el trimestre y margen operativo de 11,5% en el año."
+ ],
+ "debilidades": [
+  "La ganancia por acción del año bajó 18%, a US$ 5,63; en 2025 los impuestos habían sumado US$ 1,4 mil M.",
+  "Deuda neta de US$ 37,8 mil M, 1,8 veces la ganancia operativa antes de amortizaciones.",
+  "Parques internacionales: ganancia −7% en el trimestre, con menos visitantes en Hong Kong y Shanghái."
+ ],
+ "cedear": {
+  "ticker": "DISN",
+  "ratio": "12:1",
+  "precioArs": 16540.0,
+  "dolarImplicito": 1688.04,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
+ "cotizacion": {
+  "var12m": 12.23,
+  "distMax": -1.73,
+  "precio": 117.58,
+  "variacionDia": 0.55,
+  "rango52": [
+   91.72,
+   119.65
+  ],
+  "capitalizacion": 200830128363.44,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "Año FY27 (Octubre 2026-Septiembre 2027)",
+  "items": [
+   {
+    "nombre": "Ganancia por acción ajustada",
+    "actual": "crecimiento de dos dígitos",
+    "ref": "FY26: US$ 7,02 (+18%)"
+   },
+   {
+    "nombre": "Ganancia operativa de segmentos",
+    "actual": "cerca de +8%",
+    "ref": "FY26: US$ 19,7 mil M (+12%)"
+   },
+   {
+    "nombre": "Recompras de acciones",
+    "actual": "cerca de US$ 9 mil M",
+    "ref": "FY26: US$ 9,0 mil M"
+   }
+  ],
+  "resumen": "Disney espera seguir creciendo en 2027, con la mayor parte de la suba en el primer semestre, y subió el dividendo a US$ 2,00 por acción (+33%). Son medidas ajustadas (no contables), sin la semana adicional de 2026. La acción bajó 1,5% el día del balance (17/11), según Data912.",
+  "fuente": null
+ },
+ "conclusion": "Disney cerró su año fiscal 2026 con ingresos de US$ 102,3 mil M (+8%, con cerca de 2 puntos por una semana adicional) y un margen operativo de 15%, el más alto desde 2019, aunque lejos del 25% de 2017 y 2018. Los parques, cruceros y productos (Experiencias) siguen siendo su mayor fuente de ganancia, y el streaming ya opera con un margen de 11,5%. Generó un flujo libre de US$ 10,6 mil M y devolvió US$ 11,6 mil M a los accionistas, más que ese flujo, con una deuda neta de 1,8 veces su ganancia operativa antes de amortizaciones. En el trimestre, los ingresos subieron 15,5%, con la semana adicional como parte de la suba, y los parques de Asia recibieron menos visitantes.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 102344000000,
+  "ingresosAnt": 94425000000,
+  "operativa": 15041000000,
+  "neta": 9899000000,
+  "eps": 5.63,
+  "flujoOperativo": 19270000000,
+  "inversiones": 8698000000,
+  "dividendos": 2634000000,
+  "recompras": 9000000000,
+  "amortizaciones": 5605000000,
+  "patrimonio": 111600000000.0,
+  "deuda": 44473000000.0,
+  "deudaDetalle": {
+   "Deuda corriente": 7331000000.0,
+   "Deuda de largo plazo": 37142000000.0
+  },
+  "caja": 6679000000.0,
+  "cajaDetalle": {
+   "Caja y equivalentes": 6679000000.0
+  },
+  "acciones": 1708029668,
+  "fechaAcciones": "2026-11-11",
+  "fechaBalance": "2026-10-03",
+  "como": "año fiscal 2026 (10-K)"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000065/fy2026_q4xerxex991.htm",
+   "fecha": "2026-11-17"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001744489.json",
+   "fecha": "2026-10-03"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-18"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
+   "fecha": "2026-11-18"
+  }
+ ]
+}
