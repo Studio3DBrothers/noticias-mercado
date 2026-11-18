@@ -24,3 +24,8 @@
 10:40 punto 0: ArtifactData list "aprobaciones": OK, 7 aprobaciones, ninguna nueva; no hay propuestos aprobados sin publicar: no se publica nada.
 10:40 SEC submissions (47 empresas, User-Agent autorizado): desde el 17/11 solo los balances de HD, DIS y NVDA, que ya tienen carpeta en analisis/propuestos/2026-11-18/ (armados en la corrida de las 10:30). MCD 8-K 8.01 y PBR 6-K no son balances. No hay nada nuevo para armar.
 10:40 corrección: en las líneas de la corrida anterior que dicen 10:45, 10:50 y 10:55 la hora es aproximada; todos esos pasos terminaron antes de las 10:40.
+10:56 corrida programada CONTROL (FECHA 2026-11-18; día hábil anterior: martes 17/11/26); desde hoy los informes se publican directo, sin aprobación
+10:56 repo: ya clonado; git fetch + reset a origin/main (9bb2eb0): OK (add_repo no está disponible en esta sesión)
+10:57 punto 0: propuestos de los últimos 4 días que no están en indice.json: NVDA-3T-FY27, DIS-4T-FY26 y HD-3T-FY26 (2026-11-18). Controles del punto 6 sobre sus datos.json: OK los 3. (TEO-3T-2026 de propuestos/2026-11-13 queda fuera: tiene más de 4 días y TEO no está en lista.json.)
+10:57 SEC submissions (47 empresas, User-Agent autorizado): desde el 17/11 solo los balances de HD, DIS y NVDA (ya tienen carpeta). MCD 8-K 8.01, HD 8-K 5.02/7.01, DIS 8-K 7.01 y PBR 6-K no son balances. Nada nuevo para armar.
+10:58 publicados: copiados a analisis/NVDA-3T-FY27/, analisis/DIS-4T-FY26/ y analisis/HD-3T-FY26/ y agregados a indice.json (actualizado 2026-11-18T10:57:26-03:00). Validación: indice.json carga, las 7 carpetas tienen sus 4 archivos, sin palabras prohibidas y todos los links https: OK

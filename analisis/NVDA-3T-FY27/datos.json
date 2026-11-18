@@ -1,0 +1,332 @@
+{
+ "formato": "analisis/1",
+ "ticker": "NVDA",
+ "nombre": "NVIDIA Corporation",
+ "trimestre": "3er Trimestre FY27",
+ "periodo": "Agosto-Octubre 2026",
+ "fechaBalance": "2026-11-17",
+ "fechaDatos": "2026-11-18",
+ "datosAl": "18/11/26, 10:32 (preapertura)",
+ "ultimos12MesesHasta": "2026-10-25",
+ "puntaje": 9.8,
+ "tituloPuntaje": "Puntaje según 6 criterios fijos",
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "verde",
+   "calificacion": "Moderada",
+   "dato": "P/E 12 meses 17,2 (precio US$ 160,33 ÷ ganancia por acción US$ 9,31)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "verde",
+   "calificacion": "Alta",
+   "dato": "Margen operativo 66% · ROE 85%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "verde",
+   "calificacion": "Sólido",
+   "dato": "Más caja que deuda: caja neta de US$ 21,1 mil M"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Flujo libre 12 meses US$ 148,7 mil M (41% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Ingresos 12 meses US$ 361,8 mil M (+93,3%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "amarillo",
+   "calificacion": "Medio",
+   "dato": "Dividendos 0,3% + recompras 1,7% = 2,0% de la capitalización"
+  }
+ ],
+ "notaSalud": null,
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 10-K ante la SEC",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Centros de datos",
+    "oficial": "Data Center",
+    "valor": 107600000000.0,
+    "var": 110
+   },
+   {
+    "nombre": "Computación en el borde",
+    "oficial": "Edge Computing",
+    "valor": 8200000000.0,
+    "var": 42
+   }
+  ],
+  "grupo": null,
+  "ingresos": 115844000000.0,
+  "varIngresos": 103.2,
+  "costo": 29168000000.0,
+  "bruta": 86676000000.0,
+  "gastos": [
+   {
+    "nombre": "I+D",
+    "valor": 7454000000.0
+   },
+   {
+    "nombre": "Comerc. y admin.",
+    "valor": 1702000000.0
+   }
+  ],
+  "operativa": 77520000000.0,
+  "otros": 1497000000.0,
+  "impuestos": 13730000000.0,
+  "neta": 65287000000.0,
+  "netaConsolidada": 65287000000.0
+ },
+ "nota": "Plataformas según el comunicado, redondeadas a US$ 0,1 mil M. Los otros ingresos incluyen US$ 1,8 mil M de ganancias netas por inversiones en acciones. Otros ingresos netos (intereses, participaciones y otros): +1,5 mil M.",
+ "diezAnios": [
+  {
+   "fin": "2017-01-29",
+   "ingresos": 6910000000,
+   "margenOp": 28.0,
+   "margenNeto": 24.1,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2018-02-28",
+   "precioCierre": 2.75
+  },
+  {
+   "fin": "2018-01-28",
+   "ingresos": 9714000000,
+   "margenOp": 33.0,
+   "margenNeto": 31.4,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2018-02-28",
+   "precioCierre": 6.0
+  },
+  {
+   "fin": "2019-01-27",
+   "ingresos": 11716000000,
+   "margenOp": 32.5,
+   "margenNeto": 35.3,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2021-02-26",
+   "precioCierre": 3.96
+  },
+  {
+   "fin": "2020-01-26",
+   "ingresos": 10918000000,
+   "margenOp": 26.1,
+   "margenNeto": 25.6,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2022-03-18",
+   "precioCierre": 6.22
+  },
+  {
+   "fin": "2021-01-31",
+   "ingresos": 16675000000,
+   "margenOp": 27.2,
+   "margenNeto": 26.0,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2023-02-24",
+   "precioCierre": 12.92
+  },
+  {
+   "fin": "2022-01-30",
+   "ingresos": 26914000000,
+   "margenOp": 37.3,
+   "margenNeto": 36.2,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2024-02-21",
+   "precioCierre": 22.74
+  },
+  {
+   "fin": "2023-01-29",
+   "ingresos": 26974000000,
+   "margenOp": 15.7,
+   "margenNeto": 16.2,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2025-02-26",
+   "precioCierre": 20.3
+  },
+  {
+   "fin": "2024-01-28",
+   "ingresos": 60922000000,
+   "margenOp": 54.1,
+   "margenNeto": 48.8,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-02-25",
+   "precioCierre": 60.85
+  },
+  {
+   "fin": "2025-01-26",
+   "ingresos": 130497000000,
+   "margenOp": 62.4,
+   "margenNeto": 55.8,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-02-25",
+   "precioCierre": 142.25
+  },
+  {
+   "fin": "2026-01-25",
+   "ingresos": 215938000000,
+   "margenOp": 60.4,
+   "margenNeto": 55.6,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-02-25",
+   "precioCierre": 187.23
+  }
+ ],
+ "ultimoBalance": "Ingresos récord de US$ 115,8 mil M (+103%), con centros de datos en US$ 107,6 mil M (+110%) y computación en el borde (Edge Computing) en US$ 8,2 mil M (+42%). El margen bruto fue 74,8% y la ganancia neta subió 105%, a US$ 65,3 mil M.",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 115,8 mil M",
+    "+103%"
+   ],
+   [
+    "Centros de datos",
+    "US$ 107,6 mil M",
+    "+110%"
+   ],
+   [
+    "Edge Computing",
+    "US$ 8,2 mil M",
+    "+42%"
+   ],
+   [
+    "Margen bruto",
+    "74,8%",
+    "+1,4 pts"
+   ],
+   [
+    "Ganancia neta",
+    "US$ 65,3 mil M",
+    "+105%"
+   ]
+  ],
+  "nota": "Contra el trimestre anterior, los ingresos subieron 20%."
+ },
+ "fortalezas": [
+  "Ingresos de 12 meses de US$ 361,8 mil M, 93% más que en los 12 meses anteriores.",
+  "Margen operativo de 66% y flujo libre de US$ 148,7 mil M (41% de los ingresos) en 12 meses.",
+  "Caja neta de US$ 21,1 mil M y US$ 28,1 mil M devueltos a los accionistas en el trimestre."
+ ],
+ "debilidades": [
+  "Cuentas por cobrar de US$ 81,0 mil M: 64 días de ventas, contra 60 en el trimestre anterior.",
+  "Compromisos con proveedores por US$ 390 mil M (US$ 279 mil M un trimestre antes) y garantías por US$ 118 mil M.",
+  "La ganancia neta de 9 meses incluye US$ 25,5 mil M de ganancias por inversiones en acciones."
+ ],
+ "cedear": {
+  "ticker": "NVDA",
+  "ratio": "24:1",
+  "precioArs": 11320.0,
+  "dolarImplicito": 1694.51,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
+ "cotizacion": {
+  "var12m": -11.38,
+  "distMax": -32.98,
+  "precio": 160.33,
+  "variacionDia": 3.13,
+  "rango52": [
+   156.14,
+   239.24
+  ],
+  "capitalizacion": 3863953000000.0005,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "4to Trimestre FY27 (Noviembre 2026-Enero 2027)",
+  "items": [
+   {
+    "nombre": "Ingresos",
+    "actual": "US$ 130,0 mil M (±3%)",
+    "ref": "3T: US$ 115,8 mil M (previsión: 108,0)"
+   },
+   {
+    "nombre": "Margen bruto",
+    "actual": "71% a 72%",
+    "ref": "3T: 74,8%"
+   },
+   {
+    "nombre": "Gastos operativos",
+    "actual": "cerca de US$ 11,0 mil M",
+    "ref": "3T: US$ 9,2 mil M"
+   }
+  ],
+  "resumen": "NVIDIA espera ingresos 12% más altos que en este trimestre, que incluyen una semana adicional y no suponen ventas de cómputo para centros de datos en China. Presentó después del cierre: hoy 18/11 la rueda no abrió todavía y la acción variaba +3,1% a las 10:32 (hora de Buenos Aires, antes de la apertura), según Data912.",
+  "fuente": null
+ },
+ "conclusion": "NVIDIA duplicó sus ingresos en un año: US$ 115,8 mil M en el trimestre (+103%), con centros de datos en US$ 107,6 mil M (+110%). En los últimos 12 meses facturó US$ 361,8 mil M, con un margen operativo de 66% y un flujo libre de US$ 148,7 mil M, y tiene más caja que deuda. La década muestra el salto: los ingresos anuales pasaron de US$ 6,9 mil M a US$ 215,9 mil M entre los años fiscales 2017 y 2026. La contracara es el tamaño de sus compromisos: US$ 390 mil M con proveedores, garantías por US$ 118 mil M y cuentas por cobrar que subieron a 64 días de ventas. Para el próximo trimestre espera ingresos de US$ 130,0 mil M, con un margen bruto menor al de este trimestre.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 361808000000.0,
+  "ingresosAnt": 187142000000,
+  "operativa": 239090000000.0,
+  "neta": 226257000000.0,
+  "eps": 9.31,
+  "flujoOperativo": 158863000000.0,
+  "inversiones": 10140000000.0,
+  "dividendos": 12558000000.0,
+  "recompras": 64981000000.0,
+  "amortizaciones": 4190000000.0,
+  "patrimonio": 266666000000.0,
+  "deuda": 32371000000.0,
+  "deudaDetalle": {
+   "Deuda de largo plazo": 32371000000.0,
+   "Deuda de corto plazo": 0
+  },
+  "caja": 53512000000.0,
+  "cajaDetalle": {
+   "Caja y equivalentes": 29089000000.0,
+   "Títulos de deuda negociables": 24423000000.0
+  },
+  "acciones": 24100000000,
+  "fechaAcciones": "2026-08-21",
+  "fechaBalance": "2026-10-25",
+  "como": "FY 2026-01-25 (10-K) + 9 meses FY27 − 9 meses FY26 (EX-99.1)"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+   "fecha": "2026-11-17"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+   "fecha": "2026-10-25"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-18"
+  },
+  {
+   "nombre": "Comentario del director financiero (SEC, 8-K, EX-99.2)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+   "fecha": "2026-11-17"
+  },
+  {
+   "nombre": "Previsión anterior: comunicado del 2do trimestre (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+   "fecha": "2026-08-26"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
+   "fecha": "2026-11-18"
+  }
+ ]
+}

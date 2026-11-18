@@ -1,7 +1,52 @@
 {
   "formato": "analisis-mercado/1",
-  "actualizado": "2026-11-13T07:06:09-03:00",
+  "actualizado": "2026-11-18T10:57:26-03:00",
   "informes": [
+    {
+      "id": "NVDA-3T-FY27",
+      "ticker": "NVDA",
+      "nombre": "NVIDIA Corporation",
+      "trimestre": "3er Trimestre FY27",
+      "fechaBalance": "2026-11-17",
+      "publicado": "2026-11-18",
+      "puntaje": 9.8,
+      "carpeta": "analisis/NVDA-3T-FY27/",
+      "pdf": "informe.pdf",
+      "hojas": [
+        "hoja-1.jpg",
+        "hoja-2.jpg"
+      ]
+    },
+    {
+      "id": "DIS-4T-FY26",
+      "ticker": "DIS",
+      "nombre": "The Walt Disney Company",
+      "trimestre": "4to Trimestre FY26",
+      "fechaBalance": "2026-11-17",
+      "publicado": "2026-11-18",
+      "puntaje": 5.3,
+      "carpeta": "analisis/DIS-4T-FY26/",
+      "pdf": "informe.pdf",
+      "hojas": [
+        "hoja-1.jpg",
+        "hoja-2.jpg"
+      ]
+    },
+    {
+      "id": "HD-3T-FY26",
+      "ticker": "HD",
+      "nombre": "The Home Depot, Inc.",
+      "trimestre": "3er Trimestre FY26",
+      "fechaBalance": "2026-11-17",
+      "publicado": "2026-11-18",
+      "puntaje": 5.0,
+      "carpeta": "analisis/HD-3T-FY26/",
+      "pdf": "informe.pdf",
+      "hojas": [
+        "hoja-1.jpg",
+        "hoja-2.jpg"
+      ]
+    },
     {
       "id": "NU-3T-2026",
       "ticker": "NU",
