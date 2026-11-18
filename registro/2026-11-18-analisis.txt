@@ -35,3 +35,7 @@
 13:02 repo: ya clonado; git fetch + checkout de origin/main (566e1c8): OK (add_repo no está disponible en esta sesión)
 13:03 punto 0: ninguna carpeta de propuestos de los últimos 4 días falta en indice.json (NVDA-3T-FY27, DIS-4T-FY26 y HD-3T-FY26 ya publicados): no se publica nada.
 13:04 SEC submissions (47 empresas, User-Agent autorizado): desde el 17/11 solo los balances de HD, DIS y NVDA (ya tienen carpeta). Hoy antes de la apertura ninguna empresa de la lista presentó balance (PBR 6-K del 18/11 00:03 UTC ya revisado: no es balance). Nada nuevo para armar.
+15:06 corrida programada CONTROL (FECHA 2026-11-18; día hábil anterior: martes 17/11/26)
+15:07 repo: ya clonado; git fetch + checkout de origin/main (bc52f7f): OK (add_repo no está disponible en esta sesión)
+15:08 punto 0: ninguna carpeta de propuestos de los últimos 4 días falta en indice.json (NVDA-3T-FY27, DIS-4T-FY26 y HD-3T-FY26 ya publicados): no se publica nada.
+15:09 SEC submissions (47 empresas, User-Agent autorizado): desde el 17/11 solo los balances de HD, DIS y NVDA (ya tienen carpeta y están publicados). MCD 8-K 8.01, HD 8-K 5.02/7.01, DIS 8-K 7.01 y PBR 6-K no son balances. Nada nuevo para armar.
