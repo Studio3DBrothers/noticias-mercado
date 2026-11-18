@@ -1,0 +1,469 @@
+{
+ "formato": "noticias-mercado/1",
+ "generado": "2026-11-18T00:40:00-03:00",
+ "titular": {
+  "titulo": "Wall Street suma cuatro bajas seguidas y Nvidia supera lo esperado después del cierre",
+  "bajada": "El Dow cayó 1,67% antes del balance de Nvidia, que facturó US$ 115.800 M (+103%) y subía más de 3% fuera de hora. Acá el blue y el mayorista marcaron récords nominales y el BCRA compró US$ 74 M."
+ },
+ "noticias": [
+  {
+   "id": "2026-11-18-01",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Wall Street encadena cuatro ruedas en baja, la peor racha desde septiembre",
+   "resumen": "Software, aerolíneas y bancos lideraron las caídas. La tasa a 10 años tocó 5,15% y terminó cerca de 5,10%; el Brent subió por la tensión con Irán.",
+   "fuente": "Infobae (Reuters)",
+   "fecha": "2026-11-17",
+   "url": "https://www.infobae.com/estados-unidos/2026/11/17/wall-street-encadeno-su-cuarta-sesion-consecutiva-de-perdidas-el-sp-500-y-el-nasdaq-sufren-su-peor-racha-desde-septiembre/",
+   "cifras": [
+    {
+     "nombre": "Dow Jones",
+     "valor": "50.748,46",
+     "variacion": "▼ 1,67%",
+     "dir": "down",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "S&P 500",
+     "valor": "7.341,23",
+     "variacion": "▼ 1,02%",
+     "dir": "down",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "Nasdaq",
+     "valor": "24.329,34",
+     "variacion": "▼ 0,74%",
+     "dir": "down",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "Bono a 10 años",
+     "valor": "5,10%",
+     "variacion": "▼ 2 pb",
+     "dir": "down",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "Brent",
+     "valor": "US$ 93,14",
+     "variacion": "▲ 0,8%",
+     "dir": "up",
+     "cuando": "cierre 17/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-18-02",
+   "seccion": "cartera",
+   "tickers": [
+    "NVDA"
+   ],
+   "balance": true,
+   "titulo": "Nvidia: ingresos de US$ 115.800 M (+103%) y guía por encima de lo esperado",
+   "resumen": "Primer balance tras la salida de Jensen Huang: superó lo esperado en ingresos, data centers y ganancia por acción. Colette Kress sigue como CEO interina y el directorio busca reemplazo.",
+   "fuente": "Yahoo Finance",
+   "fecha": "2026-11-17",
+   "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html",
+   "cifras": [
+    {
+     "nombre": "NVDA",
+     "valor": "US$ 155,46",
+     "variacion": "▼ 0,44%",
+     "dir": "down",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "NVDA fuera de hora",
+     "valor": "US$ 161,08",
+     "variacion": "▲ 3,6%",
+     "dir": "up",
+     "cuando": "17/11 20:20 (EE.UU.)"
+    },
+    {
+     "nombre": "Ingresos 3T",
+     "valor": "US$ 115.800 M",
+     "variacion": "▲ 103% anual",
+     "dir": "up",
+     "cuando": "3T año fiscal 2027"
+    },
+    {
+     "nombre": "Data centers",
+     "valor": "US$ 107.600 M",
+     "variacion": "▲ 110% anual",
+     "dir": "up",
+     "cuando": "3T año fiscal 2027"
+    },
+    {
+     "nombre": "Ganancia por acción ajustada",
+     "valor": "US$ 2,68",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "esperado US$ 2,47"
+    },
+    {
+     "nombre": "Guía de ingresos 4T",
+     "valor": "US$ 130.000 M",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "esperado US$ 125.250 M"
+    }
+   ],
+   "fuertes": [
+    "Ingresos de data centers por US$ 107.600 M, +110% anual y +21% contra el trimestre anterior",
+    "Guía de US$ 130.000 M para el 4T, contra US$ 125.250 M que esperaba el mercado"
+   ],
+   "debiles": [
+    "Gastos operativos de US$ 9.156 M, +57% anual",
+    "Cuentas por cobrar de US$ 81.000 M, más del doble que en enero (US$ 38.466 M)"
+   ],
+   "motivo": "sin causa identificada: la baja de 0,44% fue en la rueda previa al balance; después del cierre la acción subía"
+  },
+  {
+   "id": "2026-11-18-03",
+   "seccion": "cartera",
+   "tickers": [
+    "DIS"
+   ],
+   "balance": true,
+   "titulo": "Disney supera lo esperado y sube el dividendo 33%, pero la acción cierra en baja",
+   "resumen": "Facturó US$ 25.900 M (+16%) con récord en parques y más ganancia en streaming. Fijó un ahorro de costos de US$ 3.000 M anuales hacia 2029.",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-17",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026",
+   "cifras": [
+    {
+     "nombre": "DIS",
+     "valor": "",
+     "variacion": "▼ 1,48%",
+     "dir": "down",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "Ingresos 4T",
+     "valor": "US$ 25.947 M",
+     "variacion": "▲ 16% anual",
+     "dir": "up",
+     "cuando": "4T año fiscal 2026"
+    },
+    {
+     "nombre": "Ganancia por acción ajustada",
+     "valor": "US$ 1,77",
+     "variacion": "▲ 59% anual",
+     "dir": "up",
+     "cuando": "esperado US$ 1,68"
+    },
+    {
+     "nombre": "Dividendo anual",
+     "valor": "US$ 2,00",
+     "variacion": "▲ 33%",
+     "dir": "up",
+     "cuando": "año fiscal 2027"
+    }
+   ],
+   "fuertes": [
+    "Entretenimiento: ganancia operativa de US$ 1.327 M, +92% anual; streaming pasó de US$ 402 M a US$ 824 M",
+    "Parques (Experiences): ingresos récord de US$ 10.105 M, +15%"
+   ],
+   "debiles": [
+    "Ganancia por acción anual sin ajustar: US$ 5,63, −18% contra US$ 6,85",
+    "Hong Kong y Shanghái con menos visitantes en el trimestre, y la empresa espera que siga en 2027"
+   ],
+   "motivo": "sin causa identificada"
+  },
+  {
+   "id": "2026-11-18-04",
+   "seccion": "cartera",
+   "tickers": [
+    "JPM"
+   ],
+   "balance": false,
+   "titulo": "JPMorgan cae 2,4% tras una falla en Zelle",
+   "resumen": "La acción fue de las más castigadas entre los bancos, un día después de una falla en el sistema de pagos Zelle.",
+   "fuente": "Infobae (Reuters)",
+   "fecha": "2026-11-17",
+   "url": "https://www.infobae.com/estados-unidos/2026/11/17/wall-street-encadeno-su-cuarta-sesion-consecutiva-de-perdidas-el-sp-500-y-el-nasdaq-sufren-su-peor-racha-desde-septiembre/",
+   "cifras": [
+    {
+     "nombre": "JPM",
+     "valor": "",
+     "variacion": "▼ 2,4%",
+     "dir": "down",
+     "cuando": "cierre 17/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": [],
+   "motivo": "una falla en el sistema de pagos Zelle el día anterior, según la nota"
+  },
+  {
+   "id": "2026-11-18-05",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "EE.UU.: las ventas minoristas suben 0,2% y la producción industrial cae 0,4%",
+   "resumen": "Datos de octubre: las ventas minoristas se moderaron tras el +0,8% de septiembre y la producción industrial cayó por servicios públicos (−4,3%).",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-17",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026",
+   "cifras": [
+    {
+     "nombre": "Ventas minoristas oct.",
+     "valor": "US$ 748.200 M",
+     "variacion": "▲ 0,2%",
+     "dir": "up",
+     "cuando": "dato de octubre"
+    },
+    {
+     "nombre": "Producción industrial oct.",
+     "valor": "",
+     "variacion": "▼ 0,4%",
+     "dir": "down",
+     "cuando": "dato de octubre"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-18-06",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El blue pasa los $ 1.600 y marca un nuevo récord nominal",
+   "resumen": "El paralelo sumó $ 40 en tres ruedas. El mayorista también tocó un máximo nominal y la brecha entre ambos ronda el 3,4%.",
+   "fuente": "Ámbito",
+   "fecha": "2026-11-17",
+   "url": "https://www.ambito.com/finanzas/el-dolar-blue-avanzo-40-tres-ruedas-supero-los-1600-y-alcanzo-un-nuevo-maximo-nominal-n6346300",
+   "cifras": [
+    {
+     "nombre": "Dólar blue",
+     "valor": "$ 1.605",
+     "variacion": "▲ $ 5",
+     "dir": "up",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "Dólar mayorista",
+     "valor": "$ 1.552",
+     "variacion": "▲ $ 1",
+     "dir": "up",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "Banco Nación (venta)",
+     "valor": "$ 1.575",
+     "variacion": "= 0,0%",
+     "dir": "flat",
+     "cuando": "cierre 17/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-18-07",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El BCRA compra US$ 74 M y las reservas suben US$ 277 M",
+   "resumen": "Más del doble que el lunes: en noviembre ya acumula US$ 330 M y en el año US$ 16.298 M. El MEP subió 1% y quedó apenas arriba de $ 1.600.",
+   "fuente": "Ámbito",
+   "fecha": "2026-11-17",
+   "url": "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-dolares-y-las-reservas-subieron-mas-us275-millones-n6346345",
+   "cifras": [
+    {
+     "nombre": "Compras BCRA",
+     "valor": "US$ 74 M",
+     "variacion": "",
+     "dir": "up",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "Reservas brutas",
+     "valor": "US$ 49.741 M",
+     "variacion": "▲ US$ 277 M",
+     "dir": "up",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "Dólar MEP",
+     "valor": "$ 1.600,51",
+     "variacion": "▲ 1%",
+     "dir": "up",
+     "cuando": "cierre 17/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-18-08",
+   "seccion": "argentina",
+   "tickers": [
+    "ALUA",
+    "PAMP",
+    "SUPV"
+   ],
+   "balance": false,
+   "titulo": "Riesgo país arriba de 850 y bonos en baja; Aluar y Pampa, las que más suben",
+   "resumen": "Los bonos en dólares revirtieron y cerraron en baja (854 a 859 puntos según la fuente). En la bolsa subieron Aluar y Pampa; Supervielle, entre las bajas.",
+   "fuente": "BAE Negocios",
+   "fecha": "2026-11-17",
+   "url": "https://www.baenegocios.com/finanzas/el-mayorista-marco-un-nuevo-record-y-el-riesgo-pais-volvio-a-superar-los-850-puntos/",
+   "cifras": [
+    {
+     "nombre": "Riesgo país (BAE)",
+     "valor": "859 pb",
+     "variacion": "▲ 0,5%",
+     "dir": "up",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "ALUA",
+     "valor": "",
+     "variacion": "▲ 3,8%",
+     "dir": "up",
+     "cuando": "cierre 17/11"
+    },
+    {
+     "nombre": "PAMP",
+     "valor": "",
+     "variacion": "▲ 2,9%",
+     "dir": "up",
+     "cuando": "cierre 17/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-18-09",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Superávit primario de $ 1,9 billones en octubre",
+   "resumen": "El resultado financiero también fue positivo, por $ 1,6 billones. En diez meses, el superávit primario suma 1,4% del PBI.",
+   "fuente": "BAE Negocios",
+   "fecha": "2026-11-17",
+   "url": "https://www.baenegocios.com/finanzas/el-mayorista-marco-un-nuevo-record-y-el-riesgo-pais-volvio-a-superar-los-850-puntos/",
+   "cifras": [
+    {
+     "nombre": "Superávit primario oct.",
+     "valor": "$ 1,9 billones",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "dato de octubre"
+    },
+    {
+     "nombre": "Superávit financiero oct.",
+     "valor": "$ 1,6 billones",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "dato de octubre"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  }
+ ],
+ "balancesHoy": [
+  {
+   "ticker": "DIS",
+   "nombre": "Disney",
+   "momento": "antes"
+  },
+  {
+   "ticker": "NVDA",
+   "nombre": "Nvidia",
+   "momento": "despues"
+  }
+ ],
+ "proximosBalances": [
+  {
+   "ticker": "WMT",
+   "nombre": "Walmart",
+   "fecha": "2026-11-19",
+   "momento": "antes"
+  },
+  {
+   "ticker": "BABA",
+   "nombre": "Alibaba",
+   "fecha": "2026-11-19",
+   "momento": "antes"
+  },
+  {
+   "ticker": "GLOB",
+   "nombre": "Globant",
+   "fecha": "2026-11-19",
+   "momento": "despues"
+  }
+ ],
+ "movimientos": [
+  {
+   "ticker": "JD",
+   "variacion": "▼ 7,66%",
+   "dir": "down",
+   "cuando": "cierre 17/11"
+  },
+  {
+   "ticker": "ALUA",
+   "variacion": "▲ 3,8%",
+   "dir": "up",
+   "cuando": "cierre 17/11"
+  },
+  {
+   "ticker": "PAMP",
+   "variacion": "▲ 2,9%",
+   "dir": "up",
+   "cuando": "cierre 17/11"
+  },
+  {
+   "ticker": "JPM",
+   "variacion": "▼ 2,4%",
+   "dir": "down",
+   "cuando": "cierre 17/11"
+  },
+  {
+   "ticker": "DIS",
+   "variacion": "▼ 1,48%",
+   "dir": "down",
+   "cuando": "cierre 17/11"
+  },
+  {
+   "ticker": "SPY",
+   "variacion": "▼ 1,01%",
+   "dir": "down",
+   "cuando": "cierre 17/11"
+  },
+  {
+   "ticker": "QQQ",
+   "variacion": "▼ 0,73%",
+   "dir": "down",
+   "cuando": "cierre 17/11"
+  },
+  {
+   "ticker": "NVDA",
+   "variacion": "▼ 0,44%",
+   "dir": "down",
+   "cuando": "cierre 17/11"
+  }
+ ],
+ "destacados": [
+  {
+   "titulo": "Nvidia superó lo esperado",
+   "detalle": "Ingresos de US$ 115.800 M (+103%) y guía de US$ 130.000 M para el 4T; subía 3,6% fuera de hora."
+  },
+  {
+   "titulo": "Récords nominales del dólar",
+   "detalle": "Blue $ 1.605 y mayorista $ 1.552; el BCRA compró US$ 74 M."
+  },
+  {
+   "titulo": "Cuarta baja seguida en Wall Street",
+   "detalle": "Dow −1,67%, S&P 500 −1,02%, Nasdaq −0,74%."
+  }
+ ]
+}
