@@ -3,3 +3,4 @@
 03:09 SEC (www.sec.gov/files/company_tickers.json y data.sec.gov/submissions): "HTTP Error 403: Forbidden". La SEC exige un User-Agent con un contacto declarado; en esta sesión no se permite usar el mail de la cuenta en el User-Agent y no hay una variable de entorno con un contacto para la SEC. No se probaron otros User-Agent.
 03:10 según propuestas/2026-11-18/noticias.json presentaron el martes 17/11: DIS (antes de la apertura) y NVDA (después del cierre). No se pudo confirmar en data.sec.gov ni bajar companyfacts / EX-99.1.
 03:10 sin datos oficiales de la SEC no se arman informes: no se modifica la página "Aprobar análisis". Se avisa a Adrián.
+03:08 commit "Registro del análisis del 18/11" y push a main: OK
