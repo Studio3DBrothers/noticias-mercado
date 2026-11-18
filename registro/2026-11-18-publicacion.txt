@@ -1,0 +1,6 @@
+07:04 add_repo: herramienta no disponible; repo ya clonado en la sesión, fetch origin/main OK (b4cab28)
+07:04 propuestas/2026-11-18 OK: opcion-1/2/3.png y noticias.json
+07:04 elección leída: opción 3, 2026-11-18T04:30:59Z (antes de 05:00Z, elegida por Adrián)
+07:04 verificación opcion-3.png OK: fecha y 'Datos al cierre del martes 17/11', leyenda completa y línea 'Fuentes:' presentes
+07:04 copiadas hoja-2026-11-18.png y hoja.png (opción 3); noticias.json con hoja/hojaFecha; JSON validado OK (9 urls https, sin fechas en valores); borrada hoja-2026-11-10.png (>7 días)
+07:04 commit y push a main
