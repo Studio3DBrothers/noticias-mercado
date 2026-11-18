@@ -20,3 +20,7 @@
 10:39 commit "Análisis propuestos del 18/11 (CONTROL)" (92805d5) y push a main: OK
 10:39 página "Aprobar análisis": se publicó la versión 12 con NVDA-3T-FY27, HD-3T-FY26 y DIS-4T-FY26 (los del 13/11 tienen más de 4 días o ya están publicados): OK
 10:39 aviso a Adrián por SendUserMessage
+10:40 corrida a mano CONTROL (pedida por Adrián a las 10:20 para HD, DIS y NVDA): repo al día con origin/main (cdb99d2)
+10:40 punto 0: ArtifactData list "aprobaciones": OK, 7 aprobaciones, ninguna nueva; no hay propuestos aprobados sin publicar: no se publica nada.
+10:40 SEC submissions (47 empresas, User-Agent autorizado): desde el 17/11 solo los balances de HD, DIS y NVDA, que ya tienen carpeta en analisis/propuestos/2026-11-18/ (armados en la corrida de las 10:30). MCD 8-K 8.01 y PBR 6-K no son balances. No hay nada nuevo para armar.
+10:40 corrección: en las líneas de la corrida anterior que dicen 10:45, 10:50 y 10:55 la hora es aproximada; todos esos pasos terminaron antes de las 10:40.
