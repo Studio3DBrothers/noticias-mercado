@@ -17,3 +17,6 @@
 10:55 DIS no informa ganancia bruta: en el gráfico de flujo el costo son los gastos operativos de los segmentos netos de eliminaciones (aclarado en la nota). Margen operativo de DIS = ingresos − costos y gastos − reestructuración (GAAP), también en los 10 años.
 10:38 informes armados con build3.py (copia de analisis/codigo con los datos del día; se agregó la ubicación de las etiquetas de margen para que no las tapen las líneas): HD-3T-FY26 puntaje 5,0; NVDA-3T-FY27 puntaje 9,8; DIS-4T-FY26 puntaje 5,3. Controles: OK los 3 (sumas, márgenes, palabras prohibidas, https, sin fechas en el semáforo). PDF de 2 páginas, hojas 1191×1685. Revisión visual: sin textos cortados ni superpuestos.
 10:38 guardados en analisis/propuestos/2026-11-18/
+10:39 commit "Análisis propuestos del 18/11 (CONTROL)" (92805d5) y push a main: OK
+10:39 página "Aprobar análisis": se publicó la versión 12 con NVDA-3T-FY27, HD-3T-FY26 y DIS-4T-FY26 (los del 13/11 tienen más de 4 días o ya están publicados): OK
+10:39 aviso a Adrián por SendUserMessage
