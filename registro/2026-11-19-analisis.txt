@@ -14,3 +14,7 @@
 15:07 repo: ya clonado; git fetch de origin/main (496620e), sin cambios locales: OK (add_repo no está disponible en esta sesión)
 15:07 punto 0: ninguna carpeta de propuestos de los últimos 4 días falta en indice.json (WMT-3T-FY27, NVDA-3T-FY27, DIS-4T-FY26 y HD-3T-FY26 ya publicados): no se publica nada.
 15:07 SEC submissions (47 empresas, User-Agent autorizado): desde el 18/11 solo WMT 8-K 2.02 (ya publicado como WMT-3T-FY27), SNDK 8-K 5.07 y PBR 6-K (ya revisados, no son balances). Nada nuevo para armar.
+19:36 corrida programada POST (FECHA 2026-11-19; día hábil anterior: miércoles 18/11/26)
+19:36 repo: ya clonado; git fetch + checkout de origin/main (2cbdf9b): OK (add_repo no está disponible en esta sesión)
+19:37 punto 0: ninguna carpeta de propuestos de los últimos 4 días falta en indice.json (WMT-3T-FY27, NVDA-3T-FY27, DIS-4T-FY26 y HD-3T-FY26 ya publicados): no se publica nada.
+19:39 SEC submissions (47 empresas, User-Agent autorizado): desde el 18/11 WMT 8-K 2.02 (ya publicado), BRK-B 8-K 8.01/9.01, IBM 8-K 9.01, SNDK 8-K 5.03/9.01 y 5.07, PBR 6-K (ya revisado): ninguno es un balance nuevo. Nada para armar.
