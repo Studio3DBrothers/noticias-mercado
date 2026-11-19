@@ -56,7 +56,7 @@ def armar(t):
         ks=[k for k,dd in enumerate(jp['dates']) if dd<=f]; return round(jp['prices'][ks[-1]],2) if ks else None
     anios=[{**{k:v for k,v in a.items() if k!='presentado'},'ultimaPresentacion':a['presentado'],'precioCierre':pfin(a['fin'])} for a in c['anios']]
     return {'formato':'analisis/1','ticker':t,'nombre':e['nombre'],'trimestre':e['trimestre'],'periodo':e['periodo'],'fechaBalance':e['fechaBalance'],
-       'fechaDatos':FECHA,'datosAl':DATOS,'ultimos12MesesHasta':m['hasta'],'puntaje':c['puntaje'],'indicadores':e.get('indicadores'),
+       'fechaDatos':FECHA,'datosAl':DATOS,'ultimos12MesesHasta':m['hasta'],'indicadores':e.get('indicadores'),
        'semaforo':[{'id':k,'nombre':LBL[k],'estado':v,'calificacion':cal(k,v),'dato':dato[k]} for k,v in c['sem'].items()],
        'notaSalud':e.get('notaSalud'),'margenNombre':e.get('margenNombre','Margen operativo'),'fuenteAnual':e.get('fuenteAnual','informes anuales 10-K ante la SEC'),'sankey':s,'nota':nota,'diezAnios':anios,'ultimoBalance':e['ultimo'],'ultimoFilas':e['ultimoFilas'],'fortalezas':e['fortalezas'],'debilidades':e['debilidades'],
        'cedear':({'ticker':t,'ratio':f'{RATIO[t]}:1','precioArs':CED[t]['c'],'dolarImplicito':round(CED[t]['c']*RATIO[t]/px[0],2),'fuente':'Data912 (BYMA) y ratio BYMA'} if t in CED and t in RATIO else None),'cotizacion':{'var12m':round(var12(t,px[0]),2),'distMax':round((px[0]/px[3]-1)*100,2),'precio':px[0],'variacionDia':px[1],'rango52':[px[2],px[3]],'capitalizacion':m['capitalizacion'],'proximoBalance':None},
@@ -163,7 +163,7 @@ with sync_playwright() as pw:
     b=pw.chromium.launch()
     for t in E:
         d=armar(t); errs=controles(d['sankey'],d)
-        print(t,'puntaje',d['puntaje'],'controles:',errs or 'OK')
+        print(t,'controles:',errs or 'OK')
         dd=OUT+t+'/'; os.makedirs(dd,exist_ok=True)
         json.dump(d,open(dd+'datos.json','w'),ensure_ascii=False,indent=1,default=str)
         if errs: continue
