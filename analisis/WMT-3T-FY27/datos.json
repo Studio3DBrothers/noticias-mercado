@@ -1,0 +1,334 @@
+{
+ "formato": "analisis/1",
+ "ticker": "WMT",
+ "nombre": "Walmart Inc.",
+ "trimestre": "3er Trimestre FY27",
+ "periodo": "Agosto-Octubre 2026",
+ "fechaBalance": "2026-11-19",
+ "fechaDatos": "2026-11-19",
+ "datosAl": "19/11/26, 13:10 (rueda en curso)",
+ "ultimos12MesesHasta": "2026-10-31",
+ "puntaje": 2.8,
+ "tituloPuntaje": "Puntaje según 6 criterios fijos",
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "rojo",
+   "calificacion": "Exigente",
+   "dato": "P/E 12 meses 47,9 (precio US$ 125,40 ÷ ganancia por acción US$ 2,62)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "rojo",
+   "calificacion": "Baja",
+   "dato": "Margen operativo 4% · ROE 21%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "verde",
+   "calificacion": "Sólido",
+   "dato": "Deuda neta US$ 50,9 mil M · 1,0 veces la ganancia operativa antes de amortizaciones"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "rojo",
+   "calificacion": "Bajo",
+   "dato": "Flujo libre 12 meses US$ 12,9 mil M (2% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "amarillo",
+   "calificacion": "Moderado",
+   "dato": "Ingresos 12 meses US$ 745,2 mil M (+6,0%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "amarillo",
+   "calificacion": "Medio",
+   "dato": "Dividendos 0,8% + recompras 0,9% = 1,7% de la capitalización"
+  }
+ ],
+ "notaSalud": null,
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 10-K ante la SEC",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Walmart Estados Unidos",
+    "oficial": "Walmart U.S.",
+    "valor": 124969000000.0,
+    "var": 3.6
+   },
+   {
+    "nombre": "Walmart Internacional",
+    "oficial": "Walmart International",
+    "valor": 35876000000.0,
+    "var": 7.0
+   },
+   {
+    "nombre": "Sam's Club Estados Unidos",
+    "oficial": "Sam's Club U.S.",
+    "valor": 25912000000.0,
+    "var": 10.0
+   },
+   {
+    "nombre": "Membresías y otros",
+    "oficial": "Membership and other income",
+    "valor": 2078000000.0,
+    "var": 20.3,
+    "servicio": true
+   }
+  ],
+  "grupo": null,
+  "ingresos": 188835000000.0,
+  "varIngresos": 5.2,
+  "costo": 141003000000.0,
+  "bruta": 47832000000.0,
+  "gastos": [
+   {
+    "nombre": "Comerc. y admin.",
+    "valor": 40062000000.0
+   }
+  ],
+  "operativa": 7770000000.0,
+  "otros": -1026000000.0,
+  "otrosNombre": "Intereses y otros",
+  "impuestos": 1649000000.0,
+  "neta": 4945000000.0,
+  "netaConsolidada": 5095000000.0
+ },
+ "nota": "Las ventas de los tres segmentos suman las ventas netas; las membresías y otros ingresos se informan aparte. Ganancia neta para los accionistas de Walmart: US$ 4,9 mil M (el resto corresponde a socios minoritarios). Otros ingresos netos (intereses, participaciones y otros): −1,0 mil M.",
+ "diezAnios": [
+  {
+   "fin": "2017-01-31",
+   "ingresos": 485873000000,
+   "margenOp": 4.7,
+   "margenNeto": 2.8,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2019-03-28",
+   "precioCierre": 18.96
+  },
+  {
+   "fin": "2018-01-31",
+   "ingresos": 500343000000,
+   "margenOp": 4.1,
+   "margenNeto": 2.0,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2020-03-20",
+   "precioCierre": 31.07
+  },
+  {
+   "fin": "2019-01-31",
+   "ingresos": 514405000000,
+   "margenOp": 4.3,
+   "margenNeto": 1.3,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2021-03-19",
+   "precioCierre": 28.59
+  },
+  {
+   "fin": "2020-01-31",
+   "ingresos": 523964000000,
+   "margenOp": 3.9,
+   "margenNeto": 2.8,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2022-03-18",
+   "precioCierre": 34.85
+  },
+  {
+   "fin": "2021-01-31",
+   "ingresos": 559151000000,
+   "margenOp": 4.0,
+   "margenNeto": 2.4,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2023-03-17",
+   "precioCierre": 43.48
+  },
+  {
+   "fin": "2022-01-31",
+   "ingresos": 572754000000,
+   "margenOp": 4.5,
+   "margenNeto": 2.4,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2024-03-15",
+   "precioCierre": 43.95
+  },
+  {
+   "fin": "2023-01-31",
+   "ingresos": 611289000000,
+   "margenOp": 3.3,
+   "margenNeto": 1.9,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2025-03-14",
+   "precioCierre": 45.94
+  },
+  {
+   "fin": "2024-01-31",
+   "ingresos": 648125000000,
+   "margenOp": 4.2,
+   "margenNeto": 2.4,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-03-13",
+   "precioCierre": 53.57
+  },
+  {
+   "fin": "2025-01-31",
+   "ingresos": 680985000000,
+   "margenOp": 4.3,
+   "margenNeto": 2.9,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-03-13",
+   "precioCierre": 96.61
+  },
+  {
+   "fin": "2026-01-31",
+   "ingresos": 713163000000,
+   "margenOp": 4.2,
+   "margenNeto": 3.1,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-03-13",
+   "precioCierre": 118.39
+  }
+ ],
+ "ultimoBalance": "Ingresos de US$ 188,8 mil M (+5,2%), con ventas comparables de Walmart Estados Unidos +2,9% y comercio electrónico global +17%. La ganancia operativa subió 16,0%, a US$ 7,8 mil M, y la ganancia por acción bajó 19,5%, a US$ 0,62, por pérdidas en inversiones (ajustada: US$ 0,65). La empresa elevó su previsión para el año.",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 188,8 mil M",
+    "+5,2%"
+   ],
+   [
+    "Walmart Estados Unidos, ventas comparables",
+    "",
+    "+2,9%"
+   ],
+   [
+    "Comercio electrónico global",
+    "",
+    "+17%"
+   ],
+   [
+    "Ganancia operativa",
+    "US$ 7,8 mil M",
+    "+16,0%"
+   ],
+   [
+    "Ganancia por acción",
+    "US$ 0,62",
+    "−19,5%"
+   ]
+  ],
+  "nota": "Ventas comparables sin combustible. Ganancia por acción ajustada: US$ 0,65; la diferencia es una pérdida neta por inversiones. La empresa elevó su previsión para el año."
+ },
+ "fortalezas": [
+  "Ingresos +5,2% en el trimestre, con comercio electrónico global +17%, publicidad +25% e ingresos por membresías +17%.",
+  "Ganancia operativa del trimestre +16,0% (+5,5% ajustada y sin efecto cambiario), con el margen bruto 0,28 puntos más alto.",
+  "Deuda neta de US$ 50,9 mil M, 1,0 vez la ganancia operativa antes de amortizaciones."
+ ],
+ "debilidades": [
+  "Margen operativo de 4,5% en 12 meses, entre 3% y 5% en toda la década.",
+  "Flujo libre de US$ 12,9 mil M en 12 meses (1,7% de los ingresos): la inversión en bienes de uso subió 21% en 9 meses, a US$ 22,6 mil M.",
+  "Ganancia neta del trimestre −19,5%: otras ganancias y pérdidas restaron US$ 0,34 mil M, contra un aporte de US$ 2,1 mil M un año antes."
+ ],
+ "cedear": {
+  "ticker": "WMT",
+  "ratio": "18:1",
+  "precioArs": 12010.0,
+  "dolarImplicito": 1723.92,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
+ "cotizacion": {
+  "var12m": 25.69,
+  "distMax": -6.33,
+  "precio": 125.4,
+  "variacionDia": -1.54,
+  "rango52": [
+   99.77,
+   133.88
+  ],
+  "capitalizacion": 994891778621.4,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "Año FY27 (Febrero 2026-Enero 2027)",
+  "items": [
+   {
+    "nombre": "Ventas netas (sin efecto cambiario)",
+    "actual": "+4,9% a +5,2%",
+    "ref": "antes: +4,0% a +5,0%"
+   },
+   {
+    "nombre": "Ganancia operativa ajustada",
+    "actual": "+8,0% a +8,6%",
+    "ref": "antes: +7,0% a +8,5%"
+   },
+   {
+    "nombre": "Ganancia por acción ajustada",
+    "actual": "US$ 2,84 a 2,89",
+    "ref": "antes: US$ 2,80 a 2,87"
+   }
+  ],
+  "resumen": "Walmart volvió a subir su previsión para el año fiscal: el rango de ventas y el de ganancia por acción quedaron por encima de los de agosto. Son medidas ajustadas (no contables) y en moneda constante. La acción variaba −1,5% hoy, día del balance, a las 13:10 con la rueda todavía abierta, según Data912.",
+  "fuente": null
+ },
+ "conclusion": "Walmart facturó US$ 745,2 mil M en los últimos 12 meses (+6,0%), con un margen operativo de 4,5%, dentro del rango de 3% a 5% que tuvo en toda la década. En el trimestre, los ingresos crecieron 5,2% y la ganancia operativa 16,0%, con el comercio electrónico (+17%), la publicidad (+25%) y las membresías (+17%) creciendo más rápido que las ventas; sin efecto cambiario ni partidas especiales, la ganancia operativa subió 5,5%. La inversión en bienes de uso, de US$ 30,6 mil M en 12 meses, deja un flujo libre de US$ 12,9 mil M, el 1,7% de los ingresos. Su deuda neta equivale a 1,0 vez su ganancia operativa antes de amortizaciones, y destinó US$ 16,7 mil M a dividendos y recompras en 12 meses. La empresa elevó su previsión de ventas y de ganancia ajustada para el año fiscal.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 745179000000.0,
+  "ingresosAnt": 703061000000.0,
+  "operativa": 33354000000.0,
+  "neta": 20878000000.0,
+  "eps": 2.62,
+  "flujoOperativo": 43549000000.0,
+  "inversiones": 30636000000.0,
+  "dividendos": 7790000000.0,
+  "recompras": 8910000000.0,
+  "amortizaciones": 15504000000.0,
+  "patrimonio": 100223000000.0,
+  "deuda": 64292000000.0,
+  "deudaDetalle": {
+   "Préstamos de corto plazo": 12277000000.0,
+   "Deuda de largo plazo con vencimiento en un año": 3221000000.0,
+   "Arrendamientos financieros con vencimiento en un año": 893000000.0,
+   "Deuda de largo plazo": 41962000000.0,
+   "Arrendamientos financieros de largo plazo": 5939000000.0
+  },
+  "caja": 13432000000.0,
+  "cajaDetalle": {
+   "Caja y equivalentes": 13432000000.0
+  },
+  "acciones": 7933746241,
+  "fechaAcciones": "2026-08-26",
+  "fechaBalance": "2026-10-31",
+  "como": "FY 2026-01-31 (10-K) + 9 meses 2026 − 9 meses 2025 (EX-99.1)"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000168/earningsreleasefy27q3.htm",
+   "fecha": "2026-11-19"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json",
+   "fecha": "2026-10-31"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-19"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
+   "fecha": "2026-11-19"
+  }
+ ]
+}
