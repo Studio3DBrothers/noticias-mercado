@@ -15,7 +15,7 @@ def var12(t,precio):
 FECHA='2026-11-12'; DATOS='cierre del 12/11/26'
 PX={'AAPL':(354.84,-0.15,246.03,355.63),'MSFT':(522.98,0.36,352.17,555.80),'KO':(97.45,-0.12,66.25,97.57),'NU':(11.84,-3.9,11.60,18.76)}
 OUT=B+'a4/'; os.makedirs(OUT,exist_ok=True)
-LEYENDA='Este informe de análisis fundamental es solo un diagnóstico de la empresa según criterios fijos y no constituye una recomendación de compra ni venta. Las decisiones de inversión son responsabilidad exclusiva de cada inversor.'
+LEYENDA='Este informe de análisis fundamental es un diagnóstico general de la empresa según criterios fijos, con datos públicos a la fecha de publicación. Es contenido informativo: no constituye asesoramiento ni recomendación de inversión (Ley 26.831). Invertir implica riesgo de pérdida de capital y el rendimiento pasado no garantiza resultados futuros. Las marcas y logos pertenecen a sus respectivos dueños.'
 def logo_html(t):
     """Logo a color (logos/color/<T>.png): si es blanco va sobre el círculo azul; si tiene color, sobre blanco con borde azul."""
     pc=REPO+f'logos/color/{t}.png'
