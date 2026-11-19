@@ -16,3 +16,9 @@ Uso:
 2. Escribí la entrada de cada empresa en datos_in.py.
 3. Ajustá PX, RATIO, FECHA y DATOS en build3.py.
 4. Corré `AF_REPO=<ruta del repo>/ python3 build3.py`.
+
+## Cambios del 19/11/2026 (pedido de Adrián)
+- Sin puntaje en el informe: la hoja 1 tiene SALUD FINANCIERA a la izquierda y, a la derecha, PRECIO, ÚLTIMO BALANCE (4 renglones y nota de hasta 2 renglones) e INDICADORES.
+- INDICADORES: `E[t]['indicadores'] = {'columnas':['Hoy','Prom. 5 años'], 'filas':[[nombre, hoy, promedio], ...], 'nota': opcional}` con 4 filas (PER, EV/EBITDA, EBITDA 12 meses, ROE; en bancos P/VL y margen antes de impuestos en lugar de EV/EBITDA y EBITDA). build3.py lo dibuja con `indic()`.
+- `puntaje` sigue en datos.json solo por compatibilidad con la app 1.3.22 (no se dibuja).
+- Leyenda nueva con la Ley 26.831 (LEYENDA en build3.py).

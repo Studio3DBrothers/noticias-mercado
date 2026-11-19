@@ -56,7 +56,7 @@ def armar(t):
         ks=[k for k,dd in enumerate(jp['dates']) if dd<=f]; return round(jp['prices'][ks[-1]],2) if ks else None
     anios=[{**{k:v for k,v in a.items() if k!='presentado'},'ultimaPresentacion':a['presentado'],'precioCierre':pfin(a['fin'])} for a in c['anios']]
     return {'formato':'analisis/1','ticker':t,'nombre':e['nombre'],'trimestre':e['trimestre'],'periodo':e['periodo'],'fechaBalance':e['fechaBalance'],
-       'fechaDatos':FECHA,'datosAl':DATOS,'ultimos12MesesHasta':m['hasta'],'puntaje':c['puntaje'],'tituloPuntaje':'Puntaje según 6 criterios fijos',
+       'fechaDatos':FECHA,'datosAl':DATOS,'ultimos12MesesHasta':m['hasta'],'puntaje':c['puntaje'],'indicadores':e.get('indicadores'),
        'semaforo':[{'id':k,'nombre':LBL[k],'estado':v,'calificacion':cal(k,v),'dato':dato[k]} for k,v in c['sem'].items()],
        'notaSalud':e.get('notaSalud'),'margenNombre':e.get('margenNombre','Margen operativo'),'fuenteAnual':e.get('fuenteAnual','informes anuales 10-K ante la SEC'),'sankey':s,'nota':nota,'diezAnios':anios,'ultimoBalance':e['ultimo'],'ultimoFilas':e['ultimoFilas'],'fortalezas':e['fortalezas'],'debilidades':e['debilidades'],
        'cedear':({'ticker':t,'ratio':f'{RATIO[t]}:1','precioArs':CED[t]['c'],'dolarImplicito':round(CED[t]['c']*RATIO[t]/px[0],2),'fuente':'Data912 (BYMA) y ratio BYMA'} if t in CED and t in RATIO else None),'cotizacion':{'var12m':round(var12(t,px[0]),2),'distMax':round((px[0]/px[3]-1)*100,2),'precio':px[0],'variacionDia':px[1],'rango52':[px[2],px[3]],'capitalizacion':m['capitalizacion'],'proximoBalance':None},
@@ -81,6 +81,7 @@ ul{{margin:0;padding-left:17px;font-size:13px;line-height:1.42}} li{{margin:3px 
 .row{{display:flex;justify-content:space-between;font-size:13px;padding:4px 0;border-bottom:1px solid {LINE}}} .row:last-child{{border:0}}
 .cot{{display:grid;grid-template-columns:1.1fr .9fr 1.3fr 1fr 1fr;gap:10px}} .cot div{{min-width:0;display:flex;flex-direction:column;gap:3px;font-size:13.5px}} .cot .mu{{font-size:11px}}
 .uf{{display:grid;grid-template-columns:1.45fr 1.1fr .7fr;gap:6px;font-size:13px;padding:5px 0;border-bottom:1px solid {LINE};align-items:baseline}} .uf:last-of-type{{border:0}} .uf>*{{min-width:0}} .uf b:last-child{{text-align:right}}
+.ind{{display:grid;grid-template-columns:1.4fr .9fr 1fr;gap:6px;font-size:12px;padding:2px 0;border-bottom:1px solid {LINE};align-items:baseline}} .ind>*{{min-width:0;text-align:right}} .ind>:first-child{{text-align:left}} .ind:last-of-type{{border:0}} .ind.cab{{font-size:11px;color:{MU};padding:0 0 3px;align-items:center}} .ind.cab .wt{{text-align:left}} .ind.cab b{{color:{AC}}}
 .pr{{display:flex;gap:14px;font-size:12px;color:{MU};margin-top:6px;padding-top:6px;border-top:1px solid {LINE}}} .pr b{{color:{INK}}}
 .una{{white-space:nowrap;overflow:hidden}} .lg.una{{flex-wrap:nowrap;gap:10px}}
 .lg{{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:{MU};margin-top:4px}}
@@ -92,7 +93,7 @@ def band2(d): return f'''<div class="band"><img class="app" src="data:image/png;
 def nro(i): return f'<div class="nro">Hoja {i} de 2</div>'
 def pie(d):
     fu=' · '.join(f"{f['nombre']} ({ft(f['fecha'])})" for f in d['fuentes'])
-    return f'<div class="pie"><div class="f">Datos al {d["datosAl"]}; últimos 12 meses hasta el {ft(d["ultimos12MesesHasta"])}. Fuentes: {esc(fu)}.</div><div class="ley">{LEYENDA} Las marcas y logos pertenecen a sus respectivos dueños.</div></div>'
+    return f'<div class="pie"><div class="f">Datos al {d["datosAl"]}; últimos 12 meses hasta el {ft(d["ultimos12MesesHasta"])}. Fuentes: {esc(fu)}.</div><div class="ley">{LEYENDA}</div></div>'
 def ufilas(u):
     def vc(v): return OK if v.startswith('+') else DN if v.startswith(('−','-')) else MU
     r=''.join((f'<div class="uf"><span class="una">{esc(a)}</span><b class="una">{esc(b)}</b>' if b else f'<div class="uf"><span class="una" style="grid-column:span 2">{esc(a)}</span>')+f'<b class="una" style="color:{vc(c)}">{esc(c)}</b></div>' for a,b,c in u['filas'])
@@ -100,16 +101,23 @@ def ufilas(u):
 def ced(x):
     if not x: return ''
     return f'<div class="pr una"><span>CEDEAR {x["ticker"]} <b>$ {n(x["precioArs"],0)}</b></span><span>ratio <b>{x["ratio"]}</b></span><span>dólar implícito <b>$ {n(x["dolarImplicito"],0)}</b></span></div>'
+def indic(x):
+    """INDICADORES (desde el 19/11/2026, en lugar del puntaje): la empresa hoy y su propio promedio de los últimos años."""
+    if not x: return ''
+    cab=x.get('columnas',['Hoy','Prom. 5 años'])
+    filas=''.join(f'<div class="ind"><span class="una">{esc(a)}</span><b class="una">{esc(b)}</b><span class="una">{esc(c)}</span></div>' for a,b,c in x['filas'])
+    return (f'<div class="win" style="flex:1;padding-top:9px"><div class="ind cab"><span class="wt" style="margin:0">INDICADORES</span><b class="una">{esc(cab[0])}</b><span class="una">{esc(cab[1])}</span></div>{filas}'
+            +(f'<div class="mu" style="margin-top:4px">{esc(x["nota"])}</div>' if x.get('nota') else '')+'</div>')
 def hoja1(d):
-    c=d['cotizacion']; an=d['diezAnios']; p=d['puntaje']; pcol=OK if p>=7.5 else WARN if p>=5 else DN
+    c=d['cotizacion']; an=d['diezAnios']
     sem=salud.tarjetas(d,C[d['ticker']]['m'])
     return f'''<div class="page">{band(d,1)}
 <div class="g2" style="grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)">
  <div class="win"><div class="wt">SALUD FINANCIERA</div>{sem}<div class="mu" style="padding-top:7px">Colores según los criterios fijos de la tabla de la app. La marca muestra dónde queda el dato dentro de su tramo.{(' '+esc(d['notaSalud'])) if d.get('notaSalud') else ''}</div></div>
  <div style="display:flex;flex-direction:column;gap:12px">
-  <div class="win" style="display:flex;align-items:center;gap:12px"><div style="width:76px;height:76px;border-radius:50%;border:8px solid {pcol};display:flex;align-items:center;justify-content:center;font-weight:800;font-size:24px;flex:none;background:#fff">{n(p,1)}</div><div><b class="una" style="font-size:14px;display:block">Puntaje según 6 criterios fijos</b><div class="mu" style="margin-top:3px">Pesos: 20% valuación, rentabilidad, flujo y crecimiento; 15% balance; 5% dividendos.</div></div></div>
   <div class="win"><div class="wt">PRECIO</div><div style="font-size:26px;font-weight:800">US$ {n(c['precio'],2)}</div><div class="mu una">{d['datosAl']} · capitalización US$ {mil(c['capitalizacion'])}</div><div class="pr una"><span>12 meses <b style="color:{OK if c['var12m']>=0 else DN}">{pc(c['var12m'],1)}</b></span><span>Distancia al máximo de 52 semanas <b>{'en máximos' if c['distMax']>-0.05 else pc(c['distMax'],1)}</b></span></div>{ced(d['cedear'])}</div>
-  <div class="win" style="flex:1"><div class="wt">ÚLTIMO BALANCE</div>{ufilas(d['ultimoFilas'])}</div>
+  <div class="win"><div class="wt">ÚLTIMO BALANCE</div>{ufilas(d['ultimoFilas'])}</div>
+  {indic(d.get('indicadores'))}
  </div>
 </div>
 <div class="win" style="margin-top:12px"><div class="wt">DE DÓNDE OBTIENE SUS INGRESOS</div><div class="mu" style="margin-bottom:4px">{d['trimestre']} ({d['periodo']}) · en US$</div>{sankey2(d['sankey'])}<div class="mu" style="margin-top:2px">{esc(d['nota'])}</div></div>
