@@ -46,7 +46,9 @@
     "PBR",
     "BBD",
     "SPOT",
-    "CRWV"
+    "CRWV",
+    "GLOB",
+    "BABA"
   ],
   "_publicar": "Empresas con análisis de balance (elegidas por Adrián el 14/11/26). Es una lista de empresas, no de posiciones en el SPY: no cambia si una sube o baja en el índice.",
   "financieras": [],
