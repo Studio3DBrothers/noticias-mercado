@@ -1,0 +1,5 @@
+07:04 repo ya clonado en sesión (origin Studio3DBrothers/noticias-mercado), HEAD 0422f34; propuestas/2026-11-19 completa (3 opciones + noticias.json)
+07:05 elección leída: opción 2, 2026-11-19T03:53:15.866Z (elegida por Adrián, antes de 05:00Z)
+07:05 verificación opcion-2.png OK: fecha y 'Datos al cierre del miércoles 18/11', leyenda completa y línea 'Fuentes:' presentes
+07:05 copiadas hoja-2026-11-19.png y hoja.png (opción 2); noticias.json con hoja/hojaFecha; JSON validado: 9 urls, problemas: ninguno; borradas >7 días: ['hoja-2026-11-11.png']
+07:05 commit y push a main
