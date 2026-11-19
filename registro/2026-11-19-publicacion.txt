@@ -3,3 +3,5 @@
 07:05 verificación opcion-2.png OK: fecha y 'Datos al cierre del miércoles 18/11', leyenda completa y línea 'Fuentes:' presentes
 07:05 copiadas hoja-2026-11-19.png y hoja.png (opción 2); noticias.json con hoja/hojaFecha; JSON validado: 9 urls, problemas: ninguno; borradas >7 días: ['hoja-2026-11-11.png']
 07:05 commit y push a main
+07:06 push OK 2ee7717; verificado origin/main con hoja-2026-11-19.png y noticias.json; aviso de Noticias enviado
+07:06 Análisis: no existe analisis/propuestos/2026-11-19/ -> sin análisis propuestos
