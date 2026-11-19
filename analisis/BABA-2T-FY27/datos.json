@@ -1,0 +1,356 @@
+{
+ "formato": "analisis/1",
+ "ticker": "BABA",
+ "nombre": "Alibaba Group Holding Ltd.",
+ "trimestre": "2do Trimestre FY27",
+ "periodo": "Julio-Septiembre 2026",
+ "fechaBalance": "2026-11-19",
+ "fechaDatos": "2026-11-19",
+ "datosAl": "cierre del 19/11/26",
+ "ultimos12MesesHasta": "2026-09-30",
+ "puntaje": 4.8,
+ "indicadores": {
+  "columnas": [
+   "Hoy",
+   "Prom. 5 años"
+  ],
+  "filas": [
+   [
+    "PER (precio/ganancia)",
+    "11,9",
+    "21,1"
+   ],
+   [
+    "EV/EBITDA",
+    "11,8",
+    "—"
+   ],
+   [
+    "EBITDA 12 meses",
+    "US$ 15,8 mil M",
+    "US$ 19,8 mil M"
+   ],
+   [
+    "ROE",
+    "9,9%",
+    "8,9%"
+   ]
+  ],
+  "nota": "Años fiscales 2022–2026 (20-F). EV/EBITDA: sin deuda bancaria en XBRL."
+ },
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "verde",
+   "calificacion": "Moderada",
+   "dato": "P/E 12 meses 11,9 (precio US$ 83,47 ÷ ganancia por ADS US$ 7,04)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "rojo",
+   "calificacion": "Baja",
+   "dato": "Margen operativo 5% · ROE 10%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "verde",
+   "calificacion": "Sólido",
+   "dato": "Más caja que deuda: caja neta de US$ 13,9 mil M"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "rojo",
+   "calificacion": "Bajo",
+   "dato": "Flujo libre 12 meses US$ −13,0 mil M (-8% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "amarillo",
+   "calificacion": "Moderado",
+   "dato": "Ingresos 12 meses US$ 159,4 mil M (+5,6%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "amarillo",
+   "calificacion": "Medio",
+   "dato": "Dividendos 1,2% + recompras 0,2% = 1,4% de la capitalización"
+  }
+ ],
+ "notaSalud": null,
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 20-F ante la SEC (US GAAP), en US$ a 6,7045 RMB por US$",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Comercio electrónico",
+    "oficial": "Alibaba E-commerce Group",
+    "valor": 29418599448.13185,
+    "var": 2.0
+   },
+   {
+    "nombre": "Nube y cómputo IA",
+    "oficial": "AI Cloud and Compute Services",
+    "valor": 9094339622.641508,
+    "var": 52.8,
+    "servicio": true
+   },
+   {
+    "nombre": "Otros, neto",
+    "oficial": "All others",
+    "valor": 1985084644.6416585,
+    "var": -7.9,
+    "servicio": true
+   }
+  ],
+  "grupo": null,
+  "ingresos": 40498023715.415016,
+  "varIngresos": 9.6,
+  "costo": 25128794093.519276,
+  "bruta": 15369229621.89574,
+  "gastos": [
+   {
+    "nombre": "Comercialización",
+    "valor": 6166157058.691923
+   },
+   {
+    "nombre": "Desarrollo",
+    "valor": 3375643224.699828
+   },
+   {
+    "nombre": "Admin. y otros",
+    "valor": 1484674472.3693042
+   }
+  ],
+  "operativa": 4342754866.1346855,
+  "otros": 10803191886.046684,
+  "otrosNombre": "Inversiones y otros",
+  "impuestos": 5537474830.337832,
+  "neta": 9625624580.50563,
+  "netaConsolidada": 9608471921.843538
+ },
+ "nota": "En US$ a 6,7045 RMB por US$. Comercio electrónico: China −5%, rápido +22%, internacional −8%, mayorista +6%. Otros ingresos netos (intereses, participaciones y otros): +10,8 mil M.",
+ "diezAnios": [
+  {
+   "fin": "2017-03-31",
+   "ingresos": 23606980386.3077,
+   "margenOp": 30.4,
+   "margenNeto": 27.6,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2019-06-05",
+   "precioCierre": 101.47
+  },
+  {
+   "fin": "2018-03-31",
+   "ingresos": 37328063241.10672,
+   "margenOp": 27.7,
+   "margenNeto": 25.6,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2020-07-09",
+   "precioCierre": 172.72
+  },
+  {
+   "fin": "2019-03-31",
+   "ingresos": 56207621746.58811,
+   "margenOp": 15.1,
+   "margenNeto": 23.3,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2021-07-27",
+   "precioCierre": 171.7
+  },
+  {
+   "fin": "2020-03-31",
+   "ingresos": 76025206950.55559,
+   "margenOp": 17.9,
+   "margenNeto": 29.3,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2022-07-26",
+   "precioCierre": 183.02
+  },
+  {
+   "fin": "2021-03-31",
+   "ingresos": 106986203296.29353,
+   "margenOp": 12.5,
+   "margenNeto": 21.0,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2023-07-21",
+   "precioCierre": 213.36
+  },
+  {
+   "fin": "2022-03-31",
+   "ingresos": 127237228726.97441,
+   "margenOp": 8.2,
+   "margenNeto": 7.3,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2024-05-23",
+   "precioCierre": 102.39
+  },
+  {
+   "fin": "2023-03-31",
+   "ingresos": 129567753001.71526,
+   "margenOp": 11.6,
+   "margenNeto": 8.4,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2025-06-26",
+   "precioCierre": 96.16
+  },
+  {
+   "fin": "2024-03-31",
+   "ingresos": 140378551718.9947,
+   "margenOp": 12.0,
+   "margenNeto": 8.5,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-05-20",
+   "precioCierre": 69.01
+  },
+  {
+   "fin": "2025-03-31",
+   "ingresos": 148608695652.17392,
+   "margenOp": 14.1,
+   "margenNeto": 13.1,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-05-20",
+   "precioCierre": 128.85
+  },
+  {
+   "fin": "2026-03-31",
+   "ingresos": 152684018196.73352,
+   "margenOp": 4.9,
+   "margenNeto": 10.1,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-05-20",
+   "precioCierre": 124.32
+  }
+ ],
+ "ultimoBalance": "Ingresos de US$ 40,5 mil M (+9,6%), con la nube y cómputo IA en US$ 9,09 mil M (+53%). La ganancia operativa subió 443%, a US$ 4,34 mil M, y la neta llegó a US$ 9,63 mil M, con US$ 12,99 mil M de revaluación de inversiones.",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 40,5 mil M",
+    "+9,6%"
+   ],
+   [
+    "Ganancia operativa",
+    "US$ 4,34 mil M",
+    "+443%"
+   ],
+   [
+    "Ganancia neta",
+    "US$ 9,63 mil M",
+    "+207%"
+   ],
+   [
+    "Nube y cómputo IA",
+    "US$ 9,09 mil M",
+    "+53%"
+   ]
+  ],
+  "nota": "Incluye US$ 12,99 mil M de revaluación de inversiones; sin esas partidas (no GAAP): US$ 2,97 mil M."
+ },
+ "fortalezas": [
+  "Nube y cómputo IA: US$ 9,09 mil M (+53%), con clientes externos +64%; los productos de IA crecieron a tres dígitos por 13º trimestre seguido.",
+  "Ganancia operativa de US$ 4,34 mil M (+443%), con el EBITA ajustado del comercio electrónico +243%.",
+  "Caja neta de US$ 13,9 mil M: la caja y las inversiones de corto plazo superan a la deuda."
+ ],
+ "debilidades": [
+  "Flujo libre negativo de US$ 13,0 mil M en 12 meses, por inversiones en infraestructura de US$ 25,5 mil M.",
+  "Margen operativo de 5% en 12 meses, contra 14% en el año fiscal 2025; los ingresos por gestión de clientes cayeron 5%.",
+  "Emitió 710 millones de acciones nuevas en agosto (HK$ 80 mil M), cerca de 4% más acciones."
+ ],
+ "cedear": {
+  "ticker": "BABA",
+  "ratio": "9:1",
+  "precioArs": 16160.0,
+  "dolarImplicito": 1742.42,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
+ "cotizacion": {
+  "var12m": -46.98,
+  "distMax": -52.46,
+  "precio": 83.47,
+  "variacionDia": -1.07,
+  "rango52": [
+   83.47,
+   175.57
+  ],
+  "capitalizacion": 200943591250.0,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "3er Trimestre FY27 (Octubre-Diciembre 2026)",
+  "items": [],
+  "nota": "La empresa no publicó una previsión. El balance salió después del cierre del 19/11, día en que la acción cerró en US$ 83,47 (−1,1%); la reacción se verá en la rueda del 20/11.",
+  "resumen": "La empresa no publicó una previsión. El balance salió después del cierre del 19/11, día en que la acción cerró en US$ 83,47 (−1,1%); la reacción se verá en la rueda del 20/11.",
+  "fuente": null
+ },
+ "conclusion": "Alibaba creció 5,6% en ingresos de 12 meses, hasta US$ 159,4 mil M, con la nube e IA como motor (+53% en el trimestre) y el comercio en China en baja (−5%). El margen operativo de 12 meses es de 5%, contra 12–14% en los años fiscales 2023 a 2025, por la inversión en comercio rápido e IA, aunque en el trimestre subió a 10,7%. La ganancia neta del trimestre se apoyó en revaluaciones de inversiones. La inversión en centros de datos dejó el flujo libre en negativo y la empresa sumó capital con una colocación de acciones, pero mantiene caja neta de US$ 13,9 mil M. La acción cayó 47% en 12 meses y cerró en su mínimo de 52 semanas, con un PER de 11,9 contra 21,1 de promedio en 5 años.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 159399656946.82675,
+  "ingresosAnt": 150951599671.86218,
+  "operativa": 8065329256.469535,
+  "neta": 17431575807.29361,
+  "eps": 7.040047729137147,
+  "flujoOperativo": 12540383324.63271,
+  "inversiones": 25499440674.17406,
+  "dividendos": 2499664404.504437,
+  "recompras": 383000000.00000006,
+  "amortizaciones": 7754940711.46245,
+  "patrimonio": 175251100007.45767,
+  "deuda": 39855171899.470505,
+  "deudaDetalle": {
+   "Préstamos bancarios de corto plazo": 3467820120.8143783,
+   "Préstamos bancarios de largo plazo": 9880080542.918934,
+   "Obligaciones negociables": 17089566708.92684,
+   "Obligaciones convertibles": 8098739652.472219,
+   "Bonos canjeables": 1318964874.338131
+  },
+  "caja": 53719143858.60243,
+  "cajaDetalle": {
+   "Caja y equivalentes": 28658811246.17794,
+   "Inversiones de corto plazo": 25060332612.424488
+  },
+  "acciones": 2407375000,
+  "fechaAcciones": "2026-09-30 (ADS; 1 ADS = 8 acciones)",
+  "fechaBalance": "2026-09-30",
+  "como": "FY 31/03/2026 (20-F y comunicado anual) + 6 meses FY27 − 6 meses FY26 (EX-99.1); RMB a US$ a 6,7045 (tipo de cambio del comunicado)"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926130115/tm2630263d1_ex99-1.htm",
+   "fecha": "2026-11-19"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001577552.json",
+   "fecha": "2026-09-30"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-19"
+  },
+  {
+   "nombre": "Resultados del año fiscal 2026 (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926060224/tm2614494d1_ex99-1.htm",
+   "fecha": "2026-05-13"
+  },
+  {
+   "nombre": "Resultados del 2do trimestre FY26 (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465925115949/tm2532163d1_ex99-1.htm",
+   "fecha": "2025-11-25"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
+   "fecha": "2026-11-19"
+  }
+ ]
+}

@@ -1,0 +1,375 @@
+{
+ "formato": "analisis/1",
+ "ticker": "GLOB",
+ "nombre": "Globant S.A.",
+ "trimestre": "3er Trimestre 2026",
+ "periodo": "Julio-Septiembre 2026",
+ "fechaBalance": "2026-11-19",
+ "fechaDatos": "2026-11-19",
+ "datosAl": "cierre del 19/11/26",
+ "ultimos12MesesHasta": "2026-09-30",
+ "puntaje": 5.0,
+ "indicadores": {
+  "columnas": [
+   "Hoy",
+   "Prom. 5 años"
+  ],
+  "filas": [
+   [
+    "PER (precio/ganancia)",
+    "18,6",
+    "67,6"
+   ],
+   [
+    "EV/EBITDA",
+    "6,6",
+    "32,0"
+   ],
+   [
+    "EBITDA 12 meses",
+    "US$ 0,31 mil M",
+    "US$ 0,29 mil M"
+   ],
+   [
+    "ROE",
+    "4,4%",
+    "8,0%"
+   ]
+  ],
+  "nota": "Promedio de los años 2021 a 2025 (20-F), con el precio al cierre de cada año."
+ },
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "verde",
+   "calificacion": "Moderada",
+   "dato": "P/E 12 meses 18,6 (precio US$ 40,08 ÷ ganancia por acción US$ 2,15)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "rojo",
+   "calificacion": "Baja",
+   "dato": "Margen operativo 6% · ROE 4%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "verde",
+   "calificacion": "Sólido",
+   "dato": "Deuda neta US$ 0,35 mil M · 1,1 veces la ganancia operativa antes de amortizaciones"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "amarillo",
+   "calificacion": "Medio",
+   "dato": "Flujo libre 12 meses US$ 0,28 mil M (11% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "rojo",
+   "calificacion": "Bajo",
+   "dato": "Ingresos 12 meses US$ 2,4 mil M (−1,6%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "No paga dividendos · recompras 8,8% de la capitalización"
+  }
+ ],
+ "notaSalud": null,
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 20-F ante la SEC (IFRS)",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Norteamérica",
+    "oficial": "North America",
+    "valor": 331235000.0,
+    "var": -0.2
+   },
+   {
+    "nombre": "Latinoamérica",
+    "oficial": "Latin America",
+    "valor": 133227000.0,
+    "var": 8.5
+   },
+   {
+    "nombre": "Europa",
+    "oficial": "Europe",
+    "valor": 119171000.0,
+    "var": -0.5
+   },
+   {
+    "nombre": "Nuevos mercados",
+    "oficial": "New Markets",
+    "valor": 27502000.0,
+    "var": -35.4
+   }
+  ],
+  "grupo": null,
+  "ingresos": 611135000.0,
+  "varIngresos": -1.0,
+  "costo": 402476000.0,
+  "bruta": 208659000.0,
+  "gastos": [
+   {
+    "nombre": "Comerc. y admin.",
+    "valor": 154392000.0
+   },
+   {
+    "nombre": "Reestructuración",
+    "valor": 27397000.0
+   }
+  ],
+  "operativa": 26870000.0,
+  "otros": -7478000.0,
+  "otrosNombre": "Financieros",
+  "impuestos": 3913000.0,
+  "neta": 13924000.0,
+  "netaConsolidada": 15479000.0
+ },
+ "nota": "Ingresos por región según los porcentajes informados. Reestructuración: programa de optimización (Business Optimization Costs). Ganancia neta atribuible a los accionistas. Otros ingresos netos (intereses, participaciones y otros): −0,007 mil M.",
+ "diezAnios": [
+  {
+   "fin": "2016-12-31",
+   "ingresos": 322856000,
+   "margenOp": 15.4,
+   "margenNeto": 11.1,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2019-03-29",
+   "precioCierre": 33.35
+  },
+  {
+   "fin": "2017-12-31",
+   "ingresos": 413439000,
+   "margenOp": 8.0,
+   "margenNeto": 7.4,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2020-02-28",
+   "precioCierre": 46.46
+  },
+  {
+   "fin": "2018-12-31",
+   "ingresos": 522310000,
+   "margenOp": 12.8,
+   "margenNeto": 9.9,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2021-02-26",
+   "precioCierre": 56.32
+  },
+  {
+   "fin": "2019-12-31",
+   "ingresos": 659325000,
+   "margenOp": 12.2,
+   "margenNeto": 8.2,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2022-02-28",
+   "precioCierre": 106.05
+  },
+  {
+   "fin": "2020-12-31",
+   "ingresos": 814139000,
+   "margenOp": 10.3,
+   "margenNeto": 6.7,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2023-02-28",
+   "precioCierre": 217.61
+  },
+  {
+   "fin": "2021-12-31",
+   "ingresos": 1297078000,
+   "margenOp": 11.1,
+   "margenNeto": 7.4,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2024-02-29",
+   "precioCierre": 314.09
+  },
+  {
+   "fin": "2022-12-31",
+   "ingresos": 1780243000,
+   "margenOp": 11.6,
+   "margenNeto": 8.4,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2025-02-28",
+   "precioCierre": 168.16
+  },
+  {
+   "fin": "2023-12-31",
+   "ingresos": 2095939000,
+   "margenOp": 9.5,
+   "margenNeto": 7.6,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-02-27",
+   "precioCierre": 237.98
+  },
+  {
+   "fin": "2024-12-31",
+   "ingresos": 2415689000,
+   "margenOp": 9.3,
+   "margenNeto": 6.9,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-02-27",
+   "precioCierre": 214.42
+  },
+  {
+   "fin": "2025-12-31",
+   "ingresos": 2454877000,
+   "margenOp": 7.0,
+   "margenNeto": 4.2,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-02-27",
+   "precioCierre": 65.37
+  }
+ ],
+ "ultimoBalance": "Ingresos de US$ 0,611 mil M (−1,0%), en el centro de su previsión. El margen operativo bajó a 4,4% (9,1% hace un año) por costos de reestructuración; la ganancia por acción fue US$ 0,32 (−56%) y la ajustada, US$ 1,48 (−3%).",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 0,611 mil M",
+    "−1,0%"
+   ],
+   [
+    "Margen operativo",
+    "4,4%",
+    "venía de 9,1%"
+   ],
+   [
+    "Ganancia por acción",
+    "US$ 0,32",
+    "−56%"
+   ],
+   [
+    "Por acción ajustada (no IFRS)",
+    "US$ 1,48",
+    "−3%"
+   ]
+  ],
+  "nota": "Recompró acciones por US$ 0,025 mil M y amplió el programa de US$ 0,125 a 0,25 mil M hasta diciembre de 2027."
+ },
+ "fortalezas": [
+  "Flujo libre de US$ 0,28 mil M en 12 meses (11% de los ingresos), con una deuda neta de 1,1 veces el EBITDA.",
+  "Recompró acciones por US$ 0,15 mil M en 12 meses, cerca de 9% de la capitalización, y duplicó el programa a US$ 0,25 mil M.",
+  "Sus 50 mayores clientes crecieron 5,7% y el ingreso por empleado llegó a un récord de US$ 99.800; Latinoamérica creció 8,5%."
+ ],
+ "debilidades": [
+  "Ingresos −1,0% en el trimestre y −1,6% en 12 meses; prevé otra baja de 1,4% a 2,7% en el 4to trimestre.",
+  "Margen operativo de 4,4%, contra 9,1% hace un año, con US$ 0,027 mil M de costos de reestructuración.",
+  "ROE de 4,4% en 12 meses; los clientes de más de US$ 1 M bajaron de 339 a 321 y Nuevos mercados cayó 35%."
+ ],
+ "cedear": {
+  "ticker": "GLOB",
+  "ratio": "18:1",
+  "precioArs": 3855.0,
+  "dolarImplicito": 1731.29,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
+ "cotizacion": {
+  "var12m": -34.79,
+  "distMax": -43.72,
+  "precio": 40.08,
+  "variacionDia": -6.03,
+  "rango52": [
+   27.73,
+   71.21
+  ],
+  "capitalizacion": 1711015200.0,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "4to Trimestre 2026 (Octubre-Diciembre 2026)",
+  "items": [
+   {
+    "nombre": "Ingresos 4to trimestre",
+    "actual": "US$ 0,596 a 0,604 mil M",
+    "ref": "−2,7% a −1,4% interanual (3T: US$ 0,611 mil M)"
+   },
+   {
+    "nombre": "Margen operativo ajustado 4T",
+    "actual": "13,5% a 14,5%",
+    "ref": "3T: 14,1% (no IFRS)"
+   },
+   {
+    "nombre": "Ingresos año 2026",
+    "actual": "US$ 2,429 a 2,437 mil M",
+    "ref": "antes: US$ 2,428 a 2,462 mil M"
+   }
+  ],
+  "resumen": "Globant espera otra baja de ingresos en el 4to trimestre y bajó el techo de su previsión anual; los márgenes y la ganancia por acción de la previsión son medidas ajustadas (no IFRS). El balance salió después del cierre del 19/11, día en que la acción cerró en US$ 40,08 (−6,0%); la reacción se verá en la rueda del 20/11.",
+  "fuente": null
+ },
+ "conclusion": "Globant atraviesa un año de ingresos estancados: US$ 2,45 mil M en 12 meses (−1,6%), y su previsión para 2026 indica una baja de 0,7% a 1,1%. El margen operativo contable bajó de 11–12% en 2021 y 2022 a 6% en 12 meses, por costos de reestructuración y cargos de adquisiciones. Del otro lado, genera caja: flujo libre de US$ 0,28 mil M en 12 meses, que destina a recompras (cerca de 9% de la capitalización), con una deuda neta de 1,1 veces el EBITDA. Los servicios con IA (AI Pods) llegaron a un ritmo anual de US$ 0,11 mil M, cerca de 4% de los ingresos. La acción cayó 34% en 12 meses y su PER de 18,6 está muy por debajo de su promedio de 5 años (67,6).",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 2445106000.0,
+  "ingresosAnt": 2484891000.0,
+  "operativa": 157951000.0,
+  "neta": 94234000.0,
+  "eps": 2.15,
+  "flujoOperativo": 350626000.0,
+  "inversiones": 71990000.0,
+  "dividendos": 0,
+  "recompras": 150000000.0,
+  "amortizaciones": 153400000.0,
+  "patrimonio": 2129744000.0,
+  "deuda": 502312000.0,
+  "deudaDetalle": {
+   "Préstamos de corto plazo": 19217000.0,
+   "Préstamos de largo plazo": 392836000.0,
+   "Arrendamientos de corto plazo": 24699000.0,
+   "Arrendamientos de largo plazo": 65560000.0
+  },
+  "caja": 153613000.0,
+  "cajaDetalle": {
+   "Caja y equivalentes": 143393000.0,
+   "Inversiones de corto plazo": 10220000.0
+  },
+  "acciones": 42690000,
+  "fechaAcciones": "2026-09-30",
+  "fechaBalance": "2026-09-30",
+  "como": "FY 2025 (20-F) + 9 meses 2026 − 9 meses 2025 (EX-99.1); flujo, amortizaciones y recompras: suma de los 4 últimos trimestres (comunicados 6-K)"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1557860/000110465926130143/tm2630201d1_ex99-1.htm",
+   "fecha": "2026-11-19"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001557860.json",
+   "fecha": "2026-09-30"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-19"
+  },
+  {
+   "nombre": "Comunicado del 4to trimestre 2025 (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1557860/000110465926020492/tm267444d1_ex99-1.htm",
+   "fecha": "2026-02-26"
+  },
+  {
+   "nombre": "Comunicado del 1er trimestre 2026 (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1557860/000110465926061172/tm2614678d1_ex99-1.htm",
+   "fecha": "2026-05-14"
+  },
+  {
+   "nombre": "Comunicado del 2do trimestre 2026 (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1557860/000110465926095916/tm2623064d1_ex99-1.htm",
+   "fecha": "2026-08-13"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
+   "fecha": "2026-11-19"
+  }
+ ]
+}
