@@ -1,396 +1,647 @@
 {
   "formato": "noticias-mercado/1",
-  "generado": "2026-11-19T00:45:00-03:00",
+  "generado": "2026-11-20T00:55:00-03:00",
   "titular": {
-    "titulo": "El blue toca $ 1.630 y la Fed abre la puerta a subir tasas; Nvidia cae pese a su balance",
-    "bajada": "El dólar marcó otro récord nominal y el CCL superó los $ 1.700. En Wall Street el Dow bajó 1,11% tras las minutas de la Fed y el desplome de UnitedHealth; el Ibovespa perdió 1,34%."
+    "titulo": "Wall Street cae más de 2% en el debut récord de Anthropic y los ADR argentinos se hunden hasta 10%",
+    "bajada": "El S&P 500 sumó su sexta baja seguida y el Dow cerró debajo de 50.000. En Buenos Aires el Merval perdió 1%, con los bancos a la cabeza de las caídas, mientras el riesgo país saltó a 931 puntos. El Ibovespa también cerró en baja."
   },
   "noticias": [
     {
-      "id": "2026-11-19-01",
-      "seccion": "argentina",
-      "tickers": [],
-      "balance": false,
-      "titulo": "El blue sube $ 25 y marca su tercer récord nominal seguido",
-      "resumen": "El paralelo ya acumula $ 60 en cuatro ruedas y la brecha con el mayorista es la más alta en casi cuatro meses. El mayorista también tocó un máximo nominal.",
-      "fuente": "Ámbito",
-      "fecha": "2026-11-18",
-      "url": "https://www.ambito.com/finanzas/el-dolar-blue-pego-otro-salto-y-ya-trepo-mas-60-apenas-cuatro-dias-n6346832",
-      "cifras": [
-        {
-          "nombre": "Dólar blue",
-          "valor": "$ 1.630",
-          "variacion": "▲ $ 25",
-          "dir": "up",
-          "cuando": "cierre 18/11"
-        },
-        {
-          "nombre": "Dólar mayorista",
-          "valor": "$ 1.559,50",
-          "variacion": "▲ $ 7,50",
-          "dir": "up",
-          "cuando": "cierre 18/11"
-        },
-        {
-          "nombre": "Banco Nación (venta)",
-          "valor": "$ 1.580",
-          "variacion": "▲ $ 5",
-          "dir": "up",
-          "cuando": "cierre 18/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-19-02",
-      "seccion": "argentina",
-      "tickers": [],
-      "balance": false,
-      "titulo": "El CCL pasa los $ 1.700 y su brecha es la mayor desde octubre de 2025",
-      "resumen": "Los dólares financieros subieron casi 2%. El riesgo país bajó a 848 puntos con bonos en leve alza, pero los ADR cayeron por el contagio externo.",
-      "fuente": "Infobae",
-      "fecha": "2026-11-18",
-      "url": "https://www.infobae.com/economia/2026/11/18/el-dolar-volvio-a-subir-las-acciones-cayeron-por-el-contagio-externo-y-el-riesgo-pais-perforo-los-850-puntos/",
-      "cifras": [
-        {
-          "nombre": "Dólar CCL",
-          "valor": "$ 1.718,16",
-          "variacion": "▲ 1,9%",
-          "dir": "up",
-          "cuando": "cierre 18/11"
-        },
-        {
-          "nombre": "Dólar MEP",
-          "valor": "$ 1.627,55",
-          "variacion": "▲ 1,7%",
-          "dir": "up",
-          "cuando": "cierre 18/11"
-        },
-        {
-          "nombre": "Riesgo país",
-          "valor": "848 pb",
-          "variacion": "▼ 8 pb",
-          "dir": "down",
-          "cuando": "cierre 18/11"
-        },
-        {
-          "nombre": "S&P Merval",
-          "valor": "82.367",
-          "variacion": "▲ 0,2%",
-          "dir": "up",
-          "cuando": "cierre 18/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-19-03",
-      "seccion": "argentina",
-      "tickers": [],
-      "balance": false,
-      "titulo": "El BCRA compra US$ 11 M, pero las reservas caen por el oro",
-      "resumen": "Las compras de noviembre suman US$ 341 M. Las reservas brutas bajaron cerca de US$ 190 M por la caída del precio del oro.",
-      "fuente": "Infobae",
-      "fecha": "2026-11-18",
-      "url": "https://www.infobae.com/economia/2026/11/18/el-dolar-volvio-a-subir-las-acciones-cayeron-por-el-contagio-externo-y-el-riesgo-pais-perforo-los-850-puntos/",
-      "cifras": [
-        {
-          "nombre": "Compras del BCRA",
-          "valor": "US$ 11 M",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "18/11"
-        },
-        {
-          "nombre": "Reservas brutas",
-          "valor": "US$ 49.511 M",
-          "variacion": "▼ US$ 190 M",
-          "dir": "down",
-          "cuando": "cierre 18/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-19-04",
-      "seccion": "cartera",
-      "tickers": [
-        "YPFD",
-        "GGAL",
-        "VIST"
-      ],
-      "balance": false,
-      "titulo": "Los ADR argentinos caen: YPF −3,6% y Galicia en mínimos desde septiembre de 2025",
-      "resumen": "Las energéticas sufrieron por el petróleo y Galicia cerró en su menor nivel en más de un año. Pampa apenas bajó.",
-      "fuente": "Infobae",
-      "fecha": "2026-11-18",
-      "url": "https://www.infobae.com/economia/2026/11/18/el-dolar-volvio-a-subir-las-acciones-cayeron-por-el-contagio-externo-y-el-riesgo-pais-perforo-los-850-puntos/",
-      "cifras": [
-        {
-          "nombre": "YPF (ADR)",
-          "valor": "US$ 35,10",
-          "variacion": "▼ 3,6%",
-          "dir": "down",
-          "cuando": "cierre 18/11"
-        },
-        {
-          "nombre": "GGAL (ADR)",
-          "valor": "US$ 27,78",
-          "variacion": "▼ 2,6%",
-          "dir": "down",
-          "cuando": "cierre 18/11"
-        },
-        {
-          "nombre": "VIST",
-          "valor": "",
-          "variacion": "▼ 3,8%",
-          "dir": "down",
-          "cuando": "cierre 18/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": [],
-      "motivo": "Contagio de la baja externa y caída del petróleo, según la nota."
-    },
-    {
-      "id": "2026-11-19-05",
+      "id": "2026-11-20-01",
       "seccion": "eeuu",
       "tickers": [],
       "balance": false,
-      "titulo": "Minutas de la Fed: casi todos ven probable volver a subir la tasa",
-      "resumen": "La mayoría de los miembros juzgó apropiadas nuevas subas y algunos mencionaron más de un cuarto de punto en diciembre. Waller habló de 0,5 punto.",
-      "fuente": "StockTitan (CNBC)",
-      "fecha": "2026-11-18",
-      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026",
+      "titulo": "Wall Street cae más de 2% el día del debut de Anthropic y el S&P 500 suma seis bajas",
+      "resumen": "Los índices abrieron en alza y se dieron vuelta con toma de ganancias en tecnológicas y dudas sobre la IA. El Dow cerró debajo de 50.000 y el bono a 10 años quedó en 5,05%.",
+      "fuente": "La Nación (AP)",
+      "fecha": "2026-11-19",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-11192026-nid19112026/",
       "cifras": [
-        {
-          "nombre": "Tasa de la Fed",
-          "valor": "3,75%–4%",
-          "variacion": "=",
-          "dir": "flat",
-          "cuando": "desde 28/10"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-19-06",
-      "seccion": "eeuu",
-      "tickers": [],
-      "balance": false,
-      "titulo": "El Dow cae 1,11% y el S&P 500 suma cinco bajas seguidas",
-      "resumen": "Pesaron las aseguradoras de salud, la energía y Nvidia; el Nasdaq terminó en alza.",
-      "fuente": "StockTitan (CNBC)",
-      "fecha": "2026-11-18",
-      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026",
-      "cifras": [
-        {
-          "nombre": "Dow Jones",
-          "valor": "50.198",
-          "variacion": "▼ 1,11%",
-          "dir": "down",
-          "cuando": "cierre 18/11"
-        },
         {
           "nombre": "S&P 500",
-          "valor": "7.323,63",
-          "variacion": "▼ 0,23%",
+          "valor": "7.175,83",
+          "variacion": "▼ 2,0%",
           "dir": "down",
-          "cuando": "cierre 18/11"
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Dow Jones",
+          "valor": "49.097,06",
+          "variacion": "▼ 2,2%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
         },
         {
           "nombre": "Nasdaq",
-          "valor": "24.429,88",
-          "variacion": "▲ 0,42%",
-          "dir": "up",
-          "cuando": "cierre 18/11"
+          "valor": "23.879,20",
+          "variacion": "▼ 2,3%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
         },
         {
-          "nombre": "Brent",
-          "valor": "US$ 91,84",
-          "variacion": "▼ 1,4%",
+          "nombre": "Bono del Tesoro a 10 años",
+          "valor": "5,05%",
+          "variacion": "▼ 2 pb",
           "dir": "down",
-          "cuando": "cierre 18/11"
+          "cuando": "cierre 19/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-19-07",
-      "seccion": "cartera",
-      "tickers": [
-        "UNH"
-      ],
+      "id": "2026-11-20-02",
+      "seccion": "eeuu",
+      "tickers": [],
       "balance": false,
-      "titulo": "UnitedHealth se hunde 10% por una propuesta de auditoría a Medicare Advantage",
-      "resumen": "Segunda rueda de ventas en las aseguradoras de salud tras la propuesta del regulador (CMS) de auditar los planes de Medicare Advantage.",
-      "fuente": "StockTitan (CNBC)",
-      "fecha": "2026-11-18",
-      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026",
+      "titulo": "Anthropic debuta en Nasdaq con la mayor colocación de la historia y sube 17%",
+      "resumen": "Colocó a US$ 83, arriba del rango previsto, y recaudó US$ 81.300 M. Abrió en US$ 111,50 y cerró bastante más abajo, en US$ 97,17.",
+      "fuente": "Forbes",
+      "fecha": "2026-11-19",
+      "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/",
       "cifras": [
         {
-          "nombre": "UNH",
-          "valor": "",
-          "variacion": "▼ 10,21%",
-          "dir": "down",
-          "cuando": "cierre 18/11"
+          "nombre": "Anthropic (ANT)",
+          "valor": "US$ 97,17",
+          "variacion": "▲ 17,1%",
+          "dir": "up",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Precio de colocación",
+          "valor": "US$ 83",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "19/11"
         }
       ],
       "fuertes": [],
-      "debiles": [],
-      "motivo": "Propuesta de CMS para auditar los planes de Medicare Advantage, según la nota."
+      "debiles": []
     },
     {
-      "id": "2026-11-19-08",
-      "seccion": "cartera",
-      "tickers": [
-        "NVDA"
-      ],
+      "id": "2026-11-20-03",
+      "seccion": "argentina",
+      "tickers": [],
       "balance": false,
-      "titulo": "Nvidia cae 2,9% un día después de su balance",
-      "resumen": "Abrió en alza en la preapertura, pero perdió la suba durante la rueda y arrastró al S&P 500.",
+      "titulo": "Dólar: récords nominales del mayorista, el blue y el contado con liqui",
+      "resumen": "Todas las cotizaciones subieron. El blue encadenó su quinta suba y va a su mayor alza semanal en más de un año; la brecha del CCL con el mayorista pasó el 11%.",
+      "fuente": "Ámbito",
+      "fecha": "2026-11-19",
+      "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-jueves-19-noviembre-n6347273",
+      "cifras": [
+        {
+          "nombre": "Banco Nación (venta)",
+          "valor": "$ 1.585",
+          "variacion": "▲ $ 5",
+          "dir": "up",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Mayorista",
+          "valor": "$ 1.565",
+          "variacion": "▲ $ 5,50",
+          "dir": "up",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Blue",
+          "valor": "$ 1.640",
+          "variacion": "▲ $ 10",
+          "dir": "up",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "MEP",
+          "valor": "$ 1.638,31",
+          "variacion": "▲ 0,7%",
+          "dir": "up",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "CCL",
+          "valor": "$ 1.741,05",
+          "variacion": "▲ 1,3%",
+          "dir": "up",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Brecha CCL",
+          "valor": "11,2%",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "cierre 19/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-20-04",
+      "seccion": "argentina",
+      "tickers": [],
+      "balance": false,
+      "titulo": "El riesgo país salta a 931 puntos, su mayor suba diaria en más de un año",
+      "resumen": "Los bonos en dólares cayeron cerca de 3% por la cobertura ante los vencimientos de 2027, el contexto global y la incertidumbre electoral.",
       "fuente": "Infobae",
-      "fecha": "2026-11-18",
-      "url": "https://www.infobae.com/economia/2026/11/18/el-dolar-volvio-a-subir-las-acciones-cayeron-por-el-contagio-externo-y-el-riesgo-pais-perforo-los-850-puntos/",
+      "fecha": "2026-11-19",
+      "url": "https://www.infobae.com/economia/2026/11/19/el-riesgo-pais-se-disparo-casi-10-que-factores-explican-la-nueva-escalada/",
       "cifras": [
         {
-          "nombre": "NVDA",
-          "valor": "US$ 150,96",
-          "variacion": "▼ 2,9%",
+          "nombre": "Riesgo país",
+          "valor": "931 pb",
+          "variacion": "▲ 83 pb",
           "dir": "down",
-          "cuando": "cierre 18/11"
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Global 2035",
+          "valor": "",
+          "variacion": "▼ 3,3%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Global 2041",
+          "valor": "",
+          "variacion": "▼ 3,3%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
         }
       ],
       "fuertes": [],
-      "debiles": [],
-      "motivo": "sin causa identificada"
+      "debiles": []
     },
     {
-      "id": "2026-11-19-09",
+      "id": "2026-11-20-05",
+      "seccion": "argentina",
+      "tickers": [],
+      "balance": false,
+      "titulo": "El Merval cae 1% y los ADR bancarios se hunden hasta 10% en Nueva York",
+      "resumen": "Supervielle, BBVA y Galicia lideraron las bajas en Wall Street; en el panel local cayeron Metrogas y Edenor y subieron Central Puerto y Transener.",
+      "fuente": "El Economista",
+      "fecha": "2026-11-19",
+      "url": "https://eleconomista.com.ar/economia/el-riesgo-pais-disparo-dolar-alcanzo-su-valor-mas-alto-ano-n99781",
+      "cifras": [
+        {
+          "nombre": "S&P Merval",
+          "valor": "81.146",
+          "variacion": "▼ 1%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "SUPV (ADR)",
+          "valor": "",
+          "variacion": "▼ 10,2%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "BBAR (ADR)",
+          "valor": "",
+          "variacion": "▼ 6,3%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "GGAL (ADR)",
+          "valor": "US$ 26,06",
+          "variacion": "▼ 6,2%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "YPF (ADR)",
+          "valor": "US$ 33,28",
+          "variacion": "▼ 5,1%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Metrogas",
+          "valor": "",
+          "variacion": "▼ 6,5%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Central Puerto",
+          "valor": "",
+          "variacion": "▲ 1,9%",
+          "dir": "up",
+          "cuando": "cierre 19/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-20-06",
+      "seccion": "argentina",
+      "tickers": [],
+      "balance": false,
+      "titulo": "El BCRA compra apenas US$ 3 M, la menor cifra del programa, y las reservas caen",
+      "resumen": "Venía de comprar US$ 74 M el martes y US$ 11 M el miércoles. Las reservas bajaron unos US$ 108 M, sobre todo por la caída del oro.",
+      "fuente": "BAE Negocios",
+      "fecha": "2026-11-19",
+      "url": "https://www.baenegocios.com/finanzas/el-banco-central-redujo-sus-compras-de-dolares-a-apenas-usd-3-millones-y-las-reservas-cayeron/",
+      "cifras": [
+        {
+          "nombre": "Compras del BCRA",
+          "valor": "US$ 3 M",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "19/11"
+        },
+        {
+          "nombre": "Reservas brutas",
+          "valor": "US$ 49.443 M",
+          "variacion": "▼ US$ 108 M",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Compras en noviembre",
+          "valor": "US$ 344 M",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "al 19/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-20-07",
       "seccion": "brasil",
       "tickers": [],
       "balance": false,
-      "titulo": "El Ibovespa cae 1,34% por el paquete fiscal y la Fed",
-      "resumen": "El Senado terminó de votar el ajuste fiscal, que ahora pasa a Diputados; el mercado lo ve insuficiente. Bancos y Petrobras lideraron las bajas.",
-      "fuente": "InfoMoney (Reuters)",
-      "fecha": "2026-11-18",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-fecha-em-queda-com-receios-sobre-cenario-fiscal-e-juro-maior-nos-eua/",
+      "titulo": "El Ibovespa vuelve a caer y el real toca R$ 5,93, su nivel más débil desde enero de 2025",
+      "resumen": "Pesaron el temor fiscal y la incertidumbre por el equipo económico. El viernes 20 la B3 no opera por el feriado de Consciência Negra.",
+      "fuente": "InfoMoney",
+      "fecha": "2026-11-19",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-19112026/",
       "cifras": [
         {
-          "nombre": "Ibovespa",
-          "valor": "167.538",
-          "variacion": "▼ 1,34%",
-          "dir": "down",
-          "cuando": "cierre 18/11"
-        },
-        {
           "nombre": "Dólar / real",
-          "valor": "R$ 5,87",
-          "variacion": "▲ máximo desde abril de 2025",
+          "valor": "R$ 5,93",
+          "variacion": "▲ 1,4%",
           "dir": "up",
-          "cuando": "cierre 18/11"
+          "cuando": "cierre 19/11"
         }
       ],
       "fuertes": [],
       "debiles": []
+    },
+    {
+      "id": "2026-11-20-08",
+      "seccion": "cartera",
+      "tickers": [
+        "WMT"
+      ],
+      "balance": true,
+      "titulo": "Walmart supera en ventas y ganancia y sube su guía, pero la acción baja",
+      "resumen": "Tercera suba de la guía anual en el año, con fuerte avance del comercio electrónico y la publicidad; las ventas comparables quedaron por debajo de lo esperado.",
+      "fuente": "Yahoo Finance (Barron's)",
+      "fecha": "2026-11-19",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-falls-earnings-beat-184813477.html",
+      "cifras": [
+        {
+          "nombre": "WMT",
+          "valor": "",
+          "variacion": "▼ 1,0%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Ventas",
+          "valor": "US$ 188.800 M",
+          "variacion": "▲ 5,2%",
+          "dir": "up",
+          "cuando": "3T fiscal"
+        },
+        {
+          "nombre": "Ganancia por acción ajustada",
+          "valor": "US$ 0,65",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "estimado US$ 0,64"
+        },
+        {
+          "nombre": "Ventas comparables EE.UU.",
+          "valor": "",
+          "variacion": "▲ 2,9%",
+          "dir": "up",
+          "cuando": "esperado 3,1%"
+        }
+      ],
+      "fuertes": [
+        "Comercio electrónico global +17% (EE.UU. +23%)",
+        "Publicidad en EE.UU. +37%"
+      ],
+      "debiles": [
+        "Ventas comparables +2,9% contra 3,1% esperado",
+        "Flujo de caja libre US$ 6.800 M, −22,8%"
+      ],
+      "motivo": "Las ventas comparables (+2,9%) y la nueva guía de ventas (4,9% a 5,2%) quedaron debajo de lo que esperaba el mercado."
+    },
+    {
+      "id": "2026-11-20-09",
+      "seccion": "cartera",
+      "tickers": [
+        "BABA"
+      ],
+      "balance": true,
+      "titulo": "Alibaba: la nube de IA crece 53%, pero la ganancia queda lejos de lo esperado",
+      "resumen": "Los ingresos superaron apenas el consenso, pero la ganancia ajustada por ADS falló por tercer trimestre seguido y la recompra de acciones se redujo mucho.",
+      "fuente": "Investing.com",
+      "fecha": "2026-11-19",
+      "url": "https://investing.com/news/stock-market-news/alibaba-earnings-analysis-questions-answered-and-next-catalysts-93CH-5039868",
+      "cifras": [
+        {
+          "nombre": "BABA",
+          "valor": "",
+          "variacion": "▼ 1,3%",
+          "dir": "down",
+          "cuando": "cierre 19/11"
+        },
+        {
+          "nombre": "Ingresos",
+          "valor": "RMB 271.520 M",
+          "variacion": "▲ 10%",
+          "dir": "up",
+          "cuando": "trim. a sept."
+        },
+        {
+          "nombre": "Ganancia ajustada por ADS",
+          "valor": "RMB 8,10",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "estimado RMB 10,75"
+        },
+        {
+          "nombre": "Nube de IA",
+          "valor": "RMB 60.970 M",
+          "variacion": "▲ 53%",
+          "dir": "up",
+          "cuando": "trim. a sept."
+        }
+      ],
+      "fuertes": [
+        "Nube de IA +53% (clientes externos +64%)",
+        "EBITDA ajustado RMB 46.060 M, arriba de lo estimado"
+      ],
+      "debiles": [
+        "Ganancia ajustada por ADS RMB 8,10 contra 10,75 esperado",
+        "Flujo de caja libre negativo en RMB 34.470 M"
+      ],
+      "motivo": "Ganancia por acción muy debajo de lo esperado, nuevas restricciones de EE.UU. a chips y una recompra de acciones mucho menor."
+    },
+    {
+      "id": "2026-11-20-10",
+      "seccion": "cartera",
+      "tickers": [
+        "GLOB"
+      ],
+      "balance": true,
+      "titulo": "Globant cumple con lo esperado en el 3T, pero su guía del 4T queda corta",
+      "resumen": "Ingresos y ganancia en línea con el consenso; amplió la recompra y sus AI Pods más que duplicaron su facturación anualizada. Subió después del cierre.",
+      "fuente": "Investing.com",
+      "fecha": "2026-11-19",
+      "url": "https://mx.investing.com/news/earnings/acciones-de-globant-suben-pese-a-guia-debil-para-el-cuarto-trimestre-3856861",
+      "cifras": [
+        {
+          "nombre": "GLOB",
+          "valor": "",
+          "variacion": "▲ 3,7%",
+          "dir": "up",
+          "cuando": "después del cierre 19/11"
+        },
+        {
+          "nombre": "Ingresos",
+          "valor": "US$ 611,1 M",
+          "variacion": "▼ 1,0%",
+          "dir": "down",
+          "cuando": "3T 2026"
+        },
+        {
+          "nombre": "Ganancia por acción ajustada",
+          "valor": "US$ 1,48",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "igual al consenso"
+        },
+        {
+          "nombre": "Guía de ingresos 4T",
+          "valor": "US$ 596-604 M",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "consenso US$ 610 M"
+        }
+      ],
+      "fuertes": [
+        "AI Pods: facturación anualizada US$ 106,6 M, más del doble",
+        "Recompra ampliada de US$ 125 M a US$ 250 M"
+      ],
+      "debiles": [
+        "Margen operativo ajustado 14,1% (antes 15,5%)",
+        "Nuevos Mercados (Medio Oriente) −34,2%"
+      ]
     }
   ],
-  "balancesHoy": [],
-  "proximosBalances": [
+  "balancesHoy": [
     {
       "ticker": "WMT",
       "nombre": "Walmart",
-      "fecha": "2026-11-19",
       "momento": "antes"
     },
     {
       "ticker": "BABA",
       "nombre": "Alibaba",
-      "fecha": "2026-11-19",
       "momento": "antes"
     },
     {
       "ticker": "GLOB",
       "nombre": "Globant",
-      "fecha": "2026-11-19",
+      "momento": "despues"
+    }
+  ],
+  "proximosBalances": [
+    {
+      "ticker": "BBAR",
+      "nombre": "BBVA Argentina",
+      "fecha": "2026-11-24",
       "momento": "despues"
     }
   ],
   "movimientos": [
     {
-      "ticker": "UNH",
-      "variacion": "▼ 10,21%",
+      "ticker": "SUPV",
+      "variacion": "▼ 10,4%",
       "dir": "down",
-      "cuando": "cierre 18/11"
+      "cuando": "cierre 19/11"
     },
     {
-      "ticker": "VIST",
-      "variacion": "▼ 3,8%",
+      "ticker": "AMD",
+      "variacion": "▼ 7,7%",
       "dir": "down",
-      "cuando": "cierre 18/11"
-    },
-    {
-      "ticker": "YPFD",
-      "variacion": "▼ 3,6%",
-      "dir": "down",
-      "cuando": "cierre 18/11"
-    },
-    {
-      "ticker": "NVDA",
-      "variacion": "▼ 2,89%",
-      "dir": "down",
-      "cuando": "cierre 18/11"
+      "cuando": "cierre 19/11"
     },
     {
       "ticker": "GGAL",
-      "variacion": "▼ 2,6%",
+      "variacion": "▼ 6,2%",
       "dir": "down",
-      "cuando": "cierre 18/11"
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "BBAR",
+      "variacion": "▼ 6,4%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "CRWV",
+      "variacion": "▼ 6,1%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "GLOB",
+      "variacion": "▼ 6,3%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "EDN",
+      "variacion": "▼ 5,7%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "YPFD",
+      "variacion": "▼ 5,1%",
+      "dir": "down",
+      "cuando": "ADR, cierre 19/11"
     },
     {
       "ticker": "MELI",
-      "variacion": "▼ 0,9%",
+      "variacion": "▼ 4,8%",
       "dir": "down",
-      "cuando": "cierre 18/11"
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "AMZN",
+      "variacion": "▼ 3,9%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "GOOGL",
+      "variacion": "▼ 3,5%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "NVDA",
+      "variacion": "▼ 3,3%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "META",
+      "variacion": "▼ 3,3%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "VIST",
+      "variacion": "▼ 3,3%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "TSLA",
+      "variacion": "▼ 2,4%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
     },
     {
       "ticker": "QQQ",
-      "variacion": "▲ 0,39%",
-      "dir": "up",
-      "cuando": "cierre 18/11"
+      "variacion": "▼ 2,2%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "AVGO",
+      "variacion": "▼ 2,1%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "MSFT",
+      "variacion": "▼ 2,0%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
     },
     {
       "ticker": "SPY",
-      "variacion": "▼ 0,31%",
+      "variacion": "▼ 2,0%",
       "dir": "down",
-      "cuando": "cierre 18/11"
+      "cuando": "cierre 19/11"
     },
     {
-      "ticker": "PAMP",
-      "variacion": "▼ 0,2%",
+      "ticker": "BABA",
+      "variacion": "▼ 1,3%",
       "dir": "down",
-      "cuando": "cierre 18/11"
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "WMT",
+      "variacion": "▼ 1,0%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "AAPL",
+      "variacion": "▼ 0,9%",
+      "dir": "down",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "BYMA",
+      "variacion": "▲ 3,5%",
+      "dir": "up",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "TRAN",
+      "variacion": "▲ 2,6%",
+      "dir": "up",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "CEPU",
+      "variacion": "▲ 1,9%",
+      "dir": "up",
+      "cuando": "cierre 19/11"
+    },
+    {
+      "ticker": "TXAR",
+      "variacion": "▲ 1,7%",
+      "dir": "up",
+      "cuando": "cierre 19/11"
     }
   ],
   "destacados": [
     {
-      "titulo": "Récord del blue y CCL arriba de $ 1.700",
-      "detalle": "Blue $ 1.630 (+$ 25), CCL $ 1.718 con brecha de 10,2%, la mayor desde octubre de 2025."
+      "titulo": "Datos de EE.UU.: la manufactura de Filadelfia se frena",
+      "detalle": "El índice bajó a 6,3 en noviembre (se esperaba 18) y los pedidos de subsidio por desempleo fueron 203.000."
     },
     {
-      "titulo": "La Fed abre la puerta a subir",
-      "detalle": "Las minutas muestran que casi todos ven apropiadas nuevas subas de tasa; el Dow cayó 1,11%."
-    },
-    {
-      "titulo": "UnitedHealth −10%",
-      "detalle": "Por la propuesta de auditoría a Medicare Advantage."
+      "titulo": "Agenda: feriado el lunes 23 en Argentina",
+      "detalle": "El viernes 20 hay rueda en Buenos Aires; Wall Street cierra el jueves 26 por Acción de Gracias."
     }
   ],
-  "hoja": "hoja-2026-11-19.png",
-  "hojaFecha": "2026-11-19"
+  "hoja": "hoja-2026-11-20.png",
+  "hojaFecha": "2026-11-20"
 }

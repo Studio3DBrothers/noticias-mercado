@@ -1,0 +1,6 @@
+07:04 add_repo: herramienta no disponible en esta sesión; el repo ya estaba clonado en el workspace con acceso al scope studio3dbrothers/noticias-mercado
+07:04 clone/fetch OK 7d2d944; propuestas/2026-11-20 presente con opcion-1/2/3.png y noticias.json
+07:04 elección leída: opción 1, 2026-11-20T03:41:10Z (antes de 05:00Z) -> elegida por Adrián
+07:04 verificación opcion-1.png OK: fecha, 'Datos al cierre del jueves 19/11', leyenda completa y línea 'Fuentes:' presentes
+07:04 copiadas hoja-2026-11-20.png y hoja.png (opción 1); noticias.json con hoja/hojaFecha; JSON validado: 10 urls, problemas: ninguno; borradas >7 días: ['hoja-2026-11-12.png']
+07:04 commit y push a main
