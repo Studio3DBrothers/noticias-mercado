@@ -1,0 +1,4 @@
+07:36 corrida programada CONTROL (FECHA 2026-11-20; día hábil anterior: jueves 19/11/26)
+07:36 repo: ya clonado; git fetch + checkout de origin/main (bba5c6a): OK (add_repo no está disponible en esta sesión)
+07:37 punto 0: ninguna carpeta de propuestos de los últimos 4 días falta en indice.json (DIS, HD, NVDA del 18/11; BABA, WMT, GLOB del 19/11 ya publicados): no se publica nada.
+07:39 SEC submissions (49 empresas, User-Agent autorizado): desde el 19/11 WMT 8-K 2.02, GLOB 6-K y BABA 6-K (ya publicados), BRK-B 8-K 8.01/9.01, IBM 8-K 9.01 y SNDK 8-K 5.03/9.01 (no son balances). Nada nuevo para armar.
