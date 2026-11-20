@@ -7,3 +7,8 @@
 13:08 punto 0: ninguna carpeta de propuestos de los últimos 4 días falta en indice.json: no se publica nada.
 13:10 SEC submissions (49 empresas, User-Agent autorizado): desde el 19/11 solo WMT 8-K 2.02, GLOB 6-K y BABA 6-K (ya publicados) y BRK-B, IBM, SNDK 8-K sin Item 2.02; hoy 20/11 ninguna presentación de balance. Nada nuevo para armar.
 13:10 fin de la corrida PRE: sin informes nuevos.
+15:07 corrida programada CONTROL (FECHA 2026-11-20; día hábil anterior: jueves 19/11/26)
+15:07 repo: ya clonado; git fetch + checkout de origin/main (793c1bf): OK (add_repo no está disponible en esta sesión)
+15:07 punto 0: ninguna carpeta de propuestos de los últimos 4 días falta en indice.json: no se publica nada.
+15:07 SEC submissions (49 empresas, User-Agent autorizado): desde el 19/11 solo WMT 8-K 2.02, GLOB 6-K y BABA 6-K (ya publicados) y BRK-B, IBM, SNDK 8-K sin Item 2.02; hoy 20/11 ninguna presentación de balance. Nada nuevo para armar.
+15:07 fin de la corrida CONTROL: sin informes nuevos.
