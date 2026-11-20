@@ -12,3 +12,8 @@
 15:07 punto 0: ninguna carpeta de propuestos de los últimos 4 días falta en indice.json: no se publica nada.
 15:07 SEC submissions (49 empresas, User-Agent autorizado): desde el 19/11 solo WMT 8-K 2.02, GLOB 6-K y BABA 6-K (ya publicados) y BRK-B, IBM, SNDK 8-K sin Item 2.02; hoy 20/11 ninguna presentación de balance. Nada nuevo para armar.
 15:07 fin de la corrida CONTROL: sin informes nuevos.
+19:36 corrida programada POST (FECHA 2026-11-20; día hábil anterior: jueves 19/11/26)
+19:36 repo: ya clonado; git fetch + checkout de origin/main (52c5bc3): OK (add_repo no está disponible en esta sesión)
+19:37 punto 0: ninguna carpeta de propuestos de los últimos 4 días falta en indice.json: no se publica nada.
+19:38 SEC submissions (49 empresas, User-Agent autorizado): desde el 19/11 solo WMT 8-K 2.02, GLOB 6-K y BABA 6-K (ya publicados); hoy 20/11 AMD 8-K 5.03/9.01, BAC 8-K 5.03/9.01, ORCL 8-K 5.07 y HD 10-Q (balance ya publicado como HD-3T-FY26): ninguno es un balance nuevo. Nada nuevo para armar.
+19:38 fin de la corrida POST: sin informes nuevos.
