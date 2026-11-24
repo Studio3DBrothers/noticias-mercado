@@ -1,447 +1,399 @@
 {
-  "formato": "noticias-mercado/1",
-  "generado": "2026-11-21T00:40:00-03:00",
-  "titular": {
-    "titulo": "Wall Street se hunde: el Nasdaq cae 5,3% con Nvidia −14% y el S&P 500 suma siete bajas seguidas",
-    "bajada": "El S&P 500 perdió 3,7% y ya está más de 10% abajo de su máximo. En Nueva York cayeron casi todos los ADR argentinos y el Merval cerró casi sin cambios en pesos. El Ibovespa no operó por feriado."
+ "formato": "noticias-mercado/1",
+ "generado": "2026-11-24T15:50:00-03:00",
+ "titular": {
+  "titulo": "Rebote fuerte en Wall Street: el Nasdaq sube 6,5% y Nvidia 31% tras la vuelta de Jensen Huang",
+  "bajada": "El S&P 500 tuvo su mejor día desde abril de 2025 y cortó siete bajas seguidas. En Argentina, tras el feriado del lunes, el riesgo país pasó los 1.100 puntos y el Merval sube 1,6% en pesos."
+ },
+ "noticias": [
+  {
+   "id": "2026-11-24-01",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Wall Street rebota con fuerza y corta siete bajas seguidas",
+   "resumen": "El S&P 500 tuvo su mejor día desde abril de 2025, con las tecnológicas a la cabeza; el Nasdaq ganó más de 6%.",
+   "fuente": "The Motley Fool",
+   "fecha": "2026-11-23",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/",
+   "cifras": [
+    {
+     "nombre": "S&P 500",
+     "valor": "7.237,17",
+     "variacion": "▲ 4,73%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
+    },
+    {
+     "nombre": "Dow Jones",
+     "valor": "49.595,31",
+     "variacion": "▲ 3,01%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
+    },
+    {
+     "nombre": "Nasdaq",
+     "valor": "24.089,56",
+     "variacion": "▲ 6,51%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
   },
-  "noticias": [
+  {
+   "id": "2026-11-24-02",
+   "seccion": "cartera",
+   "tickers": [
+    "NVDA",
+    "TSM",
+    "AMD"
+   ],
+   "balance": false,
+   "titulo": "Nvidia repone a Jensen Huang como CEO y la acción sube 31%",
+   "resumen": "Huang, que había renunciado el 12/11, volvió con efecto inmediato; un comité independiente sigue con la investigación. Los fabricantes de chips acompañaron la suba.",
+   "fuente": "Yahoo Finance",
+   "fecha": "2026-11-23",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html",
+   "cifras": [
     {
-      "id": "2026-11-21-01",
-      "seccion": "eeuu",
-      "tickers": [],
-      "balance": false,
-      "titulo": "Wall Street se desploma y el S&P 500 encadena siete bajas",
-      "resumen": "El desarme de las apuestas a la inteligencia artificial golpeó a las tecnológicas: el Nasdaq perdió más de 5% y S&P 500 y Dow quedaron más de 10% debajo de sus récords.",
-      "fuente": "The Motley Fool",
-      "fecha": "2026-11-20",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-stocks-plunge-as-ai-trade-unwinds/",
-      "cifras": [
-        {
-          "nombre": "S&P 500",
-          "valor": "6.910,39",
-          "variacion": "▼ 3,70%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "Dow Jones",
-          "valor": "48.147,33",
-          "variacion": "▼ 1,93%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "Nasdaq",
-          "valor": "22.617,73",
-          "variacion": "▼ 5,28%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
+     "nombre": "NVDA",
+     "valor": "US$ 165,05",
+     "variacion": "▲ 31,48%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
     },
     {
-      "id": "2026-11-21-02",
-      "seccion": "cartera",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO"
-      ],
-      "balance": false,
-      "titulo": "Nvidia se hunde 14% y arrastra a los fabricantes de chips",
-      "resumen": "Versiones sobre una investigación contable de la SEC profundizaron la caída de Nvidia; AMD y Broadcom perdieron más de 12% en la misma rueda.",
-      "fuente": "The Motley Fool",
-      "fecha": "2026-11-20",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
-      "cifras": [
-        {
-          "nombre": "NVDA",
-          "valor": "US$ 125,53",
-          "variacion": "▼ 14,0%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "AMD",
-          "valor": "US$ 424,32",
-          "variacion": "▼ 13,3%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "AVGO",
-          "valor": "US$ 304,65",
-          "variacion": "▼ 12,2%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": [],
-      "motivo": "Informes de una investigación contable de la SEC sobre Nvidia aceleraron la venta de las acciones ligadas a la IA."
+     "nombre": "TSM",
+     "valor": "",
+     "variacion": "▲ 14,08%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
     },
     {
-      "id": "2026-11-21-03",
-      "seccion": "eeuu",
-      "tickers": [],
-      "balance": false,
-      "titulo": "La Fed endurece el tono y el mercado descuenta una suba de tasas en diciembre",
-      "resumen": "Lisa Cook advirtió sobre el riesgo de esperar para subir la tasa; los futuros apuntan a una suba de 0,25 punto. El sentimiento del consumidor mejoró a 51,5.",
-      "fuente": "Investing.com",
-      "fecha": "2026-11-20",
-      "url": "https://ph.investing.com/news/stock-market-news/fed-signals-and-data-what-happened-the-week-of-nov-1620-2026-93CH-2714010",
-      "cifras": [
-        {
-          "nombre": "Bono del Tesoro a 10 años",
-          "valor": "4,91%",
-          "variacion": "▼ 14 pb",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "Sentimiento del consumidor (Michigan)",
-          "valor": "51,5",
-          "variacion": "▲ 3,5 pts",
-          "dir": "up",
-          "cuando": "noviembre, dato 20/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-21-04",
-      "seccion": "eeuu",
-      "tickers": [],
-      "balance": false,
-      "titulo": "Anthropic cae 8,5% en su segunda rueda en Nasdaq",
-      "resumen": "La acción quedó por encima del precio de colocación de US$ 83, pero lejos de la apertura del debut; el viernes llegó a tocar US$ 83,05.",
-      "fuente": "Yahoo Finance",
-      "fecha": "2026-11-20",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-plunge-correction-175951472.html",
-      "cifras": [
-        {
-          "nombre": "Anthropic (ANT)",
-          "valor": "US$ 88,91",
-          "variacion": "▼ 8,5%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-21-05",
-      "seccion": "eeuu",
-      "tickers": [],
-      "balance": false,
-      "titulo": "Bitcoin perfora los US$ 59.000 y se liquidan US$ 1.530 M en apuestas",
-      "resumen": "La venta de activos de riesgo alcanzó a las criptomonedas: bitcoin va camino a su peor mes desde junio de 2022 y ether cayó cerca de 8%.",
-      "fuente": "Yahoo Finance",
-      "fecha": "2026-11-20",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-drops-below-59k-wiping-183406394.html",
-      "cifras": [
-        {
-          "nombre": "Bitcoin",
-          "valor": "US$ 58.282",
-          "variacion": "▼ 5,2%",
-          "dir": "down",
-          "cuando": "20/11, 24 h"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-21-06",
-      "seccion": "argentina",
-      "tickers": [],
-      "balance": false,
-      "titulo": "El riesgo país supera los 1.000 puntos por primera vez en 13 meses",
-      "resumen": "Segundo derrumbe seguido de los bonos en dólares, con caídas de más de 4%; pesaron las dudas sobre el financiamiento de 2027 y la aversión global al riesgo.",
-      "fuente": "El Cronista",
-      "fecha": "2026-11-20",
-      "url": "https://cronista.com/finanzas-mercados/el-riesgo-pais-vuelve-a-superar-los-1000-puntos-y-los-bonos-argentinos-profundizan-la-caida",
-      "cifras": [
-        {
-          "nombre": "Riesgo país",
-          "valor": "1.070 pb",
-          "variacion": "▲ 139 pb",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "AL30",
-          "valor": "",
-          "variacion": "▼ 4,42%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "GD35",
-          "valor": "",
-          "variacion": "▼ 4,26%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-21-07",
-      "seccion": "argentina",
-      "tickers": [],
-      "balance": false,
-      "titulo": "Dólar: nuevos récords nominales y la brecha con el CCL llega a 13%",
-      "resumen": "Tercera suba seguida del oficial y del mayorista; el blue subió $ 100 en la semana, su mayor avance semanal desde mayo de 2024.",
-      "fuente": "Ámbito",
-      "fecha": "2026-11-20",
-      "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-20-noviembre-n6347715",
-      "cifras": [
-        {
-          "nombre": "Banco Nación (venta)",
-          "valor": "$ 1.595",
-          "variacion": "▲ $ 10",
-          "dir": "up",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "Mayorista",
-          "valor": "$ 1.580",
-          "variacion": "▲ $ 15",
-          "dir": "up",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "MEP",
-          "valor": "$ 1.682,79",
-          "variacion": "▲ 2,4%",
-          "dir": "up",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "CCL",
-          "valor": "$ 1.790,39",
-          "variacion": "▲ 2,7%",
-          "dir": "up",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "Blue (venta)",
-          "valor": "$ 1.675",
-          "variacion": "▲ $ 35",
-          "dir": "up",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "Brecha CCL",
-          "valor": "13,3%",
-          "variacion": "",
-          "dir": "up",
-          "cuando": "cierre 20/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-21-08",
-      "seccion": "argentina",
-      "tickers": [
-        "GGAL",
-        "YPFD",
-        "EDN",
-        "MELI"
-      ],
-      "balance": false,
-      "titulo": "Merval casi sin cambios en pesos y ADR en baja en Nueva York",
-      "resumen": "El índice local terminó plano, pero en Wall Street cayeron casi todos los ADR argentinos, con eléctricas y bancos a la cabeza; MercadoLibre quedó estable.",
-      "fuente": "Infobae",
-      "fecha": "2026-11-20",
-      "url": "https://www.infobae.com/economia/2026/11/20/el-riesgo-pais-salto-14-en-un-solo-dia-y-alcanzo-el-nivel-mas-alto-desde-las-elecciones-de-2025/",
-      "cifras": [
-        {
-          "nombre": "Merval",
-          "valor": "",
-          "variacion": "▼ 0,3%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "Edenor (EDN, ADR)",
-          "valor": "",
-          "variacion": "▼ 5,9%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "Galicia (GGAL, ADR)",
-          "valor": "",
-          "variacion": "▼ 3,0%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "YPF (ADR)",
-          "valor": "US$ 32,32",
-          "variacion": "▼ 2,9%",
-          "dir": "down",
-          "cuando": "cierre 20/11"
-        },
-        {
-          "nombre": "MercadoLibre (MELI)",
-          "valor": "",
-          "variacion": "▼ 0,1%",
-          "dir": "flat",
-          "cuando": "cierre 20/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-21-09",
-      "seccion": "argentina",
-      "tickers": [],
-      "balance": false,
-      "titulo": "El BCRA no compró divisas y cortó una racha de nueve ruedas",
-      "resumen": "Con fuerte demanda de dólares, el Central no adquirió reservas el viernes; en la semana había sumado US$ 121 M.",
-      "fuente": "Ámbito",
-      "fecha": "2026-11-20",
-      "url": "https://www.ambito.com/finanzas/el-bcra-volvio-frenar-las-compras-el-mercado-una-fuerte-presion-el-dolar-n6347761",
-      "cifras": [
-        {
-          "nombre": "Compras del BCRA en la semana",
-          "valor": "US$ 121 M",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "16 al 20/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-21-10",
-      "seccion": "brasil",
-      "tickers": [],
-      "balance": false,
-      "titulo": "La bolsa de Brasil no operó por el feriado de Consciência Negra",
-      "resumen": "La B3 estuvo cerrada el viernes y retoma el lunes 23/11; el último cierre del Ibovespa fue el del jueves.",
-      "fuente": "B3",
-      "fecha": "2026-11-19",
-      "url": "https://borainvestir.b3.com.br/noticias/calendario-de-negociacao-da-b3-confira-o-funcionamento-da-bolsa-em-2026/",
-      "cifras": [
-        {
-          "nombre": "Ibovespa",
-          "valor": "166.376",
-          "variacion": "▼ 0,69%",
-          "dir": "down",
-          "cuando": "cierre 19/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
+     "nombre": "AMD",
+     "valor": "",
+     "variacion": "▲ 6,85%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
     }
-  ],
-  "balancesHoy": [],
-  "proximosBalances": [
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-24-03",
+   "seccion": "cartera",
+   "tickers": [
+    "CRWD"
+   ],
+   "balance": false,
+   "titulo": "CrowdStrike anuncia la compra de Zscaler por unos US$ 43.900 M en acciones",
+   "resumen": "Pagará 1,135 acciones propias por cada acción de Zscaler; la compradora cayó y la comprada subió fuerte.",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-23",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026",
+   "cifras": [
     {
-      "ticker": "BBAR",
-      "nombre": "BBVA Argentina",
-      "fecha": "2026-11-24",
-      "momento": "despues"
+     "nombre": "Zscaler (ZS)",
+     "valor": "US$ 229,24",
+     "variacion": "▲ 17,67%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
+    },
+    {
+     "nombre": "CrowdStrike (CRWD)",
+     "valor": "",
+     "variacion": "▼ 8,92%",
+     "dir": "down",
+     "cuando": "cierre 23/11"
     }
-  ],
-  "movimientos": [
+   ],
+   "fuertes": [],
+   "debiles": [],
+   "motivo": "El mercado reaccionó al anuncio de la compra de Zscaler, pagada en acciones."
+  },
+  {
+   "id": "2026-11-24-04",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El mercado da casi por hecha una suba de tasas de la Fed el 9 de diciembre",
+   "resumen": "John Williams (Fed de Nueva York) dijo que con la inflación cerca de 3,5% a la Fed le queda trabajo por hacer. El petróleo cayó a su menor nivel desde agosto y el oro rebotó.",
+   "fuente": "CappNotes",
+   "fecha": "2026-11-23",
+   "url": "https://cappnotes.substack.com/p/closing-look-monday-november-23-2026",
+   "cifras": [
     {
-      "ticker": "NVDA",
-      "variacion": "▼ 14,0%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
+     "nombre": "Probabilidad de suba de 0,25 pt (CME)",
+     "valor": "98%",
+     "variacion": "",
+     "dir": "up",
+     "cuando": "23/11"
     },
     {
-      "ticker": "AMD",
-      "variacion": "▼ 13,3%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
+     "nombre": "Bono del Tesoro a 10 años",
+     "valor": "4,92%",
+     "variacion": "sin cambios",
+     "dir": "flat",
+     "cuando": "cierre 23/11"
     },
     {
-      "ticker": "AVGO",
-      "variacion": "▼ 12,2%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
+     "nombre": "Petróleo WTI",
+     "valor": "US$ 80,17",
+     "variacion": "▼ 3,88%",
+     "dir": "down",
+     "cuando": "cierre 23/11"
     },
     {
-      "ticker": "TSM",
-      "variacion": "▼ 9,5%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
-    },
-    {
-      "ticker": "TSLA",
-      "variacion": "▼ 7,6%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
-    },
-    {
-      "ticker": "ASML",
-      "variacion": "▼ 6,6%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
-    },
-    {
-      "ticker": "META",
-      "variacion": "▼ 5,9%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
-    },
-    {
-      "ticker": "EDN",
-      "variacion": "▼ 5,9%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
-    },
-    {
-      "ticker": "SUPV",
-      "variacion": "▼ 5,3%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
-    },
-    {
-      "ticker": "AMZN",
-      "variacion": "▼ 4,1%",
-      "dir": "down",
-      "cuando": "cierre 20/11"
-    },
-    {
-      "ticker": "UNH",
-      "variacion": "▲ 2,8%",
-      "dir": "up",
-      "cuando": "cierre 20/11"
-    },
-    {
-      "ticker": "WMT",
-      "variacion": "▲ 1,5%",
-      "dir": "up",
-      "cuando": "cierre 20/11"
+     "nombre": "Oro (futuros)",
+     "valor": "US$ 3.634,30",
+     "variacion": "▲ 3,38%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
     }
-  ],
-  "destacados": [
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-24-05",
+   "seccion": "eeuu",
+   "tickers": [],
+   "balance": false,
+   "titulo": "Bitcoin se estabiliza cerca de US$ 61.000",
+   "resumen": "Tras tocar unos US$ 55.100 el fin de semana, bitcoin recuperó terreno; sigue más de 50% abajo de su máximo histórico.",
+   "fuente": "Fortune",
+   "fecha": "2026-11-23",
+   "url": "https://fortune.com/article/price-of-bitcoin-11-23-2026/",
+   "cifras": [
     {
-      "titulo": "Semana corta en los dos mercados",
-      "detalle": "El lunes 23/11 es feriado en Argentina; Wall Street cierra el jueves 26 por Acción de Gracias y el viernes opera media rueda."
+     "nombre": "Bitcoin",
+     "valor": "US$ 61.134,34",
+     "variacion": "▲ 0,65%",
+     "dir": "up",
+     "cuando": "23/11, 7:45 h de Nueva York"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-24-06",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El riesgo país supera los 1.100 puntos, máximo desde octubre de 2025",
+   "resumen": "Tras la baja del lunes, los bonos en dólares volvieron a caer; las notas mencionan la volatilidad global y las dudas sobre el financiamiento de 2027.",
+   "fuente": "iProfesional",
+   "fecha": "2026-11-24",
+   "url": "https://www.iprofesional.com/finanzas/469868-el-riesgo-pais-se-dispara-y-supera-los-1100-puntos-nuevo-record-en-mas-de-un-ano",
+   "cifras": [
+    {
+     "nombre": "Riesgo país",
+     "valor": "1.105 pb",
+     "variacion": "▲ 6,9%",
+     "dir": "down",
+     "cuando": "24/11, 15:20 h"
     },
     {
-      "titulo": "Agenda en el Congreso",
-      "detalle": "La semana próxima se debate el Presupuesto en Diputados y el Senado vota la suspensión de las PASO; además hay licitación del Tesoro."
+     "nombre": "GD35",
+     "valor": "",
+     "variacion": "▼ 1,73%",
+     "dir": "down",
+     "cuando": "24/11, 12 h"
+    },
+    {
+     "nombre": "AL30",
+     "valor": "",
+     "variacion": "▼ 0,78%",
+     "dir": "down",
+     "cuando": "24/11, 12 h"
     }
-  ],
-  "hoja": "hoja-2026-11-21.png",
-  "hojaFecha": "2026-11-21"
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-24-07",
+   "seccion": "argentina",
+   "tickers": [
+    "GLOB",
+    "GGAL",
+    "MELI",
+    "BBAR",
+    "SUPV"
+   ],
+   "balance": false,
+   "titulo": "Con la bolsa local cerrada por feriado, los ADR acompañaron el rebote",
+   "resumen": "El lunes subieron casi todos los ADR argentinos en Nueva York; hoy el Merval sube 1,6% en pesos.",
+   "fuente": "iProfesional",
+   "fecha": "2026-11-24",
+   "url": "https://www.iprofesional.com/finanzas/469868-el-riesgo-pais-se-dispara-y-supera-los-1100-puntos-nuevo-record-en-mas-de-un-ano",
+   "cifras": [
+    {
+     "nombre": "Globant (GLOB)",
+     "valor": "",
+     "variacion": "▲ 9,46%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
+    },
+    {
+     "nombre": "Galicia (GGAL)",
+     "valor": "",
+     "variacion": "▲ 5,26%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
+    },
+    {
+     "nombre": "MercadoLibre (MELI)",
+     "valor": "",
+     "variacion": "▲ 5,17%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
+    },
+    {
+     "nombre": "BBVA Argentina (BBAR)",
+     "valor": "",
+     "variacion": "▲ 4,78%",
+     "dir": "up",
+     "cuando": "cierre 23/11"
+    },
+    {
+     "nombre": "Merval",
+     "valor": "",
+     "variacion": "▲ 1,6%",
+     "dir": "up",
+     "cuando": "24/11, 15:20 h"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-24-08",
+   "seccion": "argentina",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El dólar oficial pasa los $ 1.600 en el Banco Nación",
+   "resumen": "El oficial y el blue subieron; el MEP bajó.",
+   "fuente": "El Litoral",
+   "fecha": "2026-11-24",
+   "url": "https://www.ellitoral.com/economia/cerro-dolar-bancos-argentinos-martes-24-noviembre-2026-blue-mep_0_FxEOiyCoKB.html",
+   "cifras": [
+    {
+     "nombre": "Banco Nación (venta)",
+     "valor": "$ 1.615",
+     "variacion": "▲ $ 15",
+     "dir": "up",
+     "cuando": "cierre 24/11"
+    },
+    {
+     "nombre": "Blue (venta)",
+     "valor": "$ 1.690",
+     "variacion": "▲ 0,90%",
+     "dir": "up",
+     "cuando": "cierre 24/11"
+    },
+    {
+     "nombre": "MEP (venta)",
+     "valor": "$ 1.681,43",
+     "variacion": "▼ 1,13%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  }
+ ],
+ "balancesHoy": [],
+ "proximosBalances": [],
+ "movimientos": [
+  {
+   "ticker": "NVDA",
+   "variacion": "▲ 31,48%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "MU",
+   "variacion": "▲ 19,04%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "TSM",
+   "variacion": "▲ 14,08%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "TSLA",
+   "variacion": "▲ 11,5%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "GLOB",
+   "variacion": "▲ 9,46%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "AMD",
+   "variacion": "▲ 6,85%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "META",
+   "variacion": "▲ 6,6%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "GOOGL",
+   "variacion": "▲ 6,34%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "GGAL",
+   "variacion": "▲ 5,26%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "MELI",
+   "variacion": "▲ 5,17%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "AMZN",
+   "variacion": "▲ 3,5%",
+   "dir": "up",
+   "cuando": "cierre 23/11"
+  },
+  {
+   "ticker": "CRWD",
+   "variacion": "▼ 8,92%",
+   "dir": "down",
+   "cuando": "cierre 23/11"
+  }
+ ],
+ "destacados": [
+  {
+   "titulo": "Semana corta en Wall Street",
+   "detalle": "Miércoles 25/11: PIB e ingresos y gastos personales en EE.UU. Jueves 26/11: Wall Street cerrado por Acción de Gracias. Viernes 27/11: media rueda, cierra a las 13 h de Nueva York."
+  },
+  {
+   "titulo": "Balances del martes 24/11",
+   "detalle": "Antes de la apertura: Medtronic, Analog Devices, Best Buy y Dollar Tree. Después del cierre: Dell, HP, Workday y Autodesk."
+  }
+ ],
+ "hoja": "hoja-2026-11-24.png",
+ "hojaFecha": "2026-11-24"
 }

@@ -1,0 +1,8 @@
+15:33 inicio (corrida a las 15:33 hora BA, no 7:00); add_repo no disponible en esta sesión; repo ya clonado, fetch + checkout origin/main OK (098f52a)
+15:33 no existe propuestas/2026-11-24/ (tampoco 22 ni 23): falló la tarea de las 0:00 -> punto 4, armo la hoja yo
+15:35 ArtifactData get elecciones/2026-11-24: no existe (sin propuestas, no hay nada que elegir); hoja única armada por el publicador = opción 1
+15:35 investigación: Motley Fool, StockTitan, CappNotes, Yahoo Finance, Fortune (EE.UU. 23/11); iProfesional, BAE Negocios, El Cronista, El Litoral (Argentina 24/11). MDZol no se pudo leer (error del sitio). Brasil sin datos verificados: se omite
+15:37 hoja renderizada con Playwright (1080 px, dsf 2, 2160x3938), fondo claro estilo diseno-base.py, 6 ventanas + 3 chicas; verificada: fecha y hora de los datos, leyenda completa y línea 'Fuentes:'; sin textos cortados
+15:37 ArtifactData set elecciones/2026-11-24: opción 1, auto (sin propuestas) OK
+15:37 copiadas hoja-2026-11-24.png y hoja.png; noticias.json (8 noticias) con hoja/hojaFecha; JSON validado: 8 urls https, problemas: ninguno; borradas >7 días: hoja-2026-11-14.png, hoja-2026-11-16.png
+15:37 commit y push a main
