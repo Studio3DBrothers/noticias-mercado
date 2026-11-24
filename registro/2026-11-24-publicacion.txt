@@ -6,3 +6,5 @@
 15:37 ArtifactData set elecciones/2026-11-24: opción 1, auto (sin propuestas) OK
 15:37 copiadas hoja-2026-11-24.png y hoja.png; noticias.json (8 noticias) con hoja/hojaFecha; JSON validado: 8 urls https, problemas: ninguno; borradas >7 días: hoja-2026-11-14.png, hoja-2026-11-16.png
 15:37 commit y push a main
+15:37 push OK 57852cc; verificado origin/main con hoja-2026-11-24.png y noticias.json; aviso de Noticias enviado
+15:37 Análisis: analisis/propuestos/2026-11-24/ tiene CRWD-3T-FY27 y GGAL-3T-2026; ArtifactData list aprobaciones OK (7 docs): ninguno 2026-11-24_* -> sin análisis aprobados hoy, no se publica nada (CRWD y GGAL ya figuran en indice.json por la corrida CONTROL de las 15:23, no se tocan)
