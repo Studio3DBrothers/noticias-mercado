@@ -1,0 +1,333 @@
+{
+ "formato": "analisis/1",
+ "ticker": "CRWD",
+ "nombre": "CrowdStrike Holdings, Inc.",
+ "trimestre": "3er Trimestre FY27",
+ "periodo": "Agosto-Octubre 2026",
+ "fechaBalance": "2026-11-23",
+ "fechaDatos": "2026-11-24",
+ "datosAl": "24/11/26 a las 15:30 (rueda en curso)",
+ "ultimos12MesesHasta": "2026-10-31",
+ "indicadores": {
+  "columnas": [
+   "Hoy",
+   "Prom. 5 años"
+  ],
+  "filas": [
+   [
+    "PER (precio/ganancia)",
+    "2.199,5",
+    "No aplica"
+   ],
+   [
+    "EV/EBITDA",
+    "741,9",
+    "No aplica"
+   ],
+   [
+    "EBITDA 12 meses",
+    "US$ 0,29 mil M",
+    "US$ 0,01 mil M"
+   ],
+   [
+    "ROE",
+    "1,6%",
+    "−7,3%"
+   ]
+  ],
+  "nota": "Años fiscales 2022 a 2026 (10-K): pérdida en 4 de 5 años y EBITDA negativo en 3."
+ },
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "rojo",
+   "calificacion": "Exigente",
+   "dato": "P/E 12 meses 2.199,5 (precio US$ 214,45 ÷ ganancia por acción US$ 0,10)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "rojo",
+   "calificacion": "Baja",
+   "dato": "Margen operativo −1,2% · ROE 1,6%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "verde",
+   "calificacion": "Sólido",
+   "dato": "Más caja que deuda: caja neta de US$ 4,6 mil M"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Flujo libre 12 meses US$ 1,7 mil M (30% de los ingresos)"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Ingresos 12 meses US$ 5,7 mil M (+25,9%)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "rojo",
+   "calificacion": "Bajo",
+   "dato": "Dividendos 0,0% + recompras 0,08% = 0,08% de la capitalización"
+  }
+ ],
+ "notaSalud": null,
+ "margenNombre": "Margen operativo",
+ "fuenteAnual": "informes anuales 10-K ante la SEC",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Suscripciones",
+    "oficial": "Subscription",
+    "valor": 1502926000.0,
+    "var": 28.6
+   },
+   {
+    "nombre": "Servicios profesionales",
+    "oficial": "Professional services",
+    "valor": 80493000.0,
+    "var": 22.8,
+    "servicio": true
+   }
+  ],
+  "grupo": null,
+  "ingresos": 1583419000.0,
+  "varIngresos": 28.3,
+  "costo": 381265000.0,
+  "bruta": 1202154000.0,
+  "gastos": [
+   {
+    "nombre": "Comercialización",
+    "valor": 558464000.0
+   },
+   {
+    "nombre": "I+D",
+    "valor": 450045000.0
+   },
+   {
+    "nombre": "Administración",
+    "valor": 194401000.0
+   }
+  ],
+  "operativa": -756000.0,
+  "otros": 42484000.0,
+  "otrosNombre": "Intereses y otros",
+  "impuestos": 17295000.0,
+  "neta": 24856000.0,
+  "netaConsolidada": 24433000.0
+ },
+ "nota": "Los intereses de la caja (US$ 0,049 mil M) llevaron la ganancia neta a positivo. Los gastos incluyen US$ 0,327 mil M de pagos en acciones. Otros ingresos netos (intereses, participaciones y otros): +0,042 mil M.",
+ "diezAnios": [
+  {
+   "fin": "2020-01-31",
+   "ingresos": 481413000,
+   "margenOp": -30.3,
+   "margenNeto": -29.5,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2022-03-16",
+   "precioCierre": 15.27
+  },
+  {
+   "fin": "2021-01-31",
+   "ingresos": 874438000,
+   "margenOp": -10.6,
+   "margenNeto": -10.6,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2023-03-09",
+   "precioCierre": 53.95
+  },
+  {
+   "fin": "2022-01-31",
+   "ingresos": 1451594000,
+   "margenOp": -9.8,
+   "margenNeto": -16.2,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2024-03-07",
+   "precioCierre": 45.16
+  },
+  {
+   "fin": "2023-01-31",
+   "ingresos": 2241236000,
+   "margenOp": -8.5,
+   "margenNeto": -8.2,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2025-03-10",
+   "precioCierre": 26.48
+  },
+  {
+   "fin": "2024-01-31",
+   "ingresos": 3055555000,
+   "margenOp": -0.6,
+   "margenNeto": 2.4,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-03-05",
+   "precioCierre": 73.12
+  },
+  {
+   "fin": "2025-01-31",
+   "ingresos": 3953624000,
+   "margenOp": -2.9,
+   "margenNeto": -0.4,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-03-05",
+   "precioCierre": 99.52
+  },
+  {
+   "fin": "2026-01-31",
+   "ingresos": 4812005000,
+   "margenOp": -6.1,
+   "margenNeto": -3.4,
+   "formulario": "10-K",
+   "ultimaPresentacion": "2026-03-05",
+   "precioCierre": 110.35
+  }
+ ],
+ "ultimoBalance": "Ingresos de US$ 1,58 mil M (+28,3%), con suscripciones +28,6%. El ARR llegó a US$ 6,26 mil M (+27%), con un récord de US$ 0,419 mil M sumado en el trimestre. El flujo de caja libre fue récord, US$ 0,474 mil M (+60%), y la ganancia neta fue US$ 0,025 mil M, contra una pérdida de US$ 0,027 mil M un año antes. Anunció la compra de Zscaler con acciones (unos US$ 43,9 mil M).",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos",
+    "US$ 1,58 mil M",
+    "+28,3%"
+   ],
+   [
+    "ARR (recurrente anual)",
+    "US$ 6,26 mil M",
+    "+27%"
+   ],
+   [
+    "Flujo libre (récord)",
+    "US$ 0,474 mil M",
+    "+60%"
+   ],
+   [
+    "Margen bruto",
+    "75,9%",
+    "+0,8 p.p."
+   ]
+  ],
+  "nota": "Acordó adquirir Zscaler con acciones, en una operación que valúa a Zscaler en unos US$ 43,9 mil M."
+ },
+ "fortalezas": [
+  "Ingresos de 12 meses de US$ 5,7 mil M, 25,9% más que los 12 meses anteriores; en el trimestre, +28,3%.",
+  "Flujo de caja libre de US$ 1,7 mil M en 12 meses, el 30% de los ingresos.",
+  "Caja de US$ 5,4 mil M contra una deuda de US$ 0,75 mil M: caja neta de US$ 4,6 mil M."
+ ],
+ "debilidades": [
+  "Resultado operativo contable negativo en los 7 años fiscales del gráfico; en 12 meses, −1,2% de los ingresos.",
+  "P/E de 2.199,5 y EV/EBITDA de 741,9: la ganancia contable es muy chica frente a una capitalización de US$ 221,0 mil M.",
+  "La compra de Zscaler se paga con acciones: 1,135 acciones de CrowdStrike por cada acción de Zscaler, lo que suma acciones en circulación."
+ ],
+ "cedear": {
+  "ticker": "CRWD",
+  "ratio": "75:1",
+  "precioArs": 4867.5,
+  "dolarImplicito": 1702.32,
+  "fuente": "Data912 (BYMA) y ratio BYMA"
+ },
+ "cotizacion": {
+  "var12m": 69.25,
+  "distMax": -23.1,
+  "precio": 214.45,
+  "variacionDia": 2.62,
+  "rango52": [
+   87.56,
+   278.86
+  ],
+  "capitalizacion": 221011423928.44998,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "4to Trimestre FY27 (Noviembre 2026-Enero 2027)",
+  "items": [
+   {
+    "nombre": "Ingresos 4to trimestre",
+    "actual": "US$ 1,638 a 1,644 mil M",
+    "ref": "+25,5% a +25,9% interanual"
+   },
+   {
+    "nombre": "Ingresos año FY27",
+    "actual": "US$ 6,078 a 6,084 mil M",
+    "ref": "antes: US$ 5,991 a 6,011 mil M"
+   },
+   {
+    "nombre": "ARR al cierre del año",
+    "actual": "US$ 6,712 a 6,716 mil M",
+    "ref": "antes: US$ 6,603 a 6,612 mil M"
+   }
+  ],
+  "resumen": "CrowdStrike subió su previsión de ingresos y de ARR para el año fiscal 2027; la previsión de ganancias que publica es ajustada (no GAAP) y no se muestra acá. El balance salió antes de la apertura del 23/11 y ese día la acción bajó 8,9% (de US$ 229,44 a US$ 208,97, Data912).",
+  "fuente": null
+ },
+ "moneda": "US$",
+ "leyendaIngresos": "Ingresos (mil M de US$, año fiscal)",
+ "conclusion": "CrowdStrike cerró el tercer trimestre de su año fiscal 2027 con ingresos de US$ 1,58 mil M (+28,3%) y un ARR de US$ 6,26 mil M que creció por quinto trimestre seguido más rápido. Sus ingresos se multiplicaron por 10 entre los años fiscales 2020 y 2026, pero el resultado operativo contable siguió negativo, sobre todo por los pagos en acciones; la ganancia neta de 12 meses (US$ 0,10 mil M) se apoya en los intereses que gana su caja. Genera mucha caja: flujo libre de US$ 1,7 mil M en 12 meses, el 30% de los ingresos, y tiene caja neta de US$ 4,6 mil M. Con una capitalización de US$ 221,0 mil M, los múltiplos sobre ganancia contable quedan muy altos. La compra de Zscaler, pagada con acciones, cambiaría el tamaño y la composición de la empresa.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 5745320000.000001,
+  "ingresosAnt": 4565168000.0,
+  "operativa": -71488000.0,
+  "neta": 96627000.00000001,
+  "eps": 0.0975,
+  "flujoOperativo": 2284250000.0,
+  "inversiones": 579537000.0,
+  "dividendos": 0,
+  "recompras": 175622000.0,
+  "amortizaciones": 363136999.9999999,
+  "patrimonio": 5912138000.0,
+  "deuda": 746588000.0,
+  "deudaDetalle": {
+   "Deuda de largo plazo": 746588000.0
+  },
+  "caja": 5366651000.0,
+  "cajaDetalle": {
+   "Caja y equivalentes": 5366651000.0
+  },
+  "acciones": 1030596521,
+  "fechaAcciones": "2026-11-19",
+  "fechaBalance": "2026-10-31",
+  "como": "FY 31/01/26 (10-K) + 9 meses FY27 − 9 meses FY26 (EX-99.1 y 10-Q); amortizaciones del comunicado del 4to trimestre FY26 (8-K del 3/3/26); ganancia por acción ajustada por el desdoblamiento 4 a 1"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000035/crwd-20261123xex991.htm",
+   "fecha": "2026-11-23"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001535527.json",
+   "fecha": "2026-10-31"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-24"
+  },
+  {
+   "nombre": "Comunicado del 4to trimestre FY26 (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000007/crwd-20260303xex991.htm",
+   "fecha": "2026-03-03"
+  },
+  {
+   "nombre": "Comunicado del 2do trimestre FY27 (SEC, 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000029/crwd-20260826xex991.htm",
+   "fecha": "2026-08-26"
+  },
+  {
+   "nombre": "Data912 (CEDEARs en BYMA)",
+   "url": "https://data912.com/live/arg_cedears",
+   "fecha": "2026-11-24"
+  }
+ ]
+}

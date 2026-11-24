@@ -1,7 +1,35 @@
 {
  "formato": "analisis-mercado/1",
- "actualizado": "2026-11-19T20:37:05-03:00",
+ "actualizado": "2026-11-24T15:23:01-03:00",
  "informes": [
+  {
+   "id": "GGAL-3T-2026",
+   "ticker": "GGAL",
+   "nombre": "Grupo Financiero Galicia S.A.",
+   "trimestre": "3er Trimestre 2026",
+   "fechaBalance": "2026-11-24",
+   "publicado": "2026-11-24",
+   "carpeta": "analisis/GGAL-3T-2026/",
+   "pdf": "informe.pdf",
+   "hojas": [
+    "hoja-1.jpg",
+    "hoja-2.jpg"
+   ]
+  },
+  {
+   "id": "CRWD-3T-FY27",
+   "ticker": "CRWD",
+   "nombre": "CrowdStrike Holdings, Inc.",
+   "trimestre": "3er Trimestre FY27",
+   "fechaBalance": "2026-11-23",
+   "publicado": "2026-11-24",
+   "carpeta": "analisis/CRWD-3T-FY27/",
+   "pdf": "informe.pdf",
+   "hojas": [
+    "hoja-1.jpg",
+    "hoja-2.jpg"
+   ]
+  },
   {
    "id": "GLOB-3T-2026",
    "ticker": "GLOB",

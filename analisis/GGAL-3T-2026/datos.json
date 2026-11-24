@@ -1,0 +1,348 @@
+{
+ "formato": "analisis/1",
+ "ticker": "GGAL",
+ "nombre": "Grupo Financiero Galicia S.A.",
+ "trimestre": "3er Trimestre 2026",
+ "periodo": "Julio-Septiembre 2026",
+ "fechaBalance": "2026-11-24",
+ "fechaDatos": "2026-11-24",
+ "datosAl": "24/11/26 a las 15:30 (rueda en curso)",
+ "ultimos12MesesHasta": "2026-09-30",
+ "indicadores": {
+  "columnas": [
+   "Hoy",
+   "Prom. 5 años"
+  ],
+  "filas": [
+   [
+    "PER (precio/ganancia)",
+    "16,1",
+    "19,1"
+   ],
+   [
+    "P/VL (precio/valor libro)",
+    "0,78",
+    "1,33"
+   ],
+   [
+    "Margen antes de impuestos",
+    "5,8%",
+    "—"
+   ],
+   [
+    "ROE",
+    "4,8%",
+    "12,9%"
+   ]
+  ],
+  "nota": "Años 2021 a 2025 (20-F), con el precio en BYMA al cierre de cada año. Margen promedio: el 20-F mide los ingresos netos de incobrabilidad."
+ },
+ "semaforo": [
+  {
+   "id": "valuacion",
+   "nombre": "Valuación",
+   "estado": "verde",
+   "calificacion": "Moderada",
+   "dato": "P/E 12 meses 16,1 (capitalización $ 7.629,7 mil M ÷ ganancia neta $ 474,2 mil M)"
+  },
+  {
+   "id": "rentabilidad",
+   "nombre": "Rentabilidad",
+   "estado": "rojo",
+   "calificacion": "Baja",
+   "dato": "Margen antes de impuestos 5,8% · ROE 4,8%"
+  },
+  {
+   "id": "balance",
+   "nombre": "Balance",
+   "estado": "na",
+   "calificacion": "No aplica",
+   "dato": "La deuda de un banco incluye los depósitos de sus clientes: no se aplica"
+  },
+  {
+   "id": "flujo",
+   "nombre": "Flujo de caja",
+   "estado": "na",
+   "calificacion": "No aplica",
+   "dato": "El flujo de caja de un banco mezcla depósitos y créditos: no se aplica"
+  },
+  {
+   "id": "crecimiento",
+   "nombre": "Crecimiento",
+   "estado": "amarillo",
+   "calificacion": "Moderado",
+   "dato": "Ingresos 12 meses $ 11.422,5 mil M (+4,5% real)"
+  },
+  {
+   "id": "dividendos",
+   "nombre": "Dividendos y recompras",
+   "estado": "verde",
+   "calificacion": "Alto",
+   "dato": "Dividendos $ 310,1 mil M en 12 meses (4,1% de la capitalización); sin recompras"
+  }
+ ],
+ "notaSalud": "Montos en pesos de septiembre 2026 (IAS 29). El P/E y los dividendos se calculan con el precio de GGAL en BYMA ($ 4.750). Ingresos: intereses y comisiones netos más otros resultados operativos.",
+ "margenNombre": "Margen antes de impuestos",
+ "fuenteAnual": "informes anuales 20-F ante la SEC (IFRS), reexpresados a pesos de septiembre 2026; ingresos netos de cargos por incobrabilidad",
+ "sankey": {
+  "segmentos": [
+   {
+    "nombre": "Intereses netos",
+    "oficial": "Net interest income",
+    "valor": 1534135000000.0,
+    "var": -7.8
+   },
+   {
+    "nombre": "Comisiones netas",
+    "oficial": "Net fee income",
+    "valor": 481644000000.0,
+    "var": -11.0
+   },
+   {
+    "nombre": "Resultados financieros y de cambio",
+    "valor": 217752000000.0,
+    "var": 61.5,
+    "servicio": true
+   },
+   {
+    "nombre": "Otros ingresos y seguros",
+    "valor": 256659000000.0,
+    "var": -13.7,
+    "servicio": true
+   }
+  ],
+  "grupo": null,
+  "ingresos": 2490190000000.0,
+  "varIngresos": -5.6,
+  "costo": 777129000000.0,
+  "costoNombre": "Cargos por incobrabilidad",
+  "bruta": 1713061000000.0,
+  "brutaNombre": "Ingreso operativo neto",
+  "gastos": [
+   {
+    "nombre": "Otros gastos",
+    "valor": 412112000000.0
+   },
+   {
+    "nombre": "Personal",
+    "valor": 274836000000.0
+   },
+   {
+    "nombre": "Administración",
+    "valor": 263845000000.0
+   },
+   {
+    "nombre": "Amortizaciones",
+    "valor": 89625000000.0
+   }
+  ],
+  "operativa": 672643000000.0,
+  "otros": -380015000000.0,
+  "otrosNombre": "Inflación y otros",
+  "impuestos": 63593000000.0,
+  "neta": 229002000000.0,
+  "netaConsolidada": 229035000000.0
+ },
+ "nota": "Costo: pérdidas esperadas por créditos $ 777,1 mil M. Intereses y comisiones van netos de intereses pagados y costos transaccionales (el comunicado consolidado no los detalla). Inflación: pérdida por posición monetaria de $ 383,6 mil M. Otros ingresos netos (intereses, participaciones y otros): −380,0 mil M.",
+ "diezAnios": [
+  {
+   "fin": "2017-12-31",
+   "ingresos": 4693581938053.339,
+   "margenOp": 21.6,
+   "margenNeto": 9.8,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2020-04-29",
+   "precioCierre": 48.64
+  },
+  {
+   "fin": "2018-12-31",
+   "ingresos": 4973724257924.489,
+   "margenOp": 4.6,
+   "margenNeto": -4.7,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2021-04-23",
+   "precioCierre": 20.51
+  },
+  {
+   "fin": "2019-12-31",
+   "ingresos": 6534523312990.165,
+   "margenOp": 27.3,
+   "margenNeto": 16.1,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2022-04-25",
+   "precioCierre": 12.23
+  },
+  {
+   "fin": "2020-12-31",
+   "ingresos": 5936943498047.768,
+   "margenOp": 25.3,
+   "margenNeto": 13.7,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2023-04-24",
+   "precioCierre": 6.66
+  },
+  {
+   "fin": "2021-12-31",
+   "ingresos": 6196815448412.734,
+   "margenOp": 16.5,
+   "margenNeto": 10.8,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2024-04-26",
+   "precioCierre": 7.29
+  },
+  {
+   "fin": "2022-12-31",
+   "ingresos": 7512402944756.372,
+   "margenOp": 9.6,
+   "margenNeto": 7.1,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2025-04-28",
+   "precioCierre": 7.88
+  },
+  {
+   "fin": "2023-12-31",
+   "ingresos": 11883425052110.932,
+   "margenOp": 16.2,
+   "margenNeto": 10.0,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-04-16",
+   "precioCierre": 15.15
+  },
+  {
+   "fin": "2024-12-31",
+   "ingresos": 11565028404849.246,
+   "margenOp": 30.9,
+   "margenNeto": 22.6,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-04-16",
+   "precioCierre": 58.93
+  },
+  {
+   "fin": "2025-12-31",
+   "ingresos": 7881270893509.048,
+   "margenOp": 4.8,
+   "margenNeto": 3.3,
+   "formulario": "20-F",
+   "ultimaPresentacion": "2026-04-16",
+   "precioCierre": 52.23
+  }
+ ],
+ "ultimoBalance": "Ganancia neta de $ 229,0 mil M (pesos de septiembre 2026), contra una pérdida de $ 117,0 mil M en el 3T25, con un ROE anualizado de 9,3%. Los ingresos operativos bajaron 5,6% real por menores tasas, pero los cargos por incobrabilidad cayeron 20,9% y los gastos 31%. La morosidad fue 9,7% (10,6% en el 2T26).",
+ "ultimoFilas": {
+  "filas": [
+   [
+    "Ingresos operativos",
+    "$ 2.490,2 mil M",
+    "−5,6%"
+   ],
+   [
+    "Ganancia neta",
+    "$ 229,0 mil M",
+    ""
+   ],
+   [
+    "Incobrabilidad",
+    "$ 777,1 mil M",
+    "−20,9%"
+   ],
+   [
+    "ROE del trimestre",
+    "9,3%",
+    "+14,1 p.p."
+   ]
+  ],
+  "nota": "Variaciones reales contra el 3T25. Un año antes, la pérdida neta había sido $ 117,0 mil M."
+ },
+ "fortalezas": [
+  "Gastos del trimestre $ 1.040,4 mil M, 31% menos en términos reales; la eficiencia pasó de 59,6% a 39,4%.",
+  "Capital regulatorio de Galicia con Naranja X de 23,5% de los activos ponderados por riesgo (21,1% un año antes).",
+  "Pagó dividendos por $ 310,1 mil M en 12 meses (montos nominales), el 4,1% de la capitalización."
+ ],
+ "debilidades": [
+  "Morosidad de 9,7% de la cartera, contra 6,9% un año antes.",
+  "Intereses netos −7,8% real en el trimestre por la baja de las tasas de los préstamos.",
+  "ROE de 12 meses de 4,8%; la pérdida por inflación restó $ 383,6 mil M en el trimestre."
+ ],
+ "cedear": null,
+ "cotizacion": {
+  "var12m": -40.95,
+  "distMax": -52.62,
+  "precio": 26.62,
+  "variacionDia": 0.0,
+  "rango52": [
+   25.29,
+   56.18
+  ],
+  "capitalizacion": 4275864120.0,
+  "proximoBalance": null
+ },
+ "prevision": {
+  "periodo": "Año 2026 (Enero-Diciembre 2026)",
+  "items": [],
+  "nota": "La empresa no publicó una previsión. El balance salió el 24/11 con la rueda abierta; hasta las 15:20, la acción en BYMA subía 4,2% (Data912).",
+  "resumen": "La empresa no publicó una previsión. El balance salió el 24/11 con la rueda abierta; hasta las 15:20, la acción en BYMA subía 4,2% (Data912).",
+  "fuente": null
+ },
+ "moneda": "pesos de septiembre 2026 (IAS 29)",
+ "leyendaIngresos": "Ingresos operativos netos de incobrabilidad (mil M de $ de sep-26)",
+ "conclusion": "Grupo Galicia volvió a ganar dinero en el tercer trimestre de 2026: $ 229,0 mil M en pesos de septiembre, contra una pérdida un año antes, con un ROE anualizado de 9,3%. La mejora vino de menores cargos por incobrabilidad (−20,9%) y de un recorte real de gastos de 31%, mientras los ingresos operativos bajaron 5,6% real por la caída de las tasas. La morosidad siguió alta, 9,7%, aunque bajó frente al trimestre anterior. En 12 meses, el ROE fue 4,8%, lejos del 26,8% de 2024, y la acción en EE.UU. acumula −41,0% en un año. Con un P/E de 16,1 y un precio de 0,78 veces su valor libro, el grupo pagó dividendos equivalentes al 4,1% de su capitalización.",
+ "noticiaClave": null,
+ "calculos": {
+  "ingresos": 11422452700793.719,
+  "ingresosAnt": 10933778407047.238,
+  "operativa": 666539353755.8486,
+  "neta": 474169311331.0239,
+  "eps": 295.2008462708552,
+  "flujoOperativo": null,
+  "inversiones": null,
+  "dividendos": 310093000000.0,
+  "recompras": 0,
+  "amortizaciones": null,
+  "patrimonio": 9832161000000.0,
+  "deuda": null,
+  "deudaDetalle": {},
+  "caja": null,
+  "cajaDetalle": {},
+  "acciones": 1606260000.0,
+  "fechaAcciones": "2026-09-10",
+  "fechaBalance": "2026-09-30",
+  "como": "4T25 + 1T26 + 2T26 + 3T26 de los comunicados trimestrales (6-K), reexpresados a pesos de septiembre 2026 con el IPC (IAS 29)"
+ },
+ "fuentes": [
+  {
+   "nombre": "Comunicado del balance (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1114700/000111470026000087/pressreleasegrupogalicia.htm",
+   "fecha": "2026-11-24"
+  },
+  {
+   "nombre": "SEC XBRL companyfacts",
+   "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001114700.json",
+   "fecha": "2026-09-30"
+  },
+  {
+   "nombre": "Data912 (precios)",
+   "url": "https://data912.com/live/usa_stocks",
+   "fecha": "2026-11-24"
+  },
+  {
+   "nombre": "Comunicados del 4T25, 1T26 y 2T26 (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1114700/000111470026000073/grupogaliciapressrelease.htm",
+   "fecha": "2026-08-25"
+  },
+  {
+   "nombre": "Informe anual 2025 (SEC, 20-F)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1114700/000111470026000038/ggal-20251231.htm",
+   "fecha": "2026-04-16"
+  },
+  {
+   "nombre": "Avisos de pago de dividendos (SEC, 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1114700/000111470026000077/a09022026-noticeofpaymento.htm",
+   "fecha": "2026-09-02"
+  },
+  {
+   "nombre": "Data912 (acción GGAL en BYMA)",
+   "url": "https://data912.com/live/arg_stocks",
+   "fecha": "2026-11-24"
+  }
+ ]
+}
