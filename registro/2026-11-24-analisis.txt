@@ -8,3 +8,8 @@
 15:23 controles del punto 6 (build3.py) y revisión visual de las 4 hojas: OK para CRWD y GGAL (2 páginas A4 cada uno).
 15:23 publicados: analisis/CRWD-3T-FY27/ y analisis/GGAL-3T-2026/ (+ copia en analisis/propuestos/2026-11-24/); indice.json actualizado y validado (carga, 4 archivos por carpeta, sin palabras prohibidas, links https).
 15:23 push OK 241171b; verificado en origin/main: analisis/CRWD-3T-FY27/ y analisis/GGAL-3T-2026/ (4 archivos cada uno). Fin de la corrida CONTROL.
+19:36 corrida programada POST (FECHA 2026-11-24)
+19:36 repo: ya clonado; git fetch + checkout de origin/main (0c708df): OK (add_repo no está disponible)
+19:37 punto 0: analisis/propuestos/2026-11-24/ (CRWD-3T-FY27, GGAL-3T-2026) ya está en indice.json; no hay pendientes para publicar.
+19:38 SEC submissions (49 empresas, User-Agent autorizado) desde el 23/11: sin balances nuevos. Nuevos desde la corrida de las 15:07: GOOGL 8-K Item 8.01 y QCOM 8-K Item 5.02 (no son balances). CRWD y GGAL ya publicados; el resto, igual que a las 15:07 (no son balances).
+19:38 no hay informes para armar en este turno. Fin de la corrida POST.
