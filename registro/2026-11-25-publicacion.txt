@@ -1,0 +1,6 @@
+07:04 add_repo: herramienta no disponible en la sesión; repo ya clonado por el entorno en /home/claude/noticias-mercado (HEAD c58cfe6)
+07:04 git fetch origin main: c58cfe6
+07:04 elección leída: opción 1, 2026-11-25T04:59:04.033Z (antes de 05:00Z, elegida por Adrián)
+07:04 verificación opción 1: fecha/hora de datos ('Datos al cierre del martes 24/11'), leyenda y 'Fuentes:' presentes OK
+07:04 validación JSON OK (7 noticias), sin correcciones
+07:04 borrada hoja-2026-11-17.png (más de 7 días)

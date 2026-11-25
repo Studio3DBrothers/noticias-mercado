@@ -1,305 +1,323 @@
 {
  "formato": "noticias-mercado/1",
- "generado": "2026-11-24T15:36:00-03:00",
+ "generado": "2026-11-25T00:50:00-03:00",
  "titular": {
-  "titulo": "Rebote fuerte en Wall Street: el Nasdaq sube 6,5% y Nvidia 31% tras la vuelta de Jensen Huang",
-  "bajada": "El S&P 500 tuvo su mejor día desde abril de 2025 y cortó siete bajas seguidas. En Argentina, tras el feriado del lunes, el riesgo país pasó los 1.100 puntos y el Merval sube 1,6% en pesos."
+  "titulo": "Wall Street mixto: los chips hunden 1,5% al Nasdaq y el Dow recupera los 50.000 puntos",
+  "bajada": "Nvidia cayó 5,9% y AMD 8,9% tras el rebote del lunes, con el mercado descontando una suba de tasas de la Fed. En Buenos Aires el Merval subió 0,8% en pesos pese a que el riesgo país rozó los 1.100 puntos; el Ibovespa cedió 0,43%."
  },
  "noticias": [
   {
-   "id": "2026-11-24-01",
+   "id": "2026-11-25-01",
    "seccion": "eeuu",
    "tickers": [],
    "balance": false,
-   "titulo": "Wall Street rebota con fuerza y corta siete bajas seguidas",
-   "resumen": "El S&P 500 tuvo su mejor día desde abril de 2025, con las tecnológicas a la cabeza; el Nasdaq ganó más de 6%.",
+   "titulo": "Venta en tecnológicas: el Nasdaq cae 1,5% y el Dow vuelve a cerrar arriba de 50.000",
+   "resumen": "Rotación de tecnología hacia acciones de valor: salud fue el sector que más subió y tecnología el que más cayó, un día después del mayor rebote desde abril de 2025.",
    "fuente": "The Motley Fool",
-   "fecha": "2026-11-23",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/",
+   "fecha": "2026-11-24",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/",
    "cifras": [
     {
      "nombre": "S&P 500",
-     "valor": "7.237,17",
-     "variacion": "▲ 4,73%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
+     "valor": "7.201,09",
+     "variacion": "▼ 0,50%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
     },
     {
      "nombre": "Dow Jones",
-     "valor": "49.595,31",
-     "variacion": "▲ 3,01%",
+     "valor": "50.018,70",
+     "variacion": "▲ 0,85%",
      "dir": "up",
-     "cuando": "cierre 23/11"
+     "cuando": "cierre 24/11"
     },
     {
      "nombre": "Nasdaq",
-     "valor": "24.089,56",
-     "variacion": "▲ 6,51%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
+     "valor": "23.733,54",
+     "variacion": "▼ 1,48%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
     }
    ],
    "fuertes": [],
    "debiles": []
   },
   {
-   "id": "2026-11-24-02",
+   "id": "2026-11-25-02",
    "seccion": "cartera",
    "tickers": [
     "NVDA",
-    "TSM",
-    "AMD"
+    "AMD",
+    "INTC",
+    "AVGO"
    ],
    "balance": false,
-   "titulo": "Nvidia repone a Jensen Huang como CEO y la acción sube 31%",
-   "resumen": "Huang, que había renunciado el 12/11, volvió con efecto inmediato; un comité independiente sigue con la investigación. Los fabricantes de chips acompañaron la suba.",
-   "fuente": "Yahoo Finance",
-   "fecha": "2026-11-23",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html",
+   "titulo": "Los fabricantes de chips devuelven parte de la suba del lunes",
+   "resumen": "Tras el salto por la vuelta de Jensen Huang a Nvidia, el sector tuvo toma de ganancias; Intel y AMD perdieron más de 8%.",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-24",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
    "cifras": [
     {
      "nombre": "NVDA",
-     "valor": "US$ 165,05",
-     "variacion": "▲ 31,48%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
-    },
-    {
-     "nombre": "TSM",
-     "valor": "",
-     "variacion": "▲ 14,08%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
+     "valor": "US$ 155,38",
+     "variacion": "▼ 5,86%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
     },
     {
      "nombre": "AMD",
      "valor": "",
-     "variacion": "▲ 6,85%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
-    }
-   ],
-   "fuertes": [],
-   "debiles": []
-  },
-  {
-   "id": "2026-11-24-03",
-   "seccion": "cartera",
-   "tickers": [
-    "CRWD"
-   ],
-   "balance": false,
-   "titulo": "CrowdStrike anuncia la compra de Zscaler por unos US$ 43.900 M en acciones",
-   "resumen": "Pagará 1,135 acciones propias por cada acción de Zscaler; la compradora cayó y la comprada subió fuerte.",
-   "fuente": "StockTitan",
-   "fecha": "2026-11-23",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026",
-   "cifras": [
-    {
-     "nombre": "Zscaler (ZS)",
-     "valor": "US$ 229,24",
-     "variacion": "▲ 17,67%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
+     "variacion": "▼ 8,86%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
     },
     {
-     "nombre": "CrowdStrike (CRWD)",
+     "nombre": "INTC",
      "valor": "",
-     "variacion": "▼ 8,92%",
+     "variacion": "▼ 8,15%",
      "dir": "down",
-     "cuando": "cierre 23/11"
+     "cuando": "cierre 24/11"
+    },
+    {
+     "nombre": "AVGO",
+     "valor": "",
+     "variacion": "▼ 3,98%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
     }
    ],
    "fuertes": [],
    "debiles": [],
-   "motivo": "El mercado reaccionó al anuncio de la compra de Zscaler, pagada en acciones."
+   "motivo": "Toma de ganancias en chips e IA después del fuerte rebote del lunes 23/11."
   },
   {
-   "id": "2026-11-24-04",
+   "id": "2026-11-25-03",
    "seccion": "eeuu",
    "tickers": [],
    "balance": false,
-   "titulo": "El mercado da casi por hecha una suba de tasas de la Fed el 9 de diciembre",
-   "resumen": "John Williams (Fed de Nueva York) dijo que con la inflación cerca de 3,5% a la Fed le queda trabajo por hacer. El petróleo cayó a su menor nivel desde agosto y el oro rebotó.",
-   "fuente": "CappNotes",
-   "fecha": "2026-11-23",
-   "url": "https://cappnotes.substack.com/p/closing-look-monday-november-23-2026",
+   "titulo": "El mercado descuenta en 95% una suba de tasas de la Fed en diciembre",
+   "resumen": "Las apuestas por una suba de 0,25 punto el 9/12 siguieron firmes y pesaron sobre las tecnológicas; el bono a 10 años quedó cerca de 4,9%.",
+   "fuente": "Yahoo Finance",
+   "fecha": "2026-11-24",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
    "cifras": [
     {
-     "nombre": "Probabilidad de suba de 0,25 pt (CME)",
-     "valor": "98%",
+     "nombre": "Probabilidad de suba de 0,25 pt",
+     "valor": "95%",
      "variacion": "",
      "dir": "up",
-     "cuando": "23/11"
+     "cuando": "24/11"
     },
     {
      "nombre": "Bono del Tesoro a 10 años",
-     "valor": "4,92%",
-     "variacion": "sin cambios",
-     "dir": "flat",
-     "cuando": "cierre 23/11"
-    },
-    {
-     "nombre": "Petróleo WTI",
-     "valor": "US$ 80,17",
-     "variacion": "▼ 3,88%",
+     "valor": "4,90%",
+     "variacion": "▼ 1 pb",
      "dir": "down",
-     "cuando": "cierre 23/11"
+     "cuando": "24/11"
     },
     {
-     "nombre": "Oro (futuros)",
-     "valor": "US$ 3.634,30",
-     "variacion": "▲ 3,38%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
+     "nombre": "VIX",
+     "valor": "26,36",
+     "variacion": "▼ 0,98%",
+     "dir": "down",
+     "cuando": "24/11"
     }
    ],
    "fuertes": [],
    "debiles": []
   },
   {
-   "id": "2026-11-24-05",
-   "seccion": "eeuu",
-   "tickers": [],
-   "balance": false,
-   "titulo": "Bitcoin se estabiliza cerca de US$ 61.000",
-   "resumen": "Tras tocar unos US$ 55.100 el fin de semana, bitcoin recuperó terreno; sigue más de 50% abajo de su máximo histórico.",
-   "fuente": "Fortune",
-   "fecha": "2026-11-23",
-   "url": "https://fortune.com/article/price-of-bitcoin-11-23-2026/",
-   "cifras": [
-    {
-     "nombre": "Bitcoin",
-     "valor": "US$ 61.134,34",
-     "variacion": "▲ 0,65%",
-     "dir": "up",
-     "cuando": "23/11, 7:45 h de Nueva York"
-    }
-   ],
-   "fuertes": [],
-   "debiles": []
-  },
-  {
-   "id": "2026-11-24-06",
-   "seccion": "argentina",
-   "tickers": [],
-   "balance": false,
-   "titulo": "El riesgo país supera los 1.100 puntos, máximo desde octubre de 2025",
-   "resumen": "Tras la baja del lunes, los bonos en dólares volvieron a caer; las notas mencionan la volatilidad global y las dudas sobre el financiamiento de 2027.",
-   "fuente": "iProfesional",
-   "fecha": "2026-11-24",
-   "url": "https://www.iprofesional.com/finanzas/469868-el-riesgo-pais-se-dispara-y-supera-los-1100-puntos-nuevo-record-en-mas-de-un-ano",
-   "cifras": [
-    {
-     "nombre": "Riesgo país",
-     "valor": "1.105 pb",
-     "variacion": "▲ 6,9%",
-     "dir": "down",
-     "cuando": "24/11, 15:20 h"
-    },
-    {
-     "nombre": "GD35",
-     "valor": "",
-     "variacion": "▼ 1,73%",
-     "dir": "down",
-     "cuando": "24/11, 12 h"
-    },
-    {
-     "nombre": "AL30",
-     "valor": "",
-     "variacion": "▼ 0,78%",
-     "dir": "down",
-     "cuando": "24/11, 12 h"
-    }
-   ],
-   "fuertes": [],
-   "debiles": []
-  },
-  {
-   "id": "2026-11-24-07",
+   "id": "2026-11-25-04",
    "seccion": "argentina",
    "tickers": [
     "GLOB",
-    "GGAL",
-    "MELI",
-    "BBAR",
-    "SUPV"
+    "YPFD",
+    "CRES"
    ],
    "balance": false,
-   "titulo": "Con la bolsa local cerrada por feriado, los ADR acompañaron el rebote",
-   "resumen": "El lunes subieron casi todos los ADR argentinos en Nueva York; hoy el Merval sube 1,6% en pesos.",
-   "fuente": "iProfesional",
+   "titulo": "El riesgo país roza los 1.100 puntos y el Merval sube 0,8% en pesos",
+   "resumen": "Los bonos en dólares cayeron 2,1% en promedio y el riesgo país tocó su nivel más alto desde octubre de 2025. En Nueva York, Globant saltó y YPF cayó.",
+   "fuente": "Infobae",
    "fecha": "2026-11-24",
-   "url": "https://www.iprofesional.com/finanzas/469868-el-riesgo-pais-se-dispara-y-supera-los-1100-puntos-nuevo-record-en-mas-de-un-ano",
+   "url": "https://www.infobae.com/economia/2026/11/24/el-riesgo-pais-rozo-los-1100-puntos-cayeron-las-acciones-argentinas-y-el-dolar-supero-los-1600/",
    "cifras": [
+    {
+     "nombre": "Merval",
+     "valor": "81.324",
+     "variacion": "▲ 0,8%",
+     "dir": "up",
+     "cuando": "cierre 24/11"
+    },
+    {
+     "nombre": "Riesgo país",
+     "valor": "1.094 pb",
+     "variacion": "▲ 62 pb",
+     "dir": "down",
+     "cuando": "cierre 24/11"
+    },
+    {
+     "nombre": "Bonos globales (promedio)",
+     "valor": "",
+     "variacion": "▼ 2,1%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
+    },
     {
      "nombre": "Globant (GLOB)",
      "valor": "",
-     "variacion": "▲ 9,46%",
+     "variacion": "▲ 9,9%",
      "dir": "up",
-     "cuando": "cierre 23/11"
+     "cuando": "cierre 24/11"
     },
     {
-     "nombre": "Galicia (GGAL)",
-     "valor": "",
-     "variacion": "▲ 5,26%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
+     "nombre": "YPF (ADR)",
+     "valor": "US$ 31,71",
+     "variacion": "▼ 4,4%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
     },
     {
-     "nombre": "MercadoLibre (MELI)",
+     "nombre": "Cresud (ADR)",
      "valor": "",
-     "variacion": "▲ 5,17%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
-    },
-    {
-     "nombre": "BBVA Argentina (BBAR)",
-     "valor": "",
-     "variacion": "▲ 4,78%",
-     "dir": "up",
-     "cuando": "cierre 23/11"
-    },
-    {
-     "nombre": "Merval",
-     "valor": "",
-     "variacion": "▲ 1,6%",
-     "dir": "up",
-     "cuando": "24/11, 15:20 h"
+     "variacion": "▼ 4,1%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
     }
    ],
    "fuertes": [],
    "debiles": []
   },
   {
-   "id": "2026-11-24-08",
+   "id": "2026-11-25-05",
    "seccion": "argentina",
    "tickers": [],
    "balance": false,
-   "titulo": "El dólar oficial pasa los $ 1.600 en el Banco Nación",
-   "resumen": "El oficial y el blue subieron; el MEP bajó.",
-   "fuente": "El Litoral",
+   "titulo": "Dólar: el oficial pasa los $ 1.600 y el CCL marca récord",
+   "resumen": "El mayorista subió a un récord nominal y la brecha con el CCL llegó a su mayor nivel desde abril de 2025. El BCRA no compró y las reservas bajaron US$ 618 M.",
+   "fuente": "Perfil · Infobae",
    "fecha": "2026-11-24",
-   "url": "https://www.ellitoral.com/economia/cerro-dolar-bancos-argentinos-martes-24-noviembre-2026-blue-mep_0_FxEOiyCoKB.html",
+   "url": "https://www.perfil.com/economia/el-riesgo-pais-rompe-la-barrera-de-los-1100-puntos-y-alcanza-el-nivel-mas-alto-del-ano-mientras-el-dolar-oficial-llega-a-1615-a5Q7B3m4Fz5t",
    "cifras": [
     {
-     "nombre": "Banco Nación (venta)",
+     "nombre": "Oficial (BNA)",
      "valor": "$ 1.615",
-     "variacion": "▲ $ 15",
+     "variacion": "▲ 1,3%",
      "dir": "up",
      "cuando": "cierre 24/11"
     },
     {
-     "nombre": "Blue (venta)",
-     "valor": "$ 1.690",
-     "variacion": "▲ 0,90%",
+     "nombre": "Mayorista",
+     "valor": "$ 1.593",
+     "variacion": "▲ 0,8%",
      "dir": "up",
      "cuando": "cierre 24/11"
     },
     {
-     "nombre": "MEP (venta)",
-     "valor": "$ 1.681,43",
-     "variacion": "▼ 1,13%",
+     "nombre": "CCL",
+     "valor": "$ 1.798",
+     "variacion": "",
+     "dir": "up",
+     "cuando": "cierre 24/11"
+    },
+    {
+     "nombre": "Blue",
+     "valor": "$ 1.700",
+     "variacion": "▲ 1,5%",
+     "dir": "up",
+     "cuando": "cierre 24/11"
+    },
+    {
+     "nombre": "Brecha CCL",
+     "valor": "12,9%",
+     "variacion": "",
+     "dir": "up",
+     "cuando": "cierre 24/11"
+    },
+    {
+     "nombre": "Reservas BCRA",
+     "valor": "US$ 48.744 M",
+     "variacion": "▼ US$ 618 M",
+     "dir": "down",
+     "cuando": "cierre 24/11"
+    }
+   ],
+   "fuertes": [],
+   "debiles": []
+  },
+  {
+   "id": "2026-11-25-06",
+   "seccion": "cartera",
+   "tickers": [
+    "BBAR"
+   ],
+   "balance": true,
+   "titulo": "BBVA Argentina gana $ 58.900 M en el 3T: +16,1% interanual, pero −57,7% contra el 2T",
+   "resumen": "Presentó el balance del tercer trimestre el martes después del cierre: crecen los préstamos, caen los depósitos privados y la rentabilidad sobre el patrimonio queda en 4,9%.",
+   "fuente": "StockTitan",
+   "fecha": "2026-11-24",
+   "url": "https://www.stocktitan.net/news/BBAR/bbva-argentina-announces-third-quarter-2026-financial-mvvbtsgvp7jw.html",
+   "cifras": [
+    {
+     "nombre": "Ganancia neta 3T",
+     "valor": "$ 58.900 M",
+     "variacion": "▲ 16,1% interanual",
+     "dir": "up",
+     "cuando": "3T 2026"
+    },
+    {
+     "nombre": "ROE",
+     "valor": "4,9%",
+     "variacion": "",
+     "dir": "flat",
+     "cuando": "3T 2026"
+    },
+    {
+     "nombre": "Préstamos (real)",
+     "valor": "",
+     "variacion": "▲ 8,1% interanual",
+     "dir": "up",
+     "cuando": "3T 2026"
+    },
+    {
+     "nombre": "Depósitos privados (real)",
+     "valor": "",
+     "variacion": "▼ 1,4% interanual",
+     "dir": "down",
+     "cuando": "3T 2026"
+    }
+   ],
+   "fuertes": [
+    "Ganancia neta +16,1% interanual, a $ 58.900 M",
+    "Préstamos +8,1% real interanual"
+   ],
+   "debiles": [
+    "Ganancia −57,7% contra el 2T",
+    "Depósitos privados −1,4% real interanual y ROE de 4,9%"
+   ]
+  },
+  {
+   "id": "2026-11-25-07",
+   "seccion": "brasil",
+   "tickers": [],
+   "balance": false,
+   "titulo": "El Ibovespa cede 0,43% por Petrobras y Vale; el real se aprecia",
+   "resumen": "Petrobras no garantizó dividendos extraordinarios en su plan 2027-31 y Vale cayó más de 5%. Diputados aprobó el paquete fiscal, lo que ayudó al real.",
+   "fuente": "Money Times",
+   "fecha": "2026-11-24",
+   "url": "https://www.moneytimes.com.br/ibovespa-fecha-no-vermelho-apos-presidente-da-petrobras-nao-garantir-dividendos-extraordinarios-davs/",
+   "cifras": [
+    {
+     "nombre": "Ibovespa",
+     "valor": "164.089,81",
+     "variacion": "▼ 0,43%",
+     "dir": "down",
+     "cuando": "cierre 24/11"
+    },
+    {
+     "nombre": "Dólar / real",
+     "valor": "R$ 5,91",
+     "variacion": "▼ 0,26%",
      "dir": "down",
      "cuando": "cierre 24/11"
     }
@@ -309,91 +327,62 @@
   }
  ],
  "balancesHoy": [],
- "proximosBalances": [],
+ "proximosBalances": [
+  {
+   "ticker": "CRM",
+   "nombre": "Salesforce",
+   "fecha": "2026-12-02",
+   "momento": "despues"
+  }
+ ],
  "movimientos": [
   {
-   "ticker": "NVDA",
-   "variacion": "▲ 31,48%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
-   "ticker": "MU",
-   "variacion": "▲ 19,04%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
-   "ticker": "TSM",
-   "variacion": "▲ 14,08%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
-   "ticker": "TSLA",
-   "variacion": "▲ 11,5%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
    "ticker": "GLOB",
-   "variacion": "▲ 9,46%",
+   "variacion": "▲ 9,9%",
    "dir": "up",
-   "cuando": "cierre 23/11"
+   "cuando": "cierre 24/11"
   },
   {
    "ticker": "AMD",
-   "variacion": "▲ 6,85%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
-   "ticker": "META",
-   "variacion": "▲ 6,6%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
-   "ticker": "GOOGL",
-   "variacion": "▲ 6,34%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
-   "ticker": "GGAL",
-   "variacion": "▲ 5,26%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
-   "ticker": "MELI",
-   "variacion": "▲ 5,17%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
-   "ticker": "AMZN",
-   "variacion": "▲ 3,5%",
-   "dir": "up",
-   "cuando": "cierre 23/11"
-  },
-  {
-   "ticker": "CRWD",
-   "variacion": "▼ 8,92%",
+   "variacion": "▼ 8,86%",
    "dir": "down",
-   "cuando": "cierre 23/11"
+   "cuando": "cierre 24/11"
+  },
+  {
+   "ticker": "INTC",
+   "variacion": "▼ 8,15%",
+   "dir": "down",
+   "cuando": "cierre 24/11"
+  },
+  {
+   "ticker": "NVDA",
+   "variacion": "▼ 5,86%",
+   "dir": "down",
+   "cuando": "cierre 24/11"
+  },
+  {
+   "ticker": "YPFD",
+   "variacion": "▼ 4,4% (ADR)",
+   "dir": "down",
+   "cuando": "cierre 24/11"
+  },
+  {
+   "ticker": "AVGO",
+   "variacion": "▼ 3,98%",
+   "dir": "down",
+   "cuando": "cierre 24/11"
   }
  ],
  "destacados": [
   {
    "titulo": "Semana corta en Wall Street",
-   "detalle": "Miércoles 25/11: PIB e ingresos y gastos personales en EE.UU. Jueves 26/11: Wall Street cerrado por Acción de Gracias. Viernes 27/11: media rueda, cierra a las 13 h de Nueva York."
+   "detalle": "Miércoles 25/11: PCE de octubre y segunda estimación del PIB del 3T. Jueves 26/11: mercado cerrado por Acción de Gracias. Viernes 27/11: media rueda, cierra a las 13 h de Nueva York."
   },
   {
-   "titulo": "Balances del martes 24/11",
-   "detalle": "Antes de la apertura: Medtronic, Analog Devices, Best Buy y Dollar Tree. Después del cierre: Dell, HP, Workday y Autodesk."
+   "titulo": "Actividad en Argentina",
+   "detalle": "El INDEC informó que el EMAE de septiembre subió 1,1% mensual desestacionalizado."
   }
  ],
- "hoja": "hoja-2026-11-24.png",
- "hojaFecha": "2026-11-24"
+ "hoja": "hoja-2026-11-25.png",
+ "hojaFecha": "2026-11-25"
 }
