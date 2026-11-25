@@ -3,3 +3,8 @@
 07:37 punto 0: analisis/propuestos/2026-11-24/ (CRWD-3T-FY27, GGAL-3T-2026) ya está en indice.json; no hay pendientes para publicar.
 07:36 SEC submissions (49 empresas, User-Agent autorizado) desde el 24/11: sin balances nuevos (GOOGL 8-K 8.01, QCOM 8-K 5.02, GGAL 6-K del 24/11 15:27 y PBR 6-K ya revisados en las corridas del 24/11; no son balances pendientes).
 07:36 no hay informes para armar en este turno. Fin de la corrida CONTROL.
+13:07 corrida programada PRE (FECHA 2026-11-25)
+13:07 repo: ya clonado; git fetch + checkout de origin/main (21d5ccf): OK (add_repo no está disponible)
+13:07 punto 0: propuestos de los últimos 4 días (2026-11-24: CRWD-3T-FY27, GGAL-3T-2026) ya están en indice.json; no hay pendientes para publicar.
+13:07 SEC submissions (49 empresas, User-Agent autorizado) desde el 24/11: sin presentaciones nuevas hoy (GOOGL 8-K 8.01, QCOM 8-K 5.02, GGAL 6-K y PBR 6-K del 24/11 ya revisados; no son balances pendientes).
+13:07 no hay informes para armar en este turno. Fin de la corrida PRE.
