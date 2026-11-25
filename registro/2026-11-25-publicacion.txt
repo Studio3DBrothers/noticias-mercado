@@ -4,3 +4,6 @@
 07:04 verificación opción 1: fecha/hora de datos ('Datos al cierre del martes 24/11'), leyenda y 'Fuentes:' presentes OK
 07:04 validación JSON OK (7 noticias), sin correcciones
 07:04 borrada hoja-2026-11-17.png (más de 7 días)
+07:04 push OK decf0ab; verificado origin/main = decf0ab con hoja-2026-11-25.png
+07:04 aviso de Noticias enviado
+07:04 análisis: sin análisis propuestos (no existe analisis/propuestos/2026-11-25/)
