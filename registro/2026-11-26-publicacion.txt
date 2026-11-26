@@ -5,3 +5,6 @@
 07:04 copiadas hoja-2026-11-26.png y hoja.png
 07:04 noticias.json validado: carga OK, problemas=[]
 07:04 borrada hoja-2026-11-18.png (más de 7 días)
+07:05 push OK 262d2fb; verificado en origin/main: hoja-2026-11-26.png y noticias.json presentes
+07:05 aviso de Noticias enviado
+07:05 análisis: sin análisis propuestos (no existe analisis/propuestos/2026-11-26/)
