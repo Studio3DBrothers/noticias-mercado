@@ -1,0 +1,7 @@
+07:04 add_repo: herramienta no disponible en esta sesión; el repo ya estaba clonado en /home/claude/noticias-mercado con origin Studio3DBrothers/noticias-mercado (HEAD ac6bfd1)
+07:04 propuestas/2026-11-26/ OK: opcion-1.png, opcion-2.png, opcion-3.png, noticias.json
+07:04 elección leída: opción 3, 2026-11-26T03:49:53.239Z (antes de 05:00Z, elegida por Adrián)
+07:04 verificación imagen opción 3 OK: fecha (Jueves 26/11/2026, datos al cierre del miércoles 25/11), leyenda y 'Fuentes:' presentes
+07:04 copiadas hoja-2026-11-26.png y hoja.png
+07:04 noticias.json validado: carga OK, problemas=[]
+07:04 borrada hoja-2026-11-18.png (más de 7 días)
