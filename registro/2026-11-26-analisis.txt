@@ -18,3 +18,8 @@
 19:37 punto 0: propuestos de los últimos 4 días (2026-11-24: CRWD-3T-FY27, GGAL-3T-2026) ya están en indice.json; no hay pendientes para publicar.
 19:38 SEC submissions (49 empresas, User-Agent autorizado) desde el 25/11: sin balances nuevos (solo AXP 8-K Item 5.02 del 25/11, no es balance). Hoy es feriado en EE.UU. (Thanksgiving).
 19:38 no hay informes para armar en este turno. Fin de la corrida POST.
+21:35 corrida programada CONTROL (FECHA 2026-11-26)
+21:35 repo: ya clonado; git fetch + checkout de origin/main (19032ee): OK (add_repo no está disponible)
+21:36 punto 0: propuestos de los últimos 4 días (2026-11-24: CRWD-3T-FY27, GGAL-3T-2026) ya están en indice.json; no hay pendientes para publicar.
+21:37 SEC submissions (49 empresas, User-Agent autorizado) desde el 25/11: sin balances nuevos (solo AXP 8-K Item 5.02 del 25/11, no es balance). Hoy es feriado en EE.UU. (Thanksgiving).
+21:37 no hay informes para armar en este turno. Fin de la corrida CONTROL.
