@@ -8,3 +8,8 @@
 13:08 punto 0: propuestos de los últimos 4 días (2026-11-24: CRWD-3T-FY27, GGAL-3T-2026) ya están en indice.json; no hay pendientes para publicar.
 13:09 SEC submissions (49 empresas, User-Agent autorizado) desde el 25/11: AXP 8-K 25/11 (Item 5.02, no es balance); BBD 6-K 27/11 (aviso: el presidente del directorio aceptará ser ministro de Hacienda; no es balance). Sin balances trimestrales nuevos.
 13:09 no hay informes para armar en este turno. Fin de la corrida PRE.
+15:07 corrida programada CONTROL (FECHA 2026-11-27)
+15:07 repo: ya clonado; git fetch + checkout de origin/main (d1abd4f): OK (add_repo no está disponible)
+15:07 punto 0: propuestos de los últimos 4 días (2026-11-24: CRWD-3T-FY27, GGAL-3T-2026) ya están en indice.json; no hay pendientes para publicar.
+15:07 SEC submissions (49 empresas, User-Agent autorizado) desde el 25/11 (26/11 feriado en EE.UU.): AXP 8-K 25/11 (Item 5.02, no es balance); BBD 6-K 27/11 (ya revisado en PRE, no es balance). Sin balances trimestrales nuevos.
+15:07 no hay informes para armar en este turno. Fin de la corrida CONTROL.
