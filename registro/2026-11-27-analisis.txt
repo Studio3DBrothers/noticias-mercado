@@ -1,0 +1,5 @@
+07:36 corrida programada CONTROL (FECHA 2026-11-27)
+07:36 repo: ya clonado; git fetch + checkout de origin/main (79df895): OK (add_repo no está disponible)
+07:37 punto 0: propuestos de los últimos 4 días (2026-11-24: CRWD-3T-FY27, GGAL-3T-2026) ya están en indice.json; no hay pendientes para publicar.
+07:38 SEC submissions (49 empresas, User-Agent autorizado) desde el 26/11 (día hábil anterior): sin 8-K, 6-K, 10-Q, 10-K ni 20-F nuevos.
+07:38 no hay informes para armar en este turno. Fin de la corrida CONTROL.
