@@ -1,274 +1,242 @@
 {
   "formato": "noticias-mercado/1",
-  "generado": "2026-11-26T00:40:00-03:00",
+  "generado": "2026-11-27T00:40:00-03:00",
   "titular": {
-    "titulo": "Remontada en el final: el Dow borra una caída de 1.100 puntos y el Merval da vuelta una baja de 4,5%",
-    "bajada": "Wall Street cerró mixto: el Dow ganó 0,33% y el Nasdaq cedió 0,62% con Nvidia (−3,9%). La inflación PCE de 3,8% anual sostuvo la apuesta a una suba de la Fed. El Merval subió 0,6%, el riesgo país cerró en 1.067 y el Ibovespa ganó 1,58%."
+    "titulo": "Sin Wall Street por Acción de Gracias, el Ibovespa vuela 6,07% y el Merval sube 2,9%",
+    "bajada": "Con Nueva York cerrado, Brasil tuvo su segundo mejor día del año por la versión de Luiz Carlos Trabuco en Hacienda y un IPCA-15 menor al esperado. El Merval cerró en 84.155 con YPF arriba de 6% y el riesgo país quedó en 1.067."
   },
   "noticias": [
     {
-      "id": "2026-11-26-wallstreet",
-      "seccion": "eeuu",
+      "id": "2026-11-27-ibovespa",
+      "seccion": "brasil",
       "tickers": [],
       "balance": false,
-      "titulo": "Wall Street se recupera en el final: el Dow pasa de perder 1.100 puntos a cerrar en alta",
-      "resumen": "Tras una mañana de ventas fuertes en tecnológicas, el Dow terminó arriba y el S&P 500 y el Nasdaq recortaron casi toda la baja. Última rueda completa antes del feriado.",
-      "fuente": "The Motley Fool",
-      "fecha": "2026-11-25",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/",
+      "titulo": "El Ibovespa sube 6,07%, su mayor alza desde octubre, y el real se aprecia",
+      "resumen": "El mercado celebró la versión de que Luiz Carlos Trabuco, de Bradesco, iría a Hacienda, confirmada tras el cierre. Los bancos ganaron cerca de 9% y el IPCA-15 dio 0,22%, debajo de lo esperado.",
+      "fuente": "InfoMoney",
+      "fecha": "2026-11-26",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-e-real-ainda-podem-subir-mais-com-trabuco-confirmado-na-fazenda/",
       "cifras": [
         {
-          "nombre": "Dow Jones",
-          "valor": "50.183",
-          "variacion": "▲ 0,33%",
+          "nombre": "Ibovespa",
+          "valor": "176.800",
+          "variacion": "▲ 6,07%",
           "dir": "up",
-          "cuando": "cierre 25/11"
+          "cuando": "cierre 26/11"
         },
         {
-          "nombre": "S&P 500",
-          "valor": "7.183",
-          "variacion": "▼ 0,25%",
+          "nombre": "Dólar / real",
+          "valor": "R$ 5,744",
+          "variacion": "▼ 1,25%",
           "dir": "down",
-          "cuando": "cierre 25/11"
+          "cuando": "cierre 26/11"
         },
         {
-          "nombre": "Nasdaq",
-          "valor": "23.586",
-          "variacion": "▼ 0,62%",
-          "dir": "down",
-          "cuando": "cierre 25/11"
-        },
-        {
-          "nombre": "VIX",
-          "valor": "28,29",
-          "variacion": "▲ 7,3%",
+          "nombre": "Índice financiero",
+          "valor": "",
+          "variacion": "▲ 8,98%",
           "dir": "up",
-          "cuando": "cierre 25/11"
+          "cuando": "cierre 26/11"
+        },
+        {
+          "nombre": "IPCA-15 de noviembre",
+          "valor": "0,22%",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "dato 26/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-26-fed-pce",
-      "seccion": "eeuu",
-      "tickers": [],
-      "balance": false,
-      "titulo": "Inflación PCE en 3,8% anual: el mercado da por hecha una suba de tasas de la Fed en diciembre",
-      "resumen": "El índice de precios PCE de octubre subió 3,8% anual y el núcleo 3,3%. El PBI del 3T se corrigió a 4,3% anualizado y los pedidos de subsidio por desempleo bajaron a 189.000.",
-      "fuente": "StockTitan",
-      "fecha": "2026-11-25",
-      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-25-2026",
-      "cifras": [
-        {
-          "nombre": "PCE anual (oct.)",
-          "valor": "3,8%",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "dato del 25/11"
-        },
-        {
-          "nombre": "PCE núcleo anual",
-          "valor": "3,3%",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "dato del 25/11"
-        },
-        {
-          "nombre": "PBI 3T (anualizado)",
-          "valor": "4,3%",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "revisión del 25/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-26-chips",
-      "seccion": "cartera",
-      "tickers": [
-        "NVDA",
-        "ORCL",
-        "AMD"
-      ],
-      "balance": false,
-      "titulo": "Sigue la salida de tecnológicas: Nvidia cae 3,9% y Oracle 4,8%",
-      "resumen": "El dinero siguió rotando de las tecnológicas ligadas a la IA hacia empresas de la economía tradicional; los chips y el software de centros de datos se llevaron las mayores bajas.",
-      "fuente": "24/7 Wall St.",
-      "fecha": "2026-11-25",
-      "url": "https://247wallst.com/cards/money-kept-rotating-out-of-tech-into-old-economy-names-on-th-gspc-market-bell-01m8a8b6rxkn4pffmb6jtqtxe7",
-      "cifras": [
-        {
-          "nombre": "NVDA",
-          "valor": "",
-          "variacion": "▼ 3,91%",
-          "dir": "down",
-          "cuando": "cierre 25/11"
-        },
-        {
-          "nombre": "ORCL",
-          "valor": "US$ 104,28",
-          "variacion": "▼ 4,8%",
-          "dir": "down",
-          "cuando": "cierre 25/11"
-        },
-        {
-          "nombre": "AMD",
-          "valor": "",
-          "variacion": "▼ 1,75%",
-          "dir": "down",
-          "cuando": "cierre 25/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": [],
-      "motivo": "Rotación desde las tecnológicas de IA hacia empresas de la economía tradicional, según la nota."
-    },
-    {
-      "id": "2026-11-26-merval",
+      "id": "2026-11-27-merval",
       "seccion": "argentina",
       "tickers": [
-        "GGAL",
-        "BBAR",
-        "TECO2",
-        "CRES"
+        "YPFD",
+        "METR",
+        "CRES",
+        "TRAN",
+        "EDN"
       ],
       "balance": false,
-      "titulo": "Merval: llegó a caer 4,5% y cerró en alta; el riesgo país tocó 1.139 y terminó en 1.067",
-      "resumen": "Las acciones y los bonos argentinos se dieron vuelta en la tarde: los ADR terminaron casi todos en alta y los bonos en dólares subieron en promedio cerca de 2%.",
-      "fuente": "Ámbito",
-      "fecha": "2026-11-25",
-      "url": "https://www.ambito.com/finanzas/el-riesgo-pais-ya-supera-los-1100-puntos-y-la-sangria-los-bonos-no-se-detiene-n6349109",
+      "titulo": "Merval: sube 2,9% a 84.155 con YPF arriba de 6%; los ADR no operaron",
+      "resumen": "Segunda suba seguida de las acciones locales, sin Wall Street por el feriado. Lideraron YPF, Metrogas, Cresud, Transener y Edenor; los bonos en dólares subieron y el riesgo país quedó sin cambios.",
+      "fuente": "Infobae",
+      "fecha": "2026-11-26",
+      "url": "https://www.infobae.com/economia/2026/11/26/el-dolar-cedio-tras-siete-subas-consecutivas-y-repuntaron-las-acciones-y-los-bonos/",
       "cifras": [
         {
           "nombre": "Merval",
-          "valor": "81.707",
-          "variacion": "▲ 0,6%",
+          "valor": "84.155",
+          "variacion": "▲ 2,9%",
           "dir": "up",
-          "cuando": "cierre 25/11"
+          "cuando": "cierre 26/11"
         },
         {
           "nombre": "Riesgo país",
           "valor": "1.067 pb",
-          "variacion": "▼ 25 pb",
-          "dir": "down",
-          "cuando": "cierre 25/11"
+          "variacion": "sin cambios",
+          "dir": "flat",
+          "cuando": "cierre 26/11"
         },
         {
-          "nombre": "Telecom (ADR)",
+          "nombre": "Bonos en dólares (prom.)",
           "valor": "",
-          "variacion": "▲ 5,7%",
+          "variacion": "▲ 2,1%",
           "dir": "up",
-          "cuando": "cierre 25/11"
+          "cuando": "cierre 26/11"
         },
         {
-          "nombre": "Cresud (ADR)",
+          "nombre": "YPFD",
           "valor": "",
-          "variacion": "▲ 4,3%",
+          "variacion": "▲ 6,1%",
           "dir": "up",
-          "cuando": "cierre 25/11"
+          "cuando": "26/11"
         },
         {
-          "nombre": "Galicia (ADR)",
+          "nombre": "METR",
           "valor": "",
-          "variacion": "▲ 3,9%",
+          "variacion": "▲ 4,2%",
           "dir": "up",
-          "cuando": "cierre 25/11"
-        },
-        {
-          "nombre": "BBVA (ADR)",
-          "valor": "",
-          "variacion": "▼ 2,1%",
-          "dir": "down",
-          "cuando": "cierre 25/11"
+          "cuando": "26/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-26-dolar",
+      "id": "2026-11-27-dolar",
       "seccion": "argentina",
       "tickers": [],
       "balance": false,
-      "titulo": "Dólar: el mayorista pasa por primera vez los $ 1.600 y suma siete subas seguidas",
-      "resumen": "El oficial y el blue marcaron récords nominales, mientras el CCL bajó. El BCRA no compró divisas por tercera rueda y las reservas quedaron casi sin cambios.",
-      "fuente": "Infobae",
-      "fecha": "2026-11-25",
-      "url": "https://www.infobae.com/economia/2026/11/25/jornada-financiera-el-dolar-subio-por-septimo-dia-consecutivo-cayo-el-riesgo-pais-y-las-acciones-recuperaron-terreno/",
+      "titulo": "Dólar: el mayorista corta siete subas seguidas y cierra en $ 1.601,50",
+      "resumen": "Primera baja del oficial desde mediados de octubre. El blue repitió su máximo del año y el MEP bajó; para el contado con liquidación los medios publicaron valores muy distintos.",
+      "fuente": "Ámbito",
+      "fecha": "2026-11-26",
+      "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-jueves-26-noviembre-n6349768",
       "cifras": [
         {
           "nombre": "Mayorista",
-          "valor": "$ 1.604",
-          "variacion": "▲ 0,7%",
-          "dir": "up",
-          "cuando": "cierre 25/11"
-        },
-        {
-          "nombre": "Oficial (BNA)",
-          "valor": "$ 1.630",
-          "variacion": "▲ 0,9%",
-          "dir": "up",
-          "cuando": "cierre 25/11"
-        },
-        {
-          "nombre": "CCL",
-          "valor": "$ 1.777,85",
-          "variacion": "▼ 1%",
+          "valor": "$ 1.601,50",
+          "variacion": "▼ 0,16%",
           "dir": "down",
-          "cuando": "cierre 25/11"
+          "cuando": "cierre 26/11"
         },
         {
-          "nombre": "Blue",
+          "nombre": "Oficial BNA (venta)",
+          "valor": "$ 1.625",
+          "variacion": "▼ 0,3%",
+          "dir": "down",
+          "cuando": "cierre 26/11"
+        },
+        {
+          "nombre": "MEP",
+          "valor": "$ 1.666",
+          "variacion": "▼ 0,3%",
+          "dir": "down",
+          "cuando": "cierre 26/11"
+        },
+        {
+          "nombre": "Blue (venta)",
           "valor": "$ 1.710",
-          "variacion": "▲ 0,6%",
-          "dir": "up",
-          "cuando": "cierre 25/11"
+          "variacion": "sin cambios",
+          "dir": "flat",
+          "cuando": "cierre 26/11"
         },
         {
-          "nombre": "Brecha CCL / mayorista",
-          "valor": "10,8%",
+          "nombre": "Brecha MEP",
+          "valor": "4%",
           "variacion": "",
           "dir": "flat",
-          "cuando": "cierre 25/11"
-        },
-        {
-          "nombre": "Reservas brutas",
-          "valor": "US$ 48.748 M",
-          "variacion": "▲ US$ 4 M",
-          "dir": "up",
-          "cuando": "cierre 25/11"
+          "cuando": "cierre 26/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-26-ibovespa",
-      "seccion": "brasil",
+      "id": "2026-11-27-bcra-reservas",
+      "seccion": "argentina",
       "tickers": [],
       "balance": false,
-      "titulo": "El Ibovespa sube 1,58% con Vale y Petrobras y el real se aprecia",
-      "resumen": "La bolsa de San Pablo recuperó los 166.000 puntos y el dólar cayó a R$ 5,81 ante señales de una política fiscal más equilibrada para el año próximo.",
-      "fuente": "B3 (Bora Investir)",
-      "fecha": "2026-11-25",
-      "url": "https://borainvestir.b3.com.br/noticias/mercado/ibovespa-b3-sobe-158-com-recuperacao-de-vale-e-petrobras-dolar-cai-a-r-581/",
+      "titulo": "El BCRA suma cuatro ruedas sin comprar y las reservas bajan a US$ 48.733 M",
+      "resumen": "Es la pausa más larga del programa de compras. Las reservas brutas quedaron en el nivel más bajo desde el 2 de octubre; en noviembre el BCRA lleva comprados US$ 344 M.",
+      "fuente": "Ámbito",
+      "fecha": "2026-11-26",
+      "url": "https://www.ambito.com/finanzas/el-bcra-encadeno-cuatro-ruedas-comprar-dolares-ya-es-la-pausa-mas-larga-del-ano-n6349808",
       "cifras": [
         {
-          "nombre": "Ibovespa",
-          "valor": "166.685",
-          "variacion": "▲ 1,58%",
-          "dir": "up",
-          "cuando": "cierre 25/11"
+          "nombre": "Reservas brutas",
+          "valor": "US$ 48.733 M",
+          "variacion": "▼ US$ 15 M",
+          "dir": "down",
+          "cuando": "cierre 26/11"
         },
         {
-          "nombre": "Dólar / real",
-          "valor": "R$ 5,81",
-          "variacion": "▼ 1,58%",
-          "dir": "down",
-          "cuando": "cierre 25/11"
+          "nombre": "Compras en noviembre",
+          "valor": "US$ 344 M",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "al 26/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-27-licitacion",
+      "seccion": "argentina",
+      "tickers": [],
+      "balance": false,
+      "titulo": "El Tesoro renueva 104,87% de los vencimientos en pesos y no libera pesos",
+      "resumen": "Adjudicó $ 26,71 billones contra vencimientos por $ 25,4 billones, con Lecap, bonos CER, TAMAR, dólar linked y duales. La Lecap a febrero de 2027 pagó 2,20% mensual.",
+      "fuente": "Infobae",
+      "fecha": "2026-11-26",
+      "url": "https://www.infobae.com/economia/2026/11/26/licitacion-clave-el-gobierno-renovo-todos-los-vencimientos-por-mas-de-25-billones-y-no-libero-pesos-al-mercado/",
+      "cifras": [
+        {
+          "nombre": "Adjudicado",
+          "valor": "$ 26,71 billones",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "26/11"
+        },
+        {
+          "nombre": "Rollover",
+          "valor": "104,87%",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "26/11"
+        },
+        {
+          "nombre": "Lecap feb-27 (TEM)",
+          "valor": "2,20%",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "26/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-27-carta-organica",
+      "seccion": "argentina",
+      "tickers": [],
+      "balance": false,
+      "titulo": "Es ley la reforma de la Carta Orgánica del Banco Central",
+      "resumen": "Diputados aceptó la versión del Senado: el BCRA tendrá como mandato único preservar el valor de la moneda, sus reservas serán inembargables y se limita el giro de utilidades al Tesoro.",
+      "fuente": "Infobae",
+      "fecha": "2026-11-26",
+      "url": "https://www.infobae.com/politica/2026/11/26/diputados-convirtio-en-ley-la-reforma-de-la-carta-organica-del-banco-central/",
+      "cifras": [
+        {
+          "nombre": "Votos afirmativos",
+          "valor": "141",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "26/11"
         }
       ],
       "fuertes": [],
@@ -286,68 +254,28 @@
   ],
   "movimientos": [
     {
-      "ticker": "TECO2",
-      "variacion": "▲ 5,7%",
+      "ticker": "YPFD",
+      "variacion": "▲ 6,1%",
       "dir": "up",
-      "cuando": "cierre 25/11"
+      "cuando": "26/11"
     },
     {
-      "ticker": "CRES",
-      "variacion": "▲ 4,3%",
+      "ticker": "METR",
+      "variacion": "▲ 4,2%",
       "dir": "up",
-      "cuando": "cierre 25/11"
-    },
-    {
-      "ticker": "GGAL",
-      "variacion": "▲ 3,9%",
-      "dir": "up",
-      "cuando": "cierre 25/11"
-    },
-    {
-      "ticker": "ORCL",
-      "variacion": "▼ 4,8%",
-      "dir": "down",
-      "cuando": "cierre 25/11"
-    },
-    {
-      "ticker": "NVDA",
-      "variacion": "▼ 3,91%",
-      "dir": "down",
-      "cuando": "cierre 25/11"
-    },
-    {
-      "ticker": "BBAR",
-      "variacion": "▼ 2,1%",
-      "dir": "down",
-      "cuando": "cierre 25/11"
-    },
-    {
-      "ticker": "AMD",
-      "variacion": "▼ 1,75%",
-      "dir": "down",
-      "cuando": "cierre 25/11"
-    },
-    {
-      "ticker": "AVGO",
-      "variacion": "▼ 0,07%",
-      "dir": "down",
-      "cuando": "cierre 25/11"
+      "cuando": "26/11"
     }
   ],
   "destacados": [
     {
-      "titulo": "Feriado en Wall Street",
-      "detalle": "Hoy jueves 26/11 no opera por Acción de Gracias; el viernes 27 cierra temprano, a las 13 h de Nueva York."
+      "titulo": "Feriado en Nueva York",
+      "detalle": "Wall Street no operó el jueves 26/11 por Acción de Gracias; hoy viernes cierra temprano, a las 13 h de Nueva York (15 h de Argentina)."
     },
     {
-      "titulo": "Nuevos aranceles propuestos",
-      "detalle": "EE.UU. propuso aranceles a 14 economías: hasta 35% para Vietnam y 15% para la Unión Europea y Japón; los comentarios cierran el 5/1/2027."
-    },
-    {
-      "titulo": "Vencimiento de enero",
-      "detalle": "Argentina debe pagar US$ 4.378 M en enero; Caputo dijo que el Tesoro le comprará US$ 1.800 M al BCRA con el superávit primario."
+      "titulo": "Canje de títulos Tesoro–BCRA",
+      "detalle": "La Resolución Conjunta 67/2026 oficializó el canje: el Central entregó letras de 2026 y recibió LELINK de enero de 2027 y Boncap de junio de 2027."
     }
   ],
-  "hoja": "hoja-2026-11-26.png",
-  "hojaFecha": "2026-11-26"
+  "hoja": "hoja-2026-11-27.png",
+  "hojaFecha": "2026-11-27"
 }
