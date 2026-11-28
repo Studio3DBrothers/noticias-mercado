@@ -3,3 +3,6 @@
 07:04 elección leída: opción 2, 2026-11-28T03:29:05Z (antes de 05:00Z) -> elegida por Adrián
 07:04 verificación opción 2 OK: fecha/datos al cierre 27/11, leyenda y 'Fuentes:' presentes
 07:04 copiados hoja-2026-11-28.png, hoja.png y noticias.json (hoja/hojaFecha agregados); JSON válido, urls https, sin fechas en valores; borrada hoja-2026-11-20.png
+07:04 push OK 7d6356c; verificado origin/main con hoja-2026-11-28.png
+07:04 aviso de noticias enviado
+07:04 análisis: sin análisis propuestos (no existe analisis/propuestos/2026-11-28/)
