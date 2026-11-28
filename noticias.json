@@ -1,242 +1,397 @@
 {
   "formato": "noticias-mercado/1",
-  "generado": "2026-11-27T00:40:00-03:00",
+  "generado": "2026-11-28T00:50:00-03:00",
   "titular": {
-    "titulo": "Sin Wall Street por Acción de Gracias, el Ibovespa vuela 6,07% y el Merval sube 2,9%",
-    "bajada": "Con Nueva York cerrado, Brasil tuvo su segundo mejor día del año por la versión de Luiz Carlos Trabuco en Hacienda y un IPCA-15 menor al esperado. El Merval cerró en 84.155 con YPF arriba de 6% y el riesgo país quedó en 1.067."
+    "titulo": "Wall Street cierra su mejor semana desde abril de 2025 con rebote tecnológico; el Merval queda casi plano y el Ibovespa toma ganancias",
+    "bajada": "En la media rueda de Black Friday el Nasdaq subió 2,31% y el S&P 500 1,60%, con Amazon y los chips arriba. Los ADR argentinos treparon hasta 5% y el riesgo país bajó a 960; el Ibovespa cedió 0,13% pero ganó 6,13% en la semana."
   },
   "noticias": [
     {
-      "id": "2026-11-27-ibovespa",
-      "seccion": "brasil",
+      "id": "2026-11-28-wall-street",
+      "seccion": "eeuu",
       "tickers": [],
       "balance": false,
-      "titulo": "El Ibovespa sube 6,07%, su mayor alza desde octubre, y el real se aprecia",
-      "resumen": "El mercado celebró la versión de que Luiz Carlos Trabuco, de Bradesco, iría a Hacienda, confirmada tras el cierre. Los bancos ganaron cerca de 9% y el IPCA-15 dio 0,22%, debajo de lo esperado.",
-      "fuente": "InfoMoney",
-      "fecha": "2026-11-26",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-e-real-ainda-podem-subir-mais-com-trabuco-confirmado-na-fazenda/",
+      "titulo": "Wall Street sube en la media rueda de Black Friday y cierra su mejor semana desde abril de 2025",
+      "resumen": "Rebotaron las tecnológicas tras las ventas de las semanas previas; subieron los 11 sectores y la volatilidad bajó 11%. En la semana el Nasdaq ganó 6,7% y el S&P 500 5,6%.",
+      "fuente": "Yahoo Finance",
+      "fecha": "2026-11-27",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-major-indexes-140450439.html",
       "cifras": [
         {
-          "nombre": "Ibovespa",
-          "valor": "176.800",
-          "variacion": "▲ 6,07%",
+          "nombre": "S&P 500",
+          "valor": "7.297,49",
+          "variacion": "▲ 1,60%",
           "dir": "up",
-          "cuando": "cierre 26/11"
+          "cuando": "cierre 27/11"
         },
         {
-          "nombre": "Dólar / real",
-          "valor": "R$ 5,744",
-          "variacion": "▼ 1,25%",
+          "nombre": "Nasdaq",
+          "valor": "24.129,50",
+          "variacion": "▲ 2,31%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "Dow Jones",
+          "valor": "50.774,94",
+          "variacion": "▲ 1,18%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "VIX",
+          "valor": "23,81",
+          "variacion": "▼ 11%",
           "dir": "down",
-          "cuando": "cierre 26/11"
-        },
-        {
-          "nombre": "Índice financiero",
-          "valor": "",
-          "variacion": "▲ 8,98%",
-          "dir": "up",
-          "cuando": "cierre 26/11"
-        },
-        {
-          "nombre": "IPCA-15 de noviembre",
-          "valor": "0,22%",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "dato 26/11"
+          "cuando": "cierre 27/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-27-merval",
-      "seccion": "argentina",
+      "id": "2026-11-28-fed",
+      "seccion": "eeuu",
+      "tickers": [],
+      "balance": false,
+      "titulo": "Fed: el mercado descuenta 96% de chances de una suba de 0,25 punto el 9 de diciembre",
+      "resumen": "Los futuros de tasas ven casi segura una suba en la reunión de diciembre; el bono del Tesoro a 10 años subió a 4,93%. El déficit comercial de bienes de octubre creció 10,7%.",
+      "fuente": "iProfesional",
+      "fecha": "2026-11-27",
+      "url": "https://www.iprofesional.com/finanzas/470302-wall-street-festeja-rebote-explosivo-brasil-prende-fuego-mercados-regionales",
+      "cifras": [
+        {
+          "nombre": "Prob. de suba el 9/12",
+          "valor": "96,2%",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "27/11"
+        },
+        {
+          "nombre": "Bono a 10 años",
+          "valor": "4,93%",
+          "variacion": "▲ 8 pb",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-28-chips",
+      "seccion": "cartera",
       "tickers": [
-        "YPFD",
-        "METR",
-        "CRES",
-        "TRAN",
-        "EDN"
+        "AMD",
+        "TSM",
+        "ORCL"
       ],
       "balance": false,
-      "titulo": "Merval: sube 2,9% a 84.155 con YPF arriba de 6%; los ADR no operaron",
-      "resumen": "Segunda suba seguida de las acciones locales, sin Wall Street por el feriado. Lideraron YPF, Metrogas, Cresud, Transener y Edenor; los bonos en dólares subieron y el riesgo país quedó sin cambios.",
+      "titulo": "Los chips y la nube lideran el rebote: Micron sube 7,6% y AMD 4,6%",
+      "resumen": "Las empresas ligadas a la inteligencia artificial recuperaron parte de lo perdido en noviembre, un mes golpeado por dudas sobre el retorno de esas inversiones.",
+      "fuente": "La Nación (AFP)",
+      "fecha": "2026-11-27",
+      "url": "https://www.lanacion.com.ar/estados-unidos/wall-street-cierra-al-alza-en-semana-muy-agitada-nid27112026/",
+      "cifras": [
+        {
+          "nombre": "AMD",
+          "valor": "",
+          "variacion": "▲ 4,56%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "TSM",
+          "valor": "",
+          "variacion": "▲ 3,31%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "ORCL",
+          "valor": "",
+          "variacion": "▲ 3,40%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-28-nvda",
+      "seccion": "cartera",
+      "tickers": [
+        "NVDA"
+      ],
+      "balance": false,
+      "titulo": "Nvidia sube apenas 0,8% tras un reporte sobre chips Blackwell vetados hallados en Shanghái",
+      "resumen": "Llegó a caer casi 3% en la apertura; sigue 8,8% abajo del cierre del lunes, cuando Jensen Huang volvió como CEO, y unos 37% debajo de su récord de octubre.",
+      "fuente": "StockTitan",
+      "fecha": "2026-11-27",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-27-2026",
+      "cifras": [
+        {
+          "nombre": "NVDA",
+          "valor": "US$ 150,49",
+          "variacion": "▲ 0,80%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-28-amzn",
+      "seccion": "cartera",
+      "tickers": [
+        "AMZN",
+        "WMT"
+      ],
+      "balance": false,
+      "titulo": "Amazon sube 4% y lidera el Dow con la demanda de Black Friday",
+      "resumen": "Las primeras señales de ventas del Black Friday empujaron a las minoristas: Amazon fue la mejor del Dow y Walmart subió cerca de 1%.",
+      "fuente": "The Motley Fool",
+      "fecha": "2026-11-27",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/27/stock-market-midday-nov-27-tech-stocks-recover-and-amazon-posts-black-friday-gains/",
+      "cifras": [
+        {
+          "nombre": "AMZN",
+          "valor": "",
+          "variacion": "▲ 3,96%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "WMT",
+          "valor": "",
+          "variacion": "▲ 0,9%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-28-merval",
+      "seccion": "argentina",
+      "tickers": [
+        "GGAL",
+        "CEPU",
+        "SUPV",
+        "CRES",
+        "TRAN",
+        "LOMA",
+        "YPFD"
+      ],
+      "balance": false,
+      "titulo": "Merval: baja 0,28% en pesos mientras los ADR rebotan hasta 5,3% en Nueva York",
+      "resumen": "Con Wall Street de vuelta, Galicia, Central Puerto y Supervielle subieron alrededor de 5% en dólares; en la bolsa porteña ganó Transener y cayeron Loma Negra y Cresud.",
       "fuente": "Infobae",
-      "fecha": "2026-11-26",
-      "url": "https://www.infobae.com/economia/2026/11/26/el-dolar-cedio-tras-siete-subas-consecutivas-y-repuntaron-las-acciones-y-los-bonos/",
+      "fecha": "2026-11-27",
+      "url": "https://www.infobae.com/economia/2026/11/27/el-riesgo-pais-cayo-10-el-dolar-opero-estable-y-las-acciones-argentinas-rebotaron-hasta-5-en-wall-street/",
       "cifras": [
         {
           "nombre": "Merval",
-          "valor": "84.155",
-          "variacion": "▲ 2,9%",
-          "dir": "up",
-          "cuando": "cierre 26/11"
+          "valor": "84.126",
+          "variacion": "▼ 0,28%",
+          "dir": "down",
+          "cuando": "cierre 27/11"
         },
         {
-          "nombre": "Riesgo país",
-          "valor": "1.067 pb",
-          "variacion": "sin cambios",
-          "dir": "flat",
-          "cuando": "cierre 26/11"
-        },
-        {
-          "nombre": "Bonos en dólares (prom.)",
+          "nombre": "GGAL (ADR)",
           "valor": "",
-          "variacion": "▲ 2,1%",
+          "variacion": "▲ 5,3%",
           "dir": "up",
-          "cuando": "cierre 26/11"
+          "cuando": "cierre 27/11"
         },
         {
-          "nombre": "YPFD",
+          "nombre": "CEPU (ADR)",
           "valor": "",
-          "variacion": "▲ 6,1%",
+          "variacion": "▲ 5,1%",
           "dir": "up",
-          "cuando": "26/11"
+          "cuando": "cierre 27/11"
         },
         {
-          "nombre": "METR",
+          "nombre": "SUPV (ADR)",
           "valor": "",
-          "variacion": "▲ 4,2%",
+          "variacion": "▲ 5%",
           "dir": "up",
-          "cuando": "26/11"
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "YPF (ADR)",
+          "valor": "US$ 31,85",
+          "variacion": "▲ 1,3%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "TRAN",
+          "valor": "",
+          "variacion": "▲ 5,65%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "LOMA",
+          "valor": "",
+          "variacion": "▼ 3,63%",
+          "dir": "down",
+          "cuando": "cierre 27/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-27-dolar",
+      "id": "2026-11-28-riesgo-pais",
       "seccion": "argentina",
       "tickers": [],
       "balance": false,
-      "titulo": "Dólar: el mayorista corta siete subas seguidas y cierra en $ 1.601,50",
-      "resumen": "Primera baja del oficial desde mediados de octubre. El blue repitió su máximo del año y el MEP bajó; para el contado con liquidación los medios publicaron valores muy distintos.",
+      "titulo": "El riesgo país baja 107 puntos y vuelve debajo de 1.000, a 960",
+      "resumen": "Los bonos en dólares subieron hasta 3,1% en la reapertura de Wall Street, tras una semana en la que el indicador había tocado su máximo desde octubre de 2025.",
+      "fuente": "Infobae (EFE)",
+      "fecha": "2026-11-27",
+      "url": "https://www.infobae.com/america/agencias/2026/11/27/la-bolsa-de-buenos-aires-cierra-con-un-baja-del-028/",
+      "cifras": [
+        {
+          "nombre": "Riesgo país",
+          "valor": "960 pb",
+          "variacion": "▼ 107 pb",
+          "dir": "down",
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "Bonos en dólares",
+          "valor": "",
+          "variacion": "▲ hasta 3,1%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
+        }
+      ],
+      "fuertes": [],
+      "debiles": []
+    },
+    {
+      "id": "2026-11-28-dolar",
+      "seccion": "argentina",
+      "tickers": [],
+      "balance": false,
+      "titulo": "Dólar: el mayorista sube a $ 1.605 y el blue baja por segunda rueda a $ 1.695",
+      "resumen": "El oficial del Nación quedó sin cambios; el MEP y el contado con liqui retrocedieron y la brecha con el mayorista quedó en 3,3% y 10,1%.",
       "fuente": "Ámbito",
-      "fecha": "2026-11-26",
-      "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-jueves-26-noviembre-n6349768",
+      "fecha": "2026-11-27",
+      "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-27-noviembre-n6350151",
       "cifras": [
         {
           "nombre": "Mayorista",
-          "valor": "$ 1.601,50",
-          "variacion": "▼ 0,16%",
-          "dir": "down",
-          "cuando": "cierre 26/11"
+          "valor": "$ 1.605",
+          "variacion": "▲ 0,2%",
+          "dir": "up",
+          "cuando": "cierre 27/11"
         },
         {
           "nombre": "Oficial BNA (venta)",
           "valor": "$ 1.625",
-          "variacion": "▼ 0,3%",
-          "dir": "down",
-          "cuando": "cierre 26/11"
+          "variacion": "=",
+          "dir": "flat",
+          "cuando": "cierre 27/11"
         },
         {
           "nombre": "MEP",
-          "valor": "$ 1.666",
-          "variacion": "▼ 0,3%",
-          "dir": "down",
-          "cuando": "cierre 26/11"
+          "valor": "$ 1.658,32",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "cierre 27/11"
+        },
+        {
+          "nombre": "CCL",
+          "valor": "$ 1.767,37",
+          "variacion": "",
+          "dir": "flat",
+          "cuando": "cierre 27/11"
         },
         {
           "nombre": "Blue (venta)",
-          "valor": "$ 1.710",
-          "variacion": "sin cambios",
-          "dir": "flat",
-          "cuando": "cierre 26/11"
+          "valor": "$ 1.695",
+          "variacion": "▼ 0,3%",
+          "dir": "down",
+          "cuando": "cierre 27/11"
         },
         {
-          "nombre": "Brecha MEP",
-          "valor": "4%",
+          "nombre": "Brecha MEP / CCL",
+          "valor": "3,3% / 10,1%",
           "variacion": "",
           "dir": "flat",
-          "cuando": "cierre 26/11"
+          "cuando": "cierre 27/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-27-bcra-reservas",
+      "id": "2026-11-28-bcra",
       "seccion": "argentina",
       "tickers": [],
       "balance": false,
-      "titulo": "El BCRA suma cuatro ruedas sin comprar y las reservas bajan a US$ 48.733 M",
-      "resumen": "Es la pausa más larga del programa de compras. Las reservas brutas quedaron en el nivel más bajo desde el 2 de octubre; en noviembre el BCRA lleva comprados US$ 344 M.",
-      "fuente": "Ámbito",
-      "fecha": "2026-11-26",
-      "url": "https://www.ambito.com/finanzas/el-bcra-encadeno-cuatro-ruedas-comprar-dolares-ya-es-la-pausa-mas-larga-del-ano-n6349808",
+      "titulo": "El BCRA vuelve a comprar: US$ 61 M tras cuatro ruedas sin intervenir",
+      "resumen": "Fue la racha sin compras más larga del año. En noviembre suma unos US$ 405 M; las reservas brutas cerraron en US$ 48.698 M.",
+      "fuente": "La Nación",
+      "fecha": "2026-11-27",
+      "url": "https://www.lanacion.com.ar/economia/el-banco-central-volvio-a-comprar-reservas-se-alzo-hoy-con-us61-millones-nid27112026/",
       "cifras": [
+        {
+          "nombre": "Compras del día",
+          "valor": "US$ 61 M",
+          "variacion": "",
+          "dir": "up",
+          "cuando": "27/11"
+        },
         {
           "nombre": "Reservas brutas",
-          "valor": "US$ 48.733 M",
-          "variacion": "▼ US$ 15 M",
+          "valor": "US$ 48.698 M",
+          "variacion": "▼ US$ 50 M",
           "dir": "down",
-          "cuando": "cierre 26/11"
-        },
-        {
-          "nombre": "Compras en noviembre",
-          "valor": "US$ 344 M",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "al 26/11"
+          "cuando": "cierre 27/11"
         }
       ],
       "fuertes": [],
       "debiles": []
     },
     {
-      "id": "2026-11-27-licitacion",
-      "seccion": "argentina",
+      "id": "2026-11-28-brasil",
+      "seccion": "brasil",
       "tickers": [],
       "balance": false,
-      "titulo": "El Tesoro renueva 104,87% de los vencimientos en pesos y no libera pesos",
-      "resumen": "Adjudicó $ 26,71 billones contra vencimientos por $ 25,4 billones, con Lecap, bonos CER, TAMAR, dólar linked y duales. La Lecap a febrero de 2027 pagó 2,20% mensual.",
-      "fuente": "Infobae",
-      "fecha": "2026-11-26",
-      "url": "https://www.infobae.com/economia/2026/11/26/licitacion-clave-el-gobierno-renovo-todos-los-vencimientos-por-mas-de-25-billones-y-no-libero-pesos-al-mercado/",
+      "titulo": "El real se aprecia casi 4% con Trabuco en Hacienda; el Ibovespa toma ganancias pero sube 6,13% en la semana",
+      "resumen": "La confirmación de Luiz Carlos Trabuco como ministro desde 2027 bajó la prima de riesgo de Brasil; Petrobras y Vale frenaron a la bolsa tras el salto de 6% del jueves.",
+      "fuente": "Bloomberg Línea",
+      "fecha": "2026-11-27",
+      "url": "https://www.bloomberglinea.com/mercados/sp-500-sube-tras-el-feriado-de-accion-de-gracias-mientras-los-activos-brasilenos-se-disparan/",
       "cifras": [
         {
-          "nombre": "Adjudicado",
-          "valor": "$ 26,71 billones",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "26/11"
+          "nombre": "Ibovespa",
+          "valor": "176.573",
+          "variacion": "▼ 0,13%",
+          "dir": "down",
+          "cuando": "cierre 27/11"
         },
         {
-          "nombre": "Rollover",
-          "valor": "104,87%",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "26/11"
+          "nombre": "Dólar / real",
+          "valor": "R$ 5,51",
+          "variacion": "▼ 3,99%",
+          "dir": "down",
+          "cuando": "cierre 27/11"
         },
         {
-          "nombre": "Lecap feb-27 (TEM)",
-          "valor": "2,20%",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "26/11"
-        }
-      ],
-      "fuertes": [],
-      "debiles": []
-    },
-    {
-      "id": "2026-11-27-carta-organica",
-      "seccion": "argentina",
-      "tickers": [],
-      "balance": false,
-      "titulo": "Es ley la reforma de la Carta Orgánica del Banco Central",
-      "resumen": "Diputados aceptó la versión del Senado: el BCRA tendrá como mandato único preservar el valor de la moneda, sus reservas serán inembargables y se limita el giro de utilidades al Tesoro.",
-      "fuente": "Infobae",
-      "fecha": "2026-11-26",
-      "url": "https://www.infobae.com/politica/2026/11/26/diputados-convirtio-en-ley-la-reforma-de-la-carta-organica-del-banco-central/",
-      "cifras": [
-        {
-          "nombre": "Votos afirmativos",
-          "valor": "141",
-          "variacion": "",
-          "dir": "flat",
-          "cuando": "26/11"
+          "nombre": "Ibovespa en la semana",
+          "valor": "",
+          "variacion": "▲ 6,13%",
+          "dir": "up",
+          "cuando": "semana al 27/11"
         }
       ],
       "fuertes": [],
@@ -254,28 +409,88 @@
   ],
   "movimientos": [
     {
-      "ticker": "YPFD",
-      "variacion": "▲ 6,1%",
+      "ticker": "GGAL",
+      "variacion": "▲ 5,3%",
       "dir": "up",
-      "cuando": "26/11"
+      "cuando": "cierre 27/11"
     },
     {
-      "ticker": "METR",
-      "variacion": "▲ 4,2%",
+      "ticker": "CEPU",
+      "variacion": "▲ 5,1%",
       "dir": "up",
-      "cuando": "26/11"
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "SUPV",
+      "variacion": "▲ 5%",
+      "dir": "up",
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "TRAN",
+      "variacion": "▲ 5,65%",
+      "dir": "up",
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "AMD",
+      "variacion": "▲ 4,56%",
+      "dir": "up",
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "MELI",
+      "variacion": "▲ 4,5%",
+      "dir": "up",
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "NU",
+      "variacion": "▲ 4,5%",
+      "dir": "up",
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "AMZN",
+      "variacion": "▲ 3,96%",
+      "dir": "up",
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "ORCL",
+      "variacion": "▲ 3,40%",
+      "dir": "up",
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "TSM",
+      "variacion": "▲ 3,31%",
+      "dir": "up",
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "NVDA",
+      "variacion": "▲ 0,80%",
+      "dir": "up",
+      "cuando": "cierre 27/11"
+    },
+    {
+      "ticker": "LOMA",
+      "variacion": "▼ 3,63%",
+      "dir": "down",
+      "cuando": "cierre 27/11"
     }
   ],
   "destacados": [
     {
-      "titulo": "Feriado en Nueva York",
-      "detalle": "Wall Street no operó el jueves 26/11 por Acción de Gracias; hoy viernes cierra temprano, a las 13 h de Nueva York (15 h de Argentina)."
+      "titulo": "Anthropic vuelve arriba de su precio de salida",
+      "detalle": "La acción subió 10,98% a US$ 91,88 y cerró por encima de los US$ 83 de su oferta inicial."
     },
     {
-      "titulo": "Canje de títulos Tesoro–BCRA",
-      "detalle": "La Resolución Conjunta 67/2026 oficializó el canje: el Central entregó letras de 2026 y recibió LELINK de enero de 2027 y Boncap de junio de 2027."
+      "titulo": "Oro y cobre rebotan",
+      "detalle": "El oro subió alrededor de 2% desde mínimos de 15 meses y el cobre llegó a su máximo en 10 meses."
     }
   ],
-  "hoja": "hoja-2026-11-27.png",
-  "hojaFecha": "2026-11-27"
+  "hoja": "hoja-2026-11-28.png",
+  "hojaFecha": "2026-11-28"
 }

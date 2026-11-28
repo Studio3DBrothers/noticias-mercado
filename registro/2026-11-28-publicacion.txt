@@ -1,0 +1,5 @@
+07:04 repo ya clonado en el entorno (add_repo no disponible como herramienta; acceso por origin OK, fetch OK)
+07:04 propuestas/2026-11-28/ completa: opcion-1/2/3.png + noticias.json
+07:04 elección leída: opción 2, 2026-11-28T03:29:05Z (antes de 05:00Z) -> elegida por Adrián
+07:04 verificación opción 2 OK: fecha/datos al cierre 27/11, leyenda y 'Fuentes:' presentes
+07:04 copiados hoja-2026-11-28.png, hoja.png y noticias.json (hoja/hojaFecha agregados); JSON válido, urls https, sin fechas en valores; borrada hoja-2026-11-20.png
